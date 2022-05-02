@@ -1,4 +1,4 @@
-url = [ "https://hd-space.org/",]
+url = ["https://hd-space.org/", ]
 name = "HDSpace"
 nickname = "HDSpace"
 logo = "favicon.ico"
@@ -9,7 +9,7 @@ tags = "影视"
 iyuu = 50
 sign_in = false
 get_info = true
-repeat_torrents = true
+repeat_torrents = false
 brush_free = false
 brush_rss = false
 hr_discern = false
