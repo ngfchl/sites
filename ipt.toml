@@ -1,0 +1,141 @@
+url = [ "https://iptorrents.com/",]
+name = "ipt"
+nickname = "ipt"
+logo = "favicon.ico"
+tracker = "iptorrents.com"
+sp_full = false
+limit_speed = 100
+tags = "影视"
+iyuu = 0
+sign_in = false
+get_info = true
+repeat_torrents = true
+brush_free = false
+brush_rss = false
+hr_discern = false
+search_torrents = true
+page_index = "index.php"
+page_torrents = "t"
+page_sign_in = "attendance.php"
+page_control_panel = "usercp.php"
+page_detail = "torrent.php?id={}"
+page_download = "download.php?id={}&passkey={}"
+page_user = "user.php?u={}"
+page_search = "t?q={}&qf=#torrents"
+page_message = "messages.php"
+page_hr = "myhr.php?hrtype=1&userid={}"
+page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"
+page_uploaded = "getusertorrentlistajax.php?userid={}&type=uploaded"
+page_seeding = "peers?u={}"
+page_completed = "getusertorrentlistajax.php?userid={}&type=completed"
+page_mybonus = "mybonus.php"
+page_viewfilelist = "viewfilelist.php?id={}"
+sign_info_title = "//td[@id=\"outer\"]//td[@class=\"embedded\"]/h2/text()"
+sign_info_content = "//td[@id=\"outer\"]//td[@class=\"embedded\"]/table//td//text()"
+hr = false
+hr_rate = 2
+hr_time = 10
+my_invitation_rule = "//a[@href=\"/invite.php\" and @ class=\"tTipWrap\"]/text()"
+my_time_join_rule = "//th[contains(text(),\"Join date\")]/following-sibling::td/text()[1]"
+my_latest_active_rule = "//th[contains(text(),\"Last seen\")]/following-sibling::td/text()[1]"
+my_uploaded_rule = "//div[contains(text(),\"Uploaded\")]/following-sibling::text()"
+my_downloaded_rule = "//div[contains(text(),\"Downloaded\")]/following-sibling::text()"
+my_ratio_rule = "//span[@class=\"c_ratio tTipWrap\"]/text()"
+my_bonus_rule = "//a[@href=\"/mybonus.php\"]/text()"
+my_per_hour_bonus_rule = "//div[contains(text(),\"每小时\")]/text()[1]"
+my_score_rule = "//font[@class=\"color_bonus\" and contains(text(),\"积分\")]/following-sibling::text()[1]"
+my_level_rule = "//th[contains(text(),\"Class\")]/following-sibling::td/text()"
+my_passkey_rule = "//th[contains(text(),\"Passkey\")]/following-sibling::td/text()"
+my_uid_rule = "//a[@class=\"tTipWrap\" and contains(@href,\"/peers?u=\")]/@href"
+my_hr_rule = "//a[@href=\"myhr.php\"]//text()"
+my_leech_rule = "//i[@class=\"fa fa-angle-double-down ico red\"]/following-sibling::text()[1]"
+my_publish_rule = "//p/preceding-sibling::b/text()[1]"
+my_seed_rule = "//i[@class=\"fa fa-angle-double-up ico grn\"]/following-sibling::text()[1]"
+my_seed_vol_rule = "//tr/td[6]"
+my_mailbox_rule = "//a[@href=\"messages.php\"]/font[contains(text(),\"条\")]/text()[1]"
+my_message_title = "//img[@alt=\"Unread\"]/parent::td/following-sibling::td/a[1]//text()"
+my_notice_rule = "//a[@href=\"index.php\"]/font[contains(text(),\"条\")]/text()[1]"
+my_notice_title = "//td[@class=\"text\"]/div/a"
+my_notice_content = "//td[@class=\"text\"]/div/a/following-sibling::div"
+torrents_rule = "//table[@id=\"torrents\"]/tbody/tr"
+torrent_title_rule = ".//td[@class=\"al\"]/a/text()"
+torrent_subtitle_rule = ".//a[contains(@href,\"detail\")]/parent::td/text()[last()]"
+torrent_detail_url_rule = ".//td[@class=\"al\"]/a/@href"
+torrent_category_rule = ".//td[1]/a/img/@alt"
+torrent_poster_rule = ".//table/tr/td[1]/img/@src"
+torrent_magnet_url_rule = ".//a[contains(@href,\"/download.php/\")]/@href"
+torrent_size_rule = ".//td[6]/text()"
+torrent_hr_rule = ".//table/tr/td/img[@class=\"hitandrun\"]/@title"
+torrent_sale_rule = ".//td[@class=\"al\"]/span/@class"
+torrent_sale_expire_rule = ".//img[contains(@class,\"free\")]/following-sibling::font/span/@title"
+torrent_release_rule = ".//td[4]/span/@title"
+torrent_seeders_rule = ".//td[8]/text()"
+torrent_leechers_rule = ".//td[9]/text()"
+torrent_completers_rule = ".//td[7]/text()"
+torrent_tags_rule = ".//a[contains(@href,\"detail\")]/../span[contains(@class,\"tags\")]/text()"
+detail_title_rule = "//h1/text()[1]"
+detail_subtitle_rule = "//td[@class=\"tt\"][1]/text()"
+detail_download_url_rule = "//div[@class=\"info\"]/div/a/@href"
+detail_size_rule = "//td[1]/div[@class=\"sub\"][1]/text()"
+detail_category_rule = "//td/b[contains(text(),\"类型\")]/following-sibling::text()[1]"
+detail_count_files_rule = "//td[1]/div[@class=\"sub\"][1]/a/text()"
+detail_hash_rule = "//td/b[contains(text(),\"Hash\")]/following-sibling::text()[1]"
+detail_free_rule = "//div/span[contains(@class,\"free\")]/@class"
+detail_free_expire_rule = "//h1/b/span/@title"
+detail_douban_rule = "//td/a[starts-with(@href,\"https://movie.douban.com/subject/\")][1]"
+detail_imdb_rule = "//a[@class=\"faqlink\" and starts-with(@href,\"https://www.imdb.com/title/\")]/@href"
+detail_poster_rule = "//div[@class=\"poster\"]/img/@style"
+detail_tags_rule = "//div[@class=\"tags sub\"]/a/text()"
+detail_hr_rule = "//h1/img[@class=\"hitandrun\"]/@title"
+alive = true
+page_pieces_hash_api = "api/pieces-hash"
+pieces_repeat = false
+proxy = true
+
+[level.User]
+level_id = 1
+level = "User"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "新用户的默认级别"
+
+[level.PowerUser]
+level_id = 2
+level = "PowerUser"
+days = 4
+uploaded = "50GB"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 1.05
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "能够请求种子，查看TOP10，并申请Uploader身份。"
+
+[level.VIP]
+level_id = 0
+level = "VIP"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "与PowerUser相同的特权，并被视为IPT的精英会员。不受H&R（VIP期间）警告的影响，捐赠后所有H&R警告将被删除"
