@@ -1,5 +1,5 @@
-url = [ "https://xp.m-team.io/",]
-name = "MTeam"
+url = ["https://xp.m-team.io/", ]
+name = "MTeamApi"
 nickname = "MTeam"
 logo = "https://kp.m-team.cc/favicon.ico"
 tracker = "tracker.m-team.cc|ipv6.tracker.m-team.cc|ipv4.tracker.m-team.cc"
@@ -14,21 +14,46 @@ brush_free = true
 brush_rss = true
 hr_discern = false
 search_torrents = true
-page_index = "index.php"
+page_index = "api/news/list" # 公告地址
 page_torrents = "torrents.php?incldead=1"
 page_sign_in = "attendance.php"
 page_control_panel = "usercp.php"
-page_detail = "details.php?id={}"
+page_detail = "detail/{}"
 page_download = "download.php?id={}&passkey={}"
-page_user = "userdetails.php?id={}"
-page_search = "torrents.php?search={}"
-page_message = "messages.php"
+page_user_api = "api/member/profile"
+page_user = "/profile/detail/{}"
+page_search = "api/torrent/search"
+#{
+#"pageNumber": "1",
+#"pageSize": "200", # 最大 200
+#"keyword": "变形金刚"
+#}
+#{
+#"message": "SUCCESS",
+#"data": {
+#"pageNumber": "1",
+#"pageSize": "200",
+#"total": "432",
+#"totalPages": "3",
+#"data":[]
+#},
+#"code": "0"
+#}
+page_notice = "api/news/list"
+page_message = "api/msg/search"
+#page_msg = "api/msg/list"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlist.php?userid={}&type=leeching"
 page_uploaded = "getusertorrentlist.php?userid={}&type=uploaded"
-page_seeding = "getusertorrentlist.php?userid={}&type=seeding"
+page_seeding = "api/member/getUserTorrentList"
+# {
+#"userid": "268022",
+#"type": "SEEDING", "UPLOADED", "LEECHING","LEECHING","COMPLETED" "INCOMPLETE" "SEEK"
+#"pageNumber": 1,
+#"pageSize": 20
+#}
 page_completed = "getusertorrentlist.php?userid={}&type=completed"
-page_mybonus = "mybonus.php"
+page_mybonus = "api/tracker/mybonus"
 page_viewfilelist = "viewfilelist.php?id={}"
 sign_info_title = "//td[@id=\"outer\"]//td[@class=\"embedded\"]/h2/text()"
 sign_info_content = "//td[@id=\"outer\"]//td[@class=\"embedded\"]/table//td//text()"
