@@ -1,4 +1,4 @@
-url = [ "https://hhanclub.top/",]
+url = ["https://hhanclub.top/", ]
 name = "憨憨"
 nickname = "憨憨"
 logo = "favicon.ico"
@@ -88,7 +88,7 @@ detail_tags_rule = "//td[contains(text(),\"标签\")]/following-sibling::td//tex
 torrent_tags_rule = ".//span[@class=\"tag\"]/text()"
 detail_hr_rule = "//h1/img[@class=\"hitandrun\"]/@title"
 alive = true
-page_pieces_hash_api = "api/pieces-hash"
+page_pieces_hash_api = "npapi/pieces-hash"
 pieces_repeat = false
 proxy = false
 
