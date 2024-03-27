@@ -18,7 +18,7 @@ page_index = "api/news/list" # 公告地址
 page_torrents = "torrents.php?incldead=1"
 page_sign_in = "attendance.php"
 page_control_panel = "usercp.php"
-page_detail = "detail/{}"
+page_detail = "api/torrent/detail"
 page_download = "download.php?id={}&passkey={}"
 page_user_api = "api/member/profile"
 page_user = "/profile/detail/{}"
@@ -43,8 +43,8 @@ page_notice = "api/news/list"
 page_message = "api/msg/search"
 #page_msg = "api/msg/list"
 page_hr = "myhr.php?hrtype=1&userid={}"
-page_leeching = "getusertorrentlist.php?userid={}&type=leeching"
-page_uploaded = "getusertorrentlist.php?userid={}&type=uploaded"
+page_leeching = "api/member/getUserTorrentList"
+page_uploaded = "api/member/getUserTorrentList"
 page_seeding = "api/member/getUserTorrentList"
 # {
 #"userid": "268022",
@@ -52,7 +52,7 @@ page_seeding = "api/member/getUserTorrentList"
 #"pageNumber": 1,
 #"pageSize": 20
 #}
-page_completed = "getusertorrentlist.php?userid={}&type=completed"
+page_completed = "api/member/getUserTorrentList"
 page_mybonus = "api/tracker/mybonus"
 page_viewfilelist = "viewfilelist.php?id={}"
 sign_info_title = "//td[@id=\"outer\"]//td[@class=\"embedded\"]/h2/text()"
