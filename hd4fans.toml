@@ -1,4 +1,4 @@
-url = [ "https://pt.hd4fans.org/",]
+url = ["https://pt.hd4fans.org/", ]
 name = "hd4fans"
 nickname = "兽"
 logo = "favicon.ico"
@@ -16,7 +16,7 @@ hr_discern = false
 search_torrents = true
 page_index = "index.php"
 page_torrents = "torrents.php?incldead=1"
-page_sign_in = "checkin.php"
+page_sign_in = "attendance.php"
 page_control_panel = "usercp.php"
 page_detail = "details.php?id={}"
 page_download = "download.php?id={}&passkey={}"

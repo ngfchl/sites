@@ -41,7 +41,6 @@ page_search = "api/torrent/search"
 #}
 page_notice = "api/news/list"
 page_message = "api/msg/search"
-#page_msg = "api/msg/list"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "api/member/getUserTorrentList"
 page_uploaded = "api/member/getUserTorrentList"
