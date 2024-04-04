@@ -40,5 +40,7 @@ if __name__ == '__main__':
     toml_files = [file.replace('.toml', '') for file in os.listdir('.') if
                   file.endswith('.toml')]
     for site in toml_files:
-        print(site)
-        replace_site_url(site)
+        d = toml.load(f'{site}.toml')
+        # replace_site_url(site)
+        if type(d['hr_rate']) == bool:
+            print(d['name'])

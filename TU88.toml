@@ -1,4 +1,4 @@
-url = [ "http://pt.tu88.men/",]
+url = ["http://pt.tu88.men/", ]
 name = "TU88"
 nickname = "TU88"
 logo = "favicon.ico"
@@ -13,7 +13,7 @@ repeat_torrents = true
 brush_free = true
 brush_rss = true
 hr_discern = false
-search_torrents = true
+search_torrents = false
 page_index = "index.php"
 page_torrents = "torrents.php?incldead=1"
 page_sign_in = "attendance.php"

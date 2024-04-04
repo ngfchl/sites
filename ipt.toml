@@ -1,9 +1,9 @@
-url = [ "https://iptorrents.com/",]
+url = ["https://iptorrents.com/", ]
 name = "ipt"
 nickname = "ipt"
 logo = "favicon.ico"
 tracker = "iptorrents.com"
-sp_full = false
+sp_full = 0
 limit_speed = 100
 tags = "影视"
 iyuu = 0

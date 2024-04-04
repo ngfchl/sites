@@ -1,4 +1,4 @@
-url = [ "https://gamegamept.cn/",]
+url = ["https://gamegamept.cn/", ]
 name = "GGPTCN"
 nickname = "GGPTCN"
 logo = "favicon.ico"
@@ -33,7 +33,7 @@ page_viewfilelist = "viewfilelist.php?id={}"
 sign_info_title = "//td[@id=\"outer\"]//td[@class=\"embedded\"]/h2/text()"
 sign_info_content = "//td[@id=\"outer\"]//td[@class=\"embedded\"]/table//td//text()"
 hr = true
-hr_rate = true
+hr_rate = 1
 hr_time = 24
 my_invitation_rule = "//span/a[contains(@href,\"invite.php?id=\")]/following-sibling::text()[1]"
 my_time_join_rule = "//td[contains(text(),\"加入\")]/following-sibling::td/span/@title"

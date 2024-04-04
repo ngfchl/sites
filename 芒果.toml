@@ -1,9 +1,9 @@
-url = [ "https://www.3wmg.com/",]
+url = ["https://www.3wmg.com/", ]
 name = "芒果"
 nickname = "3wmg"
 logo = "favicon.ico"
 tracker = "3wmg.com"
-sp_full = false
+sp_full = 0
 limit_speed = 100
 tags = "影视"
 iyuu = 0

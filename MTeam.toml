@@ -1,9 +1,9 @@
 url = ["https://xp.m-team.io/", ]
-name = "MTeamApi"
+name = "MTeam"
 nickname = "MTeam"
 logo = "https://kp.m-team.cc/favicon.ico"
 tracker = "tracker.m-team.cc|ipv6.tracker.m-team.cc|ipv4.tracker.m-team.cc"
-sp_full = false
+sp_full = 0
 limit_speed = 95
 tags = "影视"
 iyuu = 3
@@ -14,7 +14,7 @@ brush_free = true
 brush_rss = true
 hr_discern = false
 search_torrents = true
-page_index = "api/news/list" # 公告地址
+page_index = "index" # 公告地址
 page_torrents = "torrents.php?incldead=1"
 page_sign_in = "attendance.php"
 page_control_panel = "usercp.php"

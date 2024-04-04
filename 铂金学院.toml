@@ -1,9 +1,9 @@
-url = [ "https://ptchina.org/",]
+url = ["https://ptchina.org/", ]
 name = "铂金学院"
 nickname = "ptchina"
 logo = "favicon.ico"
 tracker = "ptchina.org"
-sp_full = false
+sp_full = 0
 limit_speed = 100
 tags = "影视"
 iyuu = 79

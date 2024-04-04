@@ -1,4 +1,4 @@
-url = [ "https://fsm.name/",]
+url = ["https://fsm.name/", ]
 name = "飞天拉面"
 nickname = "fsm"
 logo = "favicon.ico"
@@ -13,7 +13,7 @@ repeat_torrents = true
 brush_free = true
 brush_rss = true
 hr_discern = false
-search_torrents = true
+search_torrents = false
 page_index = "Index"
 page_torrents = "torrents.php?incldead=1"
 page_sign_in = "Users/me"
