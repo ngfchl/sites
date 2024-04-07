@@ -1,4 +1,9 @@
-url = ["https://www.icc2022.com/", ]
+url = [
+    "https://www.icc2022.com/",
+    "https://www.icc2022.top/",
+    "https://icc2022.com/",
+    "https://icc2022.top/",
+]
 name = "ICC2022"
 nickname = "ICC2022"
 logo = "favicon.ico"
