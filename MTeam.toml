@@ -23,34 +23,12 @@ page_download = "download.php?id={}&passkey={}"
 page_user_api = "api/member/profile"
 page_user = "/profile/detail/{}"
 page_search = "api/torrent/search"
-#{
-#"pageNumber": "1",
-#"pageSize": "200", # 最大 200
-#"keyword": "变形金刚"
-#}
-#{
-#"message": "SUCCESS",
-#"data": {
-#"pageNumber": "1",
-#"pageSize": "200",
-#"total": "432",
-#"totalPages": "3",
-#"data":[]
-#},
-#"code": "0"
-#}
 page_notice = "api/news/list"
-page_message = "api/msg/search"
+page_message = "api/msg/statistic"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "api/member/getUserTorrentList"
 page_uploaded = "api/member/getUserTorrentList"
 page_seeding = "api/member/getUserTorrentList"
-# {
-#"userid": "268022",
-#"type": "SEEDING", "UPLOADED", "LEECHING","LEECHING","COMPLETED" "INCOMPLETE" "SEEK"
-#"pageNumber": 1,
-#"pageSize": 20
-#}
 page_completed = "api/member/getUserTorrentList"
 page_mybonus = "api/tracker/mybonus"
 page_viewfilelist = "viewfilelist.php?id={}"
