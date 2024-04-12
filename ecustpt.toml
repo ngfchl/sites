@@ -1,4 +1,4 @@
-url = [ "https://public.ecustpt.eu.org/",]
+url = ["http://public.ecustpt.eu.org/", "https://pt.ecust.pp.ua/", "https://public.ecustpt.eu.org/", ]
 name = "ecustpt"
 nickname = "ecustpt"
 logo = "favicon.ico"
