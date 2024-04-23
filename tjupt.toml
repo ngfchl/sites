@@ -1,4 +1,4 @@
-url = [ "https://www.tjupt.org/",]
+url = ["https://www.tjupt.org/", ]
 name = "tjupt"
 nickname = "北洋园"
 logo = "favicon.ico"
@@ -57,7 +57,7 @@ my_message_title = "//img[@alt='Unread']/parent::td/following-sibling::td/a[1]//
 my_notice_rule = "//a[@href='index.php']/font[contains(text(),'条')]/text()[1]"
 my_notice_title = "//td[@class='text']/div/a"
 my_notice_content = "//td[@class='text']/div/a/following-sibling::div"
-torrents_rule = "//table[@class='torrents']/tbody/tr[@class]"
+torrents_rule = "//table[@class='torrents']/tr[@class]"
 torrent_title_rule = ".//a[contains(@href,'detail')]/parent::td/a/b/text()[last()]"
 torrent_subtitle_rule = ".//a[contains(@href,'detail')]/parent::td/text()[last()]"
 torrent_detail_url_rule = ".//td[@class='embedded']/a[contains(@href,'detail')]/@href"
