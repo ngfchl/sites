@@ -1,8 +1,8 @@
-url = [ "https://pt.keepfrds.com/",]
+url = ["https://pt.keepfrds.com/", ]
 name = "月月Frds"
 nickname = "frds"
 logo = "favicon.ico"
-tracker = "tracker.keepfrds.com"
+tracker = "tracker.keepfrds.com|the.keepfrds.com|nginx2.azurewebsites.net"
 sp_full = 110
 limit_speed = 12
 tags = "影视"

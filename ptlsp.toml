@@ -1,8 +1,8 @@
-url = [ "https://www.ptlsp.com/",]
+url = ["https://www.ptlsp.com/", ]
 name = "ptlsp"
 nickname = "LSP"
 logo = "favicon.ico"
-tracker = "https://www.ptlsp.com/announce.php"
+tracker = "tracker.ptlsp.com|ptlsp.free.hr|x.ptlsp.com|www.ptlsp.com"
 sp_full = 107
 limit_speed = 50
 tags = "电影,电视剧"

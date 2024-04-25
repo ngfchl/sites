@@ -1,8 +1,8 @@
-url = [ "https://www.hdkyl.in/",]
+url = ["https://www.hdkyl.in/", ]
 name = "麒麟"
 nickname = "hdkyl"
 logo = "favicon.ico"
-tracker = "https://www.hdkyl.in/announce.php"
+tracker = "www.hdkyl.in|tracker.hdkyl.in"
 sp_full = 107
 limit_speed = 100
 tags = "电影,电视剧"

@@ -1,8 +1,8 @@
-url = [ "https://srvfi.top/",]
+url = ["https://srvfi.top/", ]
 name = "SRVFI"
 nickname = "SRVFI"
 logo = "favicon.ico"
-tracker = "srvfi"
+tracker = "www.srvfi.top"
 sp_full = 507
 limit_speed = 100
 tags = "影视"

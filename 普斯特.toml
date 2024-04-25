@@ -1,8 +1,8 @@
-url = [ "https://pt.hdpost.top/",]
+url = ["https://pt.hdpost.top/", ]
 name = "普斯特"
 nickname = "hdpost"
 logo = "favicon.ico"
-tracker = "pt.post.top"
+tracker = "pt.hdpost.top"
 sp_full = 100
 limit_speed = 100
 tags = "影视"

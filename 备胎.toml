@@ -1,8 +1,8 @@
-url = [ "https://www.beitai.pt/",]
+url = ["https://www.beitai.pt/", ]
 name = "备胎"
 nickname = "备胎"
 logo = "favicon.ico"
-tracker = "beitai.pt"
+tracker = "www.beitai.pt"
 sp_full = 107
 limit_speed = 70
 tags = "影视"

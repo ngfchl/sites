@@ -1,8 +1,8 @@
-url = [ "https://leaves.red/",]
+url = ["https://leaves.red/", ]
 name = "红叶"
 nickname = "leaves"
 logo = "http://leaves.red/favicon.ico"
-tracker = "tracker.leaves.red"
+tracker = "tracker.leaves.red|tracker2.leaves.red|tracker3.leaves.red|"
 sp_full = 254
 limit_speed = 200
 tags = "影视"

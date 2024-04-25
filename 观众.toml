@@ -1,8 +1,8 @@
-url = [ "https://audiences.me/",]
+url = ["https://audiences.me/", ]
 name = "观众"
 nickname = "audi"
 logo = "favicon.ico"
-tracker = "t.audiences.me"
+tracker = "t.audiences.me|tracker.cinefiles.info"
 sp_full = 140
 limit_speed = 95
 tags = "影视"

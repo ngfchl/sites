@@ -1,4 +1,4 @@
-url = [ "https://filelist.io/",]
+url = ["https://filelist.io/", ]
 name = "Filelist"
 nickname = "Filelist"
 logo = "favicon.ico"

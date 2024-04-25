@@ -1,8 +1,8 @@
-url = [ "https://ptchdbits.co/",]
+url = ["https://ptchdbits.co/", ]
 name = "彩虹岛"
 nickname = "彩虹岛"
 logo = "https://chdbits.co/favicon.ico"
-tracker = "chdbits.co"
+tracker = "chdbits.co|chdbits.xyz"
 sp_full = 460
 limit_speed = 95
 tags = "影视"

@@ -1,8 +1,8 @@
-url = [ "https://www.torrentleech.cc/", "https://www.torrentleech.org/", "https://www.torrentleech.me/",]
+url = ["https://www.torrentleech.cc/", "https://www.torrentleech.org/", "https://www.torrentleech.me/", ]
 name = "TorrentLeech"
 nickname = "TorrentLeech"
 logo = "favicon.ico"
-tracker = "https://tracker.torrentleech.org/"
+tracker = "tracker.torrentleech.org|tracker.tleechreload.org"
 sp_full = 107
 limit_speed = 100
 tags = "影视"

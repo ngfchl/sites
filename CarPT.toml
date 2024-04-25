@@ -1,8 +1,8 @@
-url = [ "https://carpt.net/",]
+url = ["https://carpt.net/", ]
 name = "CarPT"
 nickname = "CarPT"
 logo = "favicon.ico"
-tracker = "carpt.net"
+tracker = "tracker.carpt.net"
 sp_full = 300
 limit_speed = 25
 tags = "影视"

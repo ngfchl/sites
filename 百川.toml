@@ -1,8 +1,8 @@
-url = [ "https://www.hitpt.com/",]
+url = ["https://www.hitpt.com/", ]
 name = "百川"
 nickname = "hitpt"
 logo = "favicon.ico"
-tracker = "hitpt.com"
+tracker = "hitpt.com|hitwh.oncampus.hitpt.com|tracker.hitpt.com"
 sp_full = 65
 limit_speed = 100
 tags = "影视"

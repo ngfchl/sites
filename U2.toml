@@ -1,8 +1,8 @@
-url = [ "https://u2.dmhy.org/",]
+url = ["https://u2.dmhy.org/", ]
 name = "U2"
 nickname = "幼儿园"
 logo = "favicon.ico"
-tracker = "dmhy.best"
+tracker = "dmhy.best|daydream.dmhy.best"
 sp_full = 200
 limit_speed = 50
 tags = "影视"

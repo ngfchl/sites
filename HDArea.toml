@@ -1,8 +1,8 @@
-url = [ "https://hdarea.club/",]
+url = ["https://hdarea.club/", ]
 name = "HDArea"
 nickname = "HDArea"
 logo = "favicon.ico"
-tracker = "tracker.hdarea.club"
+tracker = "tracker.hdarea.club|www.hdarea.co"
 sp_full = 120
 limit_speed = 100
 tags = "影视"

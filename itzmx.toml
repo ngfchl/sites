@@ -1,8 +1,8 @@
-url = [ "https://pt.itzmx.com/",]
+url = ["https://pt.itzmx.com/", ]
 name = "itzmx"
 nickname = "PT分享"
 logo = "favicon.ico"
-tracker = "itzmx.com"
+tracker = "tracker.itzmx.com|tracker2.itzmx.com"
 sp_full = 170
 limit_speed = 100
 tags = "影视"
