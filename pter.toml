@@ -1,4 +1,4 @@
-url = [ "https://pterclub.com/",]
+url = ["https://pterclub.com/", ]
 name = "pter"
 nickname = "pterclub"
 logo = "favicon.ico"
@@ -26,7 +26,7 @@ page_message = "messages.php"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlist.php?do_ajax=1&userid={}&type=leeching"
 page_uploaded = "getusertorrentlist.php?do_ajax=1&userid={}&type=uploaded"
-page_seeding = "getusertorrentlist.php?do_ajax=1&userid={}&type=seeding"
+page_seeding = "userdetails.php?id={}"
 page_completed = "getusertorrentlist.php?do_ajax=1&userid={}&type=completed"
 page_mybonus = "mybonus.php"
 page_viewfilelist = "viewfilelist.php?id={}"

@@ -1,4 +1,4 @@
-url = [ "https://pthome.net/", "https://www.pthome.net/",]
+url = ["https://pthome.net/", "https://www.pthome.net/", ]
 name = "铂金家"
 nickname = "pthome"
 logo = "favicon.ico"
@@ -51,7 +51,7 @@ my_hr_rule = "//a[@href='myhr.php']//text()"
 my_leech_rule = "//img[@class='arrowdown'][1]/following-sibling::text()[1]"
 my_publish_rule = "//p/preceding-sibling::b/text()[1]"
 my_seed_rule = "//img[@class='arrowup'][1]/following-sibling::text()[1]"
-my_seed_vol_rule = "//tr/td[3]"
+my_seed_vol_rule = "//b/following-sibling::text()[1]"
 my_mailbox_rule = "//a[@href='messages.php']/font[contains(text(),'条')]/text()[1]"
 my_message_title = "//img[@alt='Unread']/parent::td/following-sibling::td/a[1]//text()"
 my_notice_rule = "//a[@href='index.php']/font[contains(text(),'条')]/text()[1]"
