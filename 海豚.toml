@@ -65,6 +65,7 @@ torrent_category_rule = ".//td/div[contains(@class, 'group_info')]/a[2]/followin
 torrent_poster_rule = "./td/div/img/@src"
 torrent_magnet_url_rule = "./td/div[contains(@class, 'group_info')]/span/a[1]/@href"
 torrent_size_rule = "./td[contains(@class, 'td_size')]/text()"
+torrent_progress_rule = ".//div[contains(@title,'ing')]/@title"
 torrent_hr_rule = "./table/tr/td/img[@class='hitandrun']/@title"
 torrent_sale_rule = "./td/div/div[contains(@class, 'torrent_info')]/strong[contains(@class,'tl_free')]/text()"
 torrent_sale_expire_rule = "./td/div/a/span/span[contains(@class,'free ')]/@data-tooltip"

@@ -1,4 +1,4 @@
-url = ["https://xp.m-team.cc/", "https://zp.m-team.io/", ]
+url = [ "https://xp.m-team.cc/", "https://zp.m-team.io/",]
 name = "MTeam"
 nickname = "MTeam"
 logo = "https://kp.m-team.cc/favicon.ico"
@@ -14,7 +14,7 @@ brush_free = true
 brush_rss = true
 hr_discern = false
 search_torrents = true
-page_index = "index" # 公告地址
+page_index = "index"
 page_torrents = "torrents.php?incldead=1"
 page_sign_in = "attendance.php"
 page_control_panel = "usercp.php"
@@ -67,6 +67,7 @@ torrent_category_rule = ".//td[@class='rowfollow nowrap'][1]/a[1]/img/@alt"
 torrent_poster_rule = ".//table/tr/td[1]/img/@src"
 torrent_magnet_url_rule = ".//a[contains(@href,'download')]/@href"
 torrent_size_rule = ".//td[5]/text()"
+torrent_progress_rule = ".//div[contains(@title,'ing')]/@title"
 torrent_hr_rule = ".//table/tr/td/img[@class='hitandrun']/@title"
 torrent_sale_rule = ".//img[contains(@class,'pro_')]/@alt"
 torrent_sale_expire_rule = ".//td[@class='embedded']/span/text()"

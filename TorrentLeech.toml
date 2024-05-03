@@ -1,4 +1,4 @@
-url = ["https://www.torrentleech.cc/", "https://www.torrentleech.org/", "https://www.torrentleech.me/", ]
+url = [ "https://www.torrentleech.cc/", "https://www.torrentleech.org/", "https://www.torrentleech.me/",]
 name = "TorrentLeech"
 nickname = "TorrentLeech"
 logo = "favicon.ico"
@@ -65,6 +65,7 @@ torrent_category_rule = ".//td[@class='td-category']/div[@class='circle']/a/@dat
 torrent_poster_rule = ".//table/tr/td[1]/img/@src"
 torrent_magnet_url_rule = ".//td[@class='td-quick-download']/a/@href"
 torrent_size_rule = ".//td[@class='td-size']/div/text()"
+torrent_progress_rule = ".//div[contains(@title,'ing')]/@title"
 torrent_hr_rule = ".//table/tr/td/img[@class='hitandrun']/@title"
 torrent_sale_rule = ".//span[contains(@class,'freeleech')]/text()"
 torrent_sale_expire_rule = ".//img[contains(@class,'free')]/following-sibling::font/span/@title"

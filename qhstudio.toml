@@ -1,4 +1,4 @@
-url = ["https://uk.qhstudio.fun/", ]
+url = [ "https://uk.qhstudio.fun/",]
 name = "qhstudio"
 nickname = "拜佬堡"
 logo = "favicon.ico"
@@ -65,6 +65,7 @@ torrent_category_rule = ".//td[@class='rowfollow nowrap'][1]/a[1]/img/@title"
 torrent_poster_rule = ".//table/tr/td[1]/img/@src"
 torrent_magnet_url_rule = ".//td/a[contains(@href,'download.php?id=')]/@href"
 torrent_size_rule = ".//td[5]/text()"
+torrent_progress_rule = ".//div[contains(@title,'ing')]/@title"
 torrent_hr_rule = ".//table/tr/td/img[@class='hitandrun']/@title"
 torrent_sale_rule = ".//img[contains(@class,'free')]/@alt"
 torrent_sale_expire_rule = ".//img[contains(@class,'free')]/following-sibling::font/span/@title"

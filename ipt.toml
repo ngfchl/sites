@@ -1,4 +1,4 @@
-url = ["https://iptorrents.com/", ]
+url = [ "https://iptorrents.com/",]
 name = "ipt"
 nickname = "ipt"
 logo = "favicon.ico"
@@ -65,6 +65,7 @@ torrent_category_rule = ".//td[1]/a/img/@alt"
 torrent_poster_rule = ".//table/tr/td[1]/img/@src"
 torrent_magnet_url_rule = ".//a[contains(@href,'/download.php/')]/@href"
 torrent_size_rule = ".//td[6]/text()"
+torrent_progress_rule = ".//div[contains(@title,'ing')]/@title"
 torrent_hr_rule = ".//table/tr/td/img[@class='hitandrun']/@title"
 torrent_sale_rule = ".//td[@class='al']/span/@class"
 torrent_sale_expire_rule = ".//img[contains(@class,'free')]/following-sibling::font/span/@title"

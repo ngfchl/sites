@@ -4,10 +4,13 @@ import shutil
 import toml
 
 
-def change_prop(name):
+def change_prop(name, key, value):
+    print(name)
+
     file_path = f'{name}.toml'
     data = toml.load(file_path)
-    data['proxy'] = True
+    if data['torrent_title_rule'] == data['torrent_subtitle_rule']:
+        data[key] = value
     # for attr, value in data.items():
     #     data[attr] = True
 
@@ -39,8 +42,7 @@ def replace_site_url(name):
 if __name__ == '__main__':
     toml_files = [file.replace('.toml', '') for file in os.listdir('.') if
                   file.endswith('.toml')]
+    key = 'torrent_title_rule'
+    value = ".//td/a[contains(@href,'detail')]/b/text()[last()]"
     for site in toml_files:
-        d = toml.load(f'{site}.toml')
-        # replace_site_url(site)
-        if type(d['hr_rate']) == bool:
-            print(d['name'])
+        change_prop(site, key, value)

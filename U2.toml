@@ -1,4 +1,4 @@
-url = ["https://u2.dmhy.org/", ]
+url = [ "https://u2.dmhy.org/",]
 name = "U2"
 nickname = "幼儿园"
 logo = "favicon.ico"
@@ -65,6 +65,7 @@ torrent_category_rule = ".//td[1]/a[contains(@href, '?cat=')]/text()[2]"
 torrent_poster_rule = ".//table/tr/td[1]/img/@src"
 torrent_magnet_url_rule = ".//td/a[contains(@href,'download')]/@href"
 torrent_size_rule = ".//td[5]/text()"
+torrent_progress_rule = ".//div[contains(@title,'ing')]/@title"
 torrent_hr_rule = ".//table/tr/td/img[@class='hitandrun']/@title"
 torrent_sale_rule = ".//img[contains(@class,'pro_')]/@alt"
 torrent_sale_expire_rule = ".//b/time/@title"

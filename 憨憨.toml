@@ -1,4 +1,4 @@
-url = ["https://hhanclub.top/", ]
+url = [ "https://hhanclub.top/",]
 name = "憨憨"
 nickname = "憨憨"
 logo = "favicon.ico"
@@ -65,6 +65,7 @@ torrent_category_rule = ".//img[@alt='类型']/@src"
 torrent_poster_rule = ".//table/tr/td[1]/img/@src"
 torrent_magnet_url_rule = ".//a[contains(@href, 'download.php?id=')]/@href"
 torrent_size_rule = ".//div[@class='torrent-info']/div[1]/text()"
+torrent_progress_rule = ".//div[contains(@title,'ing')]/@title"
 torrent_hr_rule = ".//table/tr/td/img[@class='hitandrun']/@title"
 torrent_sale_rule = ".//span[contains(@class, 'promotion-tag-')]/text()"
 torrent_sale_expire_rule = ".//img[contains(@class,'free')]/following-sibling::font/span/@title[1]"
