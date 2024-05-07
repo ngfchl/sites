@@ -1,7 +1,7 @@
-url = [ "https://xp.m-team.cc/", "https://zp.m-team.io/",]
+url = ["https://xp.m-team.cc/", "https://zp.m-team.io/", ]
 name = "MTeam"
 nickname = "MTeam"
-logo = "https://kp.m-team.cc/favicon.ico"
+logo = "favicon.ico"
 tracker = "tracker.m-team.cc|tracker.m-team.io|ipv6.tracker.m-team.cc|ipv4.tracker.m-team.cc|v6tracker.m-team.io"
 sp_full = 0
 limit_speed = 95
