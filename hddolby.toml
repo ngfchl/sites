@@ -1,4 +1,4 @@
-url = [ "https://www.hddolby.com/",]
+url = ["https://www.hddolby.com/", ]
 name = "hddolby"
 nickname = "HD杜比"
 logo = "https://gitee.com/ngfchl/icons/raw/master/pt_site/hddolby.ico"
@@ -6,7 +6,7 @@ tracker = "t.hddolby.com"
 sp_full = 140
 limit_speed = 90
 tags = "影视"
-iyuu = 10
+iyuu = 105
 sign_in = true
 get_info = true
 repeat_torrents = true
