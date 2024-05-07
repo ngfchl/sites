@@ -1,4 +1,4 @@
-url = [ "https://ptsbao.club/",]
+url = ["https://ptsbao.club/", ]
 name = "烧包"
 nickname = "ptsbao"
 logo = "favicon.ico"
@@ -28,7 +28,7 @@ page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"
 page_uploaded = "getusertorrentlistajax.php?userid={}&type=uploaded"
 page_seeding = "getusertorrentlistajax.php?userid={}&type=seeding"
 page_completed = "getusertorrentlistajax.php?userid={}&type=completed"
-page_mybonus = "mybonus.php"
+page_mybonus = "mybonus_new.php"
 page_viewfilelist = "viewfilelist.php?id="
 sign_info_title = "//td[@id='outer']//td[@class='embedded']/h2/text()"
 sign_info_content = "//td[@id='outer']//td[@class='embedded']/table//td//text()"
