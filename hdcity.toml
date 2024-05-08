@@ -1,4 +1,4 @@
-url = [ "https://hdcity.city/",]
+url = ["https://hdcity.city/", "https://hdcity.leniter.org/", "https://hdcity.work/", ]
 name = "hdcity"
 nickname = "HD城市"
 logo = "favicon.ico"
