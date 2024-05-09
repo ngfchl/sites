@@ -1,4 +1,4 @@
-url = [ "https://zhuque.in/",]
+url = ["https://zhuque.in/", ]
 name = "朱雀"
 nickname = "zhuque"
 logo = "https://gitee.com/ngfchl/ptools/raw/master/static/logo/zhuque.png"
@@ -17,12 +17,12 @@ search_torrents = true
 page_index = "index.php"
 page_torrents = "api/torrent/advancedSearch"
 page_sign_in = "api/gaming/fireGenshinCharacterMagic"
-page_control_panel = "user/setting"
-page_detail = "details.php?id={}"
+page_control_panel = "api/user/getSecurityInfo"
+page_detail = "torrent/info/{}"
 page_download = "api/torrent/download/{}/{}"
 page_user = "api/user/getInfo?id={}"
 page_search = "api/torrent/advancedSearch"
-page_message = "messages.php"
+page_message = "message/inbox"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"
 page_uploaded = "getusertorrentlistajax.php?userid={}&type=uploaded"
