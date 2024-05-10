@@ -1,7 +1,7 @@
-url = [ "https://hdmayi.com/",]
+url = ["https://hdmayi.com/", "http://hdmayi.com/"]
 name = "蚂蚁"
 nickname = "hdmayi"
-logo = "http://hdmayi.com/favicon.ico"
+logo = "favicon.ico"
 tracker = "hdmayi.com"
 sp_full = 300
 limit_speed = 100

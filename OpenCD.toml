@@ -1,4 +1,4 @@
-url = [ "https://www.open.cd/",]
+url = ["https://www.open.cd/", "https://open.cd/"]
 name = "OpenCD"
 nickname = "皇后"
 logo = "favicon.ico"

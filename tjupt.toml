@@ -1,4 +1,4 @@
-url = [ "https://www.tjupt.org/",]
+url = ["https://www.tjupt.org/", "https://tjupt.org/"]
 name = "tjupt"
 nickname = "北洋园"
 logo = "favicon.ico"
