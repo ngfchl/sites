@@ -52,7 +52,7 @@ my_leech_rule = "//div[contains(text(),'当前下载')]/following-sibling::div//
 my_publish_rule = "//p/preceding-sibling::b/text()[1]"
 my_seed_rule = "//div[contains(text(),'当前上传')]/following-sibling::div//text()[1]"
 my_seed_vol_rule = "//p/preceding-sibling::text()[1]"
-my_mailbox_rule = "//*[name()='shark-notification']/@content"
+my_mailbox_rule = "//*[name()='shark-notification' and contains(@content,'条')]"
 my_message_title = "//img[@alt='Unread']/parent::td/following-sibling::td/a[1]//text()"
 my_notice_rule = "//*[name()='shark-notification']/@content1"
 my_notice_title = "//td[@class='text']/div/a"
