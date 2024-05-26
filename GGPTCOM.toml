@@ -1,4 +1,4 @@
-url = [ "https://www.gamegamept.com/",]
+url = ["https://www.gamegamept.com/", ]
 name = "GGPTCOM"
 nickname = "GGPTCOM"
 logo = "favicon.ico"
@@ -13,7 +13,7 @@ repeat_torrents = true
 brush_free = false
 brush_rss = true
 hr_discern = false
-search_torrents = false
+search_torrents = true
 page_index = "index.php"
 page_torrents = "torrents.php?incldead=1"
 page_sign_in = "attendance.php"
