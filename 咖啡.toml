@@ -1,4 +1,4 @@
-url = [ "https://ptcafe.club/",]
+url = ["https://ptcafe.club/", ]
 name = "咖啡"
 nickname = "咖啡"
 logo = "favicon.ico"
@@ -6,7 +6,7 @@ tracker = "tracker.ptcafe.club"
 sp_full = 200
 limit_speed = 100
 tags = "电影,电视剧"
-iyuu = 0
+iyuu = 107
 sign_in = true
 get_info = true
 repeat_torrents = true
