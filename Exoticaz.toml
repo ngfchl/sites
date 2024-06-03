@@ -1,4 +1,4 @@
-url = [ "https://exoticaz.to/",]
+url = ["https://exoticaz.to/", ]
 name = "Exoticaz"
 nickname = "Exoticaz"
 logo = "favicon.ico"
@@ -14,7 +14,7 @@ brush_free = false
 brush_rss = false
 hr_discern = false
 search_torrents = false
-page_index = "index.php"
+page_index = ""
 page_torrents = "torrents.php?incldead=1"
 page_sign_in = "attendance.php"
 page_control_panel = "usercp.php"
@@ -53,7 +53,7 @@ my_publish_rule = "//p/preceding-sibling::b/text()[1]"
 my_seed_rule = "//a[text()='Seeding:']/following-sibling::text()"
 my_seed_vol_rule = "//span[@class='text-yellow']/text()"
 my_mailbox_rule = "//div[@role='alert']/strong//text()"
-my_message_title = " 'text-green')]/parent::td/following-sibling::td[1]/a/text()"
+my_message_title = "//td/i[contains(@class,'text-green')]/../following-sibling::td[2]/a/text()"
 my_notice_rule = "//div[@role='alert']/strong//text()"
 my_notice_title = "//td[@class='text']/div/a"
 my_notice_content = "//td[@class='text']/div/a/following-sibling::div"

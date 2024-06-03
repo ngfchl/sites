@@ -1,4 +1,4 @@
-url = [ "https://avistaz.to/",]
+url = ["https://avistaz.to/", ]
 name = "Avistaz"
 nickname = "avistaz"
 logo = "images/avistaz-favicon.png"
@@ -53,7 +53,7 @@ my_publish_rule = "//p/preceding-sibling::b/text()[1]"
 my_seed_rule = "//a[text()='Seeding:']/following-sibling::text()"
 my_seed_vol_rule = "//span[@class='movie-extra fa fa-database text-orange']/text()"
 my_mailbox_rule = "//div[@role='alert']/strong//text()"
-my_message_title = " 'text-green')]/parent::td/following-sibling::td[1]/a/text()"
+my_message_title = "//td/i[contains(@class,'text-green')]/../following-sibling::td[2]/a/text()"
 my_notice_rule = "//a[@href='index.php']/font[contains(text(),'条')]/text()[1]"
 my_notice_title = "//td[@class='text']/div/a"
 my_notice_content = "//td[@class='text']/div/a/following-sibling::div"
