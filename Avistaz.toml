@@ -14,7 +14,7 @@ brush_free = false
 brush_rss = false
 hr_discern = false
 search_torrents = true
-page_index = "/"
+page_index = ""
 page_torrents = "torrents.php?incldead=1"
 page_sign_in = "attendance.php"
 page_control_panel = "usercp.php"

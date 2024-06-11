@@ -1,4 +1,4 @@
-url = [ "https://pt.hdpost.top/",]
+url = ["https://pt.hdpost.top/", ]
 name = "普斯特"
 nickname = "hdpost"
 logo = "favicon.ico"
@@ -14,7 +14,7 @@ brush_free = true
 brush_rss = true
 hr_discern = false
 search_torrents = true
-page_index = "index.php"
+page_index = ""
 page_torrents = "torrents"
 page_sign_in = "attendance.php"
 page_control_panel = "usercp.php"
