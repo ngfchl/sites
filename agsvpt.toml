@@ -1,4 +1,4 @@
-url = ["https://www.agsvpt.com/", "https://abroad.agsvpt.com/", ]
+url = ["https://www.agsvpt.com/", "http://cf-old.agsvpt.com/"]
 name = "agsvpt"
 nickname = "末日"
 logo = "favicon.ico"
