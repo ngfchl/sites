@@ -89,8 +89,8 @@ detail_tags_rule = "//td[contains(text(),'标签')]/following-sibling::td//text(
 torrent_tags_rule = ".//a[contains(@href,'detail')]/../span[contains(@class,'tags')]/text()"
 detail_hr_rule = "//h1/img[@class='hitandrun']/@title"
 alive = true
-page_pieces_hash_api = "api/pieces-hash"
-pieces_repeat = false
+page_pieces_hash_api = "api/torrent/fetchTorrentIdWithPiecesHash"
+pieces_repeat = true
 proxy = true
 
 [level.User]
