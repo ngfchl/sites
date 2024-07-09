@@ -7,7 +7,7 @@ sp_full = 300
 limit_speed = 100
 tags = "影视"
 iyuu = 91
-sign_in = true
+sign_in = false
 get_info = true
 repeat_torrents = true
 brush_free = true
@@ -57,22 +57,23 @@ my_message_title = "//img[@alt='Unread']/parent::td/following-sibling::td/a[1]//
 my_notice_rule = "//a[@href='index.php']/font[contains(text(),'条')]/text()[1]"
 my_notice_title = "//td[@class='text']/div/a//text()"
 my_notice_content = "//td[@class='text']/div/a/following-sibling::div"
-torrents_rule = "//table[@class='torrents']/tr"
-torrent_title_rule = ".//td[@class='embedded']/a/b/text()"
+torrents_rule = "//tr[@id='gm_tr_item']"
+torrent_title_rule = "./td/div[@id='gm_div_name']/a/text()"
 torrent_subtitle_rule = ".//a[contains(@href,'detail')]/parent::td/text()[last()]"
-torrent_detail_url_rule = ".//td[@class='embedded']/a[contains(@href,'detail')]/@href"
+torrent_detail_url_rule = "./td/div[@id='gm_div_name']/a/@href"
 torrent_category_rule = ".//td[@class='rowfollow nowrap'][1]/a[1]/img/@title"
+torrent_tags_rule = "./td[@id='gm_td_name']/div/span/text()"
 torrent_poster_rule = ".//table/tr/td[1]/img/@src"
-torrent_magnet_url_rule = ".//td/a[contains(@href,'download.php?id=')]/@href"
-torrent_size_rule = ".//td[5]/text()"
+torrent_magnet_url_rule = "./td/div[@id='tm_div_ico']/a[last()]/@href"
+torrent_size_rule = "./td[@id='gm_td_size']/text()"
 torrent_progress_rule = ".//div[contains(@title,'ing')]/@title"
 torrent_hr_rule = ".//table/tr/td/img[@class='hitandrun']/@title"
 torrent_sale_rule = ".//img[contains(@class,'free')]/@alt"
 torrent_sale_expire_rule = ".//img[contains(@class,'free')]/following-sibling::font/span/@title"
 torrent_release_rule = ".//td[4]/span/@title"
-torrent_seeders_rule = ".//a[contains(@href,'#seeders')]/text()"
-torrent_leechers_rule = ".//a[contains(@href,'#leechers')]/text()"
-torrent_completers_rule = ".//a[contains(@href,'viewsnatches')]//text()"
+torrent_seeders_rule = "./td[@id='gm_td_seeder']/a/text()"
+torrent_leechers_rule = "./td[@id='gm_td_downloader']/a/text()"
+torrent_completers_rule = "./td[@id='gm_td_finish']/a/text()"
 detail_title_rule = "//h1/text()[1]"
 detail_subtitle_rule = "//td[contains(text(),'副标题')]/following-sibling::td/text()[1]"
 detail_download_url_rule = "//a[@class='index' and contains(@href,'download.php')]/@href"
