@@ -1,4 +1,4 @@
-url = [ "https://u2.dmhy.org/",]
+url = ["https://u2.dmhy.org/", ]
 name = "U2"
 nickname = "幼儿园"
 logo = "favicon.ico"
@@ -36,7 +36,7 @@ hr = false
 hr_rate = 2
 hr_time = 10
 my_invitation_rule = "//span/a[contains(@href,'invite.php?id=')]/following-sibling::text()[1]"
-my_time_join_rule = "//td[contains(text(),'加入')]/following-sibling::td/time/text()"
+my_time_join_rule = "//td[contains(text(),'加入')]/following-sibling::td/time[1]/text()"
 my_latest_active_rule = "//td[contains(text(),'最近动向')]/following-sibling::td/time/text()"
 my_uploaded_rule = "//span[@class='color_uploaded']/following-sibling::text()[1]"
 my_downloaded_rule = "//span[@class='color_downloaded']/following-sibling::text()[1]"
