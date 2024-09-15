@@ -1,4 +1,4 @@
-url = [ "https://xingtan.one/",]
+url = ["https://xingtan.one/", ]
 name = "杏坛"
 nickname = "xingtan"
 logo = "favicon.ico"
@@ -42,7 +42,7 @@ my_uploaded_rule = "//font[@class='color_uploaded']/following-sibling::text()[1]
 my_downloaded_rule = "//font[@class='color_downloaded']/following-sibling::text()[1]"
 my_ratio_rule = "//font[@class='color_ratio'][1]/following-sibling::text()[1]"
 my_bonus_rule = "//a[@href='mybonus.php']/following-sibling::text()[1]"
-my_per_hour_bonus_rule = "//h1[contains(text(),'每小时获得的合计')]/following::table[1]//tr[2]/td[last()]/text()"
+my_per_hour_bonus_rule = "//td[contains(text(),'基本奖励')]/../td[last()]/text()"
 my_score_rule = "//td[contains(text(),'做种积分')]/following-sibling::td/text()[1]"
 my_level_rule = "//table[@id='info_block']//span/a[contains(@class,'_Name') and contains(@href,'userdetails.php?id=')]/@class"
 my_passkey_rule = "//td[contains(text(),'密钥')]/following-sibling::td[1]/text()"
@@ -51,7 +51,7 @@ my_hr_rule = "//a[@href='myhr.php']//text()"
 my_leech_rule = "//img[@class='arrowdown']/following-sibling::text()[1]"
 my_publish_rule = "//p/preceding-sibling::b/text()[1]"
 my_seed_rule = "//img[@class='arrowup']/following-sibling::text()[1]"
-my_seed_vol_rule = "//p/preceding-sibling::text()[1]"
+my_seed_vol_rule = "//p/preceding-sibling::div/div/text()[1]"
 my_mailbox_rule = "//a[@href='messages.php']/font[contains(text(),'条')]/text()[1]"
 my_message_title = "//img[@alt='Unread']/parent::td/following-sibling::td/a[1]//text()"
 my_notice_rule = "//a[@href='index.php']/font[contains(text(),'条')]/text()[1]"
