@@ -1,4 +1,4 @@
-url = [ "https://reelflix.xyz/",]
+url = ["https://reelflix.xyz/", ]
 name = "Reelflix"
 nickname = "Reelflix"
 logo = "favicon.ico"
@@ -46,12 +46,12 @@ my_per_hour_bonus_rule = "//dt[contains(text(),'每小时点数')]/following-sib
 my_score_rule = "//font[@class='color_bonus' and contains(text(),'积分')]/following-sibling::text()[1]"
 my_level_rule = "//div[@class='header gradient blue']//h4[1]/span/text()"
 my_passkey_rule = "//span[@class='text-monospace']/text()"
-my_uid_rule = "//li/a[contains(@href,'users')]/img/@alt"
+my_uid_rule = "//div/a[contains(@class,'top-nav__username')]/span/i/following-sibling::text()"
 my_hr_rule = "//strong[contains(text(),'有效')]/text()"
 my_leech_rule = "//li[@title='吸血']/a/text()"
 my_publish_rule = "//p/preceding-sibling::b/text()[1]"
 my_seed_rule = "//li[@title='做种']/a/text()"
-my_seed_vol_rule = "//td[contains(text(),'做种体积')]/following-sibling::td[1]//text()[1]"
+my_seed_vol_rule = "//dt/abbr[contains(text(),'做种体积')]/../following-sibling::dd[1]//text()[1]"
 my_mailbox_rule = "//a[contains(@href,'mail/inbox')]/*[name()='svg']"
 my_message_title = "//td/i[@class='fal fa-cross text-red']/parent::td/preceding-sibling::td/a/text()"
 my_notice_rule = "//a[@href='index.php']/font[contains(text(),'条')]/text()[1]"
