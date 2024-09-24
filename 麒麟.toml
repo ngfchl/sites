@@ -1,4 +1,4 @@
-url = ["https://www.hdkyl.in/", ]
+url = ["https://www.hdkyl.in/", "https://www.hdkylin.com/", ]
 name = "麒麟"
 nickname = "hdkyl"
 logo = "favicon.ico"

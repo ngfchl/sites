@@ -1,4 +1,4 @@
-url = ["https://www.yemapt.org/", ]
+url = ["https://www.yemapt.org/", "https://www1.yemapt.org/", ]
 name = "野马"
 nickname = "野马"
 logo = "favicon.ico"

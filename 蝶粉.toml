@@ -1,4 +1,4 @@
-url = [ "https://discfan.net/",]
+url = ["https://discfan.net/", "https://discfan.xyz/", ]
 name = "蝶粉"
 nickname = "discfan"
 logo = "favicon.ico"
