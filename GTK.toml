@@ -1,4 +1,4 @@
-url = [ "https://pt.gtk.pw/",]
+url = ["https://pt.gtk.pw/", "https://pt.gtkpw.xyz/", ]
 name = "GTK"
 nickname = "GTK"
 logo = "favicon.ico"
