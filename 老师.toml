@@ -1,4 +1,4 @@
-url = ["https://www.nicept.net/", ]
+url = ["https://www.nicept.net/", "https://nicept.net/", ]
 name = "老师"
 nickname = "nicept"
 logo = "favicon.ico"
