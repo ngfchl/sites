@@ -1,4 +1,4 @@
-url = [ "https://www.pttime.org/", "https://www.pttime.top/",]
+url = ["https://www.pttime.org/", "https://www.pttime.top/", ]
 name = "时间"
 nickname = "pttime"
 logo = "favicon.ico"
@@ -31,7 +31,7 @@ page_completed = "getusertorrentlistajax.php?userid={}&type=completed"
 page_mybonus = "mybonus.php"
 page_viewfilelist = "viewfilelist.php?id="
 sign_info_title = "//td[1]/b[1]/text()"
-sign_info_content = "//td[1]/font[1]/text()"
+sign_info_content = "//td[@class='embedded']/br[1]/following-sibling::span[position()>0 and position() < 5]//text()"
 hr = false
 hr_rate = 2
 hr_time = 10
