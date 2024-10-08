@@ -79,7 +79,7 @@ detail_download_url_rule = "//a[@class='index' and contains(@href,'download.php'
 detail_size_rule = "//b[contains(text(), '大小')]/parent::span/following-sibling::span/text()"
 detail_category_rule = "//span[contains(text(), '类型')]/following-sibling::span/text()"
 detail_count_files_rule = "//span[contains(text(), '文件数')]/following-sibling::span/text()"
-detail_hash_rule = "//span[contains(text(), 'Hash 码')]/following-sibling::span/text()"
+detail_hash_rule = "//span[contains(text(), 'Hash')]/following-sibling::span/text()"
 detail_free_rule = "//div/a[contains(@href, 'download.php?id=')]/following-sibling::div/span[contains(@class, 'promotion-tag-')]/text()"
 detail_free_expire_rule = "//div/a[contains(@href, 'download.php?id=')]/following-sibling::div/span[contains(@class, 'promotion-tag-')]/@alt"
 detail_douban_rule = "//br/following-sibling::text()[contains(.,'◎豆瓣链接')]"
