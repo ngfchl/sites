@@ -9,11 +9,11 @@ tags = "电影,电视剧"
 iyuu = 95
 sign_in = true
 get_info = true
-repeat_torrents = false
+repeat_torrents = true
 brush_free = true
 brush_rss = true
 hr_discern = false
-search_torrents = false
+search_torrents = true
 page_index = "index.php"
 page_torrents = "torrents.php?incldead=1"
 page_sign_in = "attendance.php"
