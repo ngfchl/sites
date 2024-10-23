@@ -1,4 +1,4 @@
-url = [ "https://www.torrentleech.cc/", "https://www.torrentleech.org/", "https://www.torrentleech.me/",]
+url = ["https://www.torrentleech.cc/", "https://www.torrentleech.org/", "https://www.torrentleech.me/", "https://www.tleechreload.org/", ]
 name = "TorrentLeech"
 nickname = "TorrentLeech"
 logo = "favicon.ico"
