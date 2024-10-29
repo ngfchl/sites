@@ -1,4 +1,4 @@
-url = [ "https://gamerapt.link/",]
+url = ["https://gamerapt.link/", ]
 name = "駕瞑羅"
 nickname = "gamerapt"
 logo = "favicon.ico"
@@ -88,7 +88,7 @@ detail_poster_rule = "//td/a/span[contains(text(),'简介')]/parent::a/parent::t
 detail_tags_rule = "//td[contains(text(),'标签')]/following-sibling::td//text()"
 torrent_tags_rule = ".//a[contains(@href,'detail')]/../span[contains(@style,'background-color')]/text()"
 detail_hr_rule = "//h1/img[@class='hitandrun']/@title"
-alive = true
+alive = false
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true

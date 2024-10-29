@@ -88,7 +88,7 @@ detail_imdb_rule = "//a[@class='faqlink' and starts-with(@href,'https://www.imdb
 detail_poster_rule = "//td/a/span[contains(text(),'简介')]/../../following-sibling::td//img[1]/@src"
 detail_tags_rule = "//td[contains(text(),'标签')]/following-sibling::td//text()"
 detail_hr_rule = "//h1/img[@class='hitandrun']/@title"
-alive = true
+alive = false
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true

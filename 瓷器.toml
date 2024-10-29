@@ -1,4 +1,4 @@
-url = [ "https://hdchina.org/",]
+url = ["https://hdchina.org/", ]
 name = "瓷器"
 nickname = "hdchina"
 logo = "favicon.ico"
@@ -88,7 +88,7 @@ detail_poster_rule = "//td/div[@class='imgbox']/img[1]/@src"
 detail_tags_rule = "//td[contains(text(),'标签')]/following-sibling::td//text()"
 torrent_tags_rule = ".//a[contains(@href,'detail')]/../span[contains(@class,'tags')]/text()"
 detail_hr_rule = "//h1/img[@class='hitandrun']/@title"
-alive = true
+alive = false
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true

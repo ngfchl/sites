@@ -1,4 +1,4 @@
-url = [ "https://hdfun.me/",]
+url = ["https://hdfun.me/", ]
 name = "Zone"
 nickname = "空间"
 logo = "https://hdfun.me/favicon.ico"
@@ -88,7 +88,7 @@ detail_poster_rule = "//td/a/span[contains(text(),'简介')]/../../following-sib
 detail_tags_rule = "//td[contains(text(),'标签')]/following-sibling::td//text()"
 torrent_tags_rule = ".//a[contains(@href,'detail')]/../span[contains(@class,'tags')]/text()"
 detail_hr_rule = "//h1/img[@class='hitandrun']/@title"
-alive = true
+alive = false
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
