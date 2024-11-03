@@ -92,3 +92,98 @@ alive = true
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
+[level.User]
+level_id = 1
+level = "User"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "无"
+
+[level.PowerUser]
+level_id = 2
+level = "PowerUser"
+days = 4
+uploaded = "1TB"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 1.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "无"
+
+[level.SuperUser]
+level_id = 3
+level = "SuperUser"
+days = 9
+uploaded = "5TB"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 1.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "无"
+
+[level.ExtremeUser]
+level_id = 4
+level = "ExtremeUser"
+days = 13
+uploaded = "20TB"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 1.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "无"
+
+[level.InsaneUser]
+level_id = 5
+level = "InsaneUser"
+days = 26
+uploaded = "50TB"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 1.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "无"
+
+[level.Veteran]
+level_id = 6
+level = "Veteran"
+days = 52
+uploaded = "100TB"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 1.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "无"
