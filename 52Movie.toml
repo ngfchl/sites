@@ -92,3 +92,163 @@ alive = true
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = true
 proxy = true
+
+[level.User]
+level_id = 1
+level = "User"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "新用户的默认级别。只能在每周六中午12点至每周日晚上11点59分发布种子。"
+
+[level.PowerUser]
+level_id = 2
+level = "PowerUser"
+days = 4
+uploaded = "0"
+downloaded = "200GB"
+bonus = 0.0
+score = 0
+ratio = 1.05
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "得到一个邀请名额；可以直接发布种子；可以查看NFO文档；可以查看用户列表；可以请求续种；可以发送邀请；可以查看排行榜；可以查看其它用户的种子历史(如果用户隐私等级未设置为'强')；可以删除自己上传的字幕。"
+
+[level.EliteUser]
+level_id = 3
+level = "EliteUser"
+days = 8
+uploaded = "0"
+downloaded = "400GB"
+bonus = 0.0
+score = 0
+ratio = 2.05
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "EliteUser及以上用户封存账号后不会被删除。"
+
+[level.CrazyUser]
+level_id = 4
+level = "CrazyUser"
+days = 15
+uploaded = "0"
+downloaded = "800GB"
+bonus = 0.0
+score = 0
+ratio = 2.55
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "得到两个邀请名额；可以在做种/下载/发布的时候选择匿名模式。"
+
+[level.InsaneUser]
+level_id = 5
+level = "InsaneUser"
+days = 25
+uploaded = "0"
+downloaded = "1600GB"
+bonus = 0.0
+score = 0
+ratio = 2.55
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "可以查看普通日志。"
+
+[level.VeteranUser]
+level_id = 6
+level = "VeteranUser"
+days = 40
+uploaded = "0"
+downloaded = "3200GB"
+bonus = 0.0
+score = 0
+ratio = 3.05
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = true
+graduation = false
+rights = "得到三个邀请名额；可以查看其它用户的评论、帖子历史。VeteranUser及以上用户会永远保留账号。"
+
+[level.ExtremeUser]
+level_id = 7
+level = "ExtremeUser"
+days = 60
+uploaded = "0"
+downloaded = "6400GB"
+bonus = 0.0
+score = 0
+ratio = 3.55
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = true
+graduation = false
+rights = "可以更新过期的外部信息；可以查看ExtremeUser论坛。"
+
+[level.UltimateUser]
+level_id = 8
+level = "UltimateUser"
+days = 80
+uploaded = "0"
+downloaded = "12800GB"
+bonus = 0.0
+score = 0
+ratio = 4.05
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = true
+graduation = false
+rights = "得到五个邀请名额。"
+
+[level.NexusMaster]
+level_id = 9
+level = "NexusMaster"
+days = 100
+uploaded = "0"
+downloaded = "16000GB"
+bonus = 0.0
+score = 0
+ratio = 4.55
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = true
+graduation = true
+rights = "得到十个邀请名额。"
+
+[level.VIP]
+level_id = 0
+level = "VIP"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = true
+graduation = true
+rights = "1.VIP贵宾会员期限内不受系统分享率限制，可以在贵宾期限内无限制下载。可以在贵宾期限内无视H&R规则，畅快下载；2.VIP贵宾会员期限内不会因分享率过低而被系统封禁，免除自动降级，贵宾期限内不计算下行流量；3.VIP贵宾会员期限内开启排行榜查看权限；4.VIP贵宾会员期限内无视每年的年终考核和年中考核；5.拥有捐赠者黄星标识的会员，每小时做种获取魔力值双倍的奖励。"
