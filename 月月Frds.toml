@@ -1,4 +1,4 @@
-url = [ "https://pt.keepfrds.com/",]
+url = ["https://pt.keepfrds.com/", ]
 name = "月月Frds"
 nickname = "frds"
 logo = "favicon.ico"
@@ -38,9 +38,9 @@ hr_time = 10
 my_invitation_rule = "//a[contains(@href,'invite.php?id=')]/following-sibling::text()[1]"
 my_time_join_rule = "//td[contains(text(),'加入')]/following-sibling::td/span/@title"
 my_latest_active_rule = "//td[contains(text(),'最近动向')]/following-sibling::td/span/@title"
-my_uploaded_rule = "//font[@class='color_uploaded']/following-sibling::text()[1]"
-my_downloaded_rule = "//font[@class='color_downloaded']/following-sibling::text()[1]"
-my_ratio_rule = "//font[@class='color_ratio'][1]/following-sibling::text()[1]"
+my_uploaded_rule = "//span[@class='color_uploaded']/following-sibling::text()[1]"
+my_downloaded_rule = "//span[@class='color_downloaded']/following-sibling::text()[1]"
+my_ratio_rule = "//span[@class='color_ratio'][1]/following-sibling::text()[1]"
 my_bonus_rule = "//a[contains(@href,'mybonus.php')]/following-sibling::text()[1]"
 my_per_hour_bonus_rule = "//div[contains(text(),'每小时能获取')]/text()[1]"
 my_score_rule = "//font[@class='color_bonus' and contains(text(),'积分')]/following-sibling::text()[1]"
