@@ -93,7 +93,6 @@ page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = true
 proxy = true
 
-
 [level.User]
 level_id = 1
 level = "User"
