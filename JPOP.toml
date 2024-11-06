@@ -1,4 +1,4 @@
-url = [ "https://jpopsuki.eu/",]
+url = ["https://jpopsuki.eu/", ]
 name = "JPOP"
 nickname = "JPOP"
 logo = "favicon.ico"
@@ -54,9 +54,9 @@ my_seed_rule = "//div[contains(text(),'Community')]/following-sibling::ul/li[6]/
 my_seed_vol_rule = "//tr[@class='torrent']/td[6]"
 my_mailbox_rule = "//a[@href='messages.php']/font[contains(text(),'条')]/text()[1]"
 my_message_title = "//img[@alt='Unread']/parent::td/following-sibling::td/a[1]//text()"
-my_notice_rule = "//a[@href='index.php']/font[contains(text(),'条')]/text()[1]"
-my_notice_title = "//div[@class='box vertical_space']/div[@class='head']//text()"
-my_notice_content = "//td[@class='text']/div/a/following-sibling::div"
+my_notice_rule = "//div/a[@href='notice.php']/text()[1]"
+my_notice_title = "//div[@class='head']/strong//text()"
+my_notice_content = "//div[@class='box vertical_space']/div[@class='pad']"
 torrents_rule = "//table[@class='torrents']/tr"
 torrent_title_rule = ".//td[@class='embedded']/a/b/text()"
 torrent_subtitle_rule = ".//a[contains(@href,'detail')]/parent::td/text()[last()]"
@@ -92,3 +92,83 @@ alive = true
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
+
+[level.User]
+level_id = 1
+level = "User"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "新用户的默认级别。可以上传下载，不能发送邀请。"
+
+[level.Member]
+level_id = 2
+level = "Member"
+days = 1
+uploaded = "10GB"
+downloaded = "1KB"
+bonus = 0.0
+score = 0
+ratio = 0.7
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "可以使用邀请、通知、设置论坛签名、访问前 10 名以及编辑知识库。"
+
+[level.PowerUser]
+level_id = 3
+level = "PowerUser"
+days = 2
+uploaded = "25GB"
+downloaded = "1KB"
+bonus = 0.0
+score = 100000
+ratio = 1.05
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "与普通成员相同，加上高级前 10 名查看权限，可以查看种子抓取列表、删除标签、编辑种子描述、原始标题和发布日期，并访问高级用户搜索。每月获得一个新邀请（最多可获得 10 个可用邀请）。"
+
+[level.Donor]
+level_id = 4
+level = "Donor"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "拥有与 PowerUser 相同的权限，并且可以免费提交请求、将种子添加到推荐列表中，并在邀请关闭时邀请用户。"
+
+[level.VIP]
+level_id = 0
+level = "VIP"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "与 Donor 相同，并且可以发送无限邀请、将自己的种子设为免费下载并从种子中删除标签。"
