@@ -90,7 +90,7 @@ torrent_tags_rule = ".//div[contains(@class,'tags_block')]//span[contains(@class
 detail_hr_rule = "//h1/img[@class='hitandrun']/@title"
 alive = true
 page_pieces_hash_api = "api/pieces-hash"
-pieces_repeat = true
+pieces_repeat = false
 proxy = true
 
 [level.User]
