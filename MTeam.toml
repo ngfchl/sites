@@ -95,9 +95,9 @@ page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
 
-[level.User]
+[level."小卒"]
 level_id = 1
-level = "User"
+level = "小卒"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -111,9 +111,9 @@ keep_account = false
 graduation = false
 rights = "可以發表候選種子。"
 
-[level.PowerUser]
+[level."捕頭"]
 level_id = 2
-level = "PowerUser"
+level = "捕頭"
 days = 4
 uploaded = "0"
 downloaded = "200GB"
@@ -125,11 +125,11 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "可以使用匿名發表候選種子。可以上傳字幕。升級至捕頭及以上，通過候選10個種子之後，亦可以直接發佈種子。（魔力值加成：+1%）"
+rights = "可以使用匿名發表候選種子。可以上傳字幕。升級至捕頭及以上，通過候選10個種子之後，亦可以直接發佈種子。魔力值加成：+1%"
 
-[level.EliteUser]
+[level."知縣"]
 level_id = 3
-level = "EliteUser"
+level = "知縣"
 days = 8
 uploaded = "0"
 downloaded = "400GB"
@@ -141,11 +141,11 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "可以發送邀請。可以管理自己上傳的字幕。可以檢視別人的下載紀錄。（當對方的隱私權設定不為強才會生效）可以使用個性條。（魔力值加成：+2%）"
+rights = "可以發送邀請。可以管理自己上傳的字幕。可以檢視別人的下載紀錄。（當對方的隱私權設定不為強才會生效）可以使用個性條。魔力值加成：+2%"
 
-[level.CrazyUser]
+[level."通判"]
 level_id = 4
-level = "CrazyUser"
+level = "通判"
 days = 12
 uploaded = "0"
 downloaded = "500GB"
@@ -157,11 +157,11 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "（魔力值加成：+3%）"
+rights = "魔力值加成：+3%"
 
-[level.InsaneUser]
+[level."知州"]
 level_id = 5
-level = "InsaneUser"
+level = "知州"
 days = 16
 uploaded = "0"
 downloaded = "800GB"
@@ -173,11 +173,11 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "可以檢視排行榜。（魔力值加成：+4%）"
+rights = "可以檢視排行榜。魔力值加成：+4%"
 
-[level.VeteranUser]
+[level."府丞"]
 level_id = 6
-level = "VeteranUser"
+level = "府丞"
 days = 20
 uploaded = "0"
 downloaded = "1000GB"
@@ -189,11 +189,11 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "（魔力值加成：+5%）"
+rights = "魔力值加成：+5%"
 
-[level.ExtremeUser]
+[level."府尹"]
 level_id = 7
-level = "ExtremeUser"
+level = "府尹"
 days = 24
 uploaded = "0"
 downloaded = "2000GB"
@@ -205,11 +205,11 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "（魔力值加成：+6%）"
+rights = "魔力值加成：+6%"
 
-[level.UltimateUser]
+[level."總督"]
 level_id = 8
-level = "UltimateUser"
+level = "總督"
 days = 28
 uploaded = "0"
 downloaded = "2500GB"
@@ -221,11 +221,11 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "（魔力值加成：+7%）"
+rights = "魔力值加成：+7%"
 
-[level.NexusMaster]
+[level."大臣"]
 level_id = 9
-level = "NexusMaster"
+level = "大臣"
 days = 32
 uploaded = "0"
 downloaded = "3000GB"
@@ -237,7 +237,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "（魔力值加成：+8%）"
+rights = "魔力值加成：+8%"
 
 [level.VIP]
 level_id = 0
