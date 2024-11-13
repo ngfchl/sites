@@ -251,3 +251,19 @@ seeding_delta = 0.0
 keep_account = false
 graduation = false
 rights = "1.VIP贵宾会员期限内不受系统分享率限制，可以在贵宾期限内无限制下载。可以在贵宾期限内无视H&R规则，畅快下载；2.VIP贵宾会员期限内不会因分享率过低而被系统封禁，免除自动降级，贵宾期限内不计算下行流量；3.VIP贵宾会员期限内开启排行榜查看权限；4.VIP贵宾会员期限内无视每年的年终考核和年中考核；5.拥有捐赠者黄星标识的会员，每小时做种获取魔力值双倍的奖励。"
+
+[level.SVIP]
+level_id = 0
+level = "SVIP"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "站元老用户，和VIP权限相同，但计算下载量。这个用户组原则上不会因吸血被BAN号，除非搞得天怒人怨（比如重复疯狂下同一种子刷下载什么的）被管理手动BAN号。"
