@@ -91,7 +91,7 @@ detail_hr_rule = "//h1/img[@class='hitandrun']/@title"
 alive = true
 page_pieces_hash_api = "npapi/pieces-hash"
 pieces_repeat = false
-proxy = false
+proxy = true
 
 [level.User]
 level_id = 1
