@@ -91,4 +91,4 @@ detail_hr_rule = "//h1/img[@class='hitandrun']/@title"
 alive = true
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
-proxy = false
+proxy = true
