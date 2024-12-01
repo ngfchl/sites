@@ -1,6 +1,6 @@
-url = [ "https://audiences.me/",]
+url = ["https://audiences.me/", ]
 name = "观众"
-nickname = "audi"
+nickname = "观众"
 logo = "favicon.ico"
 tracker = "t.audiences.me|tracker.cinefiles.info"
 sp_full = 140
@@ -57,7 +57,7 @@ my_message_title = "//img[@alt='Unread']/parent::td/following-sibling::td/a[1]//
 my_notice_rule = "//a[@href='index.php']/font[contains(text(),'条')]/text()[1]"
 my_notice_title = "//td[@class='text']/div/a"
 my_notice_content = "//td[@class='text']/div/a/following-sibling::div"
-torrents_rule = "//table[contains(@class,'torrents')]/tr"
+torrents_rule = "//table[contains(@class,'torrents')]//tr/td[not(@class)]/parent::tr"
 torrent_title_rule = ".//a[contains(@href,'detail')]/b/text()[1]"
 torrent_subtitle_rule = ".//tr/td[@class='embedded']/span[last()]/text()"
 torrent_detail_url_rule = ".//td[@class='embedded']/a[contains(@href,'detail')]/@href"
@@ -65,7 +65,7 @@ torrent_category_rule = ".//td[@class='rowfollow nowrap'][1]/a[1]/img/@alt"
 torrent_poster_rule = ".//table/tr/td[1]/img/@src"
 torrent_magnet_url_rule = ".//a[contains(@href,'download')]/@href"
 torrent_size_rule = ".//td[5]/text()"
-torrent_progress_rule = ".//div[contains(@title,'ing')]/@title"
+torrent_progress_rule = ".//div[contains(@class,'torrents-progress')]/@style"
 torrent_hr_rule = ".//img[@class='hitandrun']/@title"
 torrent_sale_rule = ".//img[contains(@class,'pro_')]/@alt"
 torrent_sale_expire_rule = ".//tr/td[@class='embedded']/b/span[last()]/@title"
@@ -92,6 +92,7 @@ alive = true
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
+imdb_search = "torrents.php?search_area=2&search={}"
 
 [level.User]
 level_id = 1

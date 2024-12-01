@@ -1,4 +1,4 @@
-url = ["https://zeus.hamsters.space/", "https://hudbt.hust.edu.cn/", ]
+url = [ "https://zeus.hamsters.space/", "https://hudbt.hust.edu.cn/",]
 name = "蝴蝶"
 nickname = "hudbt"
 logo = "favicon.ico"
@@ -92,6 +92,7 @@ alive = true
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
+imdb_search = "torrents.php?search_area=4&search={}"
 
 [level.User]
 level_id = 1

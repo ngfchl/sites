@@ -1,4 +1,4 @@
-url = ["https://hdhome.org/", ]
+url = [ "https://hdhome.org/",]
 name = "家园"
 nickname = "家园"
 logo = "favicon.ico"
@@ -92,6 +92,7 @@ alive = true
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = false
+imdb_search = "torrents.php?search_area=4&search={}"
 
 [level.User]
 level_id = 1

@@ -1,4 +1,4 @@
-url = ["https://www.hdkyl.in/", "https://www.hdkylin.com/", ]
+url = [ "https://www.hdkyl.in/", "https://www.hdkylin.com/",]
 name = "麒麟"
 nickname = "hdkyl"
 logo = "favicon.ico"
@@ -92,7 +92,7 @@ alive = true
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = true
 proxy = true
-
+imdb_search = "torrents.php?search_area=4&search={}"
 
 [level.User]
 level_id = 1
@@ -253,4 +253,3 @@ seeding_delta = 0.0
 keep_account = false
 graduation = false
 rights = "和NexusMaster拥有相同权限并被认为是精英成员。免除自动降级。"
-

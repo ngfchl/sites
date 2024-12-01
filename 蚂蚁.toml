@@ -1,4 +1,4 @@
-url = ["https://hdmayi.com/", "http://hdmayi.com/"]
+url = [ "https://hdmayi.com/", "http://hdmayi.com/",]
 name = "蚂蚁"
 nickname = "hdmayi"
 logo = "favicon.ico"
@@ -92,6 +92,7 @@ alive = false
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = true
 proxy = true
+imdb_search = "torrents.php?search_area=4&search={}"
 
 [level.User]
 level_id = 1

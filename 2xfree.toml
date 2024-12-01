@@ -1,4 +1,4 @@
-url = ["https://pt.2xfree.org/", ]
+url = [ "https://pt.2xfree.org/",]
 name = "2xfree"
 nickname = "2xfree"
 logo = "favicon.ico"
@@ -92,6 +92,7 @@ alive = false
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = true
 proxy = true
+imdb_search = "torrents.php?search_area=4&search={}"
 
 [level.User]
 level_id = 1

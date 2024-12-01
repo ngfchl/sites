@@ -1,4 +1,4 @@
-url = ["https://www.ptlsp.com/", ]
+url = [ "https://www.ptlsp.com/",]
 name = "ptlsp"
 nickname = "LSP"
 logo = "favicon.ico"
@@ -92,3 +92,4 @@ alive = false
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = true
 proxy = true
+imdb_search = "torrents.php?search_area=4&search={}"

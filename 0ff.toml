@@ -1,4 +1,4 @@
-url = ["https://pt.0ff.cc/", ]
+url = [ "https://pt.0ff.cc/",]
 name = "0ff"
 nickname = "农场"
 logo = "favicon.ico"
@@ -92,6 +92,7 @@ alive = true
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = true
 proxy = true
+imdb_search = "torrents.php?search_area=4&search={}"
 
 [level.User]
 level_id = 1

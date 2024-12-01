@@ -1,4 +1,4 @@
-url = ["https://hdchina.org/", ]
+url = [ "https://hdchina.org/",]
 name = "瓷器"
 nickname = "hdchina"
 logo = "favicon.ico"
@@ -92,6 +92,7 @@ alive = false
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
+imdb_search = "torrents.php?search_area=4&search={}"
 
 [level.User]
 level_id = 1

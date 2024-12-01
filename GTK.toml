@@ -1,4 +1,4 @@
-url = ["https://pt.gtk.pw/", "https://pt.gtkpw.xyz/", ]
+url = [ "https://pt.gtk.pw/", "https://pt.gtkpw.xyz/",]
 name = "GTK"
 nickname = "GTK"
 logo = "favicon.ico"
@@ -92,6 +92,7 @@ alive = true
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
+imdb_search = "torrents.php?search_area=4&search={}"
 
 [level.User]
 level_id = 1

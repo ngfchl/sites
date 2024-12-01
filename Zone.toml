@@ -1,4 +1,4 @@
-url = ["https://hdfun.me/", ]
+url = [ "https://hdfun.me/",]
 name = "Zone"
 nickname = "空间"
 logo = "https://hdfun.me/favicon.ico"
@@ -92,6 +92,7 @@ alive = false
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
+imdb_search = "torrents.php?search_area=4&search={}"
 
 [level.User]
 level_id = 1

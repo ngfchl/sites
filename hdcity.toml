@@ -92,6 +92,7 @@ alive = true
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
+imdb_search = "pt?incldead=1&spstate=0&inclbookmarked=0&iwannaseethis={}&search_area=4&search_mode=0"
 
 [level."天使"]
 level_id = 1

@@ -1,4 +1,4 @@
-url = ["https://discfan.net/", "https://discfan.xyz/", ]
+url = [ "https://discfan.net/", "https://discfan.xyz/",]
 name = "蝶粉"
 nickname = "discfan"
 logo = "favicon.ico"
@@ -92,6 +92,7 @@ alive = true
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = true
 proxy = true
+imdb_search = "torrents.php?search_area=4&search={}"
 
 [level.User]
 level_id = 1
