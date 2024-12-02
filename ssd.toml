@@ -1,4 +1,4 @@
-url = [ "https://springsunday.net/",]
+url = ["https://springsunday.net/", ]
 name = "ssd"
 nickname = "不可说"
 logo = "favicon.ico"
@@ -41,7 +41,7 @@ my_latest_active_rule = "//td[contains(text(),'最近动向')]/following-sibling
 my_uploaded_rule = "//div[@id='info_block']//font[@class='color_uploaded']/following-sibling::text()[1]"
 my_downloaded_rule = "//div[@id='info_block']//font[@class='color_downloaded']/following-sibling::text()[1]"
 my_ratio_rule = "//div[@id='info_block']//font[@class='color_ratio'][1]/following-sibling::text()[1]"
-my_bonus_rule = "//div[@id='info_block']//a[@href='mybonus.php']/text()[1]"
+my_bonus_rule = "//a[contains(@href, 'mybonus.php?action=viewlog&id=')]/text()"
 my_per_hour_bonus_rule = "//b[contains(text(),'我的数据')]/parent::td/parent::tr/td[last()]/text()"
 my_score_rule = "//b[contains(text(),'做种积分')]/following-sibling::text()[1]"
 my_level_rule = "//div[@id='info_block']//span[contains(@class,'_Name')]/@class"
