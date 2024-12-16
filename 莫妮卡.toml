@@ -36,7 +36,7 @@ hr = false
 hr_rate = 2
 hr_time = 10
 my_invitation_rule = "//td[contains(text(),'邀请') and not(contains(text(),'可以'))]/following-sibling::td/span/text()"
-my_time_join_rule = "//div[@class='header gradient blue']//h4[2]/text()"
+my_time_join_rule = "//h4[contains(text(),'注册日期')]/text()"
 my_latest_active_rule = "//td[contains(text(),' 上次登录时间')]/following-sibling::td/text()"
 my_uploaded_rule = "//li[@title='上传量']/text()"
 my_downloaded_rule = "//li[@title='下载量']/text()"
@@ -93,6 +93,7 @@ page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
 imdb_search = "torrents?imdbId={}"
+structure = "UNIT3D"
 
 [level.User]
 level_id = 1

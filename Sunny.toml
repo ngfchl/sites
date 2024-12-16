@@ -1,4 +1,4 @@
-url = ["https://sunnypt.top/", ]
+url = [ "https://sunnypt.top/",]
 name = "Sunny"
 nickname = "阳光"
 logo = "favicon.ico"
@@ -93,6 +93,7 @@ page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = true
 proxy = true
 imdb_search = "torrents.php?search_area=4&search={}"
+structure = "NexusPHP"
 
 [level.User]
 level_id = 1

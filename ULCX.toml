@@ -1,4 +1,4 @@
-url = [ "https://upload.cx/",]
+url = ["https://upload.cx/", ]
 name = "ULCX"
 nickname = "ULCX"
 logo = "favicon.ico"
@@ -93,6 +93,7 @@ page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
 imdb_search = "torrents.php?search_area=4&search={}"
+structure = "UNIT3D"
 
 [level.User]
 level_id = 1

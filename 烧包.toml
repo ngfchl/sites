@@ -1,4 +1,4 @@
-url = ["https://ptsbao.club/", ]
+url = [ "https://ptsbao.club/",]
 name = "烧包"
 nickname = "ptsbao"
 logo = "favicon.ico"
@@ -92,6 +92,7 @@ alive = true
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
+structure = "NexusPHP"
 
 [level.User]
 level_id = 1

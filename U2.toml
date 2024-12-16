@@ -1,4 +1,4 @@
-url = ["https://u2.dmhy.org/", ]
+url = [ "https://u2.dmhy.org/",]
 name = "U2"
 nickname = "幼儿园"
 logo = "favicon.ico"
@@ -92,6 +92,7 @@ alive = true
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
+structure = "NexusPHP"
 
 [level.User]
 level_id = 1

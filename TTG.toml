@@ -1,4 +1,4 @@
-url = ["https://totheglory.im/", ]
+url = [ "https://totheglory.im/",]
 name = "TTG"
 nickname = "TTG"
 logo = "favicon.ico"
@@ -92,6 +92,7 @@ alive = true
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
+structure = "NexusPHP"
 
 [level.Byte]
 level_id = 1

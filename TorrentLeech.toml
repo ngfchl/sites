@@ -1,4 +1,4 @@
-url = [ "https://www.torrentleech.cc/", "https://www.torrentleech.org/", "https://www.torrentleech.me/", "https://www.tleechreload.org/",]
+url = ["https://www.torrentleech.cc/", "https://www.torrentleech.org/", "https://www.torrentleech.me/", "https://www.tleechreload.org/", ]
 name = "TorrentLeech"
 nickname = "TorrentLeech"
 logo = "favicon.ico"
@@ -93,3 +93,4 @@ page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
 imdb_search = "torrents.php?search_area=4&search={}"
+structure = "TorrentLeech"

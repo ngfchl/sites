@@ -1,4 +1,4 @@
-url = [ "https://hd-space.org/",]
+url = ["https://hd-space.org/", ]
 name = "HDSpace"
 nickname = "HDSpace"
 logo = "favicon.ico"
@@ -92,3 +92,4 @@ alive = true
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
+structure = "HDSpace"

@@ -1,4 +1,4 @@
-url = ["https://ptchdbits.co/", "https://gd.chddiy.xyz/", ]
+url = [ "https://ptchdbits.co/", "https://gd.chddiy.xyz/",]
 name = "彩虹岛"
 nickname = "彩虹岛"
 logo = "https://chdbits.co/favicon.ico"
@@ -93,6 +93,7 @@ page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
 imdb_search = "torrents.php?search_area=4&search={}"
+structure = "NexusPHP"
 
 [level.User]
 level_id = 1

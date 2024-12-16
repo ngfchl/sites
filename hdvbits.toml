@@ -1,4 +1,4 @@
-url = ["https://hdvbits.com/", ]
+url = [ "https://hdvbits.com/",]
 name = "hdvbits"
 nickname = "hdvbits"
 logo = "favicon.ico"
@@ -92,6 +92,8 @@ alive = false
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
+structure = "NexusPHP"
+
 [level.User]
 level_id = 1
 level = "User"

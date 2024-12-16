@@ -1,4 +1,4 @@
-url = ["https://hdatmos.club/", ]
+url = [ "https://hdatmos.club/",]
 name = "阿童木"
 nickname = "hdatmos"
 logo = "favicon.ico"
@@ -93,6 +93,7 @@ page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = true
 proxy = true
 imdb_search = "torrents.php?search={}&search_area=4"
+structure = "NexusPHP"
 
 [level.User]
 level_id = 1

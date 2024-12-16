@@ -1,4 +1,4 @@
-url = ["https://club.hares.top/", ]
+url = [ "https://club.hares.top/",]
 name = "hares"
 nickname = "白兔"
 logo = "favicon.ico"
@@ -92,6 +92,7 @@ alive = true
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = false
+structure = "NexusPHP"
 
 [level.User]
 level_id = 1

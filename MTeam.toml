@@ -94,6 +94,7 @@ alive = true
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
+structure = "MTorrent"
 
 [level."小卒"]
 level_id = 1

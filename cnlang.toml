@@ -92,6 +92,7 @@ alive = true
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = true
 proxy = true
+structure = "Discuz"
 
 [level.User]
 level_id = 1

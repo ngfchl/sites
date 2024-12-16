@@ -1,4 +1,4 @@
-url = ["https://srvfi.top/", ]
+url = [ "https://srvfi.top/",]
 name = "SRVFI"
 nickname = "SRVFI"
 logo = "favicon.ico"
@@ -92,6 +92,7 @@ alive = true
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = true
 proxy = true
+structure = "NexusPHP"
 
 [level.User]
 level_id = 1

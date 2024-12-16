@@ -1,4 +1,4 @@
-url = ["https://www.hitpt.com/", ]
+url = [ "https://www.hitpt.com/",]
 name = "百川"
 nickname = "hitpt"
 logo = "favicon.ico"
@@ -92,6 +92,7 @@ alive = true
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
+structure = "NexusPHP"
 
 [level.User]
 level_id = 1

@@ -1,4 +1,4 @@
-url = [ "https://invites.fun/",]
+url = ["https://invites.fun/", ]
 name = "药丸"
 nickname = "Invites"
 logo = "favicon.ico"
@@ -93,3 +93,4 @@ page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
 imdb_search = "torrents.php?search_area=4&search={}"
+structure = "Invites"

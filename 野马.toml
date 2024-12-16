@@ -1,4 +1,4 @@
-url = [ "https://www.yemapt.org/", "https://www1.yemapt.org/",]
+url = ["https://www.yemapt.org/", "https://www1.yemapt.org/", ]
 name = "野马"
 nickname = "野马"
 logo = "favicon.ico"
@@ -93,6 +93,7 @@ page_pieces_hash_api = "api/torrent/fetchTorrentIdWithPiecesHash"
 pieces_repeat = true
 proxy = true
 imdb_search = "torrents.php?search_area=4&search={}"
+structure = "YeMa"
 
 [level.User]
 level_id = 1

@@ -1,4 +1,4 @@
-url = ["https://pt.btschool.club/", ]
+url = [ "https://pt.btschool.club/",]
 name = "btschool"
 nickname = "btschool"
 logo = "https://gitee.com/ngfchl/ptools/raw/master/static/logo/btschool.ico"
@@ -92,6 +92,7 @@ alive = true
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
+structure = "NexusPHP"
 
 [level.User]
 level_id = 1

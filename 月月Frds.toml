@@ -1,4 +1,4 @@
-url = ["https://pt.keepfrds.com/", ]
+url = [ "https://pt.keepfrds.com/",]
 name = "月月Frds"
 nickname = "frds"
 logo = "favicon.ico"
@@ -93,6 +93,7 @@ page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
 imdb_search = "torrents.php?search_area=4&search={}"
+structure = "NexusPHP"
 
 [level.User]
 level_id = 1

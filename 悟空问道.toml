@@ -1,4 +1,4 @@
-url = ["https://wukongwendao.top/", ]
+url = [ "https://wukongwendao.top/",]
 name = "悟空问道"
 nickname = "悟空问道"
 logo = "favicon.ico"
@@ -92,6 +92,7 @@ alive = true
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = true
 proxy = true
+structure = "NexusPHP"
 
 [level.User]
 level_id = 1
