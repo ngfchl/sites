@@ -1,7 +1,7 @@
 url = ["https://zhuque.in/", ]
 name = "朱雀"
 nickname = "zhuque"
-logo = "https://gitee.com/ngfchl/ptools/raw/master/static/logo/zhuque.png"
+logo = "https://www.hddolby.com/favicon.ico"
 tracker = "tracker.zhuque.in"
 sp_full = 100
 limit_speed = 50

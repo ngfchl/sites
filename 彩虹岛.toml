@@ -1,7 +1,7 @@
-url = [ "https://ptchdbits.co/", "https://gd.chddiy.xyz/",]
+url = ["https://ptchdbits.co/", "https://gd.chddiy.xyz/", ]
 name = "彩虹岛"
 nickname = "彩虹岛"
-logo = "https://chdbits.co/favicon.ico"
+logo = "favicon.ico"
 tracker = "chdbits.co|chdbits.xyz|tracker.ptchdbits.co|tracker.rainbowisland.co"
 sp_full = 460
 limit_speed = 95

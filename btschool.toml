@@ -1,7 +1,7 @@
-url = [ "https://pt.btschool.club/",]
+url = ["https://pt.btschool.club/", ]
 name = "btschool"
 nickname = "btschool"
-logo = "https://gitee.com/ngfchl/ptools/raw/master/static/logo/btschool.ico"
+logo = "favicon.ico"
 tracker = "pt.btschool.club"
 sp_full = 150
 limit_speed = 23
