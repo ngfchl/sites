@@ -1,4 +1,4 @@
-url = [ "https://pt.0ff.cc/",]
+url = ["https://pt.0ff.cc/", ]
 name = "0ff"
 nickname = "农场"
 logo = "favicon.ico"
@@ -109,7 +109,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "新用户的默认级别。只能在每周六中午12点至每周日晚上11点59分发布种子。"
+rights = "新用户的默认级别。只能通过候选发布种子。"
 
 [level.PowerUser]
 level_id = 2
@@ -125,7 +125,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "可以直接发布种子；可以查看NFO文档；可以查看用户列表；可以请求续种；可以发送邀请；可以查看排行榜；可以查看其它用户的种子历史(如果用户隐私等级未设置为'强')；可以删除自己上传的字幕。"
+rights = "得到一个邀请名额；可以直接发布种子；可以查看NFO文档；可以查看用户列表；可以请求续种；可以发送邀请；可以查看排行榜；可以查看其它用户的种子历史(如果用户隐私等级未设置为'强')；可以删除自己上传的字幕。"
 
 [level.EliteUser]
 level_id = 3
@@ -157,7 +157,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "可以在做种/下载/发布的时候选择匿名模式。"
+rights = "得到两个邀请名额；可以在做种/下载/发布的时候选择匿名模式。"
 
 [level.InsaneUser]
 level_id = 5
@@ -189,14 +189,14 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "可以查看其它用户的评论、帖子历史。VeteranUserxa0及以上用户会永远保留账号。"
+rights = "得到三个邀请名额；可以查看其它用户的评论、帖子历史。VeteranUserxa0及以上用户会永远保留账号。"
 
 [level.ExtremeUser]
 level_id = 7
 level = "ExtremeUser"
 days = 60
 uploaded = "0"
-downloaded = "1TB"
+downloaded = "1024GB"
 bonus = 0.0
 score = 800000
 ratio = 3.55
@@ -212,26 +212,26 @@ level_id = 8
 level = "UltimateUser"
 days = 80
 uploaded = "0"
-downloaded = "1.5TB"
+downloaded = "1536GB"
 bonus = 0.0
-score = 1000000
+score = 2000000
 ratio = 4.05
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "无"
+rights = "得到五个邀请名额。"
 
 [level.NexusMaster]
 level_id = 9
 level = "NexusMaster"
 days = 100
 uploaded = "0"
-downloaded = "3TB"
+downloaded = "3072GB"
 bonus = 0.0
-score = 2000000
-ratio = 5.55
+score = 4000000
+ratio = 4.55
 torrents = 0
 leeches = 0
 seeding_delta = 0.0

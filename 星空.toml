@@ -44,7 +44,7 @@ my_downloaded_rule = "//span[@id='user_info_no_hover']/text()"
 my_ratio_rule = "//font[@class='color_ratio'][1]/following-sibling::text()[1]"
 my_bonus_rule = "//span/a[contains(text(),'魔力')]/text()"
 my_per_hour_bonus_rule = "//td[contains(text(),'合计时魔')]/../td[last()]/text()"
-my_score_rule = "//span/a[contains(text(),'积分')]/text()"
+my_score_rule = "//span/a[contains(text(),'贡献')]/text()"
 my_level_rule = "//td[contains(text(),'用户名称')]/following-sibling::td/a/span/@class"
 my_passkey_rule = "//td[contains(text(),'当前Passkey')]/following-sibling::td[1]/text()"
 my_uid_rule = "//td[contains(text(),'用户名称')]/following-sibling::td/a/@href"
@@ -94,3 +94,195 @@ page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
 structure = "StarSpace"
+
+[level.User]
+level_id = 1
+level = "User"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "新用户的默认级别。"
+
+[level.PowerUser]
+level_id = 2
+level = "PowerUser"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 10
+ratio = 1
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "得到一个邀请名额；可以直接发布种子；可以查看NFO文档；可以查看用户列表；可以请求续种；可以发送邀请；可以查看排行榜；可以查看其它用户的种子历史(如果用户隐私等级未设置为'强')；可以删除自己上传的字幕。"
+
+[level.EliteUser]
+level_id = 3
+level = "EliteUser"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 30
+ratio = 1
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "EliteUserxa0及以上用户封存账号后不会被删除。"
+
+[level.CrazyUser]
+level_id = 4
+level = "CrazyUser"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 60
+ratio = 1
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "得到两个邀请名额；可以在做种/下载/发布的时候选择匿名模式。"
+
+[level.InsaneUser]
+level_id = 5
+level = "InsaneUser"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 100
+ratio = 1
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "可以查看普通日志。"
+
+[level.VeteranUser]
+level_id = 6
+level = "VeteranUser"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 300
+ratio = 1
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "得到三个邀请名额；可以查看其它用户的评论、帖子历史。VeteranUserxa0及以上用户会永远保留账号。"
+
+[level.ExtremeUser]
+level_id = 7
+level = "ExtremeUser"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 1000
+ratio = 1
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "可以更新过期的外部信息；可以查看ExtremeUser论坛。"
+
+[level.UltimateUser]
+level_id = 8
+level = "UltimateUser"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 3000
+ratio = 1
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "得到五个邀请名额。"
+
+[level.NexusMaster]
+level_id = 9
+level = "NexusMaster"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 3000
+ratio = 1
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "得到十个邀请名额。"
+
+[level.StarUser]
+level_id = 9
+level = "StarUser"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 6000
+ratio = 1
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "得到十个邀请名额。"
+
+[level.GodUser]
+level_id = 9
+level = "StarUser"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 10000
+ratio = 1
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "得到十个邀请名额。"
+
+[level.VIP]
+level_id = 0
+level = "VIP"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "和NexusMaster拥有相同权限并被认为是精英成员。免除自动降级。"

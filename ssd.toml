@@ -1,4 +1,4 @@
-url = [ "https://springsunday.net/",]
+url = ["https://springsunday.net/", ]
 name = "ssd"
 nickname = "不可说"
 logo = "favicon.ico"
@@ -109,151 +109,71 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "新用户的默认级别。可以申请友情链接。"
-
-[level.PowerUser]
-level_id = 2
-level = "PowerUser"
-days = 5
-uploaded = "0"
-downloaded = "100GB"
-bonus = 0.0
-score = 20000
-ratio = 1.1
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = false
-rights = "可以查看NFO文档；可以请求续种；可以上传字幕或删除自己上传的字幕。"
+rights = "新用户的默认级别。可以发种，可以请求续种；可以上传字幕或删除自己上传的字幕；可以更新过期的外部信息。"
 
 [level.EliteUser]
-level_id = 3
+level_id = 2
 level = "EliteUser"
-days = 5
-uploaded = "0"
-downloaded = "200GB"
-bonus = 0.0
-score = 50000
-ratio = 1.2
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = false
-rights = "可以查看用户列表；可以查看排行榜。"
-
-[level.CrazyUser]
-level_id = 4
-level = "CrazyUser"
-days = 5
+days = 0
 uploaded = "0"
 downloaded = "500GB"
 bonus = 0.0
-score = 100000
+score = 150000
 ratio = 1.2
-torrents = 0
+torrents = 1
 leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "可以更新过期的外部信息；可以在做种/下载/发布的时候选择匿名模式；可以浏览论坛邀请区。着迷(CrazyUser)及以上用户封存账号后不会被删除。"
+rights = "可以在做种 / 下载 / 发布的时候选择匿名模式；可以查看用户列表；可以查看排行榜；可以浏览论坛邀请区；自助申请保种员；等级加成 0.05。"
 
-[level.InsaneUser]
-level_id = 5
-level = "InsaneUser"
-days = 5
+[level.Master]
+level_id = 3
+level = "Master"
+days = 0
 uploaded = "0"
-downloaded = "1TB"
+downloaded = "1024GB"
 bonus = 0.0
-score = 200000
+score = 1000000
 ratio = 1.2
-torrents = 0
+torrents = 100
 leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "可以查看其它用户的种子历史（如果用户隐私等级未设置为“强”）。"
+rights = "可以访问高级用户论坛，等级加成 0.15。"
 
-[level.VeteranUser]
-level_id = 6
-level = "VeteranUser"
-days = 5
-uploaded = "0"
-downloaded = "2TB"
-bonus = 0.0
-score = 400000
-ratio = 1.2
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = false
-rights = "资深(VeteranUser)及以上用户会永远保留账号。该等级以上（含）可免除站点常规考核。"
-
-[level.ExtremeUser]
-level_id = 7
-level = "ExtremeUser"
-days = 5
+[level.God]
+level_id = 4
+level = "God"
+days = 0
 uploaded = "0"
 downloaded = "3TB"
 bonus = 0.0
-score = 600000
-ratio = 1.5
-torrents = 0
+score = 2400000
+ratio = 2
+torrents = 300
 leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "得到1个邀请名额。"
+rights = "彩色 ID 特权；可以查看普通日志；等级加成 0.25。"
 
-[level.UltimateUser]
-level_id = 8
-level = "UltimateUser"
-days = 5
+[level.Immortal]
+level_id = 10
+level = "Immortal"
+days = 0
 uploaded = "0"
-downloaded = "4TB"
-bonus = 0.0
-score = 800000
-ratio = 1.5
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = false
-rights = "可以查看其它用户的评论、帖子历史。"
-
-[level.NexusMaster]
-level_id = 9
-level = "NexusMaster"
-days = 5
-uploaded = "0"
-downloaded = "5TB"
+downloaded = "1TB"
 bonus = 0.0
 score = 1000000
-ratio = 1.5
-torrents = 0
+ratio = 1.2
+torrents = 100
 leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "得到1个邀请名额。"
-
-[level.NexusGod]
-level_id = 10
-level = "NexusGod"
-days = 5
-uploaded = "0"
-downloaded = "11TB"
-bonus = 0.0
-score = 2200000
-ratio = 2.0
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = false
-rights = "彩色ID特权；可以查看普通日志；可以购买及发送邀请。"
+rights = "成为当月神王时奖励当时邀请茉莉价格的一半茉莉，最酷炫的动态彩色 ID 特权；常规时期可以购买及发送邀请；等级加成 0.35。"
 
 [level.VIP]
 level_id = 0
@@ -269,4 +189,4 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "不计下载量（实际下载量依然会统计），其他权限和神仙(Nexusxa0God)相同，并被认为是精英成员。贵宾(VIP)及其以上等级免除自动降级。"
+rights = "不计下载量（实际下载量依然会统计），其他权限和神王 (Immortal) 相同。 贵宾 (VIP) 及其以上等级免除自动降级。"
