@@ -1,8 +1,8 @@
-url = [ "https://azusa.wiki/", "https://zimiao.icu/",]
+url = ["https://azusa.wiki/", "https://zimiao.icu/", ]
 name = "梓喵"
 nickname = "azusa"
 logo = "favicon.ico"
-tracker = "tracker.azusa.wiki|tracker.zimiao.icu"
+tracker = "tracker.azusa.wiki|tracker.zimiao.icu|zimiao.icu"
 sp_full = 300
 limit_speed = 100
 tags = "影视"
