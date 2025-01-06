@@ -1,0 +1,256 @@
+url = ["https://lst.gg/", ]
+name = "LST"
+nickname = "LST"
+logo = "favicon.ico"
+tracker = "lst.gg"
+sp_full = 100
+limit_speed = 100
+tags = "影视"
+iyuu = 0
+sign_in = false
+get_info = true
+repeat_torrents = true
+brush_free = false
+brush_rss = false
+hr_discern = false
+search_torrents = true
+page_index = ""
+page_torrents = "torrents"
+page_sign_in = ""
+page_control_panel = "/users/{}/passkeys"
+page_detail = "torrents/{}"
+page_download = "torrents/download/{}"
+page_user = "users/{}"
+page_search = "torrents?perPage=100&name={}"
+page_message = "mail/inbox"
+page_hr = "myhr.php?hrtype=1&userid={}"
+page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"
+page_uploaded = "getusertorrentlistajax.php?userid={}&type=uploaded"
+page_seeding = "users/{}"
+page_completed = "getusertorrentlistajax.php?userid={}&type=completed"
+page_mybonus = "users/{}/earnings"
+page_viewfilelist = "viewfilelist.php?id={}"
+sign_info_title = "//td[@id='outer']//td[@class='embedded']/h2/text()"
+sign_info_content = "//td[@id='outer']//td[@class='embedded']/table//td//text()"
+hr = false
+hr_rate = 2
+hr_time = 10
+my_invitation_rule = "//td[contains(text(),'邀请') and not(contains(text(),'可以'))]/following-sibling::td/span/text()"
+my_time_join_rule = "//time[@class='profile__registration']/@title"
+my_latest_active_rule = "//td[contains(text(),' 上次登录时间')]/following-sibling::td/text()"
+my_uploaded_rule = "//li[@title='上传']/text()"
+my_downloaded_rule = "//li[@title='下载']/text()"
+my_ratio_rule = "//li[@title='分享率']/a/text()"
+my_bonus_rule = "//li[@title='我的魔力']/a/text()"
+my_per_hour_bonus_rule = "//dt[contains(text(),'每小时点数')]/following-sibling::dd[1]/text()[1]"
+my_score_rule = "//font[@class='color_bonus' and contains(text(),'积分')]/following-sibling::text()[1]"
+my_level_rule = "//div[@class='header gradient blue']//h4[1]/span/text()"
+my_passkey_rule = "//span[@class='text-monospace']/text()"
+my_uid_rule = "//a[@class='top-nav__username--highresolution']/span/text()[2]"
+my_hr_rule = "//strong[contains(text(),'有效')]/text()"
+my_leech_rule = "//li[@title='吸血']/a/text()"
+my_publish_rule = "//p/preceding-sibling::b/text()[1]"
+my_seed_rule = "//li[@title='做种']/a/text()"
+my_seed_vol_rule = "//dt/abbr[contains(text(),'做种体积')]/../following-sibling::dd[1]//text()[1]"
+my_mailbox_rule = "//a[contains(@href,'mail/inbox')]/*[name()='svg']"
+my_message_title = "//td/span[@class='label label-danger']/parent::td/preceding-sibling::td[@class='col-sm-5']/a/text()"
+my_notice_rule = "//a[@href='index.php']/font[contains(text(),'条')]/text()[1]"
+my_notice_title = "//td[@class='text']/div/a"
+my_notice_content = "//td[@class='text']/div/a/following-sibling::div"
+torrents_rule = "//table[@class='torrents']/tr"
+torrent_title_rule = ".//td/a[contains(@href,'detail')]/b/text()[last()]"
+torrent_subtitle_rule = ".//a[contains(@href,'detail')]/parent::td/text()[last()]"
+torrent_detail_url_rule = ".//td[@class='embedded']/a[contains(@href,'detail')]/@href"
+torrent_category_rule = ".//td[@class='rowfollow nowrap'][1]/a[1]/img/@title"
+torrent_poster_rule = ".//table/tr/td[1]/img/@src"
+torrent_magnet_url_rule = ".//td/a[contains(@href,'download.php?id=')]/@href"
+torrent_size_rule = ".//td[5]/text()"
+torrent_progress_rule = ".//div[contains(@title,'ing')]/@title"
+torrent_hr_rule = ".//table/tr/td/img[@class='hitandrun']/@title"
+torrent_sale_rule = ".//img[contains(@class,'pro_')]/@alt"
+torrent_sale_expire_rule = ".//img[contains(@class,'free')]/following-sibling::font/span/@title"
+torrent_release_rule = ".//td[4]/span/@title"
+torrent_seeders_rule = ".//a[contains(@href,'#seeders')]/text()"
+torrent_leechers_rule = ".//a[contains(@href,'#leechers')]/text()"
+torrent_completers_rule = ".//a[contains(@href,'viewsnatches')]//text()"
+detail_title_rule = "//h1/text()[1]"
+detail_subtitle_rule = "//td[contains(text(),'副标题')]/following-sibling::td/text()[1]"
+detail_download_url_rule = "//a[@class='index' and contains(@href,'download.php')]/@href"
+detail_size_rule = "//td//b[contains(text(),'大小')]/following::text()[1]"
+detail_category_rule = "//td/b[contains(text(),'类型')]/following-sibling::text()[1]"
+detail_count_files_rule = "//td/b[contains(text(),'文件数')]/following-sibling::text()[1]"
+detail_hash_rule = "//td/b[contains(text(),'Hash')]/following-sibling::text()[1]"
+detail_free_rule = "//h1/b/font/@class"
+detail_free_expire_rule = "//h1/b/span/@title"
+detail_douban_rule = "//td/a[starts-with(@href,'https://movie.douban.com/subject/')][1]"
+detail_imdb_rule = "//a[@class='faqlink' and starts-with(@href,'https://www.imdb.com/title/')]/@href"
+detail_poster_rule = "//td/a/span[contains(text(),'简介')]/../../following-sibling::td//img[1]/@src"
+detail_tags_rule = "//td[contains(text(),'标签')]/following-sibling::td//text()"
+torrent_tags_rule = ".//a[contains(@href,'detail')]/../span[contains(@class,'tags')]/text()"
+detail_hr_rule = "//h1/img[@class='hitandrun']/@title"
+alive = true
+page_pieces_hash_api = "api/pieces-hash"
+pieces_repeat = false
+proxy = true
+imdb_search = "torrents.php?search_area=4&search={}"
+structure = "UNIT3D"
+
+[level.User]
+level_id = 1
+level = "User"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "新用戶的默認級別；可以在每周六的12:00至每周日的23:59之间上传种子。"
+
+[level.PowerUser]
+level_id = 2
+level = "PowerUser"
+days = 5
+uploaded = "0"
+downloaded = "200GB"
+bonus = 0.0
+score = 80000
+ratio = 2.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "得到一个邀请名额。可以上传种子，查看NFO文件，查看用户列表，可以请求续种，可以发送邀请，可以访问高级用户和外部论坛，可以查看排行榜前10名，查看其他用户的种子历史（如果用户的隐私级别未设置为“强”），可以删除自己上传的字幕。"
+
+[level.EliteUser]
+level_id = 3
+level = "EliteUser"
+days = 10
+uploaded = "0"
+downloaded = "500GB"
+bonus = 0.0
+score = 150000
+ratio = 3.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "EliteUser或更高级别的用户封存账户后不会被删除。"
+
+[level.CrazyUser]
+level_id = 4
+level = "CrazyUser"
+days = 15
+uploaded = "0"
+downloaded = "800GB"
+bonus = 0.0
+score = 300000
+ratio = 4.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "得到两个邀请名额。可以在做種/下載/發布的時候選擇匿名模式。"
+
+[level.InsaneUser]
+level_id = 5
+level = "InsaneUser"
+days = 20
+uploaded = "0"
+downloaded = "999GB"
+bonus = 0.0
+score = 650000
+ratio = 5.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "可以查看常规日志。"
+
+[level.VeteranUser]
+level_id = 6
+level = "VeteranUser"
+days = 25
+uploaded = "0"
+downloaded = "1500GB"
+bonus = 0.0
+score = 1000000
+ratio = 6.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "得到三个邀请名额。可以查看其他用户的评论和论坛帖子的历史记录。VeteranUser或以上账号将永远不会被删除，无论是否封存。"
+
+[level.ExtremeUser]
+level_id = 7
+level = "ExtremeUser"
+days = 30
+uploaded = "0"
+downloaded = "2TB"
+bonus = 0.0
+score = 2200000
+ratio = 7.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "可以更新过期的外部信息；可以查看ExtremeUser论坛。"
+
+[level.UltimateUser]
+level_id = 8
+level = "UltimateUser"
+days = 40
+uploaded = "0"
+downloaded = "3TB"
+bonus = 0.0
+score = 3500000
+ratio = 8.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "获得五个邀请名额。"
+
+[level.NexusMaster]
+level_id = 9
+level = "NexusMaster"
+days = 52
+uploaded = "0"
+downloaded = "4TB"
+bonus = 0.0
+score = 5000000
+ratio = 10.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "获得十个邀请名额。"
+
+[level.VIP]
+level_id = 0
+level = "VIP"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "和NexusMaster拥有相同权限并被认为是精英成员。免除自动降级。"
