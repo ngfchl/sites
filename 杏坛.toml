@@ -5,7 +5,7 @@ logo = "favicon.ico"
 tracker = "xinglin.one|xingtan.one"
 sp_full = 150
 limit_speed = 100
-tags = "影视"
+tags = "百科电子书籍"
 iyuu = 96
 sign_in = true
 get_info = true
@@ -94,6 +94,8 @@ pieces_repeat = false
 proxy = true
 imdb_search = "torrents.php?search_area=4&search={}"
 structure = "NexusPHP"
+type = "pt"
+nation = "china"
 
 [level.User]
 level_id = 1

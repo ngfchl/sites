@@ -1,4 +1,4 @@
-url = ["https://api.m-team.cc/", "https://api.m-team.io/", ]
+url = [ "https://api.m-team.cc/", "https://api.m-team.io/",]
 name = "MTeam"
 nickname = "MTeam"
 logo = "https://xp.m-team.cc/favicon.ico"
@@ -95,6 +95,8 @@ page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
 structure = "MTorrent"
+type = "pt"
+nation = "china"
 
 [level."小卒"]
 level_id = 1

@@ -1,4 +1,4 @@
-url = ["https://lemonhd.club/", ]
+url = [ "https://lemonhd.club/",]
 name = "柠檬"
 nickname = "LenmonHD"
 logo = "favicon.ico"
@@ -94,6 +94,8 @@ pieces_repeat = false
 proxy = true
 imdb_search = "torrents.php?search_area=4&search={}"
 structure = "NexusPHP"
+type = "pt"
+nation = "china"
 
 [level.User]
 level_id = 1

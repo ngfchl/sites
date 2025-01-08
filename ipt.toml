@@ -94,6 +94,8 @@ pieces_repeat = false
 proxy = true
 imdb_search = "t?q={}&qf=all#torrents"
 structure = "iPt"
+type = "pt"
+nation = "foreign"
 
 [level.User]
 level_id = 1

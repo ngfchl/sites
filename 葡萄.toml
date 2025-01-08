@@ -1,4 +1,4 @@
-url = ["https://pt.sjtu.edu.cn/", ]
+url = [ "https://pt.sjtu.edu.cn/",]
 name = "葡萄"
 nickname = "sjtu"
 logo = "favicon.ico"
@@ -94,6 +94,8 @@ pieces_repeat = false
 proxy = true
 imdb_search = "torrents.php?search_area=4&search={}"
 structure = "Nexus"
+type = "pt"
+nation = "china"
 
 [level.User]
 level_id = 1

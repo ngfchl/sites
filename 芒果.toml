@@ -1,4 +1,4 @@
-url = [ "https://www.3wmg.com/",]
+url = ["https://www.3wmg.com/", ]
 name = "芒果"
 nickname = "3wmg"
 logo = "favicon.ico"
@@ -88,12 +88,14 @@ detail_poster_rule = "//td/a/span[contains(text(),'简介')]/../../following-sib
 detail_tags_rule = "//td[contains(text(),'标签')]/following-sibling::td//text()"
 torrent_tags_rule = ".//a[contains(@href,'detail')]/../span[contains(@class,'tags')]/text()"
 detail_hr_rule = "//h1/img[@class='hitandrun']/@title"
-alive = true
+alive = false
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = true
 proxy = true
 imdb_search = "torrents.php?search_area=4&search={}"
 structure = "NexusPHP"
+type = "pt"
+nation = "china"
 
 [level.User]
 level_id = 1

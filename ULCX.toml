@@ -94,6 +94,8 @@ pieces_repeat = false
 proxy = true
 imdb_search = "torrents.php?search_area=4&search={}"
 structure = "UNIT3D"
+type = "pt"
+nation = "foreign"
 
 [level.User]
 level_id = 1

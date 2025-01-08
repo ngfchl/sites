@@ -1,4 +1,4 @@
-url = ["https://www.pttime.org/", "https://www.pttime.top/", ]
+url = [ "https://www.pttime.org/", "https://www.pttime.top/",]
 name = "时间"
 nickname = "pttime"
 logo = "favicon.ico"
@@ -94,6 +94,8 @@ pieces_repeat = false
 proxy = false
 imdb_search = "torrents.php?search_area=3&search={}"
 structure = "PTTime"
+type = "pt"
+nation = "china"
 
 [level.User]
 level_id = 1

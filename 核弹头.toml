@@ -1,4 +1,4 @@
-url = [ "https://hd-torrents.org/",]
+url = ["https://hd-torrents.org/", ]
 name = "核弹头"
 nickname = "hd-t"
 logo = "favicon.ico"
@@ -94,3 +94,5 @@ pieces_repeat = false
 proxy = true
 imdb_search = "torrents.php?search_area=4&search={}"
 structure = "NexusPHP"
+type = "pt"
+nation = "foreign"

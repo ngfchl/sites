@@ -1,4 +1,4 @@
-url = ["https://ptchina.org/", ]
+url = [ "https://ptchina.org/",]
 name = "铂金学院"
 nickname = "ptchina"
 logo = "favicon.ico"
@@ -94,6 +94,8 @@ pieces_repeat = true
 proxy = false
 imdb_search = "torrents.php?search_area=4&search={}"
 structure = "NexusPHP"
+type = "pt"
+nation = "china"
 
 [level.User]
 level_id = 1

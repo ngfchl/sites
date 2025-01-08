@@ -93,3 +93,5 @@ page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
 structure = "HDSpace"
+type = "pt"
+nation = "foreign"

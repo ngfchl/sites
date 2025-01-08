@@ -1,4 +1,4 @@
-url = ["https://hdcity.city/", "https://hdcity.leniter.org/", "https://hdcity.work/", ]
+url = [ "https://hdcity.city/", "https://hdcity.leniter.org/", "https://hdcity.work/",]
 name = "hdcity"
 nickname = "HD城市"
 logo = "favicon.ico"
@@ -94,6 +94,8 @@ pieces_repeat = false
 proxy = true
 imdb_search = "pt?incldead=1&spstate=0&inclbookmarked=0&iwannaseethis={}&search_area=4&search_mode=0"
 structure = "HDCity"
+type = "pt"
+nation = "china"
 
 [level."天使"]
 level_id = 1

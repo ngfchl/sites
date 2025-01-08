@@ -1,4 +1,4 @@
-url = ["https://zhuque.in/", ]
+url = [ "https://zhuque.in/",]
 name = "朱雀"
 nickname = "zhuque"
 logo = "https://www.hddolby.com/favicon.ico"
@@ -94,6 +94,8 @@ page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
 structure = "ZhuQue"
+type = "pt"
+nation = "china"
 
 [level."筑基"]
 level_id = 1

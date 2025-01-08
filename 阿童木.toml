@@ -94,6 +94,8 @@ pieces_repeat = true
 proxy = true
 imdb_search = "torrents.php?search={}&search_area=4"
 structure = "NexusPHP"
+type = "pt"
+nation = "china"
 
 [level.User]
 level_id = 1

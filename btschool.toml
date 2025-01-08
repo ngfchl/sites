@@ -1,4 +1,4 @@
-url = ["https://pt.btschool.club/", ]
+url = [ "https://pt.btschool.club/",]
 name = "btschool"
 nickname = "btschool"
 logo = "favicon.ico"
@@ -93,6 +93,8 @@ page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
 structure = "NexusPHP"
+type = "pt"
+nation = "china"
 
 [level.User]
 level_id = 1

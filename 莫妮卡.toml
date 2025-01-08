@@ -1,4 +1,4 @@
-url = ["https://monikadesign.uk/", ]
+url = [ "https://monikadesign.uk/",]
 name = "莫妮卡"
 nickname = "monika"
 logo = "favicon.ico"
@@ -94,6 +94,8 @@ pieces_repeat = false
 proxy = true
 imdb_search = "torrents?imdbId={}"
 structure = "UNIT3D"
+type = "pt"
+nation = "china"
 
 [level.User]
 level_id = 1

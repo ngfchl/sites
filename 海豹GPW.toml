@@ -1,4 +1,4 @@
-url = ["https://greatposterwall.com/", ]
+url = [ "https://greatposterwall.com/",]
 name = "海豹GPW"
 nickname = "gpw"
 logo = "favicon.ico"
@@ -93,6 +93,8 @@ page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
 structure = "GazellePW"
+type = "pt"
+nation = "china"
 
 [level.User]
 level_id = 1

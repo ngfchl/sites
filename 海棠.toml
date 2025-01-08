@@ -1,11 +1,11 @@
-url = [ "https://www.htpt.cc/",]
+url = ["https://www.htpt.cc/", ]
 name = "海棠"
 nickname = "htpt"
 logo = "favicon.ico"
 tracker = "htpt.cc"
 sp_full = 200
 limit_speed = 100
-tags = "影视"
+tags = "曲艺杂谈"
 iyuu = 0
 sign_in = true
 get_info = true
@@ -93,6 +93,8 @@ page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
 structure = "NexusPHP"
+type = "pt"
+nation = "china"
 
 [level.User]
 level_id = 1

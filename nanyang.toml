@@ -1,4 +1,4 @@
-url = ["https://nanyangpt.com/", ]
+url = [ "https://nanyangpt.com/",]
 name = "nanyang"
 nickname = "南洋"
 logo = "favicon.ico"
@@ -94,6 +94,8 @@ pieces_repeat = false
 proxy = false
 imdb_search = "torrents.php?search_area=4&search={}"
 structure = "NYPT"
+type = "pt"
+nation = "china"
 
 [level.User]
 level_id = 1

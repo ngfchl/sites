@@ -1,4 +1,4 @@
-url = ["https://star-space.net/", ]
+url = [ "https://star-space.net/",]
 name = "星空"
 nickname = "star-space"
 logo = "favicon.ico"
@@ -94,6 +94,8 @@ page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
 structure = "StarSpace"
+type = "pt"
+nation = "china"
 
 [level.User]
 level_id = 1
