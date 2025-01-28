@@ -1,4 +1,4 @@
-url = [ "https://springsunday.net/",]
+url = ["https://springsunday.net/", ]
 name = "ssd"
 nickname = "不可说"
 logo = "favicon.ico"
@@ -52,9 +52,9 @@ my_leech_rule = "//div[@id='info_block']//img[@class='arrowdown']/following-sibl
 my_publish_rule = "//p/preceding-sibling::b/text()[1]"
 my_seed_rule = "//div[@id='info_block']//img[@class='arrowup']/following-sibling::text()[1]"
 my_seed_vol_rule = "//b[2]/text()"
-my_mailbox_rule = "//a[@href='messages.php']//text()[1]"
+my_mailbox_rule = "//a[contains(@href,'messages.php')]/b/text()[1]"
 my_message_title = "//img[@alt='Unread']/parent::td/following-sibling::td/a[1]//text()"
-my_notice_rule = "//a[@href='index.php']/b/text()"
+my_notice_rule = "//a[contains(@href,'index.php')]/b/text()[1]"
 my_notice_title = "//td[@class='text']/div/div/a"
 my_notice_content = "//td[@class='text']/div/div/a/following-sibling::div"
 torrents_rule = "//table[@class='torrents']/tr"
