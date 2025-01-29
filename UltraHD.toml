@@ -1,8 +1,8 @@
-url = [ "https://ultrahd.net/",]
+url = ["https://ultrahd.net/", ]
 name = "UltraHD"
 nickname = "UltraHD"
 logo = "favicon.ico"
-tracker = "http://ultrahd.net"
+tracker = "ultrahd.net"
 sp_full = 100
 limit_speed = 100
 tags = "影视"
@@ -21,7 +21,7 @@ page_control_panel = "usercp.php"
 page_detail = "details.php?id={}"
 page_download = "download.php?id={}&passkey={}"
 page_user = "userdetails.php?id={}"
-page_search = "torrents.php?search={}"
+page_search = "search.php?search={}"
 page_message = "messages.php"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"
