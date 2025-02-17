@@ -88,7 +88,7 @@ detail_poster_rule = "//td/a/span[contains(text(),'简介')]/../../following-sib
 detail_tags_rule = ".//td//font[contains(@class,'tag ')]/text()"
 torrent_tags_rule = ".//td//font[contains(@class,'tag ')]/text()"
 detail_hr_rule = "//h1/img[@class='hitandrun']/@title"
-alive = false
+alive = true
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = false
 proxy = true
