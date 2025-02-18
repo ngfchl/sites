@@ -1,4 +1,4 @@
-url = [ "https://u2.dmhy.org/",]
+url = ["https://u2.dmhy.org/", ]
 name = "U2"
 nickname = "幼儿园"
 logo = "favicon.ico"
@@ -30,8 +30,8 @@ page_seeding = "getusertorrentlistajax.php?userid={}&type=seeding"
 page_completed = "getusertorrentlistajax.php?userid={}&type=completed"
 page_mybonus = "mprecent.php"
 page_viewfilelist = "viewfilelist.php?id={}"
-sign_info_title = "//td[@id='outer']//td[@class='embedded']/h2/text()"
-sign_info_content = "//td[@id='outer']//td[@class='embedded']/table//td//text()"
+sign_info_title = "//h2[contains(text(),'签到区')]/following-sibling::table//h3/text()"
+sign_info_content = "//td[not(@class)]/span/a[contains(@href,'userdetails.php?id={}')]/../..//text()"
 hr = false
 hr_rate = 2
 hr_time = 10
