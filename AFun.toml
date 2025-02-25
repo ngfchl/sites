@@ -1,12 +1,12 @@
 url = ["https://www.ptlover.cc/", ]
 name = "AFun"
-nickname = "hdbao"
+nickname = "AFun"
 logo = "favicon.ico"
 tracker = "www.ptlover.cc|tracker.ptlover.cc"
 sp_full = 150
 limit_speed = 100
 tags = "影视"
-iyuu = 0
+iyuu = 117
 sign_in = true
 get_info = true
 repeat_torrents = true
@@ -21,7 +21,7 @@ page_control_panel = "usercp.php"
 page_detail = "details.php?id={}"
 page_download = "download.php?id={}&passkey={}"
 page_user = "userdetails.php?id={}"
-page_search = "torrents.php?search={}"
+page_search = "search.php?search={}"
 page_message = "messages.php"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"
