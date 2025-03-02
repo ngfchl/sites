@@ -1,4 +1,4 @@
-url = [ "https://star-space.net/",]
+url = ["https://star-space.net/", ]
 name = "星空"
 nickname = "star-space"
 logo = "favicon.ico"
@@ -77,7 +77,7 @@ torrent_leechers_rule = "./td[@id='gm_td_downloader']/a/text()"
 torrent_completers_rule = "./td[@id='gm_td_finish']/a/text()"
 detail_title_rule = "//h1/text()[1]"
 detail_subtitle_rule = "//td[contains(text(),'副标题')]/following-sibling::td/text()[1]"
-detail_download_url_rule = "//a[@class='index' and contains(@href,'download.php')]/@href"
+detail_download_url_rule = "//td[contains(text(),'种子')]/following-sibling::td/a/@href[1]"
 detail_size_rule = "//td//b[contains(text(),'大小')]/following::text()[1]"
 detail_category_rule = "//td/b[contains(text(),'类型')]/following-sibling::text()[1]"
 detail_count_files_rule = "//td/b[contains(text(),'文件数')]/following-sibling::text()[1]"

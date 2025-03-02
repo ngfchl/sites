@@ -1,4 +1,4 @@
-url = [ "https://www.icc2022.com/", "https://www.icc2022.top/", "https://icc2022.com/", "https://icc2022.top/",]
+url = ["https://www.icc2022.com/", "https://www.icc2022.top/", "https://icc2022.com/", "https://icc2022.top/", ]
 name = "ICC2022"
 nickname = "ICC2022"
 logo = "favicon.ico"
@@ -75,7 +75,7 @@ torrent_leechers_rule = ".//a[contains(@href,'#leechers')]/text()"
 torrent_completers_rule = ".//a[contains(@href,'viewsnatches')]//text()"
 detail_title_rule = "//h1/text()[1]"
 detail_subtitle_rule = "//td[contains(text(),'副标题')]/following-sibling::td/text()[1]"
-detail_download_url_rule = "//a[@class='index' and contains(@href,'download.php')]/@href"
+detail_download_url_rule = "//td[contains(text(),'种子链接')]/following-sibling::td/a/@href[1]"
 detail_size_rule = "//td//b[contains(text(),'大小')]/following::text()[1]"
 detail_category_rule = "//td/b[contains(text(),'类型')]/following-sibling::text()[1]"
 detail_count_files_rule = "//td/b[contains(text(),'文件数')]/following-sibling::text()[1]"
