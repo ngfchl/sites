@@ -37,7 +37,7 @@ hr_rate = 2
 hr_time = 10
 my_invitation_rule = "//span/a[contains(@href,'invite.php?id=')]/following-sibling::text()[1]"
 my_time_join_rule = "//td[contains(text(),'加入')]/following-sibling::td/time[1]/text()"
-my_latest_active_rule = "//td[contains(text(),'最近动向')]/following-sibling::td/time/text()"
+my_latest_active_rule = "//td[contains(text(),'最近动向')]/following-sibling::td/time/@title"
 my_uploaded_rule = "//span[@class='color_uploaded']/following-sibling::text()[1]"
 my_downloaded_rule = "//span[@class='color_downloaded']/following-sibling::text()[1]"
 my_ratio_rule = "//span[contains(text(),'分享率')][1]/following-sibling::text()[1]"
