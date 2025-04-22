@@ -1,4 +1,4 @@
-url = [ "https://api.m-team.cc/", "https://api.m-team.io/",]
+url = ["https://api.m-team.cc/", "https://api.m-team.io/", ]
 name = "MTeam"
 nickname = "MTeam"
 logo = "https://xp.m-team.cc/favicon.ico"
@@ -112,7 +112,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "可以發表候選種子。"
+rights = "可以發表候選種子。可以發佈趣味盒。可以兌換魔力。"
 
 [level."捕頭"]
 level_id = 2
@@ -128,7 +128,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "可以使用匿名發表候選種子。可以上傳字幕。升級至捕頭及以上，通過候選10個種子之後，亦可以直接發佈種子。魔力值加成：+1%"
+rights = "同上"
 
 [level."知縣"]
 level_id = 3
@@ -144,7 +144,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "可以發送邀請。可以管理自己上傳的字幕。可以檢視別人的下載紀錄。（當對方的隱私權設定不為強才會生效）可以使用個性條。魔力值加成：+2%"
+rights = "可以發送邀請。"
 
 [level."通判"]
 level_id = 4
@@ -160,7 +160,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "魔力值加成：+3%"
+rights = "同上"
 
 [level."知州"]
 level_id = 5
@@ -176,7 +176,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "可以檢視排行榜。魔力值加成：+4%"
+rights = "同上"
 
 [level."府丞"]
 level_id = 6
@@ -192,7 +192,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "魔力值加成：+5%"
+rights = "封存時永久保號"
 
 [level."府尹"]
 level_id = 7
@@ -206,9 +206,9 @@ ratio = 7.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
-rights = "魔力值加成：+6%"
+rights = "永久保號。"
 
 [level."總督"]
 level_id = 8
@@ -222,7 +222,7 @@ ratio = 8.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "魔力值加成：+7%"
 
@@ -238,8 +238,8 @@ ratio = 9.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "魔力值加成：+8%"
 
 [level.VIP]
@@ -254,6 +254,6 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "擁有與大臣/NexusMaster相同的權限。下載任何種子，下載量皆不計入分享率。（魔力值加成：+20%）"

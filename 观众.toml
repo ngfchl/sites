@@ -205,7 +205,7 @@ ratio = 4.5
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "可以更新过期的外部信息。头号玩家(ExtremeUser)xa0及以上用户会永远保留账号。"
 
@@ -221,7 +221,7 @@ ratio = 4.5
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "同头号玩家(ExtremeUser)"
 
@@ -237,8 +237,8 @@ ratio = 5.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "同头号玩家(ExtremeUser)"
 
 [level.VIP]
@@ -253,6 +253,6 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "由管理员仔细斟酌后分配给他们认为对于站点某方面有特殊贡献的用户。"

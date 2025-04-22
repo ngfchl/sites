@@ -205,7 +205,7 @@ ratio = 6.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "可以更新过期的外部信息。ExtremeUserxa0及以上用户封存账号后不会被删除"
 
@@ -221,7 +221,7 @@ ratio = 8.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "首次到达此等级得到1个邀请名额。"
 
@@ -237,8 +237,8 @@ ratio = 9.5
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "首次到达此等级得到1个邀请名额xa0NexusMasterxa0及以上用户会永远保留账号。"
 
 [level.VIP]
@@ -253,6 +253,6 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "和NexusMaster拥有相同权限并被认为是精英成员。免除自动降级。"

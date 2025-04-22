@@ -221,7 +221,7 @@ ratio = 4.9
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "影帝(UltimateUser)及以上用户会永远保留账号，但不等于不会被封禁。此等级以上（含）免除站点定期进行的数据增量考核。"
 
@@ -237,8 +237,8 @@ ratio = 5.4
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "被视为站点精英成员，免除站点数据增量考核，永久保留账号；可以直接发布种子；可以查看排行榜；可以在网站开放邀请期间发送邀请，管理员设置的特殊情况除外；"
 
 [level.VIP]
@@ -253,6 +253,6 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "和终身影帝(NexusMaster)拥有相同权限并被认为是精英成员。VIP期间免除自动降级。下载任何种子不会计算下载量。免除包括分享率在内的所有考核。VIP到期后若分享率低于1，系统将会自动提升分享率到1（但只能触发一次，不能多次提升）。注：永久VIP下载收费种子时会计算下载量，但不会因为分享率过低被降级。"

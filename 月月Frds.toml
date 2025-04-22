@@ -189,7 +189,7 @@ ratio = 3.5
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "可以查看其它用户的评论、帖子历史。VeteranUser及以上用户会永远保留账号，并且在上传下载时有更大的概率被Tracker返回peer。"
 
@@ -205,7 +205,7 @@ ratio = 4.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "超速后不会受到额外惩罚，上传量按照等级对应的限速计算，但是仍然会无视种子优惠计算100%的下载量。"
 
@@ -221,7 +221,7 @@ ratio = 4.5
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "上传速度限制提升为普通用户的二倍（200Mbps/25MB/s）可以访问KeepfrdsBeta（注：由于beta版中的功能均为实验性质，由bug而产生的损失由会员自行承担。）"
 
@@ -237,8 +237,8 @@ ratio = 5.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "真正的大佬，FRDSPT最硬核的会员，除了数据考核要求，其他权利等同于VIP，包括没有上传速度的限制。"
 
 [level.VIP]
@@ -253,6 +253,6 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "为FRDS做出过卓越贡献的精英成员。免除自动降级。"

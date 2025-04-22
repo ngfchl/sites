@@ -189,7 +189,7 @@ ratio = 1.5
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "可以查看其它用户的评论、帖子历史。VeteranUserxa0及以上用户会永远保留账号。"
 
@@ -205,7 +205,7 @@ ratio = 1.5
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "可以更新过期的外部信息；可以查看ExtremeUser论坛。"
 
@@ -221,7 +221,7 @@ ratio = 1.7
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "同ExtremeUser等级权限"
 
@@ -237,8 +237,8 @@ ratio = 1.8
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "同ExtremeUser等级权限"
 
 [level.VIP]
@@ -253,6 +253,6 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "和NexusMaster拥有相同权限并被认为是精英成员。免除自动降级。"

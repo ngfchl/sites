@@ -189,7 +189,7 @@ ratio = 3.05
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = true
+keep_account = false
 graduation = false
 rights = "可以查看其它用户的评论、帖子历史。VeteranUser及以上用户会永远保留账号。"
 
@@ -205,7 +205,7 @@ ratio = 3.55
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = true
+keep_account = false
 graduation = false
 rights = "可以更新过期的外部信息；可以查看ExtremeUser论坛。"
 

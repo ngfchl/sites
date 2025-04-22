@@ -1,4 +1,4 @@
-url = [ "https://pt.btschool.club/",]
+url = ["https://pt.btschool.club/", ]
 name = "btschool"
 nickname = "btschool"
 logo = "favicon.ico"
@@ -204,7 +204,7 @@ ratio = 4.5
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "可以更新过期的外部信息；可以查看ExtremeUser论坛。ExtremeUser及以上用户会永远保留账号。"
 
@@ -220,7 +220,7 @@ ratio = 5.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "得到五个邀请名额。"
 
@@ -236,8 +236,8 @@ ratio = 5.5
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "得到十个邀请名额；可以发送邀请。"
 
 [level.VIP]
@@ -252,6 +252,6 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "和NexusMaster拥有相同权限并被认为是精英成员。免除自动降级。"

@@ -191,7 +191,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "可以查看其它用户的评论、帖子历史。安哥拉猫/VeteranUser及以上用户封存账号后不会被封禁。"
+rights = "可以查看其它用户的评论、帖子历史；封存账号后，不会因不活跃原因被临时封禁。"
 
 [level.ExtremeUser]
 level_id = 7
@@ -207,7 +207,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "可以更新过期的外部信息。头号玩家(ExtremeUser)xa0及以上用户会永远保留账号。"
+rights = "可 2 次无条件不活跃解封（虽然考虑活跃度，可能远不止 2 次），可以查看邀请树统计，初次升级赠送 1 枚永久邀请码"
 
 [level.UltimateUser]
 level_id = 8
@@ -223,7 +223,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "同上"
+rights = "追加 1 次无条件不活跃解封，可以查看邀请树图，初次升级赠送 2 枚永久邀请码"
 
 [level.NexusMaster]
 level_id = 9
@@ -237,9 +237,9 @@ ratio = 4.55
 torrents = 100
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
-rights = "NexusMaster及以上用户会永远保留账号。"
+keep_account = true
+graduation = true
+rights = "四川简州猫及以上用户不会因不活跃原因被临时封禁，初次升级赠送 3 枚永久邀请码。"
 
 [level.VIP]
 level_id = 0
@@ -255,4 +255,4 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "由管理员仔细斟酌后分配给他们认为对于站点某方面有特殊贡献的用户。"
+rights = "可以查看 VIP 交流区。免除自动降级。默认的发送邀请最低级别。拥有黄星时，期间免下载量（只有其一时依然计算下载量，下同）"

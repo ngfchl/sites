@@ -189,7 +189,7 @@ ratio = 4.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "可以查看其它用户的评论、帖子历史。VeteranUserxa0及以上用户会永远保留账号。"
 
@@ -205,7 +205,7 @@ ratio = 4.5
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "得到一个永久邀请；可以更新过期的外部信息。"
 
@@ -221,7 +221,7 @@ ratio = 5.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "得到两个永久邀请；"
 
@@ -237,8 +237,8 @@ ratio = 5.5
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "得到三个永久邀请"
 
 [level.VIP]
@@ -253,6 +253,6 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "免除自动降级，只计算上传量，不计算下载量。"

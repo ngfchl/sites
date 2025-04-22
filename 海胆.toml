@@ -1,4 +1,4 @@
-url = [ "https://www.haidan.video/",]
+url = ["https://www.haidan.video/", ]
 name = "海胆"
 nickname = "haidan"
 logo = "public/pic/favicon.ico"
@@ -189,7 +189,7 @@ ratio = 1.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "VeteranUserxa0永远保留账号，并拥有低于该等级以下权限。"
 
@@ -205,7 +205,7 @@ ratio = 1.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "查看日志权限，并拥有低于该等级以下权限。"
 
@@ -221,7 +221,7 @@ ratio = 1.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "查看排行榜，并拥有低于该等级以下权限"
 
@@ -237,8 +237,8 @@ ratio = 1.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "允许匿名，拥有发布主题推荐权限，并拥有低于该等级以下权限"
 
 [level.VIP]
@@ -253,6 +253,6 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "海胆尊贵会员期间，拥有以上全部权限，并且拥有独有标识。和NexusMaster拥有相同权限并被认为是精英成员。免除自动降级。"

@@ -237,8 +237,8 @@ ratio = 4.9
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "得到1个邀请名额。账号永久保留。"
 
 [level.VIP]
@@ -253,6 +253,6 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "只需捐款，无视分享率，即只计算上传流量，不计算下载流量。同时账号不受登录时间限制，可在任意时间发送邀请。详见这里。"

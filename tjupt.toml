@@ -189,7 +189,7 @@ ratio = 0.0
 torrents = 10
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "首次升级至此等级时将获得1个永久邀请,查看其它用户的评论、帖子历史,永久保留账号"
 
@@ -205,7 +205,7 @@ ratio = 0.0
 torrents = 15
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "首次升级至此等级时将获得1个永久邀请"
 
@@ -221,7 +221,7 @@ ratio = 0.0
 torrents = 30
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "首次升级至此等级时将获得1个永久邀请"
 
@@ -237,8 +237,8 @@ ratio = 0.0
 torrents = 50
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "首次升级至此等级时将获得3个永久邀请"
 
 [level.VIP]
@@ -253,6 +253,6 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "免除自动降级,不记录下载量,免除HnR考核"

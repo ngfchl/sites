@@ -1,4 +1,4 @@
-url = [ "https://zeus.hamsters.space/", "https://hudbt.hust.edu.cn/",]
+url = ["https://zeus.hamsters.space/", "https://hudbt.hust.edu.cn/", ]
 name = "蝴蝶"
 nickname = "hudbt"
 logo = "favicon.ico"
@@ -189,7 +189,7 @@ ratio = 3.05
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "得到一个邀请名额；可以查看其它用户的评论、帖子历史。翩跹(VeteranUser)xa0及以上用户会永远保留账号。"
 
@@ -205,7 +205,7 @@ ratio = 3.55
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "可以更新过期的外部信息；可以查看ExtremeUser论坛。（未启用）"
 
@@ -237,8 +237,8 @@ ratio = 4.55
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "无"
 
 [level.VIP]
@@ -253,6 +253,6 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "和NexusMaster拥有相同权限并被认为是精英成员。免除自动降级自定发等级。"
