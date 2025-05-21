@@ -17,7 +17,7 @@ search_torrents = true
 page_index = "p_index/index.php"
 page_torrents = "p_torrent/video_list_g.php"
 page_sign_in = "attendance.php"
-page_control_panel = "usercp.php"
+page_control_panel = "/p_user/edit_passkey.php"
 page_detail = "p_torrent/video_detail.php?tid={}"
 page_download = "p_torrent/download.php?tid={}&passkey={}"
 page_user = "p_user/user_detail.php?uid={}"

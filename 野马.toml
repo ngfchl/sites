@@ -1,4 +1,4 @@
-url = [ "https://www.yemapt.org/", "https://www1.yemapt.org/",]
+url = ["https://www.yemapt.org/", "https://www1.yemapt.org/", ]
 name = "野马"
 nickname = "野马"
 logo = "favicon.ico"
@@ -17,7 +17,7 @@ search_torrents = true
 page_index = ""
 page_torrents = "api/torrent/fetchCategoryOpenTorrentList"
 page_sign_in = "api/consumer/checkIn"
-page_control_panel = "usercp.php"
+page_control_panel = "#/consumer/index"
 page_detail = "details.php?id={}"
 page_download = "api/torrent/download?id={}"
 page_user = "api/consumer/fetchSelfDetail"

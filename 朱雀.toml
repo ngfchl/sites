@@ -17,7 +17,7 @@ search_torrents = true
 page_index = "index"
 page_torrents = "api/torrent/advancedSearch"
 page_sign_in = "api/gaming/fireGenshinCharacterMagic"
-page_control_panel = "user/info"
+page_control_panel = "user/setting"
 page_detail = "torrent/info/{}"
 page_download = "api/torrent/download/{}/{}"
 page_user = "api/user/getInfo?id={}"
