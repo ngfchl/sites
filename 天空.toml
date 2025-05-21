@@ -1,4 +1,4 @@
-url = ["https://hdsky.me/", ]
+url = ["https://hdsky.me/", "https://hdsky.my/", ]
 name = "天空"
 nickname = "天空"
 logo = "favicon.ico"
