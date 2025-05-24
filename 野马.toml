@@ -17,7 +17,7 @@ search_torrents = true
 page_index = ""
 page_torrents = "api/torrent/fetchCategoryOpenTorrentList"
 page_sign_in = "api/consumer/checkIn"
-page_control_panel = "#/consumer/index"
+page_control_panel = "/#/consumer/index"
 page_detail = "details.php?id={}"
 page_download = "api/torrent/download?id={}"
 page_user = "api/consumer/fetchSelfDetail"
