@@ -30,8 +30,8 @@ page_seeding = "getusertorrentlistajax.php?userid={}&type=seeding"
 page_completed = "getusertorrentlistajax.php?userid={}&type=completed"
 page_mybonus = "mybonus.php"
 page_viewfilelist = "viewfilelist.php?id={}"
-sign_info_title = "//td[@id='outer']//td[@class='embedded']/h2/text()"
-sign_info_content = "//td[@id='outer']//td[@class='embedded']/table//td//text()"
+sign_info_title = "//div[@id='outer']//td[@class='embedded']/h2/text()"
+sign_info_content = "//div[@id='outer']//td[@class='embedded']/table//td//text()"
 hr = false
 hr_rate = 2
 hr_time = 10
