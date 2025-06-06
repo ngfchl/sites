@@ -97,7 +97,7 @@ structure = "NexusPHP"
 type = "pt"
 nation = "china"
 my_email_rule = "//td[contains(text(),'邮箱')]/following-sibling::td[1]//text()"
-my_username_rule = "//span/a[contains(@class,'_Name') and contains(@href,'userdetails.php?id=')]//text()"
+my_username_rule = "//span/a[contains(@class,'_Name') and contains(@href,'userdetails.php?id=')]/b/text()"
 buy_page = "mybonus.php?action=exchange"
 
 [buy_action]
