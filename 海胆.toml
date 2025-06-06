@@ -1,4 +1,4 @@
-url = [ "https://www.haidan.video/",]
+url = ["https://www.haidan.video/", ]
 name = "海胆"
 nickname = "haidan"
 logo = "public/pic/favicon.ico"
@@ -97,7 +97,7 @@ structure = "NexusPHP"
 type = "pt"
 nation = "china"
 my_email_rule = "//td[contains(text(),'邮箱')]/following-sibling::td[1]//text()"
-my_username_rule = "//table[@id='info_block']//span/a[contains(@class,'_Name') and contains(@href,'userdetails.php?id=')]/b/text()"
+my_username_rule = "//div/span/a[contains(@class,'_Name') and contains(@href,'userdetails.php?id=')]/b//text()"
 buy_page = "mybonus.php?action=exchange"
 
 [buy_action]

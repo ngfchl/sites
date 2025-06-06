@@ -17,7 +17,7 @@ search_torrents = false
 page_index = "index.php"
 page_torrents = "torrents.php"
 page_sign_in = "attendance.php"
-page_control_panel = "user.php?action=edit"
+page_control_panel = "user.php?id={}"
 page_detail = "details.php?id={}"
 page_download = "download.php?id={}&passkey={}"
 page_user = "user.php?id={}"
