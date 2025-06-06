@@ -14,10 +14,10 @@ brush_free = true
 brush_rss = true
 hr_discern = false
 search_torrents = true
-page_index = "indexipt.php"
-page_torrents = "t"
+page_index = "index.php"
+page_torrents = "browse.php?c=M"
 page_sign_in = "signed.php"
-page_control_panel = "user.php?u={}"
+page_control_panel = "my.php"
 page_detail = "t/{}/"
 page_download = "dl/{}/{}"
 page_user = "userdetails.php?id={}"
