@@ -96,6 +96,16 @@ imdb_search = "torrents.php?search_area=4&search={}"
 structure = "HHan"
 type = "pt"
 nation = "china"
+my_email_rule = "//span[contains(text(),'邮箱')]/following-sibling::span[1]//text()"
+my_username_rule = "//div[@class='!text-base']/div/a[contains(@class,'_Name') and contains(@href,'userdetails.php?id=')]/b/text()"
+buy_page = "mybonus.php?action=exchange"
+
+[buy_action]
+"100GB上传流量" = "3"
+"100GB下载流量" = "5"
+"1个邀请名额" = "6"
+"1个临时邀请名额" = "7"
+"贵宾待遇" = "9"
 
 [level.User]
 level_id = 1

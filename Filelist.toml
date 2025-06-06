@@ -96,6 +96,16 @@ proxy = true
 structure = "Filelist"
 type = "pt"
 nation = "malaysia"
+my_email_rule = "//input[@readonly]/@value"
+my_username_rule = "//a[contains(@href, '/userdetails.php?id=')]/span/text()"
+buy_page = "mybonus.php?action=exchange"
+
+[buy_action]
+"100GB上传流量" = "3"
+"100GB下载流量" = "5"
+"1个邀请名额" = "6"
+"1个临时邀请名额" = "7"
+"贵宾待遇" = "9"
 
 [level.User]
 level_id = 1

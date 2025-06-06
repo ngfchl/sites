@@ -1,4 +1,4 @@
-url = [ "https://greatposterwall.com/",]
+url = ["https://greatposterwall.com/", ]
 name = "海豹GPW"
 nickname = "gpw"
 logo = "favicon.ico"
@@ -95,6 +95,16 @@ proxy = true
 structure = "GazellePW"
 type = "pt"
 nation = "china"
+my_email_rule = "//li[contains(text(),'邮箱')]/a[1]//text()"
+my_username_rule = "//div[@class='HeaderProfile']/a[contains(@href,'user.php?id=')]/text()"
+buy_page = "bonus.php?action=purchase&label={label}&auth={auth}"
+
+[buy_action]
+"5GB上传流量:5K" = "upload-1"
+"50GB上传流量:45K" = "upload-2"
+"200GB上传流量:20W" = "upload-3"
+"500GB上传流量:40W" = "upload-4"
+"1个邀请名额" = "invite"
 
 [level.User]
 level_id = 1

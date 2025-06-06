@@ -1,4 +1,4 @@
-url = [ "https://dicmusic.com/",]
+url = ["https://dicmusic.com/", ]
 name = "海豚"
 nickname = "dicmusic"
 logo = "favicon.ico"
@@ -95,6 +95,16 @@ proxy = true
 structure = "NexusPHP"
 type = "pt"
 nation = "china"
+my_email_rule = "//li[contains(text(),'邮箱')]/a[1]//text()"
+my_username_rule = "//div[@id='userinfo']/ul/li/a[contains(@href,'user.php?id=')]/text()"
+buy_page = "bonus.php?action=purchase&label={label}&auth={auth}"
+
+[buy_action]
+"100GB上传流量" = "3"
+"100GB下载流量" = "5"
+"1个邀请名额" = "6"
+"1个临时邀请名额" = "7"
+"贵宾待遇" = "9"
 
 [level.User]
 level_id = 1

@@ -14,10 +14,10 @@ brush_free = true
 brush_rss = true
 hr_discern = false
 search_torrents = true
-page_index = "index.php"
-page_torrents = "torrents.php?incldead=1"
+page_index = "indexipt.php"
+page_torrents = "t"
 page_sign_in = "signed.php"
-page_control_panel = "usercp.php"
+page_control_panel = "user.php?u={}"
 page_detail = "t/{}/"
 page_download = "dl/{}/{}"
 page_user = "userdetails.php?id={}"
@@ -95,6 +95,16 @@ proxy = true
 structure = "NexusPHP"
 type = "pt"
 nation = "china"
+my_email_rule = "//td[contains(text(),'邮箱')]/following-sibling::td[1]//text()"
+my_username_rule = "//a[contains(@href,'/userdetails.php?id=')]/text()"
+buy_page = "mybonus.php?action=exchange"
+
+[buy_action]
+"100GB上传流量" = "3"
+"100GB下载流量" = "5"
+"1个邀请名额" = "6"
+"1个临时邀请名额" = "7"
+"贵宾待遇" = "9"
 
 [level.Byte]
 level_id = 1

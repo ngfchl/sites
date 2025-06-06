@@ -95,6 +95,16 @@ proxy = true
 structure = "Avistaz"
 type = "pt"
 nation = "korea"
+my_email_rule = "//td[contains(text(),'Email')]/following-sibling::td[1]//text()"
+my_username_rule = "//a[contains(@href,'profile')]/span/text()"
+buy_page = "mybonus.php?action=exchange"
+
+[buy_action]
+"100GB上传流量" = "3"
+"100GB下载流量" = "5"
+"1个邀请名额" = "6"
+"1个临时邀请名额" = "7"
+"贵宾待遇" = "9"
 
 [level.Newbie]
 level_id = 1

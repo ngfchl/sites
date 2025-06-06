@@ -96,6 +96,16 @@ imdb_search = "pt?incldead=1&spstate=0&inclbookmarked=0&iwannaseethis={}&search_
 structure = "HDCity"
 type = "pt"
 nation = "china"
+my_email_rule = "//b[contains(text(),'邮箱')]/following-sibling::a//text()"
+my_username_rule = "//div[@id='bottomnav']/div/a/strong/text()"
+buy_page = "mybonus.php?action=exchange"
+
+[buy_action]
+"100GB上传流量" = "3"
+"100GB下载流量" = "5"
+"1个邀请名额" = "6"
+"1个临时邀请名额" = "7"
+"贵宾待遇" = "9"
 
 [level."天使"]
 level_id = 1

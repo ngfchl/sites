@@ -17,7 +17,7 @@ search_torrents = true
 page_index = "index.php"
 page_torrents = "torrents.php?incldead=1"
 page_sign_in = "attendance.php"
-page_control_panel = "usercp.php?do=pid_c&action=change&uid={}"
+page_control_panel = "index.php?page=usercp&do=pid_c&action=change&uid={}"
 page_detail = "details.php?id={}"
 page_download = "download.php?id={}&passkey={}"
 page_user = "index.php?page=usercp&uid={}"
@@ -95,3 +95,13 @@ proxy = true
 structure = "HDSpace"
 type = "pt"
 nation = "foreign"
+my_email_rule = "//input[@name='email']/@value"
+my_username_rule = "//td/table//tr/td/a/../span/text()"
+buy_page = "mybonus.php?action=exchange"
+
+[buy_action]
+"100GB上传流量" = "3"
+"100GB下载流量" = "5"
+"1个邀请名额" = "6"
+"1个临时邀请名额" = "7"
+"贵宾待遇" = "9"

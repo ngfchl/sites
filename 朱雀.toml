@@ -47,7 +47,7 @@ my_per_hour_bonus_rule = "sp_hour"
 my_score_rule = "seedBonus"
 my_level_rule = "class/name"
 my_passkey_rule = "//span[contains(text(),'Torrent Key')]/../following::span[1]/text()"
-my_uid_rule = "//span[contains(text(),'UID')]/../following::span[1]/text()"
+my_uid_rule = "//span[contains(text(),'UID')]/../following::span[1]/text()[2]"
 my_hr_rule = "//a[@href='myhr.php']//text()"
 my_leech_rule = "leeching"
 my_publish_rule = "//p/preceding-sibling::b/text()[1]"
@@ -96,6 +96,16 @@ proxy = true
 structure = "ZhuQue"
 type = "pt"
 nation = "china"
+my_email_rule = "//th/span[contains(text(),'注册邮箱')]/../following-sibling::td[1]/span/text()"
+my_username_rule = "//th/span[contains(text(),'用户名')]/../following-sibling::td[1]/span/div/div/span/text()"
+buy_page = "mybonus.php?action=exchange"
+
+[buy_action]
+"100GB上传流量" = "3"
+"100GB下载流量" = "5"
+"1个邀请名额" = "6"
+"1个临时邀请名额" = "7"
+"贵宾待遇" = "9"
 
 [level."筑基"]
 level_id = 1
