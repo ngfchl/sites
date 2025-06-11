@@ -1,4 +1,4 @@
-url = [ "https://www.hdkyl.in/", "https://www.hdkylin.com/",]
+url = ["https://www.hdkyl.in/", "https://www.hdkylin.com/", ]
 name = "麒麟"
 nickname = "hdkyl"
 logo = "favicon.ico"
@@ -243,7 +243,7 @@ uploaded = "0"
 downloaded = "10TB"
 bonus = 0.0
 score = 1000000
-ratio = 9.0
+ratio = 10.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
