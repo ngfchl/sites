@@ -1,4 +1,4 @@
-url = [ "https://monikadesign.uk/",]
+url = ["https://monikadesign.uk/", ]
 name = "莫妮卡"
 nickname = "monika"
 logo = "favicon.ico"
@@ -49,7 +49,7 @@ my_passkey_rule = "//span[@class='text-monospace']/text()"
 my_uid_rule = "//li/a[contains(@href,'users')]/img/@alt"
 my_hr_rule = "//strong[contains(text(),'有效')]/text()"
 my_leech_rule = "//span[contains(text(),'正在下载')]/a/text()"
-my_publish_rule = "//p/preceding-sibling::b/text()[1]"
+my_publish_rule = "//span/a[contains(@href,'/uploads')]/text()"
 my_seed_rule = "//span[contains(text(),'做种数量')]/a/text()"
 my_seed_vol_rule = "//td[contains(text(),'做种体积')]/following-sibling::td[1]/span/text()[1]"
 my_mailbox_rule = "//a[contains(@href,'mail/inbox')]/*[name()='svg']"
