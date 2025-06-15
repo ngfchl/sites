@@ -1,9 +1,9 @@
-url = [ "https://ubits.club/",]
+url = ["https://ubits.club/", ]
 name = "Ubits"
 nickname = "优宝"
 logo = "favicon.ico"
 tracker = "ubits.club|t.ubits.club"
-sp_full = 250
+sp_full = 70
 limit_speed = 100
 tags = "影视"
 iyuu = 86
