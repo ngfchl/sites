@@ -1,4 +1,4 @@
-url = [ "https://tracker.ldo.pics/",]
+url = ["https://www.devtracker.me/", ]
 name = "DevTracker"
 nickname = "DevTracker"
 logo = "favicon.ico"

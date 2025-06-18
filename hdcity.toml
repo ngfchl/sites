@@ -17,7 +17,7 @@ search_torrents = true
 page_index = "index.php"
 page_torrents = "torrents.php?incldead=1"
 page_sign_in = "sign"
-page_control_panel = "/userdetails"
+page_control_panel = "userdetails"
 page_detail = "details.php?id={}"
 page_download = "download?id={}&cuhash={}"
 page_user = "userdetails?id={}"
