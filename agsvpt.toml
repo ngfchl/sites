@@ -1,4 +1,4 @@
-url = [ "https://www.agsvpt.com/", "https://pt.agsvpt.cn",]
+url = ["https://www.agsvpt.com/", "https://pt.agsvpt.cn", ]
 name = "agsvpt"
 nickname = "末日"
 logo = "favicon.ico"
@@ -110,6 +110,7 @@ buy_page = "mybonus.php?action=exchange"
 [level.User]
 level_id = 1
 level = "User"
+name = "小熊"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -126,7 +127,8 @@ rights = "新用户的默认级别。只能在每周六中午12点至每周日�
 [level.PowerUser]
 level_id = 2
 level = "PowerUser"
-days = 4
+name = "北冰珍珠熊"
+days = 0
 uploaded = "0"
 downloaded = "50GB"
 bonus = 0.0
@@ -142,6 +144,7 @@ rights = "可以直接发布种子；可以查看NFO文档；可以查看用户�
 [level.EliteUser]
 level_id = 3
 level = "EliteUser"
+name = "深渊蔚蓝熊"
 days = 8
 uploaded = "0"
 downloaded = "120GB"
@@ -158,6 +161,7 @@ rights = "EliteUser及以上用户封存账号后不会被删除。"
 [level.CrazyUser]
 level_id = 4
 level = "CrazyUser"
+name = "翡翠森林熊"
 days = 12
 uploaded = "0"
 downloaded = "300GB"
@@ -174,6 +178,7 @@ rights = "可以在做种/下载/发布的时候选择匿名模式。"
 [level.InsaneUser]
 level_id = 5
 level = "InsaneUser"
+name = "神秘紫晶熊"
 days = 20
 uploaded = "0"
 downloaded = "500GB"
@@ -190,6 +195,7 @@ rights = "可以查看普通日志。"
 [level.VeteranUser]
 level_id = 6
 level = "VeteranUser"
+name = "寒冰白金熊"
 days = 28
 uploaded = "0"
 downloaded = "750GB"
@@ -206,6 +212,7 @@ rights = "可以查看其它用户的评论、帖子历史。VeteranUser及以�
 [level.ExtremeUser]
 level_id = 7
 level = "ExtremeUser"
+name = "皇家金辉熊"
 days = 40
 uploaded = "0"
 downloaded = "1024GB"
@@ -222,11 +229,12 @@ rights = "可以更新过期的外部信息；可以查看ExtremeUser论坛。"
 [level.UltimateUser]
 level_id = 8
 level = "UltimateUser"
-days = 120
+name = "永恒铂金熊"
+days = 52
 uploaded = "0"
 downloaded = "1536GB"
 bonus = 0.0
-score = 2200000
+score = 2000000
 ratio = 6.05
 torrents = 0
 leeches = 0
@@ -238,11 +246,12 @@ rights = "无"
 [level.NexusMaster]
 level_id = 9
 level = "NexusMaster"
+name = "钻石之冠北极熊"
 days = 70
 uploaded = "0"
 downloaded = "3072GB"
 bonus = 0.0
-score = 3200000
+score = 3000000
 ratio = 7.05
 torrents = 0
 leeches = 0
@@ -254,6 +263,7 @@ rights = "无"
 [level.VIP]
 level_id = 0
 level = "VIP"
+name = "贵宾"
 days = 0
 uploaded = "0"
 downloaded = "0"
