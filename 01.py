@@ -10,17 +10,9 @@ def h():
             # if d['logo'].startswith('http'):
             #     print(d['name'])
             # d["nation"] = "china"  # HDCity Filelist Discuz Avistaz NexusPHP UNIT3D GazellePW NYPT iPt HDSpace MTorrent
-            d['my_email_rule'] = "//td[contains(text(),'邮箱')]/following-sibling::td[1]//text()"
-            d[
-                'my_username_rule'] = "//table[@id='info_block']//span/a[contains(@class,'_Name') and contains(@href,'userdetails.php?id=')]/b/text()"
-            d['buy_page'] = "mybonus.php?action=exchange"
-            d['buy_action'] = {
-                "100GB上传流量": "3",
-                "100GB下载流量": "5",
-                "1个邀请名额": "6",
-                "1个临时邀请名额": "7",
-                "贵宾待遇": "9",
-            }
+            if '条记录' not in d['my_publish_rule']:
+                d['my_publish_rule'] = "//div[contains(., '条记录')]/b[1]/text()"
+
             with open(i, "w") as f:
                 toml.dump(d, f)
 

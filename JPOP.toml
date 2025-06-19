@@ -1,4 +1,4 @@
-url = ["https://jpopsuki.eu/", ]
+url = [ "https://jpopsuki.eu/",]
 name = "JPOP"
 nickname = "JPOP"
 logo = "favicon.ico"
@@ -49,7 +49,7 @@ my_passkey_rule = "//div[contains(text(),'Personal')]/following-sibling::ul/li[4
 my_uid_rule = "//ul[@id='userinfo_username']/li[1]/a/@href"
 my_hr_rule = "//a[@href='myhr.php']//text()"
 my_leech_rule = "//div[contains(text(),'Community')]/following-sibling::ul/li[7]/text()[1]"
-my_publish_rule = "//div[contains(text(),'Community')]/following-sibling::ul/li[4]/text()[1]"
+my_publish_rule = "//div[contains(., '条记录')]/b[1]/text()"
 my_seed_rule = "//div[contains(text(),'Community')]/following-sibling::ul/li[6]/text()[1]"
 my_seed_vol_rule = "//tr[@class='torrent']/td[6]"
 my_mailbox_rule = "//a[@href='messages.php']/font[contains(text(),'条')]/text()[1]"

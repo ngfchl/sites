@@ -1,4 +1,4 @@
-url = ["https://zhuque.in/", ]
+url = [ "https://zhuque.in/",]
 name = "朱雀"
 nickname = "zhuque"
 logo = "https://zhuque.in/assets/images/512.png"
@@ -50,7 +50,7 @@ my_passkey_rule = "//span[contains(text(),'Torrent Key')]/../following::span[1]/
 my_uid_rule = "//span[contains(text(),'UID')]/../following::span[1]/text()[2]"
 my_hr_rule = "//a[@href='myhr.php']//text()"
 my_leech_rule = "leeching"
-my_publish_rule = "//p/preceding-sibling::b/text()[1]"
+my_publish_rule = "//div[contains(., '条记录')]/b[1]/text()"
 my_seed_rule = "seeding"
 my_seed_vol_rule = "seedSize"
 my_mailbox_rule = "mail"

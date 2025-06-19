@@ -51,7 +51,7 @@ my_email_rule = "//td[contains(text(),'邮箱')]/following-sibling::td[1]//text(
 my_username_rule = "//table[@id='info_block']//span/a[contains(@class,'_Name') and contains(@href,'userdetails.php?id=')]/b/text()"
 my_hr_rule = "//a[@href='myhr.php']//text()"
 my_leech_rule = "//img[@class='arrowdown'][1]/following-sibling::text()[1]"
-my_publish_rule = "//p/preceding-sibling::b/text()[1]"
+my_publish_rule = "//div[contains(., '条记录')]/b[1]/text()"
 my_seed_rule = "//img[@class='arrowup'][1]/following-sibling::text()[1]"
 my_seed_vol_rule = "//p/preceding-sibling::div/div/text()[1]"
 my_mailbox_rule = "//a[@href='messages.php']/font[contains(text(),'条')]/text()[1]"

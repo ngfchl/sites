@@ -1,8 +1,8 @@
-url = ["https://hd-space.org/", ]
+url = [ "https://hd-space.org/",]
 name = "HDSpace"
 nickname = "HDSpace"
 logo = "favicon.ico"
-tracker = "http://hd-space.pw/"
+tracker = "hd-space.pw|"
 sp_full = 100
 limit_speed = 100
 tags = "影视"
@@ -49,7 +49,7 @@ my_passkey_rule = "//td[contains(text(), 'PID')]/following-sibling::td/text()"
 my_uid_rule = "//td/a[contains(@href,'index.php?page=usercp&uid=') and contains(text(),'My Panel')][1]/@href"
 my_hr_rule = "//tr/td[text()='Total Warns'][1]/following-sibling::td[1]/text()"
 my_leech_rule = "//span[@title='Leech']//text()"
-my_publish_rule = "//p/preceding-sibling::b/text()[1]"
+my_publish_rule = "//div[contains(., '条记录')]/b[1]/text()"
 my_seed_rule = "//span[@title='Seed']//text()"
 my_seed_vol_rule = "//tr/td[text()='Total Size of torrents'][1]/following-sibling::td[1]/text()"
 my_mailbox_rule = "//div[contains(@class,'new-pm')]/h4/text()"

@@ -1,4 +1,4 @@
-url = ["https://totheglory.im/", ]
+url = [ "https://totheglory.im/",]
 name = "TTG"
 nickname = "TTG"
 logo = "favicon.ico"
@@ -49,7 +49,7 @@ my_passkey_rule = "//td[contains(text(),'Passkey')]/following-sibling::td[1]/tex
 my_uid_rule = "//a[contains(@href,'/userdetails.php?id=')]/@href"
 my_hr_rule = "//a[@href='myhr.php']/text()"
 my_leech_rule = "//img[contains(@title,'下载中')]/following-sibling::font[1]/span/text()[1]"
-my_publish_rule = "//p/preceding-sibling::b/text()[1]"
+my_publish_rule = "//div[contains(., '条记录')]/b[1]/text()"
 my_seed_rule = "//img[contains(@title,'做种中')]/following-sibling::font[1]/span/text()[1]"
 my_seed_vol_rule = "//*[@id='ka2']//td[not(@class)][4]"
 my_mailbox_rule = "//a[contains(@href,'messages.php')]/font[contains(text(),'个')]/text()[1]"

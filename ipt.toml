@@ -1,4 +1,4 @@
-url = ["https://iptorrents.com/", ]
+url = [ "https://iptorrents.com/",]
 name = "ipt"
 nickname = "ipt"
 logo = "favicon.ico"
@@ -17,7 +17,7 @@ search_torrents = true
 page_index = "indexipt.php"
 page_torrents = "t"
 page_sign_in = "attendance.php"
-page_control_panel = "settings.php"
+page_control_panel = "user.php?u={}"
 page_detail = "torrent.php?id={}"
 page_download = "download.php?id={}&passkey={}"
 page_user = "user.php?u={}"
@@ -49,7 +49,7 @@ my_passkey_rule = "//th[contains(text(),'Passkey')]/following-sibling::td/text()
 my_uid_rule = "//a[@class='tTipWrap' and contains(@href,'/peers?u=')]/@href"
 my_hr_rule = "//a[@href='myhr.php']//text()"
 my_leech_rule = "//i[@class='fa fa-angle-double-down ico red']/following-sibling::text()[1]"
-my_publish_rule = "//th[contains(text(),'Torrents')]/following-sibling::td/a/text()"
+my_publish_rule = "//div[contains(., '条记录')]/b[1]/text()"
 my_seed_rule = "//i[@class='fa fa-angle-double-up ico grn']/following-sibling::text()[1]"
 my_seed_vol_rule = "//tr/td[6]"
 my_mailbox_rule = "//a[@href='messages.php']/font[contains(text(),'条')]/text()[1]"

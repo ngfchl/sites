@@ -49,7 +49,7 @@ my_passkey_rule = "//td[contains(text(),'密钥')]/following-sibling::td[1]/text
 my_uid_rule = "//h2[@class='mbn']/span/text()"
 my_hr_rule = "//a[@href='myhr.php']//text()"
 my_leech_rule = "//div/p[4]/font[2]/b/text()"
-my_publish_rule = "//p/preceding-sibling::b/text()[1]"
+my_publish_rule = "//div[contains(., '条记录')]/b[1]/text()"
 my_seed_rule = "//div/p[4]/font[1]/b/text()"
 my_seed_vol_rule = "//div/p[1]/b/text()"
 my_mailbox_rule = "//a[@href='messages.php']/font[contains(text(),'条')]/text()[1]"

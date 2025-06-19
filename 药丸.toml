@@ -1,8 +1,8 @@
 url = [ "https://www.invites.fun/", "https://invites.fun/",]
 name = "药丸"
 nickname = "Invites"
-logo = "favicon.ico"
-tracker = "assets/favicon-tvy6pjm8.png"
+logo = "assets/favicon-tvy6pjm8.png"
+tracker = ""
 sp_full = 107
 limit_speed = 100
 tags = "PT论坛"
@@ -49,7 +49,7 @@ my_passkey_rule = "//td[contains(text(),'密钥')]/following-sibling::td[1]/text
 my_uid_rule = "//h1/span[@class='username']/text()"
 my_hr_rule = "//a[@href='myhr.php']//text()"
 my_leech_rule = "//li[@class='item-followers']/div/span/span/text()[1]"
-my_publish_rule = "//p/preceding-sibling::b/text()[1]"
+my_publish_rule = "//div[contains(., '条记录')]/b[1]/text()"
 my_seed_rule = "//li[@class='item-followers']/div/span/span/text()[2]"
 my_seed_vol_rule = "//li/div/span/span[last()]/text()"
 my_mailbox_rule = "//a[@href='messages.php']/font[contains(text(),'条')]/text()[1]"

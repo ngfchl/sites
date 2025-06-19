@@ -1,4 +1,4 @@
-url = ["https://lst.gg/", ]
+url = [ "https://lst.gg/",]
 name = "LST"
 nickname = "LST"
 logo = "favicon.ico"
@@ -17,7 +17,7 @@ search_torrents = true
 page_index = ""
 page_torrents = "torrents"
 page_sign_in = ""
-page_control_panel = "/users/{}/passkeys"
+page_control_panel = "/users/{}"
 page_detail = "torrents/{}"
 page_download = "torrents/download/{}"
 page_user = "users/{}"
@@ -49,7 +49,7 @@ my_passkey_rule = "//span[@class='text-monospace']/text()"
 my_uid_rule = "//a[@class='top-nav__username--highresolution']/span/text()[2]"
 my_hr_rule = "//strong[contains(text(),'有效')]/text()"
 my_leech_rule = "//li[@title='吸血']/a/text()"
-my_publish_rule = "//div[1]/dt/a[contains(@href,'uploads')]/../following-sibling::dd/text()"
+my_publish_rule = "//div[contains(., '条记录')]/b[1]/text()"
 my_seed_rule = "//li[@title='做种']/a/text()"
 my_seed_vol_rule = "//dt/abbr[contains(text(),'做种体积')]/../following-sibling::dd[1]//text()[1]"
 my_mailbox_rule = "//a[contains(@href,'mail/inbox')]/*[name()='svg']"

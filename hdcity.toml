@@ -1,4 +1,4 @@
-url = ["https://hdcity.city/", "https://hdcity.leniter.org/", "https://hdcity.work/", ]
+url = [ "https://hdcity.city/", "https://hdcity.leniter.org/", "https://hdcity.work/",]
 name = "hdcity"
 nickname = "HD城市"
 logo = "favicon.ico"
@@ -49,7 +49,7 @@ my_passkey_rule = "//span[@id='kpkey']/em/text()"
 my_uid_rule = "//b[text()='ID']/following-sibling::text()[1]"
 my_hr_rule = "//a[@href='myhr.php']/text()"
 my_leech_rule = "//a[@href='userdetails']/span[@title='当前下载']/text()[1]"
-my_publish_rule = "//p/preceding-sibling::b/text()[1]"
+my_publish_rule = "//div[contains(., '条记录')]/b[1]/text()"
 my_seed_rule = "//a[@href='userdetails']/span[@title='当前做种']/text()[1]"
 my_seed_vol_rule = "//tr/td[3]"
 my_mailbox_rule = "//li/a/i[@id='rmsg']/following::text()[1]"

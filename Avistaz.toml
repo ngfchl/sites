@@ -1,4 +1,4 @@
-url = ["https://avistaz.to/", ]
+url = [ "https://avistaz.to/",]
 name = "Avistaz"
 nickname = "avistaz"
 logo = "images/avistaz-favicon.png"
@@ -49,7 +49,7 @@ my_passkey_rule = "//p[contains(@class, 'current_pid')]/text()"
 my_uid_rule = "//a[contains(@href,'profile')]/span/text()"
 my_hr_rule = "//a[@title='Hit and Run Torrents']/following-sibling::text()"
 my_leech_rule = "//a[text()='Leeching:']/following-sibling::text()"
-my_publish_rule = "//div/ul/li[1]/i[contains(@class,'upload')]/following::strong[1]/text()"
+my_publish_rule = "//div[contains(., '条记录')]/b[1]/text()"
 my_seed_rule = "//a[text()='Seeding:']/following-sibling::text()"
 my_seed_vol_rule = "//span[@class='movie-extra fa fa-database text-orange']/text()"
 my_mailbox_rule = "//div[@role='alert']/strong//text()"

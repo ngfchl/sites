@@ -1,4 +1,4 @@
-url = ["https://star-space.net/", ]
+url = [ "https://star-space.net/",]
 name = "星空"
 nickname = "star-space"
 logo = "favicon.ico"
@@ -50,7 +50,7 @@ my_passkey_rule = "//td[contains(text(),'当前Passkey')]/following-sibling::td[
 my_uid_rule = "//td[contains(text(),'用户名称')]/following-sibling::td/a/@href"
 my_hr_rule = "//a[@href='myhr.php']//text()"
 my_leech_rule = "//span/a[contains(@href,'p_torrent/torrent_user.php?pop=9')]/text()"
-my_publish_rule = "//p/preceding-sibling::b/text()[1]"
+my_publish_rule = "//div[contains(., '条记录')]/b[1]/text()"
 my_seed_rule = "//span/a[contains(@href,'p_torrent/torrent_user.php?pop=8')]/text()"
 my_seed_vol_rule = "//tr[@id='tr_list']/td[4]"
 my_mailbox_rule = "//a[@href='messages.php']/font[contains(text(),'条')]/text()[1]"
