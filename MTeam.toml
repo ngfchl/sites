@@ -1,4 +1,4 @@
-url = [ "https://api.m-team.cc/", "https://api.m-team.io/",]
+url = ["https://xp.m-team.cc/", "https://xp.m-team.io/", "https://zp.m-team.io/", "https://next.m-team.cc/", "https://kp.m-team.cc/", "https://kp.m-team.io/", ]
 name = "MTeam"
 nickname = "MTeam"
 logo = "https://xp.m-team.cc/favicon.ico"
