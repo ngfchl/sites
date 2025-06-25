@@ -1,4 +1,4 @@
-url = [ "https://www.qingwapt.com/", "https://qingwapt.com/", "https://new.qingwa.pro",]
+url = ["https://www.qingwapt.com/", "https://qingwapt.com/", "https://new.qingwa.pro", ]
 name = "QingWa"
 nickname = "青蛙"
 logo = "favicon.ico"
@@ -51,7 +51,7 @@ my_hr_rule = "//a[@href='myhr.php']//text()"
 my_leech_rule = "//img[@class='arrowdown']/following-sibling::text()[1]"
 my_publish_rule = "//div[contains(., '条记录')]/b[1]/text()"
 my_seed_rule = "//img[@class='arrowup']/following-sibling::text()[1]"
-my_seed_vol_rule = "//body/div[1]/div/text()[1]"
+my_seed_vol_rule = "//span[@id='total_size']/text()"
 my_mailbox_rule = "//a[@href='messages.php']/font[contains(text(),'条')]/text()[1]"
 my_message_title = "//img[@alt='Unread']/parent::td/following-sibling::td/a[1]//text()"
 my_notice_rule = "//a[@href='index.php']/font[contains(text(),'条')]/text()[1]"
