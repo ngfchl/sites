@@ -1,9 +1,9 @@
-url = [ "https://hdbao.cc/",]
+url = ["https://hdbao.cc/", ]
 name = "HDBao"
 nickname = "hdbao"
 logo = "favicon.ico"
 tracker = "hdbao.cc|tracker.hdbao.cc"
-sp_full = 1300
+sp_full = 800
 limit_speed = 100
 tags = "影视"
 iyuu = 0

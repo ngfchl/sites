@@ -1,8 +1,8 @@
-url = [ "https://www.devtracker.me/",]
+url = ["https://www.devtracker.me/", ]
 name = "DevTracker"
 nickname = "DevTracker"
 logo = "favicon.ico"
-tracker = "tracker.ldo.pics|ldo.pics"
+tracker = "tracker.ldo.pics|ldo.pics|www.devtracker.me"
 sp_full = 150
 limit_speed = 100
 tags = "影视"
