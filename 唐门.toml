@@ -1,8 +1,8 @@
-url = [ "https://tmpt.top/",]
+url = ["https://tmpt.top/", ]
 name = "唐门"
 nickname = "唐门"
 logo = "favicon.ico"
-tracker = "cspt.top"
+tracker = "tmpt.top"
 sp_full = 307
 limit_speed = 100
 tags = "影视"
