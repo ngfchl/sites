@@ -46,7 +46,7 @@ my_per_hour_bonus_rule = "//div[contains(text(),'每小时能获取')]/text()[1]
 my_score_rule = "//tr[115]/td[2]/text()"
 my_level_rule = "//div[@id='bottomnav']/div/a/strong/following-sibling::text()[1]"
 my_passkey_rule = "//span[@id='kpkey']/em/text()"
-my_uid_rule = "//div[@class='block']/div[@class='blocktitle']/a/@href"
+my_uid_rule = "//div[@class='text']/b[contains(.,'ID')]/../text()"
 my_hr_rule = "//a[@href='myhr.php']/text()"
 my_leech_rule = "//a[@href='userdetails']/span[@title='当前下载']/text()[1]"
 my_publish_rule = "//div[contains(., '条记录')]/b[1]/text()"
