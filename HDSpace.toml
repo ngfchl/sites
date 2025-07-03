@@ -1,4 +1,4 @@
-url = [ "https://hd-space.org/",]
+url = ["https://hd-space.org/", ]
 name = "HDSpace"
 nickname = "HDSpace"
 logo = "favicon.ico"
@@ -19,7 +19,7 @@ page_torrents = "torrents.php?incldead=1"
 page_sign_in = "attendance.php"
 page_control_panel = "index.php?page=usercp&do=pid_c&action=change&uid={}"
 page_detail = "details.php?id={}"
-page_download = "download.php?id={}&passkey={}"
+page_download = "download.php?id={}"
 page_user = "index.php?page=usercp&uid={}"
 page_search = "index.php?page=torrents&search={}"
 page_message = "messages.php"
