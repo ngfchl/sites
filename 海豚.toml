@@ -1,4 +1,4 @@
-url = [ "https://dicmusic.com/",]
+url = ["https://dicmusic.com/", ]
 name = "海豚"
 nickname = "dicmusic"
 logo = "favicon.ico"
@@ -17,7 +17,7 @@ search_torrents = true
 page_index = "index.php"
 page_torrents = "torrents.php"
 page_sign_in = "attendance.php"
-page_control_panel = "usercp.php"
+page_control_panel = "user.php?id={}"
 page_detail = "torrents.php?torrentid={}"
 page_download = "torrents.php?action=download&id={}&&authkey={}&torrent_pass={}"
 page_user = "ajax.php?action=user&id={}"

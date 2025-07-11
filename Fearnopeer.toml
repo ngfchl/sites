@@ -1,4 +1,4 @@
-url = [ "https://fearnopeer.com/",]
+url = ["https://fearnopeer.com/", ]
 name = "Fearnopeer"
 nickname = "Fearnopeer"
 logo = "favicon.ico"
@@ -17,7 +17,7 @@ search_torrents = true
 page_index = ""
 page_torrents = "torrents"
 page_sign_in = ""
-page_control_panel = "/users/{}"
+page_control_panel = "users/{}"
 page_detail = "torrents/{}"
 page_download = "torrents/download/{}"
 page_user = "users/{}"
