@@ -1,11 +1,11 @@
-url = [ "https://xingtan.one/",]
+url = ["https://xingtan.one/", ]
 name = "杏坛"
 nickname = "xingtan"
 logo = "favicon.ico"
 tracker = "xinglin.one|xingtan.one"
 sp_full = 150
 limit_speed = 100
-tags = "百科电子书籍"
+tags = "百科,电子,书籍"
 iyuu = 96
 sign_in = true
 get_info = true
