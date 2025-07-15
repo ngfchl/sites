@@ -1,11 +1,11 @@
-url = [ "https://www.htpt.cc/",]
+url = ["https://www.htpt.cc/", ]
 name = "海棠"
 nickname = "htpt"
 logo = "favicon.ico"
 tracker = "htpt.cc"
 sp_full = 200
 limit_speed = 100
-tags = "曲艺杂谈"
+tags = "曲艺,杂谈,戏曲,有声书"
 iyuu = 123
 sign_in = true
 get_info = true

@@ -1,11 +1,11 @@
-url = [ "https://jpopsuki.eu/",]
+url = ["https://jpopsuki.eu/", ]
 name = "JPOP"
 nickname = "JPOP"
 logo = "favicon.ico"
 tracker = "jpopsuki.eu"
 sp_full = 107
 limit_speed = 100
-tags = "音乐"
+tags = "外站,音乐"
 iyuu = 0
 sign_in = false
 get_info = true

@@ -1,11 +1,11 @@
-url = [ "https://ptzone.xyz/",]
+url = ["https://ptzone.xyz/", ]
 name = "ptzone"
 nickname = "ptzone"
 logo = "favicon.ico"
 tracker = "ptzone.xyz"
 sp_full = 200
 limit_speed = 15
-tags = "影视"
+tags = "影视,综合"
 iyuu = 114
 sign_in = true
 get_info = true

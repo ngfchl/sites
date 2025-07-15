@@ -1,11 +1,11 @@
-url = [ "https://ssdforum.org/",]
+url = ["https://ssdforum.org/", ]
 name = "ssdforum"
 nickname = "ssdforum"
 logo = "favicon.ico"
 tracker = "ssdforum.org"
 sp_full = 200
 limit_speed = 15
-tags = "字幕"
+tags = "字幕,论坛"
 iyuu = 0
 sign_in = true
 get_info = true

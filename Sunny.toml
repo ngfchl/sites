@@ -1,11 +1,11 @@
-url = [ "https://sunnypt.top/",]
+url = ["https://sunnypt.top/", ]
 name = "Sunny"
 nickname = "阳光"
 logo = "favicon.ico"
 tracker = "sunnypt.top|tracker.sunnypt.top"
 sp_full = 150
 limit_speed = 100
-tags = "影视"
+tags = "原盘,DIY,特效字幕"
 iyuu = 0
 sign_in = true
 get_info = true

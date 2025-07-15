@@ -1,11 +1,11 @@
-url = [ "https://www.invites.fun/", "https://invites.fun/",]
+url = ["https://www.invites.fun/", "https://invites.fun/", ]
 name = "药丸"
 nickname = "Invites"
 logo = "assets/favicon-tvy6pjm8.png"
 tracker = ""
 sp_full = 107
 limit_speed = 100
-tags = "PT论坛"
+tags = "论坛"
 iyuu = 0
 sign_in = true
 get_info = true

@@ -1,11 +1,11 @@
-url = [ "https://www.hdkyl.in/", "https://www.hdkylin.com/",]
+url = ["https://www.hdkyl.in/", "https://www.hdkylin.com/", ]
 name = "麒麟"
 nickname = "hdkyl"
 logo = "favicon.ico"
 tracker = "www.hdkyl.in|www.hdkyl.top|www.hdkylin.top|tracker.hdkyl.in"
 sp_full = 107
 limit_speed = 100
-tags = "电影,电视剧"
+tags = "影视,短剧"
 iyuu = 97
 sign_in = true
 get_info = true

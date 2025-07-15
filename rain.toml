@@ -1,11 +1,11 @@
-url = [ "https://raingfh.top/",]
+url = ["https://raingfh.top/", "https://www.raingfh.top/", ]
 name = "rain"
 nickname = "rain"
 logo = "favicon.ico"
 tracker = "raingfh.top|"
 sp_full = 107
 limit_speed = 100
-tags = "影视"
+tags = "影视,综合"
 iyuu = 112
 sign_in = true
 get_info = true

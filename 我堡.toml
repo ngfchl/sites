@@ -1,11 +1,11 @@
-url = [ "https://ourbits.club/", "https://pt.ourhelp.club/",]
+url = ["https://ourbits.club/", "https://pt.ourhelp.club/", ]
 name = "我堡"
 nickname = "我堡"
 logo = "favicon.ico"
 tracker = "ourbits.club"
 sp_full = 95
 limit_speed = 50
-tags = "影视"
+tags = "Diy,原盘,综合"
 iyuu = 9
 sign_in = true
 get_info = true

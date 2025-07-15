@@ -1,11 +1,11 @@
-url = [ "https://pthome.net/", "https://www.pthome.net/",]
+url = ["https://pthome.net/", "https://www.pthome.net/", ]
 name = "铂金家"
 nickname = "pthome"
 logo = "favicon.ico"
 tracker = "t.pthome.net|t.pthome.net|t.pthome.org"
 sp_full = 110
 limit_speed = 95
-tags = "影视"
+tags = "影视,Diy,原盘,特效字幕"
 iyuu = 2
 sign_in = true
 get_info = true

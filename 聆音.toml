@@ -1,11 +1,11 @@
-url = [ "https://pt.soulvoice.club/",]
+url = ["https://pt.soulvoice.club/", ]
 name = "聆音"
 nickname = "soulvoice"
 logo = "favicon.ico"
 tracker = "pt.soulvoice.club"
 sp_full = 160
 limit_speed = 15
-tags = "影视"
+tags = "影视,电子书,有声书,音乐"
 iyuu = 24
 sign_in = true
 get_info = true

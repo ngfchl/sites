@@ -1,11 +1,11 @@
-url = [ "https://zhuque.in/",]
+url = ["https://zhuque.in/", ]
 name = "朱雀"
 nickname = "zhuque"
 logo = "https://zhuque.in/assets/images/512.png"
 tracker = "tracker.zhuque.in"
 sp_full = 100
 limit_speed = 50
-tags = "影视"
+tags = "影视,卡牌游戏,"
 iyuu = 0
 sign_in = true
 get_info = true

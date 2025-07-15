@@ -1,11 +1,11 @@
-url = [ "https://www.pttime.org/", "https://www.pttime.top/",]
+url = ["https://www.pttime.org/", "https://www.pttime.top/", ]
 name = "时间"
 nickname = "pttime"
 logo = "favicon.ico"
 tracker = "www.pttime.top|www.pttime.org"
 sp_full = 150
 limit_speed = 95
-tags = "影视"
+tags = "5元,影视,综合"
 iyuu = 60
 sign_in = true
 get_info = true

@@ -1,11 +1,11 @@
-url = [ "https://star-space.net/",]
+url = ["https://star-space.net/", ]
 name = "星空"
 nickname = "star-space"
 logo = "favicon.ico"
 tracker = "https://star-space.net/announce.php"
 sp_full = 300
 limit_speed = 100
-tags = "影视"
+tags = "影视,官组,Web"
 iyuu = 91
 sign_in = false
 get_info = true

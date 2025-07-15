@@ -1,11 +1,11 @@
-url = [ "https://ptlgs.org/",]
+url = ["https://ptlgs.org/", ]
 name = "ptlgs"
 nickname = "ptlgs"
 logo = "favicon.ico"
 tracker = "ptlgs.org|ptl.gs|relay01.ptl.gs"
 sp_full = 107
 limit_speed = 100
-tags = "影视"
+tags = "影视,Web,官组"
 iyuu = 110
 sign_in = true
 get_info = true

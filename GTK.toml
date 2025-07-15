@@ -1,11 +1,11 @@
-url = [ "https://pt.gtk.pw/", "https://pt.gtkpw.xyz/",]
+url = ["https://pt.gtk.pw/", "https://pt.gtkpw.xyz/", ]
 name = "GTK"
 nickname = "GTK"
 logo = "favicon.ico"
 tracker = "pt.gtk.pw|pt.gtkpw.xyz"
 sp_full = 107
 limit_speed = 100
-tags = "电影,电视剧"
+tags = "影视,综合"
 iyuu = 99
 sign_in = true
 get_info = true

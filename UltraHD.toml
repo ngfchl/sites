@@ -1,11 +1,11 @@
-url = [ "https://ultrahd.net/",]
+url = ["https://ultrahd.net/", ]
 name = "UltraHD"
 nickname = "UltraHD"
 logo = "favicon.ico"
 tracker = "ultrahd.net"
 sp_full = 100
 limit_speed = 100
-tags = "影视"
+tags = "韩剧,生肉"
 iyuu = 0
 sign_in = true
 get_info = true

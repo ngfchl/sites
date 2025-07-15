@@ -1,11 +1,11 @@
-url = [ "https://pt.sjtu.edu.cn/",]
+url = ["https://pt.sjtu.edu.cn/", ]
 name = "葡萄"
 nickname = "sjtu"
 logo = "favicon.ico"
 tracker = "pt.sjtu.edu.cn|tracker.sjtu.edu.cn"
 sp_full = 107
 limit_speed = 100
-tags = "影视"
+tags = "影视,教育站"
 iyuu = 53
 sign_in = false
 get_info = true

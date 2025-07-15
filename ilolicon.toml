@@ -1,11 +1,11 @@
-url = [ "https://share.ilolicon.com/",]
+url = ["https://share.ilolicon.com/", ]
 name = "ilolicon"
 nickname = "ilolicon"
 logo = "favicon.ico"
 tracker = "tracker.ilolicon.cc|share.ilolicon.com"
 sp_full = 140
 limit_speed = 100
-tags = "影视"
+tags = "动漫,漫画"
 iyuu = 98
 sign_in = true
 get_info = true

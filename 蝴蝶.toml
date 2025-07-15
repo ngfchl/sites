@@ -1,11 +1,11 @@
-url = [ "https://zeus.hamsters.space/", "https://hudbt.hust.edu.cn/",]
+url = ["https://zeus.hamsters.space/", "https://hudbt.hust.edu.cn/", ]
 name = "蝴蝶"
 nickname = "hudbt"
 logo = "favicon.ico"
 tracker = "hudbt.hust.edu.cn"
 sp_full = 115
 limit_speed = 100
-tags = "影视"
+tags = "影视,教育站"
 iyuu = 67
 sign_in = false
 get_info = true

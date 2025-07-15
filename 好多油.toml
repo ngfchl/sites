@@ -1,11 +1,11 @@
-url = [ "https://pt.hdupt.com/", "https://pt.upxin.net/",]
+url = ["https://pt.hdupt.com/", "https://pt.upxin.net/", ]
 name = "好多油"
 nickname = "好多油"
 logo = "favicon.ico"
 tracker = "pt.upxin.net|pt.hdupt.com"
 sp_full = 115
 limit_speed = 100
-tags = "影视"
+tags = "广告,官组,影视,综合,4K,教育站"
 iyuu = 38
 sign_in = true
 get_info = true

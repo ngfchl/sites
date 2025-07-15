@@ -1,11 +1,11 @@
-url = [ "https://www.agsvpt.com/", "https://pt.agsvpt.cn",]
+url = ["https://www.agsvpt.com/", "https://pt.agsvpt.cn", ]
 name = "agsvpt"
 nickname = "末日"
 logo = "favicon.ico"
 tracker = "tracker.agsvpt.com|agsvpt.trackers.work|tracker.agsvpt.cn|ipv6.agsvpt.cn"
 sp_full = 150
 limit_speed = 95
-tags = "电影,电视剧"
+tags = "影视,短剧,方舟"
 iyuu = 93
 sign_in = true
 get_info = true

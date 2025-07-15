@@ -1,11 +1,11 @@
-url = [ "https://ptchdbits.co/", "https://gd.chddiy.xyz/", "https://chdbits.co/",]
+url = ["https://ptchdbits.co/", "https://gd.chddiy.xyz/", "https://chdbits.co/", ]
 name = "彩虹岛"
 nickname = "彩虹岛"
 logo = "favicon.ico"
 tracker = "chdbits.co|chdbits.xyz|tracker.ptchdbits.co|tracker.rainbowisland.co"
 sp_full = 460
 limit_speed = 95
-tags = "影视"
+tags = "金钱岛,影视,综合,原盘,官组,4K,特效字幕"
 iyuu = 25
 sign_in = true
 get_info = true

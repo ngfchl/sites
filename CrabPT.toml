@@ -1,11 +1,11 @@
-url = [ "https://crabpt.vip/",]
+url = ["https://crabpt.vip/", ]
 name = "CrabPT"
 nickname = "crabpt"
 logo = "favicon.ico"
 tracker = "crabpt.vip|pt.837576.xyz"
 sp_full = 107
 limit_speed = 100
-tags = "电影,电视剧"
+tags = "红叶,音乐,影视,有声书"
 iyuu = 102
 sign_in = true
 get_info = true

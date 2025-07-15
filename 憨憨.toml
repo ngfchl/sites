@@ -1,11 +1,11 @@
-url = [ "https://hhanclub.top/", "https://hhan.club/",]
+url = ["https://hhanclub.top/", "https://hhan.club/", ]
 name = "憨憨"
 nickname = "憨憨"
 logo = "favicon.ico"
 tracker = "tracker.hhan.club|hhanclub.top|tracker.hhanclub.top|hhan.club|tracker.trackerfile.com"
 sp_full = 50
 limit_speed = 95
-tags = "影视"
+tags = "影视,综合,Web,奈飞"
 iyuu = 72
 sign_in = true
 get_info = true

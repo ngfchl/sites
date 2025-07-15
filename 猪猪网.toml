@@ -1,11 +1,11 @@
-url = [ "https://piggo.me/",]
+url = ["https://piggo.me/", ]
 name = "猪猪网"
 nickname = "piggo"
 logo = "favicon.ico"
 tracker = "tracker.piggo.me"
 sp_full = 130
 limit_speed = 100
-tags = "影视"
+tags = "儿童,动画片,HR,影视"
 iyuu = 69
 sign_in = true
 get_info = true

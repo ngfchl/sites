@@ -1,11 +1,11 @@
-url = [ "https://hdhome.org/",]
+url = ["https://hdhome.org/", ]
 name = "家园"
 nickname = "家园"
 logo = "favicon.ico"
 tracker = "t.hdhome.org"
 sp_full = 160
 limit_speed = 95
-tags = "影视"
+tags = "综合,Diy,原盘"
 iyuu = 7
 sign_in = true
 get_info = true

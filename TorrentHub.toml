@@ -1,11 +1,11 @@
-url = [ "https://torrenthub.club/",]
+url = ["https://torrenthub.club/", ]
 name = "TorrentHub"
 nickname = "TorrentHub"
 logo = "favicon.ico"
 tracker = "torrenthub.club"
 sp_full = 300
 limit_speed = 25
-tags = "影视"
+tags = "影视,综合"
 iyuu = 0
 sign_in = true
 get_info = true

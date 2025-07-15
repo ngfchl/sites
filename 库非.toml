@@ -1,11 +1,11 @@
-url = [ "https://kufei.org/",]
+url = ["https://kufei.org/", ]
 name = "库非"
 nickname = "库非"
 logo = "favicon.ico"
 tracker = "https://kufei.org/"
 sp_full = 100
 limit_speed = 100
-tags = "影视"
+tags = "影视,综合"
 iyuu = 116
 sign_in = true
 get_info = true

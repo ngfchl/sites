@@ -1,11 +1,11 @@
-url = [ "https://www.okpt.net/",]
+url = ["https://www.okpt.net/", ]
 name = "OKPT"
 nickname = "OKPT"
 logo = "favicon.ico"
 tracker = "https://www.okpt.net/"
 sp_full = 107
 limit_speed = 100
-tags = "影视"
+tags = "影视,综合"
 iyuu = 101
 sign_in = true
 get_info = true

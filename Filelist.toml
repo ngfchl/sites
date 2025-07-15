@@ -1,11 +1,11 @@
-url = [ "https://filelist.io/",]
+url = ["https://filelist.io/", ]
 name = "Filelist"
 nickname = "Filelist"
 logo = "favicon.ico"
 tracker = "reactor.filelist.io"
 sp_full = 100
 limit_speed = 100
-tags = "影视"
+tags = "影视,外站"
 iyuu = 0
 sign_in = false
 get_info = true

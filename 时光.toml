@@ -1,11 +1,11 @@
-url = [ "https://hdtime.org/",]
+url = ["https://hdtime.org/", ]
 name = "时光"
 nickname = "时光"
 logo = "favicon.ico"
 tracker = "tracker.hdtime.org"
 sp_full = 80
 limit_speed = 180
-tags = "影视"
+tags = "影视,综合"
 iyuu = 30
 sign_in = true
 get_info = true

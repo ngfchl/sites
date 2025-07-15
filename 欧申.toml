@@ -1,11 +1,11 @@
-url = [ "https://www.oshen.win/",]
+url = ["https://www.oshen.win/", ]
 name = "欧申"
 nickname = "oshen"
 logo = "http://www.oshen.win/favicon.ico"
 tracker = "www.oshen.win"
 sp_full = 107
 limit_speed = 100
-tags = "影视"
+tags = "影视,综合"
 iyuu = 39
 sign_in = true
 get_info = true

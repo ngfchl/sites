@@ -1,11 +1,11 @@
-url = [ "https://www.hddolby.com/",]
+url = ["https://www.hddolby.com/", ]
 name = "hddolby"
 nickname = "HD杜比"
 logo = "favicon.ico"
 tracker = "t.hddolby.com"
 sp_full = 140
 limit_speed = 90
-tags = "影视"
+tags = "高清,杜比,Web,二次验证,官种"
 iyuu = 105
 sign_in = true
 get_info = true

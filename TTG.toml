@@ -1,11 +1,11 @@
-url = [ "https://totheglory.im/",]
+url = ["https://totheglory.im/", ]
 name = "TTG"
 nickname = "TTG"
 logo = "favicon.ico"
 tracker = "tracker.totheglory.im"
 sp_full = 107
 limit_speed = 30
-tags = "影视"
+tags = "综合,日韩影视,高清压制"
 iyuu = 14
 sign_in = true
 get_info = true

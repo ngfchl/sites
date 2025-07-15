@@ -1,11 +1,11 @@
-url = [ "https://www.yemapt.org/", "https://www1.yemapt.org/",]
+url = ["https://www.yemapt.org/", "https://www1.yemapt.org/", ]
 name = "野马"
 nickname = "野马"
 logo = "favicon.ico"
 tracker = "tracker.yemapt.org"
 sp_full = 107
 limit_speed = 100
-tags = "影视"
+tags = "影视,综合"
 iyuu = 109
 sign_in = true
 get_info = true

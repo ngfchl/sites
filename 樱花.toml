@@ -1,11 +1,11 @@
-url = [ "https://pt.ying.us.kg/",]
+url = ["https://pt.ying.us.kg/", ]
 name = "樱花"
 nickname = "樱花"
 logo = "favicon.ico"
 tracker = "mckk88.top"
 sp_full = 300
 limit_speed = 25
-tags = "影视"
+tags = "影视,综合"
 iyuu = 0
 sign_in = true
 get_info = true

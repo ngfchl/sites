@@ -1,11 +1,11 @@
-url = [ "https://bilibili.download/",]
+url = ["https://bilibili.download/", ]
 name = "哔哩哔哩"
 nickname = "哔哩哔哩"
 logo = "favicon.ico"
 tracker = "bilibili.download"
 sp_full = 300
 limit_speed = 25
-tags = "影视"
+tags = "影视,综合"
 iyuu = 125
 sign_in = true
 get_info = true

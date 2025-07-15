@@ -1,11 +1,11 @@
-url = [ "https://cyanbug.net/",]
+url = ["https://cyanbug.net/", ]
 name = "大青虫"
 nickname = "大青虫"
 logo = "favicon.ico"
 tracker = "tracker.cyanbug.net"
 sp_full = 2000
 limit_speed = 100
-tags = "影视"
+tags = "Vip,"
 iyuu = 84
 sign_in = true
 get_info = true

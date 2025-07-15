@@ -1,11 +1,11 @@
-url = [ "https://lemonhd.club/",]
+url = ["https://lemonhd.club/", ]
 name = "柠檬"
 nickname = "LenmonHD"
 logo = "favicon.ico"
 tracker = "lemonhd.club|tracker.lemonhd.club|tracker01.ilovelemonhd.me"
 sp_full = 545
 limit_speed = 100
-tags = "影视"
+tags = "影视,综合,动漫"
 iyuu = 111
 sign_in = true
 get_info = true

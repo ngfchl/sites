@@ -1,11 +1,11 @@
-url = [ "https://52pt.site/",]
+url = ["https://52pt.site/", ]
 name = "52PT"
 nickname = "52pt"
 logo = "favicon.ico"
 tracker = "52pt.site"
 sp_full = 204
 limit_speed = 100
-tags = "影视"
+tags = "影视,动漫,纪录片"
 iyuu = 19
 sign_in = true
 get_info = true

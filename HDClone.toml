@@ -1,11 +1,11 @@
-url = [ "https://pt.hdclone.org/",]
+url = ["https://pt.hdclone.org/", ]
 name = "HDClone"
 nickname = "HD克隆"
 logo = "favicon.ico"
 tracker = "tracker.hdclone.org"
 sp_full = 150
 limit_speed = 100
-tags = "影视"
+tags = "影视,综合"
 iyuu = 115
 sign_in = true
 get_info = true

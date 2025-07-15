@@ -1,11 +1,11 @@
-url = [ "https://pt.btschool.club/",]
+url = ["https://pt.btschool.club/", ]
 name = "btschool"
 nickname = "btschool"
 logo = "favicon.ico"
 tracker = "pt.btschool.club"
 sp_full = 150
 limit_speed = 23
-tags = "影视"
+tags = "影视,综合,学习资料,盾厚,全站HR"
 iyuu = 8
 sign_in = true
 get_info = true

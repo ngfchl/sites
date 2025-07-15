@@ -1,11 +1,11 @@
-url = [ "https://reelflix.xyz/",]
+url = ["https://reelflix.xyz/", ]
 name = "Reelflix"
 nickname = "Reelflix"
 logo = "favicon.ico"
 tracker = "reelflix.xyz"
 sp_full = 100
 limit_speed = 100
-tags = "影视"
+tags = "影视,综合,外站"
 iyuu = 0
 sign_in = false
 get_info = true

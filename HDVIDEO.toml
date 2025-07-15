@@ -1,11 +1,11 @@
-url = [ "https://hdvideo.one/",]
+url = ["https://hdvideo.one/", ]
 name = "HDVIDEO"
 nickname = "HDVideo"
 logo = "favicon.ico"
 tracker = "hdvideo.one"
 sp_full = 107
 limit_speed = 95
-tags = "影视"
+tags = "动漫"
 iyuu = 74
 sign_in = true
 get_info = true
