@@ -1,11 +1,11 @@
-url = [ "https://www.gamegamept.com/",]
+url = ["https://www.gamegamept.com/", ]
 name = "GGPTCOM"
 nickname = "GGPTCOM"
 logo = "favicon.ico"
 tracker = "https://www.gamegamept.com/"
 sp_full = 325
 limit_speed = 100
-tags = "游戏"
+tags = "游戏,全站HR"
 iyuu = 126
 sign_in = true
 get_info = true
