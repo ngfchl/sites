@@ -126,8 +126,24 @@ rights = "新注册用户拥有250GB的初始上传流量\n可以正常下载/�
 [level.PowerUser]
 level_id = 2
 level = "PowerUser"
-days = 4
+days = 5
 uploaded = "1TB"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 1.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "可以正常下载 / 上传，访问论坛"
+
+[level.SuperUser]
+level_id = 3
+level = "SuperUser"
+days = 9
+uploaded = "2TB"
 downloaded = "0"
 bonus = 0.0
 score = 0
@@ -139,10 +155,10 @@ keep_account = false
 graduation = false
 rights = "访问邀请区"
 
-[level.SuperUser]
-level_id = 3
-level = "SuperUser"
-days = 9
+[level.ExtremeUser]
+level_id = 4
+level = "ExtremeUser"
+days = 13
 uploaded = "5TB"
 downloaded = "0"
 bonus = 0.0
@@ -153,29 +169,13 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "同上"
-
-[level.ExtremeUser]
-level_id = 4
-level = "ExtremeUser"
-days = 13
-uploaded = "20TB"
-downloaded = "0"
-bonus = 0.0
-score = 0
-ratio = 1.0
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = false
-rights = "自动通过候选"
+rights = "自动通过候选、调整隐私设置"
 
 [level.InsaneUser]
 level_id = 5
 level = "InsaneUser"
-days = 26
-uploaded = "50TB"
+days = 27
+uploaded = "10TB"
 downloaded = "0"
 bonus = 0.0
 score = 0
@@ -190,8 +190,8 @@ rights = "同上"
 [level.Veteran]
 level_id = 6
 level = "Veteran"
-days = 52
-uploaded = "100TB"
+days = 53
+uploaded = "15TB"
 downloaded = "0"
 bonus = 0.0
 score = 0
