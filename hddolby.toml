@@ -136,7 +136,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "可以直接发布种子；可以查看NFO文档；可以查看用户列表；可以请求续种；可以查看排行榜；可以查看其它用户的种子历史(如果用户隐私等级未设置为'强')；可以删除自己上传的字幕。"
+rights = "无"
 
 [level.EliteUser]
 level_id = 3
@@ -152,7 +152,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "EliteUserxa0及以上用户封存账号后不会被删除。"
+rights = "无"
 
 [level.CrazyUser]
 level_id = 4
@@ -168,7 +168,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "可以在做种/下载/发布的时候选择匿名模式。"
+rights = "无"
 
 [level.InsaneUser]
 level_id = 5
@@ -184,28 +184,28 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "可以查看其它用户的评论、帖子历史。"
+rights = "无"
 
 [level.VeteranUser]
 level_id = 6
 level = "VeteranUser"
-days = 16
+days = 20
 uploaded = "0"
 downloaded = "1TB"
 bonus = 0.0
-score = 0
+score = 600000.0
 ratio = 4.0
-torrents = 600000.0
+torrents = 0
 leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "ExtremeUser及以上用户会永远保留账号。"
+rights = "Veteran User 及以上等级用户在控制面板封存账号后不会被删除账号。"
 
 [level.ExtremeUser]
 level_id = 7
 level = "ExtremeUser"
-days = 20
+days = 28
 uploaded = "0"
 downloaded = "2TB"
 bonus = 0.0
@@ -216,12 +216,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = false
-rights = "无"
+rights = "Extreme User 及以上等级用户会永远保留"
 
 [level.UltimateUser]
 level_id = 8
 level = "UltimateUser"
-days = 24
+days = 40
 uploaded = "0"
 downloaded = "4TB"
 bonus = 0.0
@@ -237,7 +237,7 @@ rights = "无"
 [level.NexusMaster]
 level_id = 9
 level = "NexusMaster"
-days = 48
+days = 56
 uploaded = "0"
 downloaded = "8TB"
 bonus = 0.0
