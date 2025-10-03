@@ -1,8 +1,8 @@
-url = ["https://longpt.org/",]
+url = ["https://longpt.org/", ]
 name = "Long"
 nickname = "Long"
 logo = "favicon.ico"
-tracker = "wiiii.top|tracker.wiiii.top|longpt.org|tracker.longpt.org"
+tracker = "longpt.org|tracker.longpt.org"
 sp_full = 100
 limit_speed = 100
 tags = "电影,电视剧"
