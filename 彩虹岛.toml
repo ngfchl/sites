@@ -49,7 +49,7 @@ my_passkey_rule = "//td[contains(text(),'密钥') and not(contains(text(), '重�
 my_uid_rule = "//a[contains(@class,'_Name') and contains(@href,'userdetails.php?id=')]/@href"
 my_hr_rule = "//a[contains(@href, 'hnr.php')]/following-sibling::text()[1]"
 my_leech_rule = "//img[@class='arrowdown']/following-sibling::text()[1]"
-my_publish_rule = "//div[contains(., '条记录')]/b[1]/text()"
+my_publish_rule = "(/body//b)[1]/text()"
 my_seed_rule = "//img[@class='arrowup']/following-sibling::text()[1]"
 my_seed_vol_rule = "//tr/td[3]"
 my_mailbox_rule = "//a[@href='messages.php']/font[contains(text(),'条')]/text()[1]"
