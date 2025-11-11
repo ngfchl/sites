@@ -1,12 +1,12 @@
-url = ["https://www.ptskit.com/", "https://www.ptskit.org/", ]
-name = "葫芦娃"
-nickname = "ptskit"
+url = ["https://duckboobee.org/", ]
+name = "March"
+nickname = "三月"
 logo = "favicon.ico"
-tracker = "www.ptskit.com|www.mitaacc.com|ptskit.kqbhek.com|"
-sp_full = 107
-limit_speed = 100
-tags = "电影,电视剧"
-iyuu = 133
+tracker = "duckboobee.org"
+sp_full = 150
+limit_speed = 150
+tags = "综合"
+iyuu = 131
 sign_in = true
 get_info = true
 repeat_torrents = true
@@ -21,7 +21,7 @@ page_control_panel = "usercp.php"
 page_detail = "details.php?id={}"
 page_download = "download.php?id={}&passkey={}"
 page_user = "userdetails.php?id={}"
-page_search = "search.php?incldead=1&search={}"
+page_search = "torrents.php?incldead=1&search={}"
 page_message = "messages.php"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"
@@ -42,14 +42,14 @@ my_uploaded_rule = "//font[@class='color_uploaded']/following-sibling::text()[1]
 my_downloaded_rule = "//font[@class='color_downloaded']/following-sibling::text()[1]"
 my_ratio_rule = "//font[@class='color_ratio'][1]/following-sibling::text()[1]"
 my_bonus_rule = "//a[@href='mybonus.php']/following-sibling::text()[1]"
-my_per_hour_bonus_rule = "//tr[2]/td[@rowspan and last()]/text()"
+my_per_hour_bonus_rule = "//td[@rowspan='4']/text()"
 my_score_rule = "//td[contains(text(),'分')]/following-sibling::td/text()[1]"
 my_level_rule = "//table[@id='info_block']//span/a[contains(@class,'_Name') and contains(@href,'userdetails.php?id=')]/@class"
 my_passkey_rule = "//td[contains(text(),'密钥')]/following-sibling::td[1]/text()"
 my_uid_rule = "//table[@id='info_block']//span/a[contains(@class,'_Name') and contains(@href,'userdetails.php?id=')]/@href"
 my_hr_rule = "//a[@href='myhr.php']//text()"
 my_leech_rule = "//img[@class='arrowdown']/following-sibling::text()[1]"
-my_publish_rule = "//div[contains(., '条记录')]/b[1]/text()"
+my_publish_rule = "//p/preceding-sibling::b/text()[1]"
 my_seed_rule = "//img[@class='arrowup']/following-sibling::text()[1]"
 my_seed_vol_rule = "//body/div[1]/div/text()[1]"
 my_mailbox_rule = "//a[@href='messages.php']/font[contains(text(),'条')]/text()[1]"
@@ -75,7 +75,7 @@ torrent_leechers_rule = ".//a[contains(@href,'#leechers')]/text()"
 torrent_completers_rule = ".//a[contains(@href,'viewsnatches')]//text()"
 detail_title_rule = "//h1/text()[1]"
 detail_subtitle_rule = "//td[contains(text(),'副标题')]/following-sibling::td/text()[1]"
-detail_download_url_rule = "//td[contains(text(),'种子链接')]/following-sibling::td/a/@href[1]"
+detail_download_url_rule = "//td[contains(text(),'种子链接')]/following-sibling::td/a/@href"
 detail_size_rule = "//td//b[contains(text(),'大小')]/following::text()[1]"
 detail_category_rule = "//td/b[contains(text(),'类型')]/following-sibling::text()[1]"
 detail_count_files_rule = "//td/b[contains(text(),'文件数')]/following-sibling::text()[1]"
@@ -92,20 +92,9 @@ alive = true
 page_pieces_hash_api = "api/pieces-hash"
 pieces_repeat = true
 proxy = true
-imdb_search = "torrents.php?search_area=4&search={}"
 structure = "NexusPHP"
 type = "pt"
 nation = "china"
-my_email_rule = "//td[contains(text(),'邮箱')]/following-sibling::td[1]//text()"
-my_username_rule = "//table[@id='info_block']//span/a[contains(@class,'_Name') and contains(@href,'userdetails.php?id=')]/b/text()"
-buy_page = "mybonus.php?action=exchange"
-
-[buy_action]
-"100GB上传流量" = "3"
-"100GB下载流量" = "5"
-"1个邀请名额" = "6"
-"1个临时邀请名额" = "7"
-"贵宾待遇" = "9"
 
 [level.User]
 level_id = 1
@@ -126,28 +115,28 @@ rights = "新用户的默认级别。只能在每周六中午12点至每周日�
 [level.PowerUser]
 level_id = 2
 level = "PowerUser"
-days = 4
+days = 5
 uploaded = "0"
-downloaded = "50GB"
+downloaded = "200GB"
 bonus = 0.0
-score = 40000.0
-ratio = 1.05
+score = 20000
+ratio = 1.6
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "得到一个邀请名额；可以直接发布种子；可以查看 NFO 文档；可以查看用户列表；可以请求续种； 可以发送邀请； 可以查看排行榜；可以查看其它用户的种子历史 (如果用户隐私等级未设置为强)； 可以删除自己上传的字幕。"
+rights = "得到一个邀请名额；可以直接发布种子；可以查看NFO文档；可以查看用户列表；可以请求续种；可以发送邀请；可以查看排行榜；可以查看其它用户的种子历史(如果用户隐私等级未设置为'强')；可以删除自己上传的字幕。"
 
 [level.EliteUser]
 level_id = 3
 level = "EliteUser"
 days = 8
 uploaded = "0"
-downloaded = "120GB"
+downloaded = "350GB"
 bonus = 0.0
-score = 0.0
-ratio = 1.55
+score = 100000
+ratio = 1.9
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
@@ -160,26 +149,26 @@ level_id = 4
 level = "CrazyUser"
 days = 15
 uploaded = "0"
-downloaded = "300GB"
+downloaded = "512GB"
 bonus = 0.0
-score = 0.0
-ratio = 2.05
+score = 200000
+ratio = 2.3
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "得到两个邀请名额；可以在做种 / 下载 / 发布的时候选择匿名模式。"
+rights = "得到两个邀请名额；可以在做种/下载/发布的时候选择匿名模式。"
 
 [level.InsaneUser]
 level_id = 5
 level = "InsaneUser"
-days = 25
+days = 30
 uploaded = "0"
-downloaded = "500GB"
+downloaded = "1TB"
 bonus = 0.0
-score = 0.0
-ratio = 2.55
+score = 400000
+ratio = 2.7
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
@@ -190,66 +179,66 @@ rights = "可以查看普通日志。"
 [level.VeteranUser]
 level_id = 6
 level = "VeteranUser"
-days = 40
+days = 60
 uploaded = "0"
-downloaded = "750GB"
+downloaded = "2TB"
 bonus = 0.0
-score = 0.0
-ratio = 3.05
+score = 600000
+ratio = 3.2
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = true
+keep_account = false
 graduation = false
-rights = "可以查看其它用户的评论、帖子历史。VeteranUser及以上用户会永远保留账号。"
+rights = "得到三个邀请名额；可以查看其它用户的评论、帖子历史。VeteranUser及以上用户会永远保留账号。"
 
 [level.ExtremeUser]
 level_id = 7
 level = "ExtremeUser"
-days = 60
+days = 90
 uploaded = "0"
-downloaded = "1TB"
+downloaded = "4TB"
 bonus = 0.0
-score = 0.0
-ratio = 3.55
+score = 1000000
+ratio = 3.6
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = true
+keep_account = false
 graduation = false
 rights = "可以更新过期的外部信息；可以查看ExtremeUser论坛。"
 
 [level.UltimateUser]
 level_id = 8
 level = "UltimateUser"
-days = 80
+days = 120
 uploaded = "0"
-downloaded = "1536GB"
+downloaded = "6TB"
 bonus = 0.0
-score = 0.0
-ratio = 4.05
+score = 2500000
+ratio = 4.2
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = true
+keep_account = false
 graduation = false
-rights = "得到五个邀请名额"
+rights = "得到五个邀请名额。"
 
 [level.NexusMaster]
 level_id = 9
 level = "NexusMaster"
-days = 100
+days = 150
 uploaded = "0"
-downloaded = "3TB"
+downloaded = "8TB"
 bonus = 0.0
-score = 0.0
-ratio = 4.55
+score = 3000000
+ratio = 5.2
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = true
-graduation = true
-rights = "得到十个邀请名额"
+keep_account = false
+graduation = false
+rights = "得到十个邀请名额。"
 
 [level.VIP]
 level_id = 0
@@ -263,6 +252,6 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = true
-graduation = true
-rights = "和 Nexus Master 拥有相同权限并被认为是精英成员。免除自动降级。"
+keep_account = false
+graduation = false
+rights = "1.VIP贵宾会员期限内不受系统分享率限制，可以在贵宾期限内无限制下载。可以在贵宾期限内无视H&R规则，畅快下载；2.VIP贵宾会员期限内不会因分享率过低而被系统封禁，免除自动降级，贵宾期限内不计算下行流量；3.VIP贵宾会员期限内开启排行榜查看权限；4.VIP贵宾会员期限内无视每年的年终考核和年中考核；5.拥有捐赠者黄星标识的会员，每小时做种获取魔力值双倍的奖励。"

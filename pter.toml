@@ -1,8 +1,8 @@
-url = ["https://pterclub.com/", ]
+url = ["https://pterclub.com/", "https://pterclub.net/", ]
 name = "pter"
 nickname = "pterclub"
 logo = "favicon.ico"
-tracker = "tracker.pterclub.com"
+tracker = "tracker.pterclub.com|tracker.pterclub.net"
 sp_full = 125
 limit_speed = 100
 tags = "高清,综合,游戏,顶级压制,官组"
