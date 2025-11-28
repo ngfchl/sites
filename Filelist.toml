@@ -15,7 +15,7 @@ brush_rss = false
 hr_discern = false
 search_torrents = true
 page_index = "index.php"
-page_torrents = "torrents.php?incldead=1"
+page_torrents = "browse.php"
 page_sign_in = "attendance.php"
 page_control_panel = "my.php"
 page_detail = "details.php?id={}"
