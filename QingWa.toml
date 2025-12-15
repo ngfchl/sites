@@ -1,4 +1,4 @@
-url = ["https://www.qingwapt.com/", "https://qingwapt.com/", "https://new.qingwa.pro", ]
+url = [ "https://www.qingwapt.com/", "https://qingwapt.com/", "https://new.qingwa.pro",]
 name = "QingWa"
 nickname = "青蛙"
 logo = "favicon.ico"
@@ -21,7 +21,7 @@ page_control_panel = "usercp.php"
 page_detail = "details.php?id={}"
 page_download = "download.php?id={}&passkey={}"
 page_user = "userdetails.php?id={}"
-page_search = "torrents.php?incldead=1&search={}"
+page_search = [ "torrents.php?incldead=1&search={}",]
 page_message = "messages.php"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"
@@ -234,22 +234,6 @@ seeding_delta = 0.0
 keep_account = true
 graduation = true
 rights = "得到 5 个邀请名额。"
-
-#[level.NexusMaster]
-#level_id = 9
-#level = "NexusMaster"
-#days = 150
-#uploaded = "0"
-#downloaded = "8TB"
-#bonus = 0.0
-#score = 3000000
-#ratio = 5.2
-#torrents = 0
-#leeches = 0
-#seeding_delta = 0.0
-#keep_account = true
-#graduation = true
-#rights = "得到十个邀请名额。"
 
 [level.VIP]
 level_id = 0

@@ -1,4 +1,4 @@
-url = ["https://iptorrents.com/", ]
+url = [ "https://iptorrents.com/",]
 name = "ipt"
 nickname = "ipt"
 logo = "favicon.ico"
@@ -21,7 +21,7 @@ page_control_panel = "user.php?u={}"
 page_detail = "torrent.php?id={}"
 page_download = "download.php?id={}&passkey={}"
 page_user = "user.php?u={}"
-page_search = "t?q={}&qf=#torrents"
+page_search = [ "t?q={}&qf=#torrents",]
 page_message = "messages.php"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"

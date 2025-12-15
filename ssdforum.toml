@@ -1,4 +1,4 @@
-url = ["https://ssdforum.org/", ]
+url = [ "https://ssdforum.org/",]
 name = "ssdforum"
 nickname = "ssdforum"
 logo = "favicon.ico"
@@ -21,7 +21,7 @@ page_control_panel = "home.php?mod=space&do=profile"
 page_detail = "details.php?id={}"
 page_download = "download.php?id={}&passkey={}"
 page_user = "home.php?mod=space&uid={}&do=profile"
-page_search = "torrents.php?search={}"
+page_search = [ "torrents.php?search={}",]
 page_message = "home.php?mod=space&do=notice&view=system"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"

@@ -21,7 +21,7 @@ page_control_panel = "my.php"
 page_detail = "t/{}/"
 page_download = "dl/{}/{}"
 page_user = "userdetails.php?id={}"
-page_search = "browse.php?search_field={}&c=M"
+page_search = ["browse.php?search_field={}&c=M", "browse.php?search_field={}&c=G", ]
 page_message = "messages.php"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"

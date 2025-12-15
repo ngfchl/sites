@@ -1,4 +1,4 @@
-url = ["https://greatposterwall.com/", ]
+url = [ "https://greatposterwall.com/",]
 name = "海豹GPW"
 nickname = "gpw"
 logo = "favicon.ico"
@@ -21,7 +21,7 @@ page_control_panel = "user.php?id={}"
 page_detail = "torrents.php?torrentid={}"
 page_download = "torrents.php?action=download&id={}&&authkey={}&torrent_pass={}"
 page_user = "ajax.php?action=user&id={}"
-page_search = "torrents.php?searchstr={}"
+page_search = [ "torrents.php?searchstr={}",]
 page_message = "inbox.php"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "bonus.php?action=bprates"

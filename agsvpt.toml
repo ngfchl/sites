@@ -21,7 +21,10 @@ page_control_panel = "usercp.php"
 page_detail = "details.php?id={}"
 page_download = "download.php?id={}&passkey={}"
 page_user = "userdetails.php?id={}"
-page_search = "torrents.php?incldead=1&search={}"
+page_search = [
+    "torrents.php?search={}",
+    "special.php?search={}",
+]
 page_message = "messages.php"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"

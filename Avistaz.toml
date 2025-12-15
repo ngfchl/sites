@@ -1,4 +1,4 @@
-url = ["https://avistaz.to/", ]
+url = [ "https://avistaz.to/",]
 name = "Avistaz"
 nickname = "avistaz"
 logo = "images/avistaz-favicon.png"
@@ -21,7 +21,7 @@ page_control_panel = "usercp.php"
 page_detail = "details.php?id={}"
 page_download = "download.php?id={}&passkey={}"
 page_user = "profile/{}"
-page_search = "torrents?in=1&search={}"
+page_search = [ "torrents?in=1&search={}",]
 page_message = "messenger"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"

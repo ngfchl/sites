@@ -1,4 +1,4 @@
-url = ["https://filelist.io/", ]
+url = [ "https://filelist.io/",]
 name = "Filelist"
 nickname = "Filelist"
 logo = "favicon.ico"
@@ -21,7 +21,7 @@ page_control_panel = "my.php"
 page_detail = "details.php?id={}"
 page_download = "download.php?id={}&passkey={}"
 page_user = "userdetails.php?id={}"
-page_search = "browse.php?search={}"
+page_search = [ "browse.php?search={}",]
 imdb_search = "torrents.php?cat=0&searchin=3&sort=2&search={}"
 page_message = "messages.php"
 page_hr = "myhr.php?hrtype=1&userid={}"

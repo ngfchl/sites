@@ -1,4 +1,4 @@
-url = ["https://hdcity.city/", "https://hdcity.leniter.org/", "https://hdcity.work/", ]
+url = [ "https://hdcity.city/", "https://hdcity.leniter.org/", "https://hdcity.work/",]
 name = "hdcity"
 nickname = "HD城市"
 logo = "favicon.ico"
@@ -21,7 +21,7 @@ page_control_panel = "userdetails"
 page_detail = "details.php?id={}"
 page_download = "download?id={}&cuhash={}"
 page_user = "userdetails?id={}"
-page_search = "pt?incldead=1&spstate=0&inclbookmarked=0&iwannaseethis={}"
+page_search = [ "pt?incldead=1&spstate=0&inclbookmarked=0&iwannaseethis={}",]
 page_message = "messages.php"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"

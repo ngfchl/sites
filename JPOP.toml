@@ -1,4 +1,4 @@
-url = ["https://jpopsuki.eu/", ]
+url = [ "https://jpopsuki.eu/",]
 name = "JPOP"
 nickname = "JPOP"
 logo = "favicon.ico"
@@ -21,7 +21,7 @@ page_control_panel = "user.php?id={}"
 page_detail = "details.php?id={}"
 page_download = "download.php?id={}&passkey={}"
 page_user = "user.php?id={}"
-page_search = "torrents.php?searchstr={}"
+page_search = [ "torrents.php?searchstr={}",]
 page_message = "inbox.php"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"

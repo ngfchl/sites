@@ -1,4 +1,4 @@
-url = ["https://pterclub.com/", "https://pterclub.net/", ]
+url = ["https://pterclub.net/", "https://pterclub.com/", ]
 name = "pter"
 nickname = "pterclub"
 logo = "favicon.ico"
@@ -21,7 +21,11 @@ page_control_panel = "usercp.php"
 page_detail = "details.php?id={}"
 page_download = "download.php?id={}&passkey={}"
 page_user = "userdetails.php?id={}"
-page_search = "torrents.php?search_area=0&search={}"
+page_search = [
+    "torrents.php?search={}",
+    "music.php?search={}",
+    "officialgroup.php?search={}",
+]
 page_message = "messages.php"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlist.php?do_ajax=1&userid={}&type=leeching"
