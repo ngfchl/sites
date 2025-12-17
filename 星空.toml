@@ -1,4 +1,4 @@
-url = ["https://star-space.net/", ]
+url = [ "https://star-space.net/",]
 name = "星空"
 nickname = "star-space"
 logo = "favicon.ico"
@@ -21,7 +21,7 @@ page_control_panel = "/p_user/edit_passkey.php"
 page_detail = "p_torrent/video_detail.php?tid={}"
 page_download = "p_torrent/download.php?tid={}&passkey={}"
 page_user = "p_user/user_detail.php?uid={}"
-page_search = "p_torrent/video_list_g.php?option=&search={}&area=name&column=g_last_upload_date&sort=desc"
+page_search = [ "p_torrent/video_list_g.php?option=&search={}&area=name&column=g_last_upload_date&sort=desc",]
 imdb_search = "p_torrent/video_list_g.php?seeder=&source=&cat=&search={}&area=imdb&column=tr_create_time&sort=desc&btn_search=搜索&suggest="
 page_message = "p_sms/msg_in.php"
 page_hr = "myhr.php?hrtype=1&userid={}"

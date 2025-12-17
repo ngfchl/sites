@@ -1,4 +1,4 @@
-url = ["https://www.torrentleech.cc/", "https://www.torrentleech.org/", "https://www.torrentleech.me/", "https://www.tleechreload.org/", ]
+url = [ "https://www.torrentleech.cc/", "https://www.torrentleech.org/", "https://www.torrentleech.me/", "https://www.tleechreload.org/",]
 name = "TorrentLeech"
 nickname = "TorrentLeech"
 logo = "favicon.ico"
@@ -21,7 +21,7 @@ page_control_panel = "profile/{}/view"
 page_detail = "details.php?id={}"
 page_download = "download.php?id={}&passkey={}"
 page_user = "profile/{}/view"
-page_search = "torrents/browse/list/query/{}"
+page_search = [ "torrents/browse/list/query/{}",]
 page_message = "profile/{}/notifications"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"

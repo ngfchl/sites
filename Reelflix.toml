@@ -1,4 +1,4 @@
-url = ["https://reelflix.xyz/", ]
+url = [ "https://reelflix.xyz/",]
 name = "Reelflix"
 nickname = "Reelflix"
 logo = "favicon.ico"
@@ -21,7 +21,7 @@ page_control_panel = "users/{}"
 page_detail = "details.php?id={}"
 page_download = "download.php?id={}&passkey={}"
 page_user = "users/{}"
-page_search = "torrents?name={}&perPage=100"
+page_search = [ "torrents?name={}&perPage=100",]
 page_message = "mail/inbox"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"

@@ -1,4 +1,4 @@
-url = ["https://xp.m-team.cc/", "https://xp.m-team.io/", "https://zp.m-team.io/", "https://next.m-team.cc/", "https://kp.m-team.cc/", "https://kp.m-team.io/", ]
+url = [ "https://xp.m-team.cc/", "https://xp.m-team.io/", "https://zp.m-team.io/", "https://next.m-team.cc/", "https://kp.m-team.cc/", "https://kp.m-team.io/",]
 name = "MTeam"
 nickname = "MTeam"
 logo = "https://xp.m-team.cc/favicon.ico"
@@ -22,7 +22,7 @@ page_detail = "detail/{}"
 page_download = "download.php?id={}&passkey={}"
 page_user_api = "api/member/profile"
 page_user = "profile/detail/{}"
-page_search = "api/torrent/search"
+page_search = [ "api/torrent/search",]
 page_notice = "api/news/list"
 page_message = "api/msg/statistic"
 page_hr = "myhr.php?hrtype=1&userid={}"

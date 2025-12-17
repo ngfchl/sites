@@ -1,4 +1,4 @@
-url = ["https://blutopia.cc/", ]
+url = [ "https://blutopia.cc/",]
 name = "Blutopia"
 nickname = "Blutopia"
 logo = "favicon.ico"
@@ -21,7 +21,7 @@ page_control_panel = "users/{}"
 page_detail = "torrents/{}"
 page_download = "torrents/download/{}"
 page_user = "users/{}"
-page_search = "torrents?perPage=100&name={}"
+page_search = [ "torrents?perPage=100&name={}",]
 page_message = "mail/inbox"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"
