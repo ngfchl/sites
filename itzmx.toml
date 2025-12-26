@@ -1,8 +1,8 @@
-url = [ "https://pt.itzmx.com/",]
+url = ["https://pt.itzmx.com/", ]
 name = "itzmx"
 nickname = "PT分享"
 logo = "favicon.ico"
-tracker = "tracker.itzmx.com|tracker2.itzmx.com"
+tracker = "tracker.itzmx.com|tracker1.itzmx.com|tracker2.itzmx.com|tracker3.itzmx.com|tracker4.itzmx.com|tracker.opentrackr.org"
 sp_full = 170
 limit_speed = 100
 tags = "影视,综合,半死不活"
@@ -21,7 +21,7 @@ page_control_panel = "usercp.php"
 page_detail = "details.php?id={}"
 page_download = "download.php?id={}&passkey={}"
 page_user = "userdetails.php?id={}"
-page_search = [ "torrents.php?search={}",]
+page_search = ["torrents.php?search={}", ]
 page_message = "messages.php"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"
