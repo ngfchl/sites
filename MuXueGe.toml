@@ -1,4 +1,4 @@
-url = [ "https://pt.muxuege.org/",]
+url = ["https://pt.muxuege.org/", ]
 name = "MuXueGe"
 nickname = "慕雪阁"
 logo = "favicon.ico"
@@ -6,7 +6,7 @@ tracker = "pt.muxuege.org|tracker.muxuege.org"
 sp_full = 100
 limit_speed = 100
 tags = "电影,电视剧"
-iyuu = 0
+iyuu = 140
 sign_in = true
 get_info = true
 repeat_torrents = true
@@ -21,7 +21,7 @@ page_control_panel = "usercp.php"
 page_detail = "details.php?id={}"
 page_download = "download.php?id={}&passkey={}"
 page_user = "userdetails.php?id={}"
-page_search = [ "torrents.php?incldead=1&search={}",]
+page_search = ["torrents.php?incldead=1&search={}", ]
 page_message = "messages.php"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"
