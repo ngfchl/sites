@@ -1,4 +1,4 @@
-url = [ "https://mooko.org/",]
+url = ["https://mooko.org/", ]
 name = "Mooko"
 nickname = "mooko"
 logo = "favicon.ico"
@@ -7,7 +7,7 @@ sp_full = 0
 limit_speed = 100
 tags = "影视,GZ架构"
 iyuu = 64
-sign_in = false
+sign_in = true
 get_info = true
 repeat_torrents = true
 brush_free = false
@@ -16,12 +16,12 @@ hr_discern = false
 search_torrents = true
 page_index = "index.php"
 page_torrents = "torrents.php"
-page_sign_in = "attendance.php"
+page_sign_in = "ajax.php?action=checkin"
 page_control_panel = "user.php?id={}"
 page_detail = "torrents.php?torrentid={}"
 page_download = "torrents.php?action=download&id={}&&authkey={}&torrent_pass={}"
 page_user = "ajax.php?action=user&id={}"
-page_search = [ "torrents.php?searchstr={}",]
+page_search = ["torrents.php?searchstr={}", ]
 page_message = "inbox.php"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "bonus.php?action=bprates"
