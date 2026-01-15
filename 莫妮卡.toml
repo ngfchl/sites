@@ -1,8 +1,8 @@
-url = [ "https://monikadesign.uk/",]
+url = ["https://monikadesign.uk/", ]
 name = "莫妮卡"
 nickname = "monika"
 logo = "favicon.ico"
-tracker = "monikadesign.uk|tracker.monikadesign.uk|daisuki.monikadesign.uk|daikirai.monikadesign.uk|anime-no-index.com"
+tracker = "monikadesign.uk|tracker.monikadesign.uk|daisuki.monikadesign.uk|daikirai.monikadesign.uk|anime-no-index.com|a.x-anime.cc|A.x-anime.cc"
 sp_full = 100
 limit_speed = 100
 tags = "动漫"
@@ -21,7 +21,7 @@ page_control_panel = "users/{}"
 page_detail = "torrents/{}"
 page_download = "torrents/download/{}"
 page_user = "users/{}"
-page_search = [ "torrents?perPage=100&name={}",]
+page_search = ["torrents?perPage=100&name={}", ]
 page_message = "mail/inbox"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"
