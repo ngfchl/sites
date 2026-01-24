@@ -1,4 +1,4 @@
-url = [ "https://zmpt.cc/",]
+url = ["https://zmpt.cc/", ]
 name = "织梦"
 nickname = "zmpt"
 logo = "favicon.ico"
@@ -21,7 +21,7 @@ page_control_panel = "usercp.php"
 page_detail = "details.php?id={}"
 page_download = "download.php?id={}&passkey={}"
 page_user = "userdetails.php?id={}"
-page_search = [ "torrents.php?search={}",]
+page_search = ["torrents.php?search={}", ]
 page_message = "messages.php"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"
@@ -35,7 +35,7 @@ sign_info_content = "//td[@id='outer']//td[@class='embedded']/table//td//text()"
 hr = true
 hr_rate = 1
 hr_time = 24
-my_invitation_rule = "//span/a[contains(@href,'invite.php?id=')]/following-sibling::text()[1]"
+my_invitation_rule = "//div/a[contains(@href,'invite.php?id=')]/text()[1]"
 my_time_join_rule = "//td[contains(text(),'加入')]/following-sibling::td/span/@title"
 my_latest_active_rule = "//td[contains(text(),'最近动向')]/following-sibling::td/span/@title"
 my_uploaded_rule = "//font[@class='color_uploaded']/following-sibling::text()[1]"

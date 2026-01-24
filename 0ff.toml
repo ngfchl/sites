@@ -1,8 +1,8 @@
-url = ["https://pt.0ff.cc/", ]
+url = ["https://pt.0ff.cc/", "https://farmm.cc/", ]
 name = "0ff"
 nickname = "农场"
 logo = "favicon.ico"
-tracker = "tracker.0ff.cc"
+tracker = "tracker.0ff.cc|tracker.farmm.cc|tracker.nongchang.de"
 sp_full = 107
 limit_speed = 100
 tags = "综合,韩剧"
