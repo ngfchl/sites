@@ -1,4 +1,4 @@
-url = [ "https://piggo.me/",]
+url = ["https://piggo.me/", ]
 name = "猪猪网"
 nickname = "piggo"
 logo = "favicon.ico"
@@ -21,7 +21,7 @@ page_control_panel = "usercp.php"
 page_detail = "details.php?id={}"
 page_download = "download.php?id={}&passkey={}"
 page_user = "userdetails.php?id={}"
-page_search = [ "search.php?search={}",]
+page_search = ["search.php?search={}", ]
 page_message = "messages.php"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"
@@ -52,7 +52,7 @@ my_leech_rule = "//img[@class='arrowdown'][1]/following-sibling::text()[1]"
 my_publish_rule = "//div[contains(., '条记录')]/b[1]/text()"
 my_seed_rule = "//img[@class='arrowup'][1]/following-sibling::text()[1]"
 my_seed_vol_rule = "//p/preceding-sibling::div/div/text()[1]"
-my_mailbox_rule = "//text()[contains(., '条新信息')]"
+my_mailbox_rule = "//text()[contains(., '条新')]"
 my_message_title = "//img[@alt='Unread']/parent::td/following-sibling::td/a[1]//text()"
 my_notice_rule = "//div[contains(text(), '公告')]/text()"
 my_notice_title = "//td[@class='text']/div/a"
