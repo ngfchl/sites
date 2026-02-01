@@ -1,4 +1,4 @@
-url = [ "https://jpopsuki.eu/",]
+url = ["https://jpopsuki.eu/", ]
 name = "JPOP"
 nickname = "JPOP"
 logo = "favicon.ico"
@@ -21,7 +21,7 @@ page_control_panel = "user.php?id={}"
 page_detail = "details.php?id={}"
 page_download = "download.php?id={}&passkey={}"
 page_user = "user.php?id={}"
-page_search = [ "torrents.php?searchstr={}",]
+page_search = ["torrents.php?searchstr={}", ]
 page_message = "inbox.php"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"
@@ -35,7 +35,7 @@ sign_info_content = "//td[@id='outer']//td[@class='embedded']/table//td//text()"
 hr = false
 hr_rate = 2
 hr_time = 10
-my_invitation_rule = "//span/a[contains(@href,'invite.php?id=')]/following-sibling::text()[1]"
+my_invitation_rule = "//strong/a[contains(@href,'user.php?action=invite')]/text()[1]"
 my_time_join_rule = "//div[contains(text(),'Stats')]/following-sibling::ul/li[1]/span/@title"
 my_latest_active_rule = "//div[contains(text(),'Stats')]/following-sibling::ul/li[2]/span/@title"
 my_uploaded_rule = "//ul[@id='userinfo_stats']/li[1]/span/text()"
