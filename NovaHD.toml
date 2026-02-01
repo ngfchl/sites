@@ -1,4 +1,4 @@
-url = [ "https://pt.novahd.top/",]
+url = ["https://pt.novahd.top/", ]
 name = "NovaHD"
 nickname = "NovaHD"
 logo = "favicon.ico"
@@ -21,7 +21,7 @@ page_control_panel = "usercp.php"
 page_detail = "details.php?id={}"
 page_download = "download.php?id={}&passkey={}"
 page_user = "userdetails.php?id={}"
-page_search = [ "torrents.php?incldead=1&search={}",]
+page_search = ["torrents.php?incldead=1&search={}", ]
 page_message = "messages.php"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"
@@ -198,7 +198,7 @@ ratio = 3.05
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "得到三个邀请名额；可以查看其它用户的评论、帖子历史。VeteranUser及以上用户会永远保留账号。"
 
@@ -214,7 +214,7 @@ ratio = 3.55
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "可以更新过期的外部信息；可以查看ExtremeUser论坛。"
 
@@ -230,7 +230,7 @@ ratio = 4.05
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "得到五个邀请名额。"
 
@@ -246,8 +246,8 @@ ratio = 4.55
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "得到十个邀请名额。"
 
 [level.VIP]
@@ -262,6 +262,6 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "1.VIP贵宾会员期限内不受系统分享率限制，可以在贵宾期限内无限制下载。可以在贵宾期限内无视H&R规则，畅快下载；2.VIP贵宾会员期限内不会因分享率过低而被系统封禁，免除自动降级，贵宾期限内不计算下行流量；3.VIP贵宾会员期限内开启排行榜查看权限；4.VIP贵宾会员期限内无视每年的年终考核和年中考核；5.拥有捐赠者黄星标识的会员，每小时做种获取魔力值双倍的奖励。"
