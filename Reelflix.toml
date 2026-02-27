@@ -1,4 +1,4 @@
-url = [ "https://reelflix.xyz/",]
+url = ["https://reelflix.xyz/", ]
 name = "Reelflix"
 nickname = "Reelflix"
 logo = "favicon.ico"
@@ -21,7 +21,7 @@ page_control_panel = "users/{}"
 page_detail = "details.php?id={}"
 page_download = "download.php?id={}&passkey={}"
 page_user = "users/{}"
-page_search = [ "torrents?name={}&perPage=100",]
+page_search = ["torrents?name={}&perPage=100", ]
 page_message = "mail/inbox"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"
@@ -35,11 +35,11 @@ sign_info_content = "//td[@id='outer']//td[@class='embedded']/table//td//text()"
 hr = false
 hr_rate = 2
 hr_time = 10
-my_invitation_rule = "//td[contains(text(),'邀请') and not(contains(text(),'可以'))]/following-sibling::td/span/text()"
+my_invitation_rule = "//dt/a[contains(text(),'邀请') and not(contains(text(),'可以'))]/../following-sibling::dd/text()"
 my_time_join_rule = "//time[@class='profile__registration']/@title"
-my_latest_active_rule = "//td[contains(text(),' 上次登录时间')]/following-sibling::td/text()"
-my_uploaded_rule = "//li[@title='上传']/text()"
-my_downloaded_rule = "//li[@title='下载']/text()"
+my_latest_active_rule = "//dt[contains(text(),'上次登录时间')]/following-sibling::dd/time/@title"
+my_uploaded_rule = "//li[@title='上传']/a/text()"
+my_downloaded_rule = "//li[@title='下载']/a/text()"
 my_ratio_rule = "//li[@title='分享率']/a/text()"
 my_bonus_rule = "//dt/a[contains(text(), '魔力')]/../../dd/text()"
 my_per_hour_bonus_rule = "//dt[contains(text(), '每小时点数')]/../dd/text()"
