@@ -1,4 +1,4 @@
-url = ["https://xp.m-team.cc/", "https://xp.m-team.io/", "https://zp.m-team.io/", "https://next.m-team.cc/", "https://kp.m-team.cc/", "https://kp.m-team.io/", ]
+url = ["https://xp.m-team.cc/", "https://xp.m-team.io/", "https://zp.m-team.io/", "https://next.m-team.cc/", "https://kp.m-team.cc/", "https://kp.m-team.io/", "https://h5.m-team.io/", "https://h5.m-team.cc/", ]
 name = "MTeam"
 nickname = "MTeam"
 logo = "https://xp.m-team.cc/favicon.ico"
@@ -14,7 +14,7 @@ brush_free = true
 brush_rss = true
 hr_discern = false
 search_torrents = true
-page_index = "index"
+page_index = ""
 page_torrents = "browse"
 page_sign_in = "attendance.php"
 page_control_panel = "usercp?tab=home"
