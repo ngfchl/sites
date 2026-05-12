@@ -23,7 +23,6 @@ page_download = "download.php?id={}&passkey={}"
 page_user = "userdetails.php?id={}"
 page_search = [
     "torrents.php?search={}",
-    "special.php?search={}",
 ]
 page_message = "messages.php"
 page_hr = "myhr.php?hrtype=1&userid={}"
