@@ -1,4 +1,4 @@
-url = [ "https://www.pttime.org/", "https://www.pttime.top/",]
+url = ["https://www.pttime.org/", "https://www.pttime.top/", ]
 name = "时间"
 nickname = "pttime"
 logo = "favicon.ico"
@@ -21,7 +21,7 @@ page_control_panel = "usercp.php"
 page_detail = "details.php?id={}"
 page_download = "download.php?id={}&passkey={}"
 page_user = "userdetails.php?id={}"
-page_search = [ "torrents.php?search={}",]
+page_search = ["torrents.php?search={}", ]
 page_message = "messages.php"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"
@@ -30,8 +30,8 @@ page_seeding = "getusertorrentlist.php?type=seeding&userid={}"
 page_completed = "getusertorrentlistajax.php?userid={}&type=completed"
 page_mybonus = "mybonus.php"
 page_viewfilelist = "viewfilelist.php?id="
-sign_info_title = "//td[1]/b[1]/text()"
-sign_info_content = "//td[@class='embedded']/br[1]/following-sibling::span[position()>0 and position() < 5]//text()"
+sign_info_title = "//text()"
+sign_info_content = "//text()"
 hr = false
 hr_rate = 2
 hr_time = 10
