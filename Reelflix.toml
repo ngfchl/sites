@@ -1,4 +1,4 @@
-url = ["https://reelflix.xyz/", ]
+url = ["https://reelflix.xyz/", "https://reelflix.cc/", ]
 name = "Reelflix"
 nickname = "Reelflix"
 logo = "favicon.ico"
