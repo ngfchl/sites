@@ -1,0 +1,268 @@
+url = ["https://www.right.com.cn/forum/index.php/", ]
+name = "恩山论坛"
+nickname = "恩山论坛"
+logo = "https://www.right.com.cn/forum/logo/v25.png"
+tracker = "www.right.com.cn"
+sp_full = 107
+limit_speed = 100
+tags = "论坛"
+iyuu = 0
+sign_in = true
+get_info = true
+repeat_torrents = false
+brush_free = false
+brush_rss = false
+hr_discern = false
+search_torrents = false
+page_index = ""
+page_torrents = "forum.php"
+page_sign_in = "plugin.php?id=erling_qd:action&action=sign"
+page_control_panel = "home.php?mod=space&uid={}"
+page_detail = "thread-{}.html"
+page_download = "download.php?id={}&passkey={}"
+page_user = "home.php?mod=space&uid={}&do=profile"
+page_search = "search.php?searchsubmit=yes&srchtxt={}"
+page_message = "home.php?mod=space&do=pm"
+page_hr = "myhr.php?hrtype=1&userid={}"
+page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"
+page_uploaded = "getusertorrentlistajax.php?userid={}&type=uploaded"
+page_seeding = "getusertorrentlistajax.php?userid={}&type=seeding"
+page_completed = "getusertorrentlistajax.php?userid={}&type=completed"
+page_mybonus = "mybonus.php"
+page_viewfilelist = "viewfilelist.php?id={}"
+sign_info_title = "//a[contains(@href,'plugin.php?id=zqlj_sign')]/text()"
+sign_info_content = "//div[contains(@class,'signin-tip')]//text()"
+hr = false
+hr_rate = 2
+hr_time = 10
+my_invitation_rule = "//a[contains(@href,'/u/{}/invite')]/parent::li//span[@class='Button-badge']/text()"
+my_time_join_rule = "//li[em='注册时间']/text()"
+my_latest_active_rule = "//li[em='最后访问']/text()"
+my_uploaded_rule = "//li[em='积分']/text()"
+my_downloaded_rule = "//li[em='贡献']/text()"
+my_ratio_rule = "//div[@class='MPStats-card MPStats-ratio']//div[@class='MPStats-cardValue']/text()"
+my_bonus_rule = "//li[em='恩山币']/text()"
+my_per_hour_bonus_rule = "//div[@class='MPStats-siteStats']//span[contains(@class,'MPStats-siteBonus')]/text()"
+my_score_rule = "//li[em='贡献']/text()"
+my_level_rule = "//div[h2='活跃概况']/ul/li[contains(., '用户组')]//a/text()"
+my_passkey_rule = "//td[contains(text(),'密钥')]/following-sibling::td[1]/text()"
+my_uid_rule = "//span[contains(text(),'UID:')]/text()"
+my_hr_rule = "//a[@href='myhr.php']//text()"
+my_leech_rule = "//ul/li[em/text()='已用空间']/text()"
+my_publish_rule = "//a[contains(text(),'主题数')]/text()"
+my_seed_rule = "//body//div[9]//div[2]//div[2]//div/a[3]/span/text()"
+my_seed_vol_rule = "//div[@class='MPStats-card MPStats-seedSize']//div[@class='MPStats-cardValue']/text()"
+my_mailbox_rule = "//li[em='邮箱状态']/text()"
+my_message_title = "//div[@class='Post-mentionedBy-summary']//a//text()"
+my_notice_rule = "//a[contains(@href,'home.php?mod=space&do=notice')]/text()"
+my_notice_title = "//div[@class='Post-mentionedBy-summary']//a//text()"
+my_notice_content = "//div[@class='Post-body']/p//text()"
+torrents_rule = "//tbody[contains(@id,'normalthread_')]"
+torrent_title_rule = "//a[contains(@href,'thread-') and @class='s xst']/text()"
+torrent_subtitle_rule = "//div[@class='Post-body']/p//text()"
+torrent_detail_url_rule = "//a[contains(@href,'thread-') and @class='s xst']/@href"
+torrent_category_rule = "//em[@class='forumname']/a/text()"
+torrent_poster_rule = "//img[@class='avtm']/@src"
+torrent_magnet_url_rule = "//a[contains(@href,'download.php?id=')]/@href"
+torrent_size_rule = "//td[@class='by']/em/text()"
+torrent_progress_rule = "//div[contains(@title,'进度')]/@title"
+torrent_hr_rule = "//img[@class='hitandrun']/@title"
+torrent_sale_rule = "//span[contains(@class,'MPStats-statTag') and contains(text(),'免费')]/text()"
+torrent_sale_expire_rule = "//span[contains(@class,'MPStats-statTag') and contains(text(),'免费')]/following-sibling::text()"
+torrent_release_rule = "//td[@class='by']/span/text()"
+torrent_seeders_rule = "//td[contains(@class,'num')][1]/text()"
+torrent_leechers_rule = "//td[contains(@class,'num')][2]/text()"
+torrent_completers_rule = "//td[contains(@class,'num')][3]/text()"
+detail_title_rule = "//h1[@class='ts']/text()"
+detail_subtitle_rule = "//div[@class='UserBio-content']/p/text()"
+detail_download_url_rule = "//a[contains(@href,'download.php?id=')]/@href"
+detail_size_rule = "//div[contains(@class,'attnm')]/text()"
+detail_category_rule = "//div[@class='z bread']/a[last()]/text()"
+detail_count_files_rule = "//div[@class='MPStats-siteStats']//span[contains(@class,'MPStats-statIcon')]/following-sibling::text()"
+detail_hash_rule = "//td[contains(text(),'Hash')]/following-sibling::td[1]/text()"
+detail_free_rule = "//span[contains(@class,'MPStats-statTag') and contains(text(),'免费')]/@class"
+detail_free_expire_rule = "//span[contains(@class,'MPStats-statTag') and contains(text(),'免费')]/following-sibling::text()"
+detail_douban_rule = "//a[starts-with(@href,'https://movie.douban.com/subject/')]/@href"
+detail_imdb_rule = "//a[starts-with(@href,'https://www.imdb.com/title/')]/@href"
+detail_poster_rule = "//div[contains(@class,'zoom')]/img/@src"
+detail_tags_rule = "//div[@class='MPStats-siteName']/text()"
+torrent_tags_rule = "//div[@class='MPStats-siteName']/text()"
+detail_hr_rule = "//img[@class='hitandrun']/@title"
+alive = true
+page_pieces_hash_api = "api/pieces-hash"
+pieces_repeat = false
+proxy = true
+imdb_search = "search.php?searchsubmit=yes&srchtxt={}"
+structure = "Invites"
+type = "forum"
+nation = "china"
+my_email_rule = "//li[em='邮箱状态']/text()"
+my_username_rule = "//h2[contains(@class,'xs2')]/a/text()"
+buy_page = "mybonus.php?action=exchange"
+
+[buy_action]
+"100GB上传流量" = "3"
+"100GB下载流量" = "5"
+"1个邀请名额" = "6"
+"1个临时邀请名额" = "7"
+"贵宾待遇" = "9"
+
+[level.'注册用户']
+level_id = 1
+level = "注册用户"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "基础浏览权限"
+
+[level.'小小菜鸟']
+level_id = 2
+level = "小小菜鸟"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 5
+ratio = 0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "解锁下载功能"
+
+[level.'平凡菜乌']
+level_id = 3
+level = "平凡菜乌"
+days = 0
+uploaded = "30B"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "可收藏资源"
+
+[level.'菜鸟班长']
+level_id = 4
+level = "菜鸟班长"
+days = 0
+uploaded = "50B"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "免基础广告"
+
+[level.'菜乌首领']
+level_id = 5
+level = "菜乌首领"
+days = 0
+uploaded = "100B"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "下载速度提升"
+
+[level.'菜乌元帅']
+level_id = 6
+level = "菜乌元帅"
+days = 0
+uploaded = "200B"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "可以发送邀请"
+
+[level.'高级老乌']
+level_id = 7
+level = "高级老乌"
+days = 0
+uploaded = "500B"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "多线程下载"
+
+[level.'骨灰高手']
+level_id = 8
+level = "骨灰高手"
+days = 0
+uploaded = "1000B"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "批量下载权限"
+
+[level.'罕见元老']
+level_id = 9
+level = "罕见元老"
+days = 0
+uploaded = "2000B"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "资源预览扩展"
+
+[level.'正式用户']
+level_id = 0
+level = "正式用户"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = true
+graduation = false
+rights = "正式用户"
