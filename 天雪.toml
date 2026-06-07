@@ -1,0 +1,283 @@
+url = ["https://www.skyey2.com/", ]
+name = "天雪"
+nickname = "天雪"
+logo = "favicon.ico"
+tracker = "www.skyey2.com"
+sp_full = 200
+limit_speed = 15
+tags = "论坛"
+iyuu = 0
+sign_in = true
+get_info = true
+repeat_torrents = true
+brush_free = true
+brush_rss = true
+hr_discern = false
+search_torrents = true
+page_index = "index.php"
+page_torrents = "torrents.php?incldead=1"
+page_sign_in = "dsu_paulsign-sign.html"
+page_control_panel = "usercp.php"
+page_detail = "details.php?id={}"
+page_download = "download.php?id={}&passkey={}"
+page_user = "home.php?mod=space&uid={}&do=profile"
+page_search = "torrents.php?search={}"
+page_message = "messages.php"
+page_hr = "myhr.php?hrtype=1&userid={}"
+page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"
+page_uploaded = "getusertorrentlistajax.php?userid={}&type=uploaded"
+page_seeding = "getusertorrentlistajax.php?userid={}&type=seeding"
+page_completed = "getusertorrentlistajax.php?userid={}&type=completed"
+page_mybonus = "mybonus.php"
+page_viewfilelist = "viewfilelist.php?id={}"
+sign_info_title = "//td[@id='outer']//td[@class='embedded']/h2/text()"
+sign_info_content = "//td[@id='outer']//td[@class='embedded']/table//td//text()"
+hr = false
+hr_rate = 2
+hr_time = 10
+my_invitation_rule = "//span/a[contains(@href,'invite.php?id=')]/following-sibling::text()[1]"
+my_time_join_rule = "//ul[@class='pf_l']/li/em[contains(text(),'注册时间')]/following-sibling::text()[1]"
+my_latest_active_rule = "//ul[@class='pf_l']/li/em[contains(text(),'最后访问')]/following-sibling::text()[1]"
+my_uploaded_rule = "//ul/li/em[contains(text(),'上传量') and not(contains(text(),'网盘'))]/following-sibling::text()[1]"
+my_downloaded_rule = "//ul/li/em[contains(text(),'下载量') and not(contains(text(),'网盘'))]/following-sibling::text()[1]"
+my_ratio_rule = "//ul[contains(@class,'cl bbda pbm mbm')]/li[contains(.,'分享率')]/text()[normalize-space()='分享率']/following-sibling::text()[1]"
+my_bonus_rule = "//ul/li/em[contains(text(),'金币')]/following-sibling::span[1]/text()"
+my_per_hour_bonus_rule = "//ul/li/em[contains(text(),'保种时间')]/following-sibling::text()[1]"
+my_score_rule = "//ul/li/em[contains(text(),'保种积分')]/following-sibling::text()[1]"
+my_level_rule = "//li[.//em[contains(normalize-space(.),'用户组')]]//a[1]/text()"
+my_passkey_rule = "//td[contains(text(),'密钥')]/following-sibling::td[1]/text()"
+my_uid_rule = "//div[@id='um']/p/strong[@class='vwmy']/a/@href"
+my_hr_rule = "//a[@href='myhr.php']//text()"
+my_leech_rule = "//li/a[contains(text(),'当前下载数')]/text()"
+my_publish_rule = "//div[contains(., '条记录')]/b[1]/text()"
+my_seed_rule = "//a[contains(text(),'当前做种数')]/text()"
+my_seed_vol_rule = "//ul/li/em[contains(text(),'做种数估计')]/following-sibling::text()[1]"
+my_mailbox_rule = "//a[@href='home.php?mod=space&amp;do=pm']/font[contains(text(),'条')]/text()[1]"
+my_message_title = "//img[@alt='Unread']/parent::td/following-sibling::td/a[1]//text()"
+my_notice_rule = "//a[@href='home.php?mod=space&amp;do=notice']/font[contains(text(),'条')]/text()[1]"
+my_notice_title = "//td[@class='text']/div/a/text()"
+my_notice_content = "//td[@class='text']/div/a/following-sibling::div/text()"
+torrents_rule = "//table[@class='torrents']/tr"
+torrent_title_rule = ".//td/a[contains(@href,'detail')]/b/text()[last()]"
+torrent_subtitle_rule = ".//a[contains(@href,'detail')]/parent::td/text()[last()]"
+torrent_detail_url_rule = ".//td[@class='embedded']/a[contains(@href,'detail')]/@href"
+torrent_category_rule = ".//td[@class='rowfollow nowrap'][1]/a[1]/img/@title"
+torrent_poster_rule = ".//table/tr/td[1]/img/@src"
+torrent_magnet_url_rule = ".//td/a[contains(@href,'download.php?id=')]/@href"
+torrent_size_rule = ".//td[5]/text()"
+torrent_progress_rule = ".//div[contains(@title,'ing')]/@title"
+torrent_hr_rule = ".//table/tr/td/img[@class='hitandrun']/@title"
+torrent_sale_rule = ".//img[contains(@class,'pro_')]/@alt"
+torrent_sale_expire_rule = ".//img[contains(@class,'free')]/following-sibling::font/span/@title"
+torrent_release_rule = ".//td[4]/span/@title"
+torrent_seeders_rule = ".//a[contains(@href,'#seeders')]/text()"
+torrent_leechers_rule = ".//a[contains(@href,'#leechers')]/text()"
+torrent_completers_rule = ".//a[contains(@href,'viewsnatches')]//text()"
+detail_title_rule = "//h1/text()[1]"
+detail_subtitle_rule = "//td[contains(text(),'副标题')]/following-sibling::td/text()[1]"
+detail_download_url_rule = "//a[@class='index' and contains(@href,'download.php')]/@href"
+detail_size_rule = "//td//b[contains(text(),'大小')]/following::text()[1]"
+detail_category_rule = "//td/b[contains(text(),'类型')]/following-sibling::text()[1]"
+detail_count_files_rule = "//td/b[contains(text(),'文件数')]/following-sibling::text()[1]"
+detail_hash_rule = "//td/b[contains(text(),'Hash')]/following-sibling::text()[1]"
+detail_free_rule = "//h1/b/font/@class"
+detail_free_expire_rule = "//h1/b/span/@title"
+detail_douban_rule = "//td/a[starts-with(@href,'https://movie.douban.com/subject/')][1]"
+detail_imdb_rule = "//a[@class='faqlink' and starts-with(@href,'https://www.imdb.com/title/')]/@href"
+detail_poster_rule = "//td/a/span[contains(text(),'简介')]/../../following-sibling::td//img[1]/@src"
+detail_tags_rule = "//td[contains(text(),'标签')]/following-sibling::td//text()"
+torrent_tags_rule = ".//a[contains(@href,'detail')]/../span[contains(@class,'tags')]/text()"
+detail_hr_rule = "//h1/img[@class='hitandrun']/@title"
+alive = true
+page_pieces_hash_api = "api/pieces-hash"
+pieces_repeat = true
+proxy = true
+structure = "Discuz"
+type = "pt"
+nation = "china"
+my_email_rule = "//td[contains(text(),'邮箱')]/following-sibling::td[1]//text()"
+my_username_rule = "//div/h2/img/../text()"
+buy_page = "mybonus.php?action=exchange"
+
+[buy_action]
+"100GB上传流量" = "3"
+"100GB下载流量" = "5"
+"1个邀请名额" = "6"
+"1个临时邀请名额" = "7"
+"贵宾待遇" = "9"
+
+[level.'Lv.-2 冰冻']
+level_id = 1
+level = "Lv.-2 冰冻"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = -999999999
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "积分下限 -999999999。"
+
+[level.'Lv.-1 惊蛰']
+level_id = 2
+level = "Lv.-1 惊蛰"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = -500
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "积分下限 -500。"
+
+[level.'Lv.0 清明']
+level_id = 3
+level = "Lv.0 清明"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = -200
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "积分下限 -200。"
+
+[level.'Lv.1 白露']
+level_id = 4
+level = "Lv.1 白露"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 1000
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "积分下限 1000。"
+
+[level.'Lv.2 秋分']
+level_id = 5
+level = "Lv.2 秋分"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 3000
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "积分达到 3000。"
+
+[level.'Lv.3 霜降']
+level_id = 6
+level = "Lv.3 霜降"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 5000
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "积分达到 5000。"
+
+[level.'Lv.4 小雪']
+level_id = 7
+level = "Lv.4 小雪"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 10000
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "积分达到 10000。"
+
+[level.'Lv.5 大雪']
+level_id = 8
+level = "Lv.5 大雪"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 30000
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "积分达到 30000。"
+
+[level.'Lv.6 小寒']
+level_id = 9
+level = "Lv.6 小寒"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 100000
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "积分达到 100000。"
+
+[level.'Lv.7 大寒']
+level_id = 10
+level = "Lv.7 大寒"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 300000
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "积分达到 300000。"
+
+[level.'Lv.8 立春']
+level_id = 11
+level = "Lv.8 立春"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 1000000
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = true
+graduation = true
+rights = "积分达到 1000000。"

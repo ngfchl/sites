@@ -1,0 +1,236 @@
+url = ["https://www.52pojie.cn/", ]
+name = "吾爱破解"
+nickname = "吾爱破解"
+logo = "https://static.52pojie.cn/static/image/common/logo.png"
+tracker = "www.52pojie.cn/"
+sp_full = 107
+limit_speed = 100
+tags = "论坛"
+iyuu = 0
+sign_in = false
+get_info = true
+repeat_torrents = false
+brush_free = false
+brush_rss = false
+hr_discern = false
+search_torrents = false
+page_index = "home.php"
+page_torrents = "forum.php"
+page_sign_in = "home.php?mod=task&do=apply&id=2&referer=%2Fhome.php%3Fmod%3Dspace%26uid%3D316563"
+page_control_panel = "home.php?mod=spacecp"
+page_detail = "thread-{}.html"
+page_download = "download.php?id={}&passkey={}"
+page_user = "home.php?mod=space&uid=316563&do=profile&from=space"
+page_search = "search.php?searchsubmit=yes&srchtxt={}"
+page_message = "home.php?mod=space&do=pm"
+page_hr = "myhr.php?hrtype=1&userid={}"
+page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"
+page_uploaded = "getusertorrentlistajax.php?userid={}&type=uploaded"
+page_seeding = "getusertorrentlistajax.php?userid={}&type=seeding"
+page_completed = "getusertorrentlistajax.php?userid={}&type=completed"
+page_mybonus = "mybonus.php"
+page_viewfilelist = "viewfilelist.php?id={}"
+sign_info_title = "//a[contains(@href,'home.php?mod=task&do=apply&id=2')]/text()"
+sign_info_content = "//div[@id='res-sign']/a/text()"
+hr = false
+hr_rate = 2
+hr_time = 10
+my_invitation_rule = "//a[contains(@href,'/u/{}/invite')]/parent::li//span[@class='Button-badge']/text()"
+my_time_join_rule = "//ul[@id='pbbs']/li[1]/text()"
+my_latest_active_rule = "//__disabled_latest_active_for_52pojie_time_parse_bug__"
+my_uploaded_rule = "//div[@id='psts']//ul[contains(@class,'pf_l')]/li[4]/text()"
+my_downloaded_rule = "//div[@class='MPStats-card MPStats-download']//div[@class='MPStats-cardValue']/text()"
+my_ratio_rule = "//div[@class='MPStats-card MPStats-ratio']//div[@class='MPStats-cardValue']/text()"
+my_bonus_rule = "//div[@id='psts']//ul[contains(@class,'pf_l')]/li[4]/text()"
+my_per_hour_bonus_rule = "//div[@class='MPStats-siteStats']//span[contains(@class,'MPStats-siteBonus')]/text()"
+my_score_rule = "//div[@id='psts']//ul[contains(@class,'pf_l')]/li[2]/text()"
+my_level_rule = "//ul[@id='pbbs']/preceding-sibling::ul[1]/li/span/a/text()"
+my_passkey_rule = "//td[contains(text(),'密钥')]/following-sibling::td[1]/text()"
+my_uid_rule = "//h2[@class='mbn']/span[@class='xw0']/text()"
+my_hr_rule = "//a[@href='myhr.php']//text()"
+my_leech_rule = "//div[@id='psts']//ul[contains(@class,'pf_l')]/li[1]/text()"
+my_publish_rule = "//a[contains(@href,'&type=thread')]/text()"
+my_seed_rule = "//body//div[9]//div[2]//div[2]//div/a[3]/span/text()"
+my_seed_vol_rule = "//div[@class='MPStats-card MPStats-seedSize']//div[@class='MPStats-cardValue']/text()"
+my_mailbox_rule = "//a[contains(@href,'home.php?mod=space&do=pm')]/text()"
+my_message_title = "//div[@class='Post-mentionedBy-summary']//a//text()"
+my_notice_rule = "//a[@href='index.php']/font[contains(text(),'条')]/text()[1]"
+my_notice_title = "//div[@class='Post-mentionedBy-summary']//a//text()"
+my_notice_content = "//div[@class='Post-body']/p//text()"
+torrents_rule = "//tbody[contains(@id,'normalthread_')]"
+torrent_title_rule = "//a[contains(@href,'thread-') and @class='s xst']/text()"
+torrent_subtitle_rule = "//div[@class='Post-body']/p//text()"
+torrent_detail_url_rule = "//a[contains(@href,'thread-') and @class='s xst']/@href"
+torrent_category_rule = "//em[@class='forumname']/a/text()"
+torrent_poster_rule = "//img[@class='Avatar']/@src"
+torrent_magnet_url_rule = "//a[contains(@href,'download.php?id=')]/@href"
+torrent_size_rule = "//td[@class='by']/em/text()"
+torrent_progress_rule = "//div[contains(@title,'进度')]/@title"
+torrent_hr_rule = "//img[@class='hitandrun']/@title"
+torrent_sale_rule = "//span[contains(@class,'MPStats-statTag') and contains(text(),'免费')]/text()"
+torrent_sale_expire_rule = "//span[contains(@class,'MPStats-statTag') and contains(text(),'免费')]/following-sibling::text()"
+torrent_release_rule = "//td[@class='by']/span/text()"
+torrent_seeders_rule = "//td[contains(@class,'num')][1]/text()"
+torrent_leechers_rule = "//td[contains(@class,'num')][2]/text()"
+torrent_completers_rule = "//td[contains(@class,'num')][3]/text()"
+detail_title_rule = "//h1[@class='ts']/text()"
+detail_subtitle_rule = "//div[@class='UserBio-content']/p/text()"
+detail_download_url_rule = "//a[contains(@href,'download.php?id=')]/@href"
+detail_size_rule = "//div[contains(@class,'attnm')]/text()"
+detail_category_rule = "//div[@class='z bread']/a[last()]/text()"
+detail_count_files_rule = "//div[@class='MPStats-siteStats']//span[contains(@class,'MPStats-statIcon')]/following-sibling::text()"
+detail_hash_rule = "//td[contains(text(),'Hash')]/following-sibling::td[1]/text()"
+detail_free_rule = "//span[contains(@class,'MPStats-statTag') and contains(text(),'免费')]/@class"
+detail_free_expire_rule = "//span[contains(@class,'MPStats-statTag') and contains(text(),'免费')]/following-sibling::text()"
+detail_douban_rule = "//a[starts-with(@href,'https://movie.douban.com/subject/')]/@href"
+detail_imdb_rule = "//a[starts-with(@href,'https://www.imdb.com/title/')]/@href"
+detail_poster_rule = "//div[contains(@class,'zoom')]/img/@src"
+detail_tags_rule = "//div[@class='MPStats-siteName']/text()"
+torrent_tags_rule = "//div[@class='MPStats-siteName']/text()"
+detail_hr_rule = "//img[@class='hitandrun']/@title"
+alive = true
+page_pieces_hash_api = "api/pieces-hash"
+pieces_repeat = false
+proxy = true
+imdb_search = "search.php?searchsubmit=yes&srchtxt={}"
+structure = "Invites"
+type = "pt"
+nation = "china"
+my_email_rule = "//span[@class='email']/text()"
+my_username_rule = "//h2[@class='mbn']/span[@class='xw0']/text()"
+buy_page = "mybonus.php?action=exchange"
+
+[buy_action]
+"100GB上传流量" = "3"
+"100GB下载流量" = "5"
+"1个邀请名额" = "6"
+"1个临时邀请名额" = "7"
+"贵宾待遇" = "9"
+
+[level.'身陷囹国']
+level_id = 1
+level = "身陷囹国"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "积分下限 -999999999"
+
+[level.'锋芒初露']
+level_id = 2
+level = "锋芒初露"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "积分下限 0，允许发布主题，允许回复帖子"
+
+[level.'前途无量']
+level_id = 3
+level = "前途无量"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 200
+ratio = 0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "允许使用自定义头像，允许参与投票"
+
+[level.'出类拔萃']
+level_id = 4
+level = "出类拔萃"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 400
+ratio = 0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "允许设置回帖奖励，签名中使用编辑器代码，签名中使用 [img] 代码"
+
+[level.'凤毛麟角']
+level_id = 5
+level = "凤毛麟角"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 800
+ratio = 0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "允许发起活动，允许设置主题高亮，允许创建收藏夹"
+
+[level.'独树一帜']
+level_id = 6
+level = "独树一帜"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 2000
+ratio = 0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "允许删除自己发布的主题，允许使用高级编辑器"
+
+[level.'炉火纯青']
+level_id = 7
+level = "炉火纯青"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 5000
+ratio = 0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "允许加好友，允许创建专题，允许设置帖子权限，免全部广告"
+
+[level.VIP]
+level_id = 0
+level = "VIP"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = true
+graduation = false
+rights = "VIP会员 尊享特权礼包"
