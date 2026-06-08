@@ -94,7 +94,7 @@ pieces_repeat = false
 proxy = true
 imdb_search = "search.php?searchsubmit=yes&srchtxt={}"
 structure = "Invites"
-type = "pt"
+type = "forum"
 nation = "china"
 my_email_rule = "//span[@class='email']/text()"
 my_username_rule = "//span[@id='h-name']/text()"
