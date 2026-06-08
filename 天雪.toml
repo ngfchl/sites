@@ -109,6 +109,7 @@ buy_page = "mybonus.php?action=exchange"
 [level.'Lv.-2 冰冻']
 level_id = 1
 level = "Lv.-2 冰冻"
+name = "Lv.-2 冰冻"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -125,6 +126,7 @@ rights = "积分下限 -999999999。"
 [level.'Lv.-1 惊蛰']
 level_id = 2
 level = "Lv.-1 惊蛰"
+name = "Lv.-1 惊蛰"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -141,6 +143,7 @@ rights = "积分下限 -500。"
 [level.'Lv.0 清明']
 level_id = 3
 level = "Lv.0 清明"
+name = "Lv.0 清明"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -157,6 +160,7 @@ rights = "积分下限 -200。"
 [level.'Lv.1 白露']
 level_id = 4
 level = "Lv.1 白露"
+name = "Lv.1 白露"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -173,6 +177,7 @@ rights = "积分下限 1000。"
 [level.'Lv.2 秋分']
 level_id = 5
 level = "Lv.2 秋分"
+name = "Lv.2 秋分"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -189,6 +194,7 @@ rights = "积分达到 3000。"
 [level.'Lv.3 霜降']
 level_id = 6
 level = "Lv.3 霜降"
+name = "Lv.3 霜降"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -205,6 +211,7 @@ rights = "积分达到 5000。"
 [level.'Lv.4 小雪']
 level_id = 7
 level = "Lv.4 小雪"
+name = "Lv.4 小雪"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -221,6 +228,7 @@ rights = "积分达到 10000。"
 [level.'Lv.5 大雪']
 level_id = 8
 level = "Lv.5 大雪"
+name = "Lv.5 大雪"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -237,6 +245,7 @@ rights = "积分达到 30000。"
 [level.'Lv.6 小寒']
 level_id = 9
 level = "Lv.6 小寒"
+name = "Lv.6 小寒"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -253,6 +262,7 @@ rights = "积分达到 100000。"
 [level.'Lv.7 大寒']
 level_id = 10
 level = "Lv.7 大寒"
+name = "Lv.7 大寒"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -269,6 +279,7 @@ rights = "积分达到 300000。"
 [level.'Lv.8 立春']
 level_id = 11
 level = "Lv.8 立春"
+name = "Lv.8 立春"
 days = 0
 uploaded = "0"
 downloaded = "0"

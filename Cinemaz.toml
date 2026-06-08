@@ -109,6 +109,7 @@ buy_page = "mybonus.php?action=exchange"
 [level.Newbie]
 level_id = 1
 level = "Newbie"
+name = "Newbie"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -125,6 +126,7 @@ rights = "Description:xa0Newlyregisteredusers.Limitedtodownloadtorrentsthatareat
 [level.Member]
 level_id = 2
 level = "Member"
+name = "Member"
 days = 1
 uploaded = "5GB"
 downloaded = "50"
@@ -141,6 +143,7 @@ rights = "Description:xa0Registereduserswith5GBuploadandratioabove1.0.(Newbiesar
 [level."V.I.P."]
 level_id = 0
 level = "V.I.P."
+name = "V.I.P."
 days = 0
 uploaded = "0"
 downloaded = "0"

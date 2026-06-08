@@ -110,6 +110,7 @@ buy_page = "mybonus.php?action=exchange"
 [level.User]
 level_id = 1
 level = "User"
+name = "User"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -126,6 +127,7 @@ rights = "新用户的默认级别；"
 [level.PowerUser]
 level_id = 2
 level = "PowerUser"
+name = "PowerUser"
 days = 2
 uploaded = "0"
 downloaded = "30GB"
@@ -142,6 +144,7 @@ rights = "可以直接发布种子；可以查看NFO文档；可以查看用户�
 [level.EliteUser]
 level_id = 3
 level = "EliteUser"
+name = "EliteUser"
 days = 5
 uploaded = "0"
 downloaded = "50GB"
@@ -158,6 +161,7 @@ rights = "优秀硕士及以上用户封存账号后不会被删除"
 [level.CrazyUser]
 level_id = 4
 level = "CrazyUser"
+name = "CrazyUser"
 days = 10
 uploaded = "0"
 downloaded = "100GB"
@@ -174,6 +178,7 @@ rights = "可以在做种/下载/发布的时候选择匿名模式，可以在�
 [level.InsaneUser]
 level_id = 5
 level = "InsaneUser"
+name = "InsaneUser"
 days = 15
 uploaded = "0"
 downloaded = "300GB"
@@ -190,6 +195,7 @@ rights = "可以查看普通日志。"
 [level.VeteranUser]
 level_id = 6
 level = "VeteranUser"
+name = "VeteranUser"
 days = 20
 uploaded = "0"
 downloaded = "500GB"
@@ -206,6 +212,7 @@ rights = "可以查看排行榜；可以查看其它用户的评论、帖子历�
 [level.ExtremeUser]
 level_id = 7
 level = "ExtremeUser"
+name = "ExtremeUser"
 days = 30
 uploaded = "0"
 downloaded = "700GB"
@@ -222,6 +229,7 @@ rights = "可以更新过期的外部信息；可以查看晋升副教论坛。"
 [level.UltimateUser]
 level_id = 8
 level = "UltimateUser"
+name = "UltimateUser"
 days = 40
 uploaded = "0"
 downloaded = "900GB"
@@ -238,6 +246,7 @@ rights = "无"
 [level.NexusMaster]
 level_id = 9
 level = "NexusMaster"
+name = "NexusMaster"
 days = 50
 uploaded = "0"
 downloaded = "1024GB"
@@ -254,6 +263,7 @@ rights = "无"
 [level.VIP]
 level_id = 0
 level = "VIP"
+name = "VIP"
 days = 0
 uploaded = "0"
 downloaded = "0"

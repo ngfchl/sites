@@ -110,6 +110,7 @@ buy_page = "mybonus.php?action=exchange"
 [level.User]
 level_id = 1
 level = "User"
+name = "User"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -126,6 +127,7 @@ rights = "新用户的默认级别；可以上传的字幕。"
 [level.PowerUser]
 level_id = 2
 level = "PowerUser"
+name = "PowerUser"
 days = 0
 uploaded = "0"
 downloaded = "50GB"
@@ -142,6 +144,7 @@ rights = "可以查看NFO文档；可以请求续种；可以购买/发送邀请
 [level.EliteUser]
 level_id = 3
 level = "EliteUser"
+name = "EliteUser"
 days = 0
 uploaded = "0"
 downloaded = "400GB"
@@ -158,6 +161,7 @@ rights = "可以查看种子结构；可以更新外部信息"
 [level.CrazyUser]
 level_id = 4
 level = "CrazyUser"
+name = "CrazyUser"
 days = 0
 uploaded = "0"
 downloaded = "800GB"
@@ -174,6 +178,7 @@ rights = "可以在做种/下载/发布的时候选择匿名模式。"
 [level.InsaneUser]
 level_id = 5
 level = "InsaneUser"
+name = "InsaneUser"
 days = 0
 uploaded = "0"
 downloaded = "1.5TB"
@@ -190,6 +195,7 @@ rights = "可以查看排行榜。"
 [level.VeteranUser]
 level_id = 6
 level = "VeteranUser"
+name = "VeteranUser"
 days = 0
 uploaded = "0"
 downloaded = "3TB"
@@ -206,6 +212,7 @@ rights = "可以查看其它用户种子历史。（只有用户的隐私等级�
 [level.ExtremeUser]
 level_id = 7
 level = "ExtremeUser"
+name = "ExtremeUser"
 days = 0
 uploaded = "0"
 downloaded = "5TB"
@@ -222,6 +229,7 @@ rights = "可以更新过期的外部信息。ExtremeUserxa0及以上用户封�
 [level.UltimateUser]
 level_id = 8
 level = "UltimateUser"
+name = "UltimateUser"
 days = 0
 uploaded = "0"
 downloaded = "6TB"
@@ -238,6 +246,7 @@ rights = "首次到达此等级得到1个邀请名额。"
 [level.NexusMaster]
 level_id = 9
 level = "NexusMaster"
+name = "NexusMaster"
 days = 0
 uploaded = "0"
 downloaded = "10TB"
@@ -254,6 +263,7 @@ rights = "首次到达此等级得到1个邀请名额xa0NexusMasterxa0及以上�
 [level.VIP]
 level_id = 0
 level = "VIP"
+name = "VIP"
 days = 0
 uploaded = "0"
 downloaded = "0"

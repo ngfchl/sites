@@ -110,6 +110,7 @@ buy_page = "mybonus.php?action=exchange"
 [level.User]
 level_id = 1
 level = "User"
+name = "User"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -126,6 +127,7 @@ rights = "新用户的默认级别。"
 [level.PowerUser]
 level_id = 2
 level = "PowerUser"
+name = "PowerUser"
 days = 4
 uploaded = "0"
 downloaded = "50GB"
@@ -142,6 +144,7 @@ rights = "可以查看NFO文档；可以请求续种；查看种子结构;可以
 [level.EliteUser]
 level_id = 3
 level = "EliteUser"
+name = "EliteUser"
 days = 8
 uploaded = "0"
 downloaded = "120GB"
@@ -158,6 +161,7 @@ rights = "可以查看用户的种子历史记录，如下载种子的历史记�
 [level.CrazyUser]
 level_id = 4
 level = "CrazyUser"
+name = "CrazyUser"
 days = 15
 uploaded = "0"
 downloaded = "300GB"
@@ -174,6 +178,7 @@ rights = "可以查看排行榜；可以在做种/下载/发布的时候选择�
 [level.InsaneUser]
 level_id = 5
 level = "InsaneUser"
+name = "InsaneUser"
 days = 25
 uploaded = "0"
 downloaded = "500GB"
@@ -190,6 +195,7 @@ rights = "可以发送邀请；查看一般日志，不能查看机密日志;Ins
 [level.VeteranUser]
 level_id = 6
 level = "VeteranUser"
+name = "VeteranUser"
 days = 40
 uploaded = "0"
 downloaded = "750GB"
@@ -206,6 +212,7 @@ rights = "得到一个邀请名额；可以查看其它用户的评论、帖子�
 [level.ExtremeUser]
 level_id = 7
 level = "ExtremeUser"
+name = "ExtremeUser"
 days = 45
 uploaded = "0"
 downloaded = "1TB"
@@ -222,6 +229,7 @@ rights = "得到三个邀请名额；可以更新过期的外部信息。"
 [level.UltimateUser]
 level_id = 8
 level = "UltimateUser"
+name = "UltimateUser"
 days = 50
 uploaded = "0"
 downloaded = "1.5TB"
@@ -238,6 +246,7 @@ rights = "得到五个邀请名额。"
 [level.NexusMaster]
 level_id = 9
 level = "NexusMaster"
+name = "NexusMaster"
 days = 55
 uploaded = "0"
 downloaded = "3TB"
@@ -254,6 +263,7 @@ rights = "得到十个邀请名额。"
 [level.VIP]
 level_id = 0
 level = "VIP"
+name = "VIP"
 days = 0
 uploaded = "0"
 downloaded = "0"

@@ -110,6 +110,7 @@ buy_page = "mybonus.php?action=exchange"
 [level.User]
 level_id = 1
 level = "User"
+name = "User"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -126,6 +127,7 @@ rights = "新用戶的默認級別；可以在每周六的12:00至每周日的23
 [level.PowerUser]
 level_id = 2
 level = "PowerUser"
+name = "PowerUser"
 days = 5
 uploaded = "0"
 downloaded = "200GB"
@@ -142,6 +144,7 @@ rights = "得到一个邀请名额。可以上传种子，查看NFO文件，查�
 [level.EliteUser]
 level_id = 3
 level = "EliteUser"
+name = "EliteUser"
 days = 10
 uploaded = "0"
 downloaded = "500GB"
@@ -158,6 +161,7 @@ rights = "EliteUser或更高级别的用户封存账户后不会被删除。"
 [level.CrazyUser]
 level_id = 4
 level = "CrazyUser"
+name = "CrazyUser"
 days = 15
 uploaded = "0"
 downloaded = "800GB"
@@ -174,6 +178,7 @@ rights = "得到两个邀请名额。可以在做種/下載/發布的時候選�
 [level.InsaneUser]
 level_id = 5
 level = "InsaneUser"
+name = "InsaneUser"
 days = 20
 uploaded = "0"
 downloaded = "999GB"
@@ -190,6 +195,7 @@ rights = "可以查看常规日志。"
 [level.VeteranUser]
 level_id = 6
 level = "VeteranUser"
+name = "VeteranUser"
 days = 25
 uploaded = "0"
 downloaded = "1500GB"
@@ -206,6 +212,7 @@ rights = "得到三个邀请名额。可以查看其他用户的评论和论坛�
 [level.ExtremeUser]
 level_id = 7
 level = "ExtremeUser"
+name = "ExtremeUser"
 days = 30
 uploaded = "0"
 downloaded = "2TB"
@@ -222,6 +229,7 @@ rights = "可以更新过期的外部信息；可以查看ExtremeUser论坛。"
 [level.UltimateUser]
 level_id = 8
 level = "UltimateUser"
+name = "UltimateUser"
 days = 40
 uploaded = "0"
 downloaded = "3TB"
@@ -238,6 +246,7 @@ rights = "获得五个邀请名额。"
 [level.NexusMaster]
 level_id = 9
 level = "NexusMaster"
+name = "NexusMaster"
 days = 52
 uploaded = "0"
 downloaded = "4TB"
@@ -254,6 +263,7 @@ rights = "获得十个邀请名额。"
 [level.VIP]
 level_id = 0
 level = "VIP"
+name = "VIP"
 days = 0
 uploaded = "0"
 downloaded = "0"

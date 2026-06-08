@@ -110,6 +110,7 @@ buy_page = "mybonus.php?action=exchange"
 [level.User]
 level_id = 1
 level = "User"
+name = "User"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -126,6 +127,7 @@ rights = "默认等级"
 [level.PowerUser]
 level_id = 2
 level = "PowerUser"
+name = "PowerUser"
 days = 5
 uploaded = "1TB"
 downloaded = "0"
@@ -142,6 +144,7 @@ rights = "跳过 ModQ"
 [level.SuperUser]
 level_id = 3
 level = "SuperUser"
+name = "SuperUser"
 days = 9
 uploaded = "5TB"
 downloaded = "0"
@@ -158,6 +161,7 @@ rights = "邀请论坛"
 [level.ExtremeUser]
 level_id = 4
 level = "ExtremeUser"
+name = "ExtremeUser"
 days = 13
 uploaded = "20TB"
 downloaded = "0"
@@ -174,6 +178,7 @@ rights = "无"
 [level.InsaneUser]
 level_id = 5
 level = "InsaneUser"
+name = "InsaneUser"
 days = 26
 uploaded = "50TB"
 downloaded = "0"
@@ -190,6 +195,7 @@ rights = "无"
 [level.LEGi0Nnaire]
 level_id = 6
 level = "LEGi0Nnaire"
+name = "LEGi0Nnaire"
 days = 52
 uploaded = "100TB"
 downloaded = "0"

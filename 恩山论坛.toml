@@ -110,6 +110,7 @@ buy_page = "mybonus.php?action=exchange"
 [level.'注册用户']
 level_id = 1
 level = "注册用户"
+name = "注册用户"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -126,6 +127,7 @@ rights = "基础浏览权限"
 [level.'小小菜鸟']
 level_id = 2
 level = "小小菜鸟"
+name = "小小菜鸟"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -142,6 +144,7 @@ rights = "解锁下载功能"
 [level.'平凡菜乌']
 level_id = 3
 level = "平凡菜乌"
+name = "平凡菜乌"
 days = 0
 uploaded = "30B"
 downloaded = "0"
@@ -158,6 +161,7 @@ rights = "可收藏资源"
 [level.'菜鸟班长']
 level_id = 4
 level = "菜鸟班长"
+name = "菜鸟班长"
 days = 0
 uploaded = "50B"
 downloaded = "0"
@@ -174,6 +178,7 @@ rights = "免基础广告"
 [level.'菜乌首领']
 level_id = 5
 level = "菜乌首领"
+name = "菜乌首领"
 days = 0
 uploaded = "100B"
 downloaded = "0"
@@ -190,6 +195,7 @@ rights = "下载速度提升"
 [level.'菜乌元帅']
 level_id = 6
 level = "菜乌元帅"
+name = "菜乌元帅"
 days = 0
 uploaded = "200B"
 downloaded = "0"
@@ -206,6 +212,7 @@ rights = "可以发送邀请"
 [level.'高级老乌']
 level_id = 7
 level = "高级老乌"
+name = "高级老乌"
 days = 0
 uploaded = "500B"
 downloaded = "0"
@@ -222,6 +229,7 @@ rights = "多线程下载"
 [level.'骨灰高手']
 level_id = 8
 level = "骨灰高手"
+name = "骨灰高手"
 days = 0
 uploaded = "1000B"
 downloaded = "0"
@@ -238,6 +246,7 @@ rights = "批量下载权限"
 [level.'罕见元老']
 level_id = 9
 level = "罕见元老"
+name = "罕见元老"
 days = 0
 uploaded = "2000B"
 downloaded = "0"
@@ -254,6 +263,7 @@ rights = "资源预览扩展"
 [level.'正式用户']
 level_id = 0
 level = "正式用户"
+name = "正式用户"
 days = 0
 uploaded = "0"
 downloaded = "0"

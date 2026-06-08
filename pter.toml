@@ -114,6 +114,7 @@ buy_page = "mybonus.php?action=exchange"
 [level.User]
 level_id = 1
 level = "User"
+name = "User"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -130,6 +131,7 @@ rights = "新用户的默认级别。"
 [level.PowerUser]
 level_id = 2
 level = "PowerUser"
+name = "PowerUser"
 days = 5
 uploaded = "0"
 downloaded = "50GB"
@@ -146,6 +148,7 @@ rights = "可以直接发布种子；可以查看邀请区；可以请求续种�
 [level.EliteUser]
 level_id = 3
 level = "EliteUser"
+name = "EliteUser"
 days = 10
 uploaded = "0"
 downloaded = "120GB"
@@ -162,6 +165,7 @@ rights = "EliteUser可以查看排行榜。"
 [level.CrazyUser]
 level_id = 4
 level = "CrazyUser"
+name = "CrazyUser"
 days = 24
 uploaded = "0"
 downloaded = "300GB"
@@ -178,6 +182,7 @@ rights = "可以查看排行榜。"
 [level.InsaneUser]
 level_id = 5
 level = "InsaneUser"
+name = "InsaneUser"
 days = 32
 uploaded = "0"
 downloaded = "500GB"
@@ -194,6 +199,7 @@ rights = "可以查看普通日志。"
 [level.VeteranUser]
 level_id = 6
 level = "VeteranUser"
+name = "VeteranUser"
 days = 40
 uploaded = "0"
 downloaded = "750GB"
@@ -210,6 +216,7 @@ rights = "可以查看其它用户的评论、帖子历史；封存账号后，�
 [level.ExtremeUser]
 level_id = 7
 level = "ExtremeUser"
+name = "ExtremeUser"
 days = 48
 uploaded = "0"
 downloaded = "1024GB"
@@ -226,6 +233,7 @@ rights = "可 2 次无条件不活跃解封（虽然考虑活跃度，可能远�
 [level.UltimateUser]
 level_id = 8
 level = "UltimateUser"
+name = "UltimateUser"
 days = 56
 uploaded = "0"
 downloaded = "1536GB"
@@ -242,6 +250,7 @@ rights = "追加 1 次无条件不活跃解封，可以查看邀请树图，初�
 [level.NexusMaster]
 level_id = 9
 level = "NexusMaster"
+name = "NexusMaster"
 days = 112
 uploaded = "0"
 downloaded = "3072GB"
@@ -258,6 +267,7 @@ rights = "四川简州猫及以上用户不会因不活跃原因被临时封禁�
 [level.VIP]
 level_id = 0
 level = "VIP"
+name = "VIP"
 days = 0
 uploaded = "0"
 downloaded = "0"

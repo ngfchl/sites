@@ -110,6 +110,7 @@ buy_page = "mybonus.php?action=exchange"
 [level."筑基"]
 level_id = 1
 level = "筑基"
+name = "筑基"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -126,6 +127,7 @@ rights = "无"
 [level."结丹"]
 level_id = 2
 level = "结丹"
+name = "结丹"
 days = 5
 uploaded = "0"
 downloaded = "10GB"
@@ -142,6 +144,7 @@ rights = "无"
 [level."元婴"]
 level_id = 3
 level = "元婴"
+name = "元婴"
 days = 10
 uploaded = "0"
 downloaded = "25GB"
@@ -158,6 +161,7 @@ rights = "无"
 [level."出窍"]
 level_id = 4
 level = "出窍"
+name = "出窍"
 days = 15
 uploaded = "0"
 downloaded = "50GB"
@@ -174,6 +178,7 @@ rights = "无"
 [level."炼虚"]
 level_id = 5
 level = "炼虚"
+name = "炼虚"
 days = 20
 uploaded = "0"
 downloaded = "100GB"
@@ -190,6 +195,7 @@ rights = "无"
 [level."合体"]
 level_id = 6
 level = "合体"
+name = "合体"
 days = 25
 uploaded = "0"
 downloaded = "200GB"
@@ -206,6 +212,7 @@ rights = "无"
 [level."大乘"]
 level_id = 7
 level = "大乘"
+name = "大乘"
 days = 30
 uploaded = "0"
 downloaded = "300G"
@@ -222,6 +229,7 @@ rights = "无"
 [level."真仙"]
 level_id = 8
 level = "真仙"
+name = "真仙"
 days = 35
 uploaded = "0"
 downloaded = "400GB"

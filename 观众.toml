@@ -110,6 +110,7 @@ buy_page = "mybonus.php?action=exchange"
 [level.User]
 level_id = 1
 level = "User"
+name = "User"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -126,6 +127,7 @@ rights = "新用户的默认级别；可以请求续种。"
 [level.PowerUser]
 level_id = 2
 level = "PowerUser"
+name = "PowerUser"
 days = 5
 uploaded = "0"
 downloaded = "120GB"
@@ -142,6 +144,7 @@ rights = "可以查看NFO文档；可以查看用户列表；可以查看其它�
 [level.EliteUser]
 level_id = 3
 level = "EliteUser"
+name = "EliteUser"
 days = 15
 uploaded = "0"
 downloaded = "240GB"
@@ -158,6 +161,7 @@ rights = "同年轻气盛(PowerUser)"
 [level.CrazyUser]
 level_id = 4
 level = "CrazyUser"
+name = "CrazyUser"
 days = 24
 uploaded = "0"
 downloaded = "400GB"
@@ -174,6 +178,7 @@ rights = "可以查看排行榜。"
 [level.InsaneUser]
 level_id = 5
 level = "InsaneUser"
+name = "InsaneUser"
 days = 40
 uploaded = "0"
 downloaded = "600GB"
@@ -190,6 +195,7 @@ rights = "同街头霸王(CrazyUser)"
 [level.VeteranUser]
 level_id = 6
 level = "VeteranUser"
+name = "VeteranUser"
 days = 60
 uploaded = "0"
 downloaded = "900GB"
@@ -206,6 +212,7 @@ rights = "可以查看其它用户的评论、帖子历史。"
 [level.ExtremeUser]
 level_id = 7
 level = "ExtremeUser"
+name = "ExtremeUser"
 days = 80
 uploaded = "0"
 downloaded = "2TB"
@@ -222,6 +229,7 @@ rights = "可以更新过期的外部信息。头号玩家(ExtremeUser)xa0及以
 [level.UltimateUser]
 level_id = 8
 level = "UltimateUser"
+name = "UltimateUser"
 days = 100
 uploaded = "0"
 downloaded = "4TB"
@@ -238,6 +246,7 @@ rights = "同头号玩家(ExtremeUser)"
 [level.NexusMaster]
 level_id = 9
 level = "NexusMaster"
+name = "NexusMaster"
 days = 112
 uploaded = "0"
 downloaded = "8TB"
@@ -254,6 +263,7 @@ rights = "同头号玩家(ExtremeUser)"
 [level.VIP]
 level_id = 0
 level = "VIP"
+name = "VIP"
 days = 0
 uploaded = "0"
 downloaded = "0"

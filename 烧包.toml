@@ -109,6 +109,7 @@ buy_page = "mybonus.php?action=exchange"
 [level.User]
 level_id = 1
 level = "User"
+name = "User"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -125,6 +126,7 @@ rights = "无"
 [level.PowerUser]
 level_id = 2
 level = "PowerUser"
+name = "PowerUser"
 days = 4
 uploaded = "0"
 downloaded = "50GB"
@@ -141,6 +143,7 @@ rights = "无"
 [level.EliteUser]
 level_id = 3
 level = "EliteUser"
+name = "EliteUser"
 days = 8
 uploaded = "0"
 downloaded = "120GB"
@@ -157,6 +160,7 @@ rights = "无"
 [level.CrazyUser]
 level_id = 4
 level = "CrazyUser"
+name = "CrazyUser"
 days = 15
 uploaded = "0"
 downloaded = "1024GB"
@@ -173,6 +177,7 @@ rights = "无"
 [level.InsaneUser]
 level_id = 5
 level = "InsaneUser"
+name = "InsaneUser"
 days = 25
 uploaded = "0"
 downloaded = "2048GB"
@@ -189,6 +194,7 @@ rights = "无"
 [level.VeteranUser]
 level_id = 6
 level = "VeteranUser"
+name = "VeteranUser"
 days = 40
 uploaded = "0"
 downloaded = "5120GB"
@@ -205,6 +211,7 @@ rights = "无"
 [level.ExtremeUser]
 level_id = 7
 level = "ExtremeUser"
+name = "ExtremeUser"
 days = 60
 uploaded = "0"
 downloaded = "10TB"
@@ -221,6 +228,7 @@ rights = "无"
 [level.UltimateUser]
 level_id = 8
 level = "UltimateUser"
+name = "UltimateUser"
 days = 80
 uploaded = "0"
 downloaded = "20TB"
@@ -237,6 +245,7 @@ rights = "无"
 [level.NexusMaster]
 level_id = 9
 level = "NexusMaster"
+name = "NexusMaster"
 days = 100
 uploaded = "0"
 downloaded = "30TB"
@@ -253,6 +262,7 @@ rights = "无"
 [level.VIP]
 level_id = 0
 level = "VIP"
+name = "VIP"
 days = 0
 uploaded = "0"
 downloaded = "0"

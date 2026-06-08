@@ -110,6 +110,7 @@ buy_page = "plugin.php?id=dz_jfshop"
 [level.'限制会员']
 level_id = 1
 level = "限制会员"
+name = "限制会员"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -127,6 +128,7 @@ rights = "初涉江湖 基础浏览权限"
 [level.'新手上路']
 level_id = 2
 level = "新手上路"
+name = "新手上路"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -143,6 +145,7 @@ rights = "江湖小虾 可收藏资源"
 [level.'注册会员']
 level_id = 3
 level = "注册会员"
+name = "注册会员"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -159,6 +162,7 @@ rights = "锋芒毕露 免基础广告"
 [level.'中级会员']
 level_id = 4
 level = "中级会员"
+name = "中级会员"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -175,6 +179,7 @@ rights = "小有名气 下载速度提升"
 [level.'高级会员']
 level_id = 5
 level = "高级会员"
+name = "高级会员"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -191,6 +196,7 @@ rights = "后起之秀 可以发送邀请"
 [level.'金牌会员']
 level_id = 6
 level = "金牌会员"
+name = "金牌会员"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -207,6 +213,7 @@ rights = "四方游侠 多线程下载"
 [level.'论坛元老']
 level_id = 7
 level = "论坛元老"
+name = "论坛元老"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -223,6 +230,7 @@ rights = "武林高手 批量下载权限"
 [level.VIP]
 level_id = 0
 level = "VIP"
+name = "VIP"
 days = 0
 uploaded = "0"
 downloaded = "0"

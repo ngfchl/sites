@@ -110,6 +110,7 @@ buy_page = "mybonus.php?action=exchange"
 [level.'江湖小虾']
 level_id = 1
 level = "江湖小虾"
+name = "江湖小虾"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -126,6 +127,7 @@ rights = "积分下限 0；飞牛论坛默认会员用户组。"
 [level.'初出茅庐']
 level_id = 2
 level = "初出茅庐"
+name = "初出茅庐"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -142,6 +144,7 @@ rights = "积分达到 50。"
 [level.'小有名气']
 level_id = 3
 level = "小有名气"
+name = "小有名气"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -158,6 +161,7 @@ rights = "积分达到 200。"
 [level.'江湖新锐']
 level_id = 4
 level = "江湖新锐"
+name = "江湖新锐"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -174,6 +178,7 @@ rights = "积分达到 500。"
 [level.'一方豪强']
 level_id = 5
 level = "一方豪强"
+name = "一方豪强"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -190,6 +195,7 @@ rights = "积分达到 1000。"
 [level.'江湖巨擘']
 level_id = 6
 level = "江湖巨擘"
+name = "江湖巨擘"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -206,6 +212,7 @@ rights = "积分达到 3000。"
 [level.'绝世高手']
 level_id = 7
 level = "绝世高手"
+name = "绝世高手"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -222,6 +229,7 @@ rights = "积分达到 6000。"
 [level.'旷世奇才']
 level_id = 8
 level = "旷世奇才"
+name = "旷世奇才"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -238,6 +246,7 @@ rights = "积分达到 10000。"
 [level.'绝世宗师']
 level_id = 9
 level = "绝世宗师"
+name = "绝世宗师"
 days = 0
 uploaded = "0"
 downloaded = "0"

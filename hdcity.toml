@@ -110,6 +110,7 @@ buy_page = "mybonus.php?action=exchange"
 [level."天使"]
 level_id = 1
 level = "天使"
+name = "天使"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -126,6 +127,7 @@ rights = "新手上路。可以直接发布种子；可以使用RSS。"
 [level."大天使"]
 level_id = 2
 level = "大天使"
+name = "大天使"
 days = 4
 uploaded = "50GB"
 downloaded = "0"
@@ -142,6 +144,7 @@ rights = "可以请求续种；可以查看其它用户的种子历史(如果用
 [level."权天使"]
 level_id = 3
 level = "权天使"
+name = "权天使"
 days = 8
 uploaded = "150GB"
 downloaded = "0"
@@ -158,6 +161,7 @@ rights = "权天使(EliteUser)及以上等级封存账号后不会被删除。"
 [level."能天使"]
 level_id = 4
 level = "能天使"
+name = "能天使"
 days = 12
 uploaded = "500GB"
 downloaded = "0"
@@ -174,6 +178,7 @@ rights = "可以在做种/下载/发布的时候选择匿名模式。"
 [level."力天使"]
 level_id = 5
 level = "力天使"
+name = "力天使"
 days = 16
 uploaded = "1TB"
 downloaded = "0"
@@ -190,6 +195,7 @@ rights = "可以查看普通日志。"
 [level."主天使"]
 level_id = 6
 level = "主天使"
+name = "主天使"
 days = 24
 uploaded = "5TB"
 downloaded = "0"
@@ -206,6 +212,7 @@ rights = "主天使(VeteranUser)及以上市民会永远保留账号。"
 [level."座天使"]
 level_id = 7
 level = "座天使"
+name = "座天使"
 days = 36
 uploaded = "10TB"
 downloaded = "0"
@@ -222,6 +229,7 @@ rights = "无"
 [level."智天使"]
 level_id = 8
 level = "智天使"
+name = "智天使"
 days = 72
 uploaded = "20TB"
 downloaded = "0"
@@ -238,6 +246,7 @@ rights = "比较牛逼的等级。"
 [level."炽天使"]
 level_id = 9
 level = "炽天使"
+name = "炽天使"
 days = 100
 uploaded = "40TB"
 downloaded = "0"
@@ -254,6 +263,7 @@ rights = "最牛逼的市民，或特殊任务分配。"
 [level."壕"]
 level_id = 0
 level = "壕"
+name = "壕"
 days = 0
 uploaded = "0"
 downloaded = "0"

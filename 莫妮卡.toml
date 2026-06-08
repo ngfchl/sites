@@ -110,6 +110,7 @@ buy_page = "mybonus.php?action=exchange"
 [level.User]
 level_id = 1
 level = "User"
+name = "User"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -126,6 +127,7 @@ rights = "新注册用户拥有250GB的初始上传流量\n可以正常下载/�
 [level.PowerUser]
 level_id = 2
 level = "PowerUser"
+name = "PowerUser"
 days = 5
 uploaded = "1TB"
 downloaded = "0"
@@ -142,6 +144,7 @@ rights = "可以正常下载 / 上传，访问论坛"
 [level.SuperUser]
 level_id = 3
 level = "SuperUser"
+name = "SuperUser"
 days = 9
 uploaded = "2TB"
 downloaded = "0"
@@ -158,6 +161,7 @@ rights = "访问邀请区"
 [level.ExtremeUser]
 level_id = 4
 level = "ExtremeUser"
+name = "ExtremeUser"
 days = 13
 uploaded = "5TB"
 downloaded = "0"
@@ -174,6 +178,7 @@ rights = "自动通过候选、调整隐私设置"
 [level.InsaneUser]
 level_id = 5
 level = "InsaneUser"
+name = "InsaneUser"
 days = 27
 uploaded = "10TB"
 downloaded = "0"
@@ -190,6 +195,7 @@ rights = "同上"
 [level.Veteran]
 level_id = 6
 level = "Veteran"
+name = "Veteran"
 days = 53
 uploaded = "15TB"
 downloaded = "0"
@@ -206,6 +212,7 @@ rights = "个人全局双倍上传"
 [level.VIP]
 level_id = 0
 level = "VIP"
+name = "VIP"
 days = 0
 uploaded = "0"
 downloaded = "0"

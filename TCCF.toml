@@ -110,6 +110,7 @@ buy_page = "mybonus.php?action=exchange"
 [level.User]
 level_id = 1
 level = "User"
+name = "User"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -126,6 +127,7 @@ rights = "新用户的默认级别"
 [level.PowerUser]
 level_id = 2
 level = "PowerUser"
+name = "PowerUser"
 days = 2
 uploaded = "0"
 downloaded = "64GB"
@@ -142,6 +144,7 @@ rights = "可以上传种子;可以删除自己上传的字幕;可以在做种/�
 [level.EliteUser]
 level_id = 3
 level = "EliteUser"
+name = "EliteUser"
 days = 6
 uploaded = "0"
 downloaded = "128GB"
@@ -158,6 +161,7 @@ rights = "购买邀请;可以查看邀请论坛;可以查看NFO文档;可以更�
 [level.CrazyUser]
 level_id = 4
 level = "CrazyUser"
+name = "CrazyUser"
 days = 14
 uploaded = "0"
 downloaded = "256GB"
@@ -174,6 +178,7 @@ rights = "可以查看排行榜;可以查看其它用户的种子历史(如果�
 [level.InsaneUser]
 level_id = 5
 level = "InsaneUser"
+name = "InsaneUser"
 days = 26
 uploaded = "0"
 downloaded = "512GB"
@@ -190,6 +195,7 @@ rights = "中校及以上用户Park后不会被删除帐号."
 [level.VeteranUser]
 level_id = 6
 level = "VeteranUser"
+name = "VeteranUser"
 days = 38
 uploaded = "0"
 downloaded = "1TB"
@@ -206,6 +212,7 @@ rights = "可以发送邀请;上校及以上用户会永远保留账号."
 [level.ExtremeUser]
 level_id = 7
 level = "ExtremeUser"
+name = "ExtremeUser"
 days = 54
 uploaded = "0"
 downloaded = "2TB"
@@ -222,6 +229,7 @@ rights = "可以查看种子文件结构."
 [level.UltimateUser]
 level_id = 8
 level = "UltimateUser"
+name = "UltimateUser"
 days = 70
 uploaded = "0"
 downloaded = "4TB"
@@ -238,6 +246,7 @@ rights = "可以查看其它用户的评论、帖子历史;得到五个邀请名
 [level.NexusMaster]
 level_id = 9
 level = "NexusMaster"
+name = "NexusMaster"
 days = 88
 uploaded = "0"
 downloaded = "8TB"
@@ -254,6 +263,7 @@ rights = "得到十个邀请名额。"
 [level.VIP]
 level_id = 0
 level = "VIP"
+name = "VIP"
 days = 0
 uploaded = "0"
 downloaded = "0"

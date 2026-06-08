@@ -110,6 +110,7 @@ buy_page = "mybonus.php?action=exchange"
 [level.User]
 level_id = 1
 level = "User"
+name = "User"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -126,6 +127,7 @@ rights = "新用户的默认级别"
 [level.PowerUser]
 level_id = 2
 level = "PowerUser"
+name = "PowerUser"
 days = 28
 uploaded = "0"
 downloaded = "50"
@@ -142,6 +144,7 @@ rights = "它可以下载大于1MB的DOX文件。该类有权申请上传者身�
 [level.Addict]
 level_id = 3
 level = "Addict"
+name = "Addict"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -158,6 +161,7 @@ rights = "此类有权请求自定义标题。此类有权提出请求。"
 [level.Elite]
 level_id = 4
 level = "Elite"
+name = "Elite"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -174,6 +178,7 @@ rights = "普通用户可以达到的最高等级。此类授予您为其他用�
 [level.VIP]
 level_id = 0
 level = "VIP"
+name = "VIP"
 days = 0
 uploaded = "0"
 downloaded = "0"
