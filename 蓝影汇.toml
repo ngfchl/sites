@@ -1,0 +1,189 @@
+url = ["https://hdblue.cc/", ]
+name = "蓝影汇"
+nickname = "蓝影汇"
+logo = "https://hdblue.cc/uploads/default/original/1X/2a236d10fe1d959af438acb4b29602c5dbc91cf0.gif"
+tracker = "hdblue.cc"
+sp_full = 107
+limit_speed = 100
+tags = "论坛"
+iyuu = 0
+sign_in = false
+get_info = true
+repeat_torrents = false
+brush_free = false
+brush_rss = false
+hr_discern = false
+search_torrents = false
+page_index = ""
+page_torrents = "forum.php"
+page_sign_in = ""
+page_control_panel = "home.php?mod=space&uid={}"
+page_detail = "thread-{}.html"
+page_download = "download.php?id={}&passkey={}"
+page_user = "u/{}/summary.json"
+page_user_api = "u/{}/summary.json"
+page_search = "search.php?searchsubmit=yes&srchtxt={}"
+page_message = "home.php?mod=space&do=pm"
+page_hr = "myhr.php?hrtype=1&userid={}"
+page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"
+page_uploaded = ""
+page_seeding = ""
+page_completed = "getusertorrentlistajax.php?userid={}&type=completed"
+page_mybonus = ""
+page_viewfilelist = "viewfilelist.php?id={}"
+sign_info_title = "//a[contains(@href,'plugin.php?id=zqlj_sign')]/text()"
+sign_info_content = "//div[contains(@class,'signin-tip')]//text()"
+hr = false
+hr_rate = 2
+hr_time = 10
+my_invitation_rule = "//a[contains(@href,'/u/{}/invite')]/parent::li//span[@class='Button-badge']/text()"
+my_time_join_rule = "//__disabled_hdblue_summary_no_created_at__"
+my_latest_active_rule = "//__disabled_hdblue_summary_no_last_seen__"
+my_uploaded_rule = "user_summary.likes_given"
+my_downloaded_rule = "user_summary.likes_received"
+my_ratio_rule = "//div[@class='MPStats-card MPStats-ratio']//div[@class='MPStats-cardValue']/text()"
+my_bonus_rule = "user_summary.time_read"
+my_per_hour_bonus_rule = "user_summary.recent_time_read"
+my_score_rule = "user_summary.posts_read_count"
+my_level_rule = "users.0.trust_level"
+my_passkey_rule = "//td[contains(text(),'密钥')]/following-sibling::td[1]/text()"
+my_uid_rule = "users.0.id"
+my_hr_rule = "//a[@href='myhr.php']//text()"
+my_leech_rule = "//ul/li[em/text()='已用空间']/text()"
+my_publish_rule = "user_summary.topic_count"
+my_seed_rule = ""
+my_seed_vol_rule = "user_summary.days_visited"
+my_mailbox_rule = ""
+my_message_title = "//div[@class='Post-mentionedBy-summary']//a//text()"
+my_notice_rule = ""
+my_notice_title = "//div[@class='Post-mentionedBy-summary']//a//text()"
+my_notice_content = "//div[@class='Post-body']/p//text()"
+torrents_rule = "//tbody[contains(@id,'normalthread_')]"
+torrent_title_rule = "//a[contains(@href,'thread-') and @class='s xst']/text()"
+torrent_subtitle_rule = "//div[@class='Post-body']/p//text()"
+torrent_detail_url_rule = "//a[contains(@href,'thread-') and @class='s xst']/@href"
+torrent_category_rule = "//em[@class='forumname']/a/text()"
+torrent_poster_rule = "//img[@class='avtm']/@src"
+torrent_magnet_url_rule = "//a[contains(@href,'download.php?id=')]/@href"
+torrent_size_rule = "//td[@class='by']/em/text()"
+torrent_progress_rule = "//div[contains(@title,'进度')]/@title"
+torrent_hr_rule = "//img[@class='hitandrun']/@title"
+torrent_sale_rule = "//span[contains(@class,'MPStats-statTag') and contains(text(),'免费')]/text()"
+torrent_sale_expire_rule = "//span[contains(@class,'MPStats-statTag') and contains(text(),'免费')]/following-sibling::text()"
+torrent_release_rule = "//td[@class='by']/span/text()"
+torrent_seeders_rule = "//td[contains(@class,'num')][1]/text()"
+torrent_leechers_rule = "//td[contains(@class,'num')][2]/text()"
+torrent_completers_rule = "//td[contains(@class,'num')][3]/text()"
+detail_title_rule = "//h1[@class='ts']/text()"
+detail_subtitle_rule = "//div[@class='UserBio-content']/p/text()"
+detail_download_url_rule = "//a[contains(@href,'download.php?id=')]/@href"
+detail_size_rule = "//div[contains(@class,'attnm')]/text()"
+detail_category_rule = "//div[@class='z bread']/a[last()]/text()"
+detail_count_files_rule = "//div[@class='MPStats-siteStats']//span[contains(@class,'MPStats-statIcon')]/following-sibling::text()"
+detail_hash_rule = "//td[contains(text(),'Hash')]/following-sibling::td[1]/text()"
+detail_free_rule = "//span[contains(@class,'MPStats-statTag') and contains(text(),'免费')]/@class"
+detail_free_expire_rule = "//span[contains(@class,'MPStats-statTag') and contains(text(),'免费')]/following-sibling::text()"
+detail_douban_rule = "//a[starts-with(@href,'https://movie.douban.com/subject/')]/@href"
+detail_imdb_rule = "//a[starts-with(@href,'https://www.imdb.com/title/')]/@href"
+detail_poster_rule = "//div[contains(@class,'zoom')]/img/@src"
+detail_tags_rule = "//div[@class='MPStats-siteName']/text()"
+torrent_tags_rule = "//div[@class='MPStats-siteName']/text()"
+detail_hr_rule = "//img[@class='hitandrun']/@title"
+alive = true
+page_pieces_hash_api = "api/pieces-hash"
+pieces_repeat = false
+proxy = true
+imdb_search = "search.php?searchsubmit=yes&srchtxt={}"
+structure = "Invites"
+type = "pt"
+nation = "china"
+my_email_rule = "//__disabled_hdblue_summary_no_email__"
+my_username_rule = "users.0.username"
+buy_page = "mybonus.php?action=exchange"
+
+[buy_action]
+"100GB上传流量" = "3"
+"100GB下载流量" = "5"
+"1个邀请名额" = "6"
+"1个临时邀请名额" = "7"
+"贵宾待遇" = "9"
+
+[level.'0']
+level_id = 0
+level = "0"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "TL0 新用户：刚注册用户；受基础限制，需要开始阅读社区内容。"
+
+[level.'1']
+level_id = 1
+level = "1"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "TL1 基本用户 / LV.1：Discourse 官方 TL1：进入至少 5 个主题、阅读至少 30 篇帖子、总阅读时间至少 10 分钟。蓝影汇当前普通用户组 LV.1 对应此级。"
+
+[level.'2']
+level_id = 2
+level = "2"
+days = 15
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 60
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "TL2 成员：Discourse 官方 TL2：访问至少 15 天、阅读至少 100 篇帖子、总阅读时间至少 60 分钟、收到至少 1 个赞、给出至少 1 个赞、回复至少 3 个不同主题、进入至少 20 个主题。"
+
+[level.'3']
+level_id = 3
+level = "3"
+days = 50
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 1440
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "TL3 常客：Discourse 官方 TL3：最近 100 天内访问至少 50 天；回复至少 10 个不同主题；浏览/阅读比例、点赞、违规等条件满足。"
+
+[level.'4']
+level_id = 4
+level = "4"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "TL4 领导者：Discourse 官方 TL4：由管理人员手动授予或按站点策略授予。"
