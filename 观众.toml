@@ -107,10 +107,10 @@ buy_page = "mybonus.php?action=exchange"
 "1个临时邀请名额" = "7"
 "贵宾待遇" = "9"
 
-[level.User]
-level_id = 1
-level = "User"
-name = "小鬼当家"
+[level.Peasant]
+level_id = -1
+level = "Peasant"
+name = "悲惨世界"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -122,7 +122,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "新用户的默认级别；可以请求续种。"
+rights = "当以下情况时将被自动降至本级： 1.如果你已经下载了超过80GB，你的分享率却低于0.8。 2.如果你已经下载了超过200GB，你的分享率却低于0.85。 3.如果你已经下载了超过400GB，你的分享率却低于0.9。 4.如果你已经下载了超过800GB，你的分享率却低于0.95。 5.如果你已经下载了超过1024GB，你的分享率却低于1。 请记住，此等级意味着您的账号处于受限状态（参考用户等级详情），您需要尽快提升分享率！"
 
 [level.PowerUser]
 level_id = 2
@@ -139,7 +139,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "可以查看NFO文档；可以查看用户列表；可以查看其它用户的种子历史(如果用户隐私等级未设置为'强')；可以删除自己上传的字幕；发布5种通过候选后可直接发布种子。"
+rights = "必须注册至少5周，并且下载至少120G，分享率大于2.0，做种积分达到100,000。 当条件符合时将被自动提升。注意，无论何时，如果你的分享率低于1.9，你将自动降级。"
 
 [level.EliteUser]
 level_id = 3
@@ -156,7 +156,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "同年轻气盛(PowerUser)"
+rights = "必须注册至少15周，并且下载至少240G，分享率大于2.5，做种积分达到200,000。 当条件符合时将被自动提升。注意，无论何时，如果你的分享率低于2.4，你将自动降级。"
 
 [level.CrazyUser]
 level_id = 4
@@ -173,7 +173,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "可以查看排行榜。"
+rights = "必须注册至少24周，并且下载至少400G，分享率大于3.0，做种积分达到400,000。 当条件符合时将被自动提升。注意，无论何时，如果你的分享率低于2.9，你将自动降级。"
 
 [level.InsaneUser]
 level_id = 5
@@ -190,7 +190,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "同街头霸王(CrazyUser)"
+rights = "必须注册至少40周，并且下载至少600G，分享率大于3.5，做种积分达到640,000。 当条件符合时将被自动提升。注意，无论何时，如果你的分享率低于3.4，你将自动降级。"
 
 [level.VeteranUser]
 level_id = 6
@@ -207,7 +207,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "可以查看其它用户的评论、帖子历史。"
+rights = "必须注册至少60周，并且下载至少1024G，分享率大于4.0，做种积分达880,000。 当条件符合时将被自动提升。注意，无论何时，如果你的分享率低于3.9，你将自动降级。"
 
 [level.ExtremeUser]
 level_id = 7
@@ -224,12 +224,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = false
-rights = "可以更新过期的外部信息。头号玩家(ExtremeUser)xa0及以上用户会永远保留账号。"
+rights = "必须注册至少80周，并且下载至少2048G，分享率大于4.5，做种积分达1,200,000。 当条件符合时将被自动提升。注意，无论何时，如果你的分享率低于4.4，你将自动降级。"
 
 [level.UltimateUser]
 level_id = 8
 level = "UltimateUser"
-name = "一代宗师 "
+name = "一代宗师"
 days = 100
 uploaded = "0"
 downloaded = "4TB"
@@ -241,7 +241,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = false
-rights = "同头号玩家(ExtremeUser)"
+rights = "必须注册至少100周，并且下载至少4096G，分享率大于5.0，做种积分达1,500,000。 当条件符合时将被自动提升。注意，无论何时，如果你的分享率低于4.4，你将自动降级。"
 
 [level.NexusMaster]
 level_id = 9
@@ -258,7 +258,24 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = true
-rights = "同头号玩家(ExtremeUser)"
+rights = "必须注册至少112周，并且下载至少8192G，分享率大于6.0，做种积分达1,800,000。 当条件符合时将被自动提升。注意，无论何时，如果你的分享率低于5.9，你将自动降级。"
+
+[level.Rainbow]
+level_id = 0
+level = "Rainbow"
+name = "彩虹照耀"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "必须注册至少128周，并且下载至少10240G，分享率大于8，做种积分达2,400,000。（二周年后将依据用户总体做种积分水平，按比例计算具体要求） 当条件符合时将被自动提升。注意，无论何时， 彩虹照耀(Rainbow) 等级用户如果未达最新要求，你将自动降级。"
 
 [level.VIP]
 level_id = 0
@@ -275,4 +292,174 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = true
-rights = "由管理员仔细斟酌后分配给他们认为对于站点某方面有特殊贡献的用户。"
+rights = "由管理员仔细斟酌后分配给他们认为对于站点某方面有特殊贡献的用户。 （任何索取贵宾等级的要求将被自动无视）"
+
+[level.Retiree]
+level_id = 0
+level = "Retiree"
+name = "养老族"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "由管理员授予。"
+
+[level.Uploader]
+level_id = 0
+level = "Uploader"
+name = "发布员"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "点此查看Uploader招募相关"
+
+[level.Moderator]
+level_id = 0
+level = "Moderator"
+name = "总版主"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "无需多问，我们会找到你的！"
+
+[level.DirectConnect]
+level_id = 0
+level = "DirectConnect"
+name = "Direct Connect"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "1 - 1024"
+
+[level.BitTorrent]
+level_id = 0
+level = "BitTorrent"
+name = "BitTorrent"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "6881 - 6889"
+
+[level.Kazza]
+level_id = 0
+level = "Kazza"
+name = "Kazza"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "1214"
+
+[level.Gnutella]
+level_id = 0
+level = "Gnutella"
+name = "Gnutella"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "6346 - 6347"
+
+[level.Emule]
+level_id = 0
+level = "Emule"
+name = "Emule"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "4662"
+
+[level.WinMX]
+level_id = 0
+level = "WinMX"
+name = "WinMX"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "6699"
+
+[level.User]
+level_id = 1
+level = "User"
+name = "小鬼当家"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "新用户的默认级别；可以请求续种。"

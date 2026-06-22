@@ -110,10 +110,27 @@ buy_page = "mybonus.php?action=exchange"
 "1个临时邀请名额" = "7"
 "贵宾待遇" = "9"
 
+[level.Peasant]
+level_id = -1
+level = "Peasant"
+name = "脑残人士"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "被降级的用户，他们有5天时间来提升分享率，否则他们会被踢。不能发表趣味盒内容；不能申请友情链接；不能上传字幕。"
+
 [level.User]
 level_id = 1
 level = "User"
-name = "User"
+name = "健全人士"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -125,12 +142,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "新用户的默认级别。只能在每周六中午12点至每周日晚上11点59分发布种子。"
+rights = "新用户的默认级别。可以购买邀请；可以发送邀请；可以上传字幕；可以发布种子至候选区。"
 
 [level.PowerUser]
 level_id = 2
 level = "PowerUser"
-name = "PowerUser"
+name = "一级烧伤"
 days = 4
 uploaded = "0"
 downloaded = "50GB"
@@ -142,12 +159,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "可以直接发布种子；可以查看NFO文档；可以查看用户列表；可以请求续种；可以发送邀请；可以查看排行榜；可以查看其它用户的种子历史(如果用户隐私等级未设置为'强')；可以删除自己上传的字幕。"
+rights = "可以直接发布种子；可以查看NFO文档；可以请求续种；可以查看其它用户的种子历史(如果用户隐私等级未设置为\"强\")； 可以删除自己上传的字幕。拥有与user一样的权限。"
 
 [level.EliteUser]
 level_id = 3
 level = "EliteUser"
-name = "EliteUser"
+name = "二级烧伤"
 days = 8
 uploaded = "0"
 downloaded = "100GB"
@@ -159,12 +176,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "EliteUser及以上用户封存账号后不会被删除。"
+rights = "拥有与PowerUseruser一样的权限。"
 
 [level.CrazyUser]
 level_id = 4
 level = "CrazyUser"
-name = "CrazyUser"
+name = "三级烧伤"
 days = 15
 uploaded = "0"
 downloaded = "300GB"
@@ -176,12 +193,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "可以在做种/下载/发布的时候选择匿名模式。"
+rights = "可以在做种/下载/发布的时候选择匿名模式。拥有与EliteUser一样的权限"
 
 [level.InsaneUser]
 level_id = 5
 level = "InsaneUser"
-name = "InsaneUser"
+name = "四级烧伤"
 days = 25
 uploaded = "0"
 downloaded = "500GB"
@@ -193,12 +210,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "可以查看普通日志。"
+rights = "可以查看普通日志。拥有与CrazyUser一样的权限"
 
 [level.VeteranUser]
 level_id = 6
 level = "VeteranUser"
-name = "VeteranUser"
+name = "五级烧伤"
 days = 40
 uploaded = "0"
 downloaded = "1024GB"
@@ -210,12 +227,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "可以查看其它用户的评论、帖子历史。VeteranUser及以上用户会永远保留账号。"
+rights = "可以查看其它用户的评论、帖子历史。拥有与InsaneUser一样的权限"
 
 [level.ExtremeUser]
 level_id = 7
 level = "ExtremeUser"
-name = "ExtremeUser"
+name = "六级烧伤"
 days = 40
 uploaded = "0"
 downloaded = "2048GB"
@@ -227,12 +244,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = false
-rights = "可以更新过期的外部信息；可以查看ExtremeUser论坛。"
+rights = "可以更新过期的外部信息。拥有与VeteranUser一样的权限 六级烧伤(Extreme User) 及以上用户会永远保留账号。"
 
 [level.UltimateUser]
 level_id = 8
 level = "UltimateUser"
-name = "UltimateUser"
+name = "七级烧伤"
 days = 80
 uploaded = "0"
 downloaded = "5TB"
@@ -244,12 +261,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = false
-rights = "无"
+rights = "这个等级会永远保留账号。拥有与ExtremeUser一样的权限"
 
 [level.NexusMaster]
 level_id = 9
 level = "NexusMaster"
-name = "NexusMaster"
+name = "终极烧伤"
 days = 100
 uploaded = "0"
 downloaded = "5120GB"
@@ -261,12 +278,29 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = true
-rights = "无"
+rights = "这个等级会永远保留账号。拥有与UltimateUser一样的权限"
+
+[level.star]
+level_id = 0
+level = "star"
+name = "走火入魔"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "为网站捐款的主。"
 
 [level.VIP]
 level_id = 0
 level = "VIP"
-name = "VIP"
+name = "疯子"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -278,4 +312,106 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = true
-rights = "1.VIP贵宾会员期限内不受系统分享率限制，可以在贵宾期限内无限制下载。可以在贵宾期限内无视H&R规则，畅快下载；2.VIP贵宾会员期限内不会因分享率过低而被系统封禁，免除自动降级，贵宾期限内不计算下行流量；3.VIP贵宾会员期限内开启排行榜查看权限；4.VIP贵宾会员期限内无视每年的年终考核和年中考核；5.拥有捐赠者黄星标识的会员，每小时做种获取魔力值双倍的奖励。"
+rights = "和 终极烧伤(Nexus Master) 拥有相同权限并被认为是精英成员。免除自动降级。"
+
+[level.Retiree]
+level_id = 0
+level = "Retiree"
+name = "废老族"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "退休后的管理组成员。"
+
+[level.Uploader]
+level_id = 0
+level = "Uploader"
+name = "天使"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "专注的发布者。免除自动降级；可以编辑种子；可以设置种子置顶，可以管理候选，发布种子自动通过审核。"
+
+[level.Moderator]
+level_id = 0
+level = "Moderator"
+name = "卫兵"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "可以查看管理组信箱、举报信箱；管理趣味盒内容、投票内容；可以编辑或删除任何发布的种子；可以管理候选；可以管理论坛帖子、用户评论；可以查看机密日志；可以删除任何字幕；可以管理日志中的代码、史册；可以查看用户的邀请记录；可以管理用户帐号的一般信息。 不能 管理友情链接、最近消息、论坛版块； 不能 查看用户IP或Email等机密信息；不能删除账号。"
+
+[level.Administrator]
+level_id = 0
+level = "Administrator"
+name = "护士"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "除了不能改变站点设定、管理捐赠外，可以做任何事。"
+
+[level.Sysop]
+level_id = 0
+level = "Sysop"
+name = "护士长"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "网站开发/维护人员，可以改变站点设定，不能管理捐赠。"
+
+[level.StaffLeader]
+level_id = 0
+level = "StaffLeader"
+name = "院长"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "网站主管，可以做任何事。"

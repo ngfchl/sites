@@ -1,4 +1,4 @@
-url = [ "https://discfan.net/", "https://discfan.xyz/",]
+url = ["https://discfan.net/", "https://discfan.xyz/", ]
 name = "蝶粉"
 nickname = "discfan"
 logo = "favicon.ico"
@@ -21,7 +21,7 @@ page_control_panel = "usercp.php"
 page_detail = "details.php?id={}&hit=1"
 page_download = "download.php?id={}&passkey={}"
 page_user = "userdetails.php?id={}"
-page_search = [ "torrents.php?search={}",]
+page_search = ["torrents.php?search={}", ]
 page_message = "messages.php"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"
@@ -42,7 +42,7 @@ my_uploaded_rule = "//font[@class='color_uploaded']/following-sibling::text()[1]
 my_downloaded_rule = "//font[@class='color_downloaded']/following-sibling::text()[1]"
 my_ratio_rule = "//font[@class='color_ratio'][1]/following-sibling::text()[1]"
 my_bonus_rule = "//a[@href='mybonus.php']/following-sibling::text()[1]"
-my_per_hour_bonus_rule = "//h1[contains(text(),'每小時獲得的合計魔力值')]/following::table[1]//tr[2]/td[last()]/text()"
+my_per_hour_bonus_rule = "//h1[contains(.,'每小时获得的合计魔力值') or contains(.,'每小時獲得的合計魔力值')]/following::table[1]//tr[2]/td[last()]/text()"
 my_score_rule = "//td[contains(text(),'分')]/following-sibling::td/text()[1]"
 my_level_rule = "//span[@class='medium']/span[@class='nowrap']/a[contains(@class,'_Name')]/@class"
 my_passkey_rule = "//td[contains(text(),'密钥')]/following-sibling::td[1]/text()"

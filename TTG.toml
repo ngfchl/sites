@@ -121,7 +121,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "此为入站最初始等级，接受新人考核制。"
+rights = "此为入站最初始等级，接受新人考核制。 （新人考核：从注册之日起，30天内上传下载各40G以上，分享率不低于1，做种积分5000。备注：考核结束有监控期，请保持积分在考核标准上，勿轻易兑换 ）"
 
 [level.KiloByte]
 level_id = 2
@@ -138,7 +138,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "此等级才为正式会员，可申请种子候选。此等级及以下会员12周不活动将被系统自动清除。"
+rights = "此等级才为正式会员，可申请种子候选。此等级及以下会员12周不活动将被系统自动清除。 （升级条件：注册满 5 周，下载量在60G以上，分享率大于 1.1 会升级。小于 1.0 会自动降级。）"
 
 [level.MegaByte]
 level_id = 3
@@ -155,7 +155,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "此等级及以上会员12周不活动将被系统自动清除。"
+rights = "此等级及以上会员12周不活动将被系统自动清除。 （升级条件：注册满 8 周，下载量150G以上，分享率大于 2.0 会升级，小于 1.9 会自动降级。）"
 
 [level.GigaByte]
 level_id = 4
@@ -172,7 +172,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "此等级可挂起，可进入积分商城（内测中，尽请期待）。"
+rights = "此等级可挂起，可进入积分商城（内测中，尽请期待）。 （升级条件：注册满 8 周，下载量250G以上，分享率大于 2.0 会升级，小于 1.9 会自动降级。）"
 
 [level.TeraByte]
 level_id = 5
@@ -189,7 +189,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "此等级可用积分购买邀请，并可浏览全站（新加游戏分类页），可以访问邀请区。"
+rights = "此等级可用积分购买邀请，并可浏览全站（新加游戏分类页），可以访问邀请区。 （升级条件：注册满 8 周，下载量500G以上，分享率大于 2.5 会升级，小于 2.4 会自动降级。）"
 
 [level.PetaByte]
 level_id = 6
@@ -206,7 +206,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "此等级可直接发布种子。此等级及以下会员挂起超过180天将被系统自动清除。"
+rights = "此等级可直接发布种子。此等级及以下会员挂起超过180天将被系统自动清除。 （升级条件：注册满 16 周，下载量750G以上，分享率大于 2.5 会升级，低于 2.4 会自动降级。）"
 
 [level.ExaByte]
 level_id = 7
@@ -223,7 +223,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "此等级自行挂起账号后不会被清除。"
+rights = "此等级自行挂起账号后不会被清除。 （升级条件：注册满 24 周，下载量1T以上。分享率大于 3.0 会升级，低于 2.9 自动降级。）"
 
 [level.ZettaByte]
 level_id = 8
@@ -240,7 +240,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "此等级免除流量考核。（至于是年中年终两次还是只年终，什么时候开始目前还尚未定论）"
+rights = "此等级免除流量考核。（至于是年中年终两次还是只年终，什么时候开始目前还尚未定论） （升级条件：注册满 24 周，下载量1.5T以上，分享率大于 3.5 会升级，低于 3.4 自动降级。）"
 
 [level.YottaByte]
 level_id = 9
@@ -257,7 +257,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "此等级可查看排行榜。此等级及以下会员12周不活动将被系统自动清除。"
+rights = "此等级可查看排行榜。此等级及以下会员12周不活动将被系统自动清除。 （升级条件：注册满 24 周，下载量2.5T以上，分享率大于 4.0 会升级，低于 3.9 自动降级。）"
 
 [level.BrontoByte]
 level_id = 10
@@ -274,7 +274,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "此等级及以上等级用户会永远保留账号。"
+rights = "此等级及以上等级用户会永远保留账号。 （升级条件：注册满 32 周，下载量3.5TB以上，分享率大于 5.0 会升级，低于 4.9 自动降级。）"
 
 [level.NonaByte]
 level_id = 11
@@ -291,7 +291,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "无"
+rights = "（升级条件：注册满 48 周，上传量50TB以上，下载量5TB以上，分享率大于 6.0 会升级，低于 5.9 自动降级。）"
 
 [level.DoggaByte]
 level_id = 12
@@ -308,7 +308,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "无"
+rights = "（升级条件：注册满 48 周，上传量100TB以上，下载量10TB以上，分享率大于 6.0 会升级，低于 5.9 自动降级。）"
 
 [level.VIP]
 level_id = 0
@@ -326,3 +326,173 @@ seeding_delta = 0.0
 keep_account = false
 graduation = false
 rights = "为TTG做出特殊重大贡献的用户或合作者等。只计算上传量，不计算下载量。"
+
+[level.WiKi]
+level_id = 0
+level = "WiKi"
+name = "WiKi"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "官方高清影视压制小组"
+
+[level.NGB]
+level_id = 0
+level = "NGB"
+name = "NGB"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "官方高清电视录制&压制小组"
+
+[level.DoA]
+level_id = 0
+level = "DoA"
+name = "DoA"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "官方高清电视录制&压制小组"
+
+[level.SubEditor]
+level_id = 0
+level = "SubEditor"
+name = "Sub Editor"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "官方指定管理字幕的编辑"
+
+[level.Helper]
+level_id = 0
+level = "Helper"
+name = "Helper"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "官方指定的种子简介协助补充者"
+
+[level.Uploader]
+level_id = 0
+level = "Uploader"
+name = "Uploader"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "官方指定的种子发布者"
+
+[level.ForumModerator]
+level_id = 0
+level = "ForumModerator"
+name = "Forum Moderator"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "社区版主"
+
+[level.Moderator]
+level_id = 0
+level = "Moderator"
+name = "Moderator"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "总版主"
+
+[level.Admin]
+level_id = 0
+level = "Admin"
+name = "Admin"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "管理员"
+
+[level.SysOP]
+level_id = 0
+level = "SysOP"
+name = "SysOP"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "网站法官，有调整任何内容的权力"

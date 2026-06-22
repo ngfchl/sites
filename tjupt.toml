@@ -107,10 +107,10 @@ buy_page = "mybonus.php?action=exchange"
 "1个临时邀请名额" = "7"
 "贵宾待遇" = "9"
 
-[level.User]
-level_id = 1
-level = "User"
-name = "User"
+[level.Peasant]
+level_id = -1
+level = "Peasant"
+name = "将功赎罪"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -122,12 +122,29 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "发布/下载种子,求种区求种,查看种子NFO"
+rights = "被降级的用户，他们有14天时间来提升分享率，否则他们会被踢。不能发表趣味盒内容；不能申请友情链接；不能上传字幕；不能查看排行榜。"
+
+[level.User]
+level_id = 1
+level = "User"
+name = "无名小辈"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "新用户的默认级别。"
 
 [level.PowerUser]
 level_id = 2
 level = "PowerUser"
-name = "PowerUser"
+name = "拜师学艺"
 days = 4
 uploaded = "50GB"
 downloaded = "0"
@@ -139,12 +156,12 @@ leeches = 20
 seeding_delta = 30.0
 keep_account = false
 graduation = false
-rights = "查看用户列表,请求续种,查看其他用户种子历史（隐私等级不为高时）,删除自己上传的字幕"
+rights = "可以直接发布种子；可以查看NFO文档；可以查看用户列表；可以请求续种；可以查看其它用户的种子历史(如果用户隐私等级未设置为\"强\")； 可以删除自己上传的字幕。"
 
 [level.EliteUser]
 level_id = 3
 level = "EliteUser"
-name = "EliteUser"
+name = "持剑下山"
 days = 8
 uploaded = "200GB"
 downloaded = "0"
@@ -156,12 +173,12 @@ leeches = 60
 seeding_delta = 120.0
 keep_account = false
 graduation = false
-rights = "封存账号后不会被删除"
+rights = "持剑下山 及以上用户封存账号后不会被删除。"
 
 [level.CrazyUser]
 level_id = 4
 level = "CrazyUser"
-name = "CrazyUser"
+name = "初入江湖"
 days = 16
 uploaded = "800GB"
 downloaded = "0"
@@ -173,12 +190,12 @@ leeches = 150
 seeding_delta = 450.0
 keep_account = false
 graduation = false
-rights = "首次升级至此等级时将获得1个永久邀请,发送邀请,做种/下载/发布时可以选择匿名"
+rights = "得到一个邀请名额；可以发送邀请；可以在做种/下载/发布的时候选择匿名模式。"
 
 [level.InsaneUser]
 level_id = 5
 level = "InsaneUser"
-name = "InsaneUser"
+name = "小有名气"
 days = 28
 uploaded = "2000GB"
 downloaded = "0"
@@ -190,12 +207,12 @@ leeches = 300
 seeding_delta = 1500.0
 keep_account = false
 graduation = false
-rights = "首次升级至此等级时将获得1个永久邀请,查看普通日志"
+rights = "得到一个邀请名额；可以查看普通日志。"
 
 [level.VeteranUser]
 level_id = 6
 level = "VeteranUser"
-name = "VeteranUser"
+name = "威震一方"
 days = 48
 uploaded = "5000GB"
 downloaded = "0"
@@ -207,12 +224,12 @@ leeches = 600
 seeding_delta = 4200
 keep_account = true
 graduation = false
-rights = "首次升级至此等级时将获得1个永久邀请,查看其它用户的评论、帖子历史,永久保留账号"
+rights = "得到一个邀请名额；可以查看其它用户的评论、帖子历史。 威震一方 及以上用户会永远保留账号。"
 
 [level.ExtremeUser]
 level_id = 7
 level = "ExtremeUser"
-name = "ExtremeUser"
+name = "横扫群雄"
 days = 72
 uploaded = "10000GB"
 downloaded = "0"
@@ -224,12 +241,12 @@ leeches = 1000
 seeding_delta = 28000.0
 keep_account = true
 graduation = false
-rights = "首次升级至此等级时将获得1个永久邀请"
+rights = "得到一个邀请名额；可以更新过期的外部信息。"
 
 [level.UltimateUser]
 level_id = 8
 level = "UltimateUser"
-name = "UltimateUser"
+name = "开宗立派"
 days = 100
 uploaded = "20000GB"
 downloaded = "0"
@@ -241,12 +258,12 @@ leeches = 1800
 seeding_delta = 90000.0
 keep_account = true
 graduation = false
-rights = "首次升级至此等级时将获得1个永久邀请"
+rights = "得到两个邀请名额。"
 
 [level.NexusMaster]
 level_id = 9
 level = "NexusMaster"
-name = "NexusMaster"
+name = "天下无敌"
 days = 132
 uploaded = "50000GB"
 downloaded = "0"
@@ -258,12 +275,12 @@ leeches = 3000
 seeding_delta = 300000.0
 keep_account = true
 graduation = true
-rights = "首次升级至此等级时将获得3个永久邀请"
+rights = "得到三个邀请名额。"
 
 [level.VIP]
 level_id = 0
 level = "VIP"
-name = "VIP"
+name = "贵宾"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -275,4 +292,191 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = true
-rights = "免除自动降级,不记录下载量,免除HnR考核"
+rights = "和 天下无敌 拥有相同权限并被认为是精英成员。免除自动降级。"
+
+[level.Retiree]
+level_id = 0
+level = "Retiree"
+name = "扫地僧(养老族Retiree)"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "退休后的管理组成员。"
+
+[level.Uploader]
+level_id = 0
+level = "Uploader"
+name = "龙门镖局(发布员Uploader)"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "专注的发布者。免除自动降级；可以查看匿名用户的真实身份。"
+
+[level.Moderator]
+level_id = 0
+level = "Moderator"
+name = "六扇门(类管理员Moderator)"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "可以查看管理组信箱、举报信箱；管理趣味盒内容、投票内容；可以编辑或删除任何发布的种子；可以管理候选；可以管理论坛帖子、用户评论；可以查看机密日志；可以删除任何字幕；可以管理日志中的代码、史册；可以查看用户的邀请记录；可以管理用户帐号的一般信息。 不能 管理友情链接、最近消息、论坛版块； 不能 将种子设为置顶或促销； 不能 查看用户IP或Email等机密信息；不能删除账号。"
+
+[level.Administrator]
+level_id = 0
+level = "Administrator"
+name = "中枢六部(管理员Administrator)"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "除了不能改变站点设定、管理捐赠外，可以做任何事。"
+
+[level.Sysop]
+level_id = 0
+level = "Sysop"
+name = "锦衣卫(维护开发员Sysop)"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "网站开发/维护人员，可以改变站点设定，不能管理捐赠。"
+
+[level.StaffLeader]
+level_id = 0
+level = "StaffLeader"
+name = "九五之尊(主管Staff Leader)"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "网站主管，可以做任何事。"
+
+[level.BitTorrent]
+level_id = 0
+level = "BitTorrent"
+name = "BitTorrent"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "6881 - 6889"
+
+[level.Kazza]
+level_id = 0
+level = "Kazza"
+name = "Kazza"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "1214"
+
+[level.Gnutella]
+level_id = 0
+level = "Gnutella"
+name = "Gnutella"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "6346 - 6347"
+
+[level.Emule]
+level_id = 0
+level = "Emule"
+name = "Emule"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "4662"
+
+[level.WinMX]
+level_id = 0
+level = "WinMX"
+name = "WinMX"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "6699"

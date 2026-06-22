@@ -110,10 +110,10 @@ buy_page = "mybonus.php?action=exchange"
 "1个临时邀请名额" = "7"
 "贵宾待遇" = "9"
 
-[level.User]
-level_id = 1
-level = "User"
-name = "User"
+[level.Peasant]
+level_id = -1
+level = "Peasant"
+name = "脸憨皮厚 Peasant"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -125,12 +125,29 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "新用户的默认级别。"
+rights = "-；详见 分享率规则；被降级的用户，他们有 7天 时间来提升分享率，否则他们会被禁用账户。不能发表趣味盒内容；不能申请友情链接；不能上传字幕。"
+
+[level.User]
+level_id = 1
+level = "User"
+name = "憨头憨脑 User"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "新注册用户的默认等级；新注册用户的默认等级；新用户的默认级别。"
 
 [level.PowerUser]
 level_id = 2
 level = "PowerUser"
-name = "PowerUser"
+name = "憨声憨气 Power User"
 days = 4
 uploaded = "0"
 downloaded = "50GB"
@@ -142,12 +159,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "得到一个邀请名额；可以直接发布种子；可以查看NFO文档；可以查看用户列表；可以请求续种；可以发送邀请；可以查看排行榜；可以查看其它用户的种子历史(如果用户隐私等级未设置为'强')；可以删除自己上传的字幕。"
+rights = "做种积分大于80000，并且下载至少50G，分享率大于1.05；分享率低于0.95；访问音乐区、论坛邀请区"
 
 [level.EliteUser]
 level_id = 3
 level = "EliteUser"
-name = "EliteUser"
+name = "憨态可掬 Elite User"
 days = 8
 uploaded = "0"
 downloaded = "120GB"
@@ -159,12 +176,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "EliteUserxa0及以上用户封存账号后不会被删除。"
+rights = "必须注册至少8周，做种积分大于150000，并且下载至少120G，分享率大于1.55；分享率低于1.45；-"
 
 [level.CrazyUser]
 level_id = 4
 level = "CrazyUser"
-name = "CrazyUser"
+name = "明姿憨憨 Crazy User"
 days = 15
 uploaded = "0"
 downloaded = "300GB"
@@ -176,12 +193,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "得到两个邀请名额；可以在做种/下载/发布的时候选择匿名模式。"
+rights = "必须注册至少15周，做种积分大于300000，并且下载至少300G，分享率大于2.05；分享率低于1.95；可以在做种/下载/发布的时候选择匿名模式。"
 
 [level.InsaneUser]
 level_id = 5
 level = "InsaneUser"
-name = "InsaneUser"
+name = "裝憨打呆 Insane User"
 days = 25
 uploaded = "0"
 downloaded = "500GB"
@@ -193,12 +210,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "可以查看普通日志。"
+rights = "必须注册至少25周，做种积分大于500000，并且下载至少500G，分享率大于2.55；分享率低于2.45；-"
 
 [level.VeteranUser]
 level_id = 6
 level = "VeteranUser"
-name = "VeteranUser"
+name = "憨状可掬 Veteran User"
 days = 40
 uploaded = "0"
 downloaded = "750GB"
@@ -210,12 +227,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = false
-rights = "得到三个邀请名额；可以查看其它用户的评论、帖子历史。VeteranUserxa0及以上用户会永远保留账号。"
+rights = "必须注册至少40周，做种积分大于900000，并且下载至少750G，分享率大于3.05；分享率低于2.95；可以查看其它用户的评论、帖子历史。Veteran User及以上用户封存账号后不会被删除。"
 
 [level.ExtremeUser]
 level_id = 7
 level = "ExtremeUser"
-name = "ExtremeUser"
+name = "憨痴可人 Extreme User"
 days = 60
 uploaded = "0"
 downloaded = "1TB"
@@ -227,12 +244,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = false
-rights = "可以更新过期的外部信息；可以查看ExtremeUser论坛。"
+rights = "必须注册至少60周，做种积分大于1100000，并且下载至少1TB，分享率大于3.55；分享率低于3.45；可以更新过期的外部信息。"
 
 [level.UltimateUser]
 level_id = 8
 level = "UltimateUser"
-name = "UltimateUser"
+name = "憨笑如花 Ultimate User"
 days = 80
 uploaded = "0"
 downloaded = "1636GB"
@@ -244,12 +261,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = false
-rights = "得到五个邀请名额。"
+rights = "必须注册至少80周，做种积分大于1300000，并且下载至少1.5TB，分享率大于4.05；分享率低于3.95；得到一个邀请名额。Ultimate User及以上用户会永远保留账号。"
 
 [level.NexusMaster]
 level_id = 9
 level = "NexusMaster"
-name = "NexusMaster"
+name = "满面娇憨 Nexus Master"
 days = 100
 uploaded = "0"
 downloaded = "3TB"
@@ -261,12 +278,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = true
-rights = "得到十个邀请名额。"
+rights = "必须注册至少100周，做种积分大于1500000，并且下载至少3TB，分享率大于4.55；分享率低于4.45；得到两个邀请名额。"
 
 [level.VIP]
 level_id = 0
 level = "VIP"
-name = "VIP"
+name = "憨厚可爱 贵宾"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -278,4 +295,106 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = true
-rights = "和NexusMaster拥有相同权限并被认为是精英成员。免除自动降级。"
+rights = "用户使用魔力值兑换，或由管理员仔细斟酌后授权；-；和Nexus Master拥有相同权限并被认为是精英成员。免除自动降级。"
+
+[level.Retiree]
+level_id = 0
+level = "Retiree"
+name = "装憨卖傻 养老族"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "由管理员授予；-；退休后的管理组成员。"
+
+[level.Uploader]
+level_id = 0
+level = "Uploader"
+name = "红憨满面 发布员"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "由管理员分配；-；专注的发布者。免除自动降级。"
+
+[level.Moderator]
+level_id = 0
+level = "Moderator"
+name = "憨直率真 总版主"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "无需多问，我们会找到你的；-；-"
+
+[level.Administrator]
+level_id = 0
+level = "Administrator"
+name = "憨憨与世 管理员"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "-；-；-"
+
+[level.Sysop]
+level_id = 0
+level = "Sysop"
+name = "浩瀚憨憨 维护开发员"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "-；-；-"
+
+[level.StaffLeader]
+level_id = 0
+level = "StaffLeader"
+name = "主管"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "-；-；-"

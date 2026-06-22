@@ -122,12 +122,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "新用户的默认级别"
+rights = "Acest statut îl obține noul utilizator al acestui tracker.；---"
 
 [level.PowerUser]
 level_id = 2
 level = "PowerUser"
-name = "PowerUser"
+name = "Power User"
 days = 28
 uploaded = "0"
 downloaded = "50"
@@ -139,7 +139,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "它可以下载大于1MB的DOX文件。该类有权申请上传者身份。"
+rights = "---；Poate downloada fișiere de tip DOX, mai mari de 1MB. Această clasă are dreptul de a aplica pentru statutul de uploader."
 
 [level.Addict]
 level_id = 3
@@ -156,7 +156,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "此类有权请求自定义标题。此类有权提出请求。"
+rights = "---；Această clasă are dreptul să facă request pentru Custom Title. Această clasă are dreptul să facă request -uri."
 
 [level.Elite]
 level_id = 4
@@ -173,7 +173,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "普通用户可以达到的最高等级。此类授予您为其他用户提供声誉的权利。"
+rights = "Cea mai înaltă clasă pe care o poate atinge un utilizator normal.；Această clasă îţi oferă dreptul de a acorda reputaţie altor useri."
 
 [level.VIP]
 level_id = 0
@@ -190,4 +190,157 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "无论下载如何，该类的最低分享率始终等于2，并且被排除在HR规则之外。可以自定义头衔。"
+rights = "Sunt utlizatorii care au contribuit cu ceva special la acest site.；Această clasă are mereu o rație minimă egala cu 2, indiferent de download-ul făcut, și sunt excluși de la regulile de hit&run. Își pot pune singuri Custom Title."
+
+[level.TorrentCelebrity]
+level_id = 0
+level = "TorrentCelebrity"
+name = "Torrent Celebrity"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "Clasă rezervată Adminilor/SysOpilor de pe alte trackere private (interne sau externe).；Vă rugăm nu întrebați."
+
+[level.Legend]
+level_id = 0
+level = "Legend"
+name = "Legend"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "Clasă rezervată foștilor membri ai staff-ului nostru.；Vă rugăm nu întrebați."
+
+[level.Intern]
+level_id = 0
+level = "Intern"
+name = "Intern"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "Forum moderators, torrent editors, designers etc.；Ajută moderatorii în activitațile zilnice dintr-o anumită secțiune."
+
+[level.EncoderEssentialEncoder]
+level_id = 0
+level = "EncoderEssentialEncoder"
+name = "Encoder Essential Encoder"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "Poate uploada torrente, își poate modera comentariile propriilor torrente și secțiunea request.；Sunt cei care encodează pentru grupurile interne."
+
+[level.NewUploaderUploaderEssentialUploader]
+level_id = 0
+level = "NewUploaderUploaderEssentialUploader"
+name = "New Uploader Uploader Essential Uploader"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "Poate uploada torrente, își poate modera comentariile propriilor torrente și secțiunea request.；Aplicați aici"
+
+[level.Moderator]
+level_id = 0
+level = "Moderator"
+name = "Moderator"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "Utilizatorii care urmăresc respectarea regulilor.；---"
+
+[level.Administrator]
+level_id = 0
+level = "Administrator"
+name = "Administrator"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "Poate să facă orice.；---"
+
+[level.Sysop]
+level_id = 0
+level = "Sysop"
+name = "SysOp"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "Proprietarul/Coderul tracker-ului.；---"
+
+[level.Owner]
+level_id = 0
+level = "Owner"
+name = "Owner"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "---；---"

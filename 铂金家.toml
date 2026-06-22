@@ -107,6 +107,244 @@ buy_page = "mybonus.php?action=exchange"
 "1个临时邀请名额" = "7"
 "贵宾待遇" = "9"
 
+[level.Peasant]
+level_id = -1
+level = "Peasant"
+name = "矿渣"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "当以下情况时将被自动降至本级： 1.如果你已经下载了超过50GB，你的分享率却低于0.4。 2.如果你已经下载了超过100GB，你的分享率却低于0.5。 3.如果你已经下载了超过200GB，你的分享率却低于0.6。 4.如果你已经下载了超过400GB，你的分享率却低于0.7。 5.如果你已经下载了超过800GB，你的分享率却低于0.8。 请记住，此等级意味着您的账号处于受限状态（参考用户等级详情），您需要尽快提升分享率！"
+
+[level.PowerUser]
+level_id = 2
+level = "PowerUser"
+name = "钢铁"
+days = 4
+uploaded = "0"
+downloaded = "200GB"
+bonus = 0.0
+score = 20000
+ratio = 1.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "必须注册至少4周，并且下载至少200G，分享率大于1.0，做种积分达到20000。 当条件符合时将被自动提升。注意，无论何时，如果你的分享率低于1.0，你将自动降级。"
+
+[level.EliteUser]
+level_id = 3
+level = "EliteUser"
+name = "铝锭"
+days = 8
+uploaded = "0"
+downloaded = "350GB"
+bonus = 0.0
+score = 50000
+ratio = 1.1
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "必须注册至少8周，并且下载至少350G，分享率大于1.1，做种积分达到50000。 当条件符合时将被自动提升。注意，无论何时，如果你的分享率低于1.1，你将自动降级。"
+
+[level.CrazyUser]
+level_id = 4
+level = "CrazyUser"
+name = "锌锭"
+days = 15
+uploaded = "0"
+downloaded = "500GB"
+bonus = 0.0
+score = 200000
+ratio = 1.2
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "必须注册至少15周，并且下载至少500G，分享率大于1.2，做种积分达到200000。 当条件符合时将被自动提升。注意，无论何时，如果你的分享率低于1.2，你将自动降级。"
+
+[level.InsaneUser]
+level_id = 5
+level = "InsaneUser"
+name = "紫铜"
+days = 25
+uploaded = "0"
+downloaded = "1TB"
+bonus = 0.0
+score = 400000
+ratio = 1.3
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "必须注册至少25周，并且下载至少1T，分享率大于1.3，做种积分达到400000。 当条件符合时将被自动提升。注意，无论何时，如果你的分享率低于1.3，你将自动降级。"
+
+[level.VeteranUser]
+level_id = 6
+level = "VeteranUser"
+name = "白锡"
+days = 40
+uploaded = "0"
+downloaded = "2TB"
+bonus = 0.0
+score = 600000
+ratio = 1.5
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = true
+graduation = false
+rights = "必须注册至少40周，并且下载至少2T，分享率大于1.5，做种积分达600000。 当条件符合时将被自动提升。注意，无论何时，如果你的分享率低于1.5，你将自动降级。"
+
+[level.ExtremeUser]
+level_id = 7
+level = "ExtremeUser"
+name = "白银"
+days = 60
+uploaded = "0"
+downloaded = "3TB"
+bonus = 0.0
+score = 800000
+ratio = 1.5
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = true
+graduation = false
+rights = "必须注册至少60周，并且下载至少3T，分享率大于1.5，做种积分达800000。 当条件符合时将被自动提升。注意，无论何时，如果你的分享率低于1.5，你将自动降级。"
+
+[level.UltimateUser]
+level_id = 8
+level = "UltimateUser"
+name = "黄金"
+days = 80
+uploaded = "0"
+downloaded = "4TB"
+bonus = 0.0
+score = 1000000
+ratio = 1.7
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = true
+graduation = false
+rights = "必须注册至少80周，并且下载至少4T，分享率大于1.7，做种积分达1000000。 当条件符合时将被自动提升。注意，无论何时，如果你的分享率低于1.7，你将自动降级。"
+
+[level.NexusMaster]
+level_id = 9
+level = "NexusMaster"
+name = "铂金"
+days = 100
+uploaded = "0"
+downloaded = "6TB"
+bonus = 0.0
+score = 1200000
+ratio = 1.8
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = true
+graduation = true
+rights = "必须注册至少100周，并且下载至少6T，分享率大于1.8，做种积分达1200000。 当条件符合时将被自动提升。注意，无论何时，如果你的分享率低于1.8，你将自动降级。"
+
+[level.VIP]
+level_id = 0
+level = "VIP"
+name = "贵宾"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = true
+graduation = true
+rights = "由管理员仔细斟酌后分配给他们认为对于站点某方面有特殊贡献的用户。 （任何索取贵宾等级的要求将被自动无视）"
+
+[level.Other]
+level_id = 0
+level = "Other"
+name = "其它"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "用户使用魔力值兑换，或由管理员仔细斟酌后授权。"
+
+[level.Retiree]
+level_id = 0
+level = "Retiree"
+name = "养老族"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "由管理员授予。"
+
+[level.Uploader]
+level_id = 0
+level = "Uploader"
+name = "发布员"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "由管理员分配(参见'发布'部分以了解详情)。"
+
+[level.Moderator]
+level_id = 0
+level = "Moderator"
+name = "总版主"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "无需多问，我们会找到你的！"
+
 [level.User]
 level_id = 1
 level = "User"
@@ -123,156 +361,3 @@ seeding_delta = 0.0
 keep_account = false
 graduation = false
 rights = "新用户的默认级别。"
-
-[level.PowerUser]
-level_id = 2
-level = "PowerUser"
-name = "PowerUser"
-days = 4
-uploaded = "0"
-downloaded = "200GB"
-bonus = 0.0
-score = 20000
-ratio = 1.0
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = false
-rights = "可以查看NFO文档；可以查看用户列表；可以请求续种；可以查看排行榜；可以查看其它用户的种子历史(如果用户隐私等级未设置为'强')；可以删除自己上传的字幕。可以浏览论坛邀请专版。"
-
-[level.EliteUser]
-level_id = 3
-level = "EliteUser"
-name = "EliteUser"
-days = 8
-uploaded = "0"
-downloaded = "350GB"
-bonus = 0.0
-score = 50000
-ratio = 1.1
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = false
-rights = "EliteUserxa0及以上用户封存账号后不会被删除"
-
-[level.CrazyUser]
-level_id = 4
-level = "CrazyUser"
-name = "CrazyUser"
-days = 15
-uploaded = "0"
-downloaded = "500GB"
-bonus = 0.0
-score = 200000
-ratio = 1.2
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = false
-rights = "可以在做种/下载/发布的时候选择匿名模式。"
-
-[level.InsaneUser]
-level_id = 5
-level = "InsaneUser"
-name = "InsaneUser"
-days = 25
-uploaded = "0"
-downloaded = "1TB"
-bonus = 0.0
-score = 400000
-ratio = 1.3
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = false
-rights = "可以查看普通日志"
-
-[level.VeteranUser]
-level_id = 6
-level = "VeteranUser"
-name = "VeteranUser"
-days = 40
-uploaded = "0"
-downloaded = "2TB"
-bonus = 0.0
-score = 600000
-ratio = 1.5
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = true
-graduation = false
-rights = "可以查看其它用户的评论、帖子历史。VeteranUserxa0及以上用户会永远保留账号。"
-
-[level.ExtremeUser]
-level_id = 7
-level = "ExtremeUser"
-name = "ExtremeUser"
-days = 60
-uploaded = "0"
-downloaded = "3TB"
-bonus = 0.0
-score = 800000
-ratio = 1.5
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = true
-graduation = false
-rights = "可以更新过期的外部信息；可以查看ExtremeUser论坛。"
-
-[level.UltimateUser]
-level_id = 8
-level = "UltimateUser"
-name = "UltimateUser"
-days = 80
-uploaded = "0"
-downloaded = "4TB"
-bonus = 0.0
-score = 1000000
-ratio = 1.7
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = true
-graduation = false
-rights = "同ExtremeUser等级权限"
-
-[level.NexusMaster]
-level_id = 9
-level = "NexusMaster"
-name = "NexusMaster"
-days = 100
-uploaded = "0"
-downloaded = "6TB"
-bonus = 0.0
-score = 1200000
-ratio = 1.8
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = true
-graduation = true
-rights = "同ExtremeUser等级权限"
-
-[level.VIP]
-level_id = 0
-level = "VIP"
-name = "VIP"
-days = 0
-uploaded = "0"
-downloaded = "0"
-bonus = 0.0
-score = 0
-ratio = 0.0
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = true
-graduation = true
-rights = "和NexusMaster拥有相同权限并被认为是精英成员。免除自动降级。"
