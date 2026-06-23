@@ -8,6 +8,7 @@ limit_speed = 100
 tags = "绿头怪,官组,Web,动漫,皮卡丘,有声书,音乐"
 iyuu = 81
 sign_in = true
+sign_type = "NEXUS_SIGN"
 get_info = true
 repeat_torrents = true
 brush_free = true

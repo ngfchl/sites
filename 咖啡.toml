@@ -8,6 +8,7 @@ limit_speed = 100
 tags = "影视,综合"
 iyuu = 107
 sign_in = true
+sign_type = "NEXUS_SIGN"
 get_info = true
 repeat_torrents = true
 brush_free = true

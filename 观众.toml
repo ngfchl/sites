@@ -8,6 +8,7 @@ limit_speed = 95
 tags = "综合,压制,官组,Diy,原盘,特效字幕,X265,Web,最速Web"
 iyuu = 68
 sign_in = true
+sign_type = "NEXUS_SIGN"
 get_info = true
 repeat_torrents = true
 brush_free = true

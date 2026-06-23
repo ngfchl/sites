@@ -8,6 +8,7 @@ limit_speed = 23
 tags = "影视,综合,学习资料,盾厚,全站HR"
 iyuu = 8
 sign_in = true
+sign_type = "BTSCHOOL_SIGN"
 get_info = true
 repeat_torrents = true
 brush_free = true

@@ -8,6 +8,7 @@ limit_speed = 90
 tags = "高清,杜比,Web,二次验证,官种"
 iyuu = 105
 sign_in = true
+sign_type = "NEXUS_SIGN"
 get_info = true
 repeat_torrents = true
 brush_free = true

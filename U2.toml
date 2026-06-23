@@ -8,6 +8,7 @@ limit_speed = 50
 tags = "动漫,二次元,生肉,原盘"
 iyuu = 37
 sign_in = true
+sign_type = "U2_SIGN"
 get_info = true
 repeat_torrents = true
 brush_free = true

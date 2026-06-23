@@ -8,6 +8,7 @@ limit_speed = 30
 tags = "综合,日韩影视,高清压制"
 iyuu = 14
 sign_in = true
+sign_type = "TTG_SIGN"
 get_info = true
 repeat_torrents = true
 brush_free = true

@@ -8,6 +8,7 @@ limit_speed = 100
 tags = "高清,综合,游戏,顶级压制,官组"
 iyuu = 6
 sign_in = true
+sign_type = "NEXUS_SIGN"
 get_info = true
 repeat_torrents = true
 brush_free = true

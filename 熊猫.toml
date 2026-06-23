@@ -8,6 +8,7 @@ limit_speed = 100
 tags = "影视,Web,去广告,纯净"
 iyuu = 88
 sign_in = true
+sign_type = "NEXUS_SIGN"
 get_info = true
 repeat_torrents = true
 brush_free = true

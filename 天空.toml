@@ -8,6 +8,7 @@ limit_speed = 95
 tags = "综合,去广告,纯净,Diy,特效,原盘,无广告剧"
 iyuu = 4
 sign_in = true
+sign_type = "HDSKY_SIGN"
 get_info = true
 repeat_torrents = true
 brush_free = true
