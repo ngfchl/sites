@@ -310,8 +310,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "由管理员授予；-；退休后的管理组成员。"
 
 [level.Uploader]
@@ -327,8 +327,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "由管理员分配；-；专注的发布者。免除自动降级。"
 
 [level.Moderator]
@@ -344,8 +344,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "无需多问，我们会找到你的；-；-"
 
 [level.Administrator]
@@ -361,8 +361,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "-；-；-"
 
 [level.Sysop]
@@ -378,8 +378,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "-；-；-"
 
 [level.StaffLeader]
@@ -395,6 +395,6 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "-；-；-"

@@ -290,8 +290,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "用户使用魔力值兑换，或由管理员仔细斟酌后授权。"
 
 [level.Retiree]
@@ -307,8 +307,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "由管理员授予。"
 
 [level.Uploader]
@@ -324,8 +324,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "由管理员分配(参见'发布'部分以了解详情)。"
 
 [level.Moderator]
@@ -341,8 +341,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "无需多问，我们会找到你的！"
 
 [level.User]

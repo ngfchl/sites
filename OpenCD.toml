@@ -307,8 +307,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "退休後的管​​理組成員。"
 
 [level.Seeder]
@@ -324,8 +324,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "皇后保種組成員。免除自動降級；可以查看匿名用戶的真實身份。"
 
 [level.Uploader]
@@ -341,8 +341,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "專注的發布者。免除自動降級；可以查看匿名用戶的真實身份。"
 
 [level.ForumModerator]
@@ -358,8 +358,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "皇后PT站論壇版主。"
 
 [level.Moderator]
@@ -375,8 +375,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "可以查看管理組信箱、舉報信箱；管理趣味盒內容、投票內容；可以編輯或刪除任何發布的種子；可以管理候選；可以管理論壇帖子、用戶評論；可以查看機密日誌；可以刪除任何字幕；可以管理日誌中的代碼、史冊；可以查看用戶的邀請記錄；可以管理用戶帳號的一般信息；可以將種子設為置頂或促銷。 不能 管理友情鏈接、最近消息、論壇版塊； 不能 查看用戶IP或Email等機密信息；不能刪除賬號。"
 
 [level.Administrator]
@@ -392,8 +392,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "除了不能改變站點設定、管理捐贈外，可以做任何事。"
 
 [level.Sysop]
@@ -409,8 +409,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "網站開發/維護人員，可以改變站點設定，不能管理捐贈。"
 
 [level.StaffLeader]
@@ -426,6 +426,6 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "網站主管，可以做任何事。"

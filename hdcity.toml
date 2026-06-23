@@ -137,8 +137,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "新手上路。可以直接发布种子；可以使用 RSS。"
 
 [level.PowerAngel]
@@ -154,8 +154,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "可以请求续种； 可以查看其它用户的种子历史(如果用户隐私等级未设置为\"强\")。"
 
 [level.EliteAngel]
@@ -171,8 +171,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "权天使 及以上等级封存账号后不会被删除。"
 
 [level.CrazyAngel]
@@ -188,8 +188,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "可以在做种/下载/发布的时候选择匿名模式。"
 
 [level.InsaneAngel]
@@ -205,8 +205,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "可以查看普通日志。"
 
 [level.VeteranAngel]
@@ -222,8 +222,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "主天使 及以上市民会永远保留账号。"
 
 [level.ExtremeAngel]
@@ -239,8 +239,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = ""
 
 [level.UltimateAngel]
@@ -256,8 +256,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "比较牛逼的等级。"
 
 [level.MasterAngel]
@@ -273,8 +273,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "最牛逼的市民，或特殊任务分配。"
 
 [level.VIP]
@@ -290,8 +290,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "管理员分配，捐助的市民，或自行以魅力值兑换获得。免除自动降级无视分享率。"
 
 [level.Retiree]
@@ -307,8 +307,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "退休后的管理组成员。"
 
 [level.Uploader]
@@ -324,8 +324,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "专注的发布者。工作组。可以查看匿名。"
 
 [level.ForumModerator]
@@ -341,8 +341,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "论坛管理者。可以制定在任版块的版规、管理主题和帖子。"
 
 [level.Moderator]
@@ -358,8 +358,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "可以查看管理组信箱、举报信箱；管理趣味盒内容、投票内容；可以编辑或删除任何发布的种子及字幕；可以管理候选；可以管理论坛帖子、用户评论；可以查看机密日志；可以管理日志中的代码、史册；可以查看用户的邀请记录；可以管理用户帐号的一般信息；可以将种子设为置顶或促销；可以查看用户IP或Email等机密信息。不能管理友情链接、最近消息；不能删除账号。"
 
 [level.Administrator]
@@ -375,8 +375,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "各种日常管理，可以做任何修改。"
 
 [level.Sysop]
@@ -392,8 +392,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "网站开发/维护人员，可以做任何修改。"
 
 [level.Mayor]
@@ -410,7 +410,7 @@ torrents = 0
 leeches = 0
 seeding_delta = 0.0
 keep_account = false
-graduation = false
+graduation = true
 rights = "灵魂。"
 
 [level."天使"]
@@ -427,7 +427,7 @@ torrents = 0
 leeches = 0
 seeding_delta = 0.0
 keep_account = false
-graduation = false
+graduation = true
 rights = ""
 
 [level."大天使"]
@@ -444,7 +444,7 @@ torrents = 0
 leeches = 0
 seeding_delta = 0.0
 keep_account = false
-graduation = false
+graduation = true
 rights = ""
 
 [level."权天使"]
@@ -461,7 +461,7 @@ torrents = 0
 leeches = 0
 seeding_delta = 0.0
 keep_account = false
-graduation = false
+graduation = true
 rights = ""
 
 [level."能天使"]
@@ -478,7 +478,7 @@ torrents = 0
 leeches = 0
 seeding_delta = 0.0
 keep_account = false
-graduation = false
+graduation = true
 rights = ""
 
 [level."力天使"]
@@ -495,7 +495,7 @@ torrents = 0
 leeches = 0
 seeding_delta = 0.0
 keep_account = false
-graduation = false
+graduation = true
 rights = ""
 
 [level."主天使"]
@@ -512,7 +512,7 @@ torrents = 0
 leeches = 0
 seeding_delta = 0.0
 keep_account = false
-graduation = false
+graduation = true
 rights = ""
 
 [level."座天使"]
@@ -529,7 +529,7 @@ torrents = 0
 leeches = 0
 seeding_delta = 0.0
 keep_account = false
-graduation = false
+graduation = true
 rights = ""
 
 [level."智天使"]
@@ -546,7 +546,7 @@ torrents = 0
 leeches = 0
 seeding_delta = 0.0
 keep_account = false
-graduation = false
+graduation = true
 rights = ""
 
 [level."炽天使"]
@@ -563,7 +563,7 @@ torrents = 0
 leeches = 0
 seeding_delta = 0.0
 keep_account = false
-graduation = false
+graduation = true
 rights = ""
 
 [level."壕"]
@@ -580,5 +580,5 @@ torrents = 0
 leeches = 0
 seeding_delta = 0.0
 keep_account = false
-graduation = false
+graduation = true
 rights = ""

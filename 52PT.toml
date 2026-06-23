@@ -309,8 +309,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "退休后的校区管理人员。"
 
 [level.Uploader]
@@ -326,8 +326,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "专注的发布者（本站称教员）。免除自动降级；可以查看匿名用户的真实身份。"
 
 [level.Moderator]
@@ -343,8 +343,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "可以查看管理组信箱、举报信箱；管理趣味盒内容、投票内容；可以编辑或删除任何发布的种子；可以管理候选；可以管理论坛帖子、用户评论；可以将种子设为置顶或促销；可以查看用户的邀请记录。 不能 管理友情链接、最近消息、论坛版块； 不能 查看用户IP或Email等机密信息；不能删除账号。"
 
 [level.Administrator]
@@ -360,8 +360,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "除了不能改变站点设定、管理捐赠外，可以做任何事。"
 
 [level.Sysop]
@@ -377,8 +377,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "校区维护，可以改变站点设定，但不能接收和管理捐赠。"
 
 [level.StaffLeader]
@@ -394,6 +394,6 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "校区主管，可以做任何事。"

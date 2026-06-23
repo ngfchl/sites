@@ -272,7 +272,7 @@ ratio = 5.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = false
 rights = "此等级及以上等级用户会永远保留账号。 （升级条件：注册满 32 周，下载量3.5TB以上，分享率大于 5.0 会升级，低于 4.9 自动降级。）"
 
@@ -307,7 +307,7 @@ torrents = 0
 leeches = 0
 seeding_delta = 0.0
 keep_account = false
-graduation = false
+graduation = true
 rights = "（升级条件：注册满 48 周，上传量100TB以上，下载量10TB以上，分享率大于 6.0 会升级，低于 5.9 自动降级。）"
 
 [level.VIP]
@@ -323,8 +323,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "为TTG做出特殊重大贡献的用户或合作者等。只计算上传量，不计算下载量。"
 
 [level.WiKi]
@@ -340,8 +340,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "官方高清影视压制小组"
 
 [level.NGB]
@@ -357,8 +357,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "官方高清电视录制&压制小组"
 
 [level.DoA]
@@ -374,8 +374,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "官方高清电视录制&压制小组"
 
 [level.SubEditor]
@@ -391,8 +391,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "官方指定管理字幕的编辑"
 
 [level.Helper]
@@ -408,8 +408,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "官方指定的种子简介协助补充者"
 
 [level.Uploader]
@@ -425,8 +425,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "官方指定的种子发布者"
 
 [level.ForumModerator]
@@ -442,8 +442,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "社区版主"
 
 [level.Moderator]
@@ -459,8 +459,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "总版主"
 
 [level.Admin]
@@ -476,8 +476,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "管理员"
 
 [level.SysOP]
@@ -493,6 +493,6 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "网站法官，有调整任何内容的权力"

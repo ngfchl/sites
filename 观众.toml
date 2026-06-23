@@ -273,8 +273,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "必须注册至少128周，并且下载至少10240G，分享率大于8，做种积分达2,400,000。（二周年后将依据用户总体做种积分水平，按比例计算具体要求） 当条件符合时将被自动提升。注意，无论何时， 彩虹照耀(Rainbow) 等级用户如果未达最新要求，你将自动降级。"
 
 [level.VIP]
@@ -307,8 +307,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "由管理员授予。"
 
 [level.Uploader]
@@ -324,8 +324,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "点此查看Uploader招募相关"
 
 [level.Moderator]
@@ -341,8 +341,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "无需多问，我们会找到你的！"
 
 [level.DirectConnect]
@@ -358,8 +358,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "1 - 1024"
 
 [level.BitTorrent]
@@ -375,8 +375,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "6881 - 6889"
 
 [level.Kazza]
@@ -392,8 +392,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "1214"
 
 [level.Gnutella]
@@ -409,8 +409,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "6346 - 6347"
 
 [level.Emule]
@@ -426,8 +426,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "4662"
 
 [level.WinMX]
@@ -443,8 +443,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "6699"
 
 [level.User]

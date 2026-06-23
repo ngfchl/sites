@@ -290,8 +290,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "和 Nexus Master 拥有相同权限并被认为是精英成员。免除自动降级。"
 
 [level.Retiree]
@@ -307,8 +307,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "退休后的管理组成员。"
 
 [level.Helper]
@@ -324,8 +324,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "巡查组成员，巡查及负责种子页面的维护。"
 
 [level.Seeder]
@@ -341,8 +341,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "保种组成员，长期稳定地对种子进行保种。"
 
 [level.Transferer]
@@ -358,8 +358,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "转载组成员，及时转载发布各类资源。"
 
 [level.Uploader]
@@ -375,8 +375,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "发布组成员，发布自有或自制资源。"
 
 [level.Recorder]
@@ -392,8 +392,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "录制组成员，负责录制资源的发布。"
 
 [level.Encoder]
@@ -409,8 +409,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "压制组成员，负责压制资源的发布。"
 
 [level.ForumModerator]
@@ -426,8 +426,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "可以管理所有论坛版块及页面评论。"
 
 [level.Moderator]
@@ -443,8 +443,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "可以查看管理组信箱、举报信箱；管理趣味盒内容、投票内容；可以编辑或删除任何发布的种子；可以管理候选；可以管理论坛帖子、用户评论；可以查看机密日志；可以删除任何字幕；可以管理日志中的代码、史册；可以查看用户的邀请记录；可以管理用户帐号的一般信息。 不能 管理友情链接、最近消息、论坛版块； 不能 将种子设为置顶或促销； 不能 查看用户IP或Email等机密信息；不能删除账号。"
 
 [level.Administrator]
@@ -460,8 +460,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "除了不能改变站点设定、管理捐赠外，可以做任何事。"
 
 [level.Sysop]
@@ -477,8 +477,8 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "网站开发/维护人员，可以改变站点设定，不能管理捐赠。"
 
 [level.StaffLeader]
@@ -494,6 +494,6 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
-graduation = false
+keep_account = true
+graduation = true
 rights = "网站主管，可以做任何事。"
