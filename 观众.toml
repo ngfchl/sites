@@ -349,7 +349,7 @@ rights = "无需多问，我们会找到你的！"
 [level.DirectConnect]
 level_id = 0
 level = "DirectConnect"
-name = "Direct Connect"
+name = "DirectConnect"
 days = 0
 uploaded = "0"
 downloaded = "0"

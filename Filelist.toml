@@ -127,7 +127,7 @@ rights = "Acest statut îl obține noul utilizator al acestui tracker.；---"
 [level.PowerUser]
 level_id = 2
 level = "PowerUser"
-name = "Power User"
+name = "PowerUser"
 days = 28
 uploaded = "0"
 downloaded = "50"
@@ -195,7 +195,7 @@ rights = "Sunt utlizatorii care au contribuit cu ceva special la acest site.；A
 [level.TorrentCelebrity]
 level_id = 0
 level = "TorrentCelebrity"
-name = "Torrent Celebrity"
+name = "TorrentCelebrity"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -246,7 +246,7 @@ rights = "Forum moderators, torrent editors, designers etc.；Ajută moderatorii
 [level.EncoderEssentialEncoder]
 level_id = 0
 level = "EncoderEssentialEncoder"
-name = "Encoder Essential Encoder"
+name = "EncoderEssentialEncoder"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -263,7 +263,7 @@ rights = "Poate uploada torrente, își poate modera comentariile propriilor tor
 [level.NewUploaderUploaderEssentialUploader]
 level_id = 0
 level = "NewUploaderUploaderEssentialUploader"
-name = "New Uploader Uploader Essential Uploader"
+name = "NewUploaderUploaderEssentialUploader"
 days = 0
 uploaded = "0"
 downloaded = "0"

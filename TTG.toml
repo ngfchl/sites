@@ -382,7 +382,7 @@ rights = "官方高清电视录制&压制小组"
 [level.SubEditor]
 level_id = 0
 level = "SubEditor"
-name = "Sub Editor"
+name = "SubEditor"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -433,7 +433,7 @@ rights = "官方指定的种子发布者"
 [level.ForumModerator]
 level_id = 0
 level = "ForumModerator"
-name = "Forum Moderator"
+name = "ForumModerator"
 days = 0
 uploaded = "0"
 downloaded = "0"

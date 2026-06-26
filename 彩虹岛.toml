@@ -111,7 +111,7 @@ buy_page = "mybonus.php?action=exchange"
 [level.Peasant]
 level_id = -1
 level = "Peasant"
-name = "(冰人)Peasant"
+name = "冰人"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -128,7 +128,7 @@ rights = "被降级的用户，他们有7天时间来提升分享率，否则他
 [level.User]
 level_id = 1
 level = "User"
-name = "(未烧)User"
+name = "未烧"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -145,7 +145,7 @@ rights = "新用户的默认级别。"
 [level.PowerUser]
 level_id = 2
 level = "PowerUser"
-name = "(感冒)Power User"
+name = "感冒"
 days = 5
 uploaded = "0"
 downloaded = "200GB"
@@ -162,7 +162,7 @@ rights = "可以查看NFO文档；可以请求续种； 可以查看排行榜；
 [level.EliteUser]
 level_id = 3
 level = "EliteUser"
-name = "(发热)Elite User"
+name = "发热"
 days = 10
 uploaded = "0"
 downloaded = "500GB"
@@ -179,7 +179,7 @@ rights = "无"
 [level.CrazyUser]
 level_id = 4
 level = "CrazyUser"
-name = "(低烧)Crazy User"
+name = "低烧"
 days = 15
 uploaded = "0"
 downloaded = "800GB"
@@ -196,7 +196,7 @@ rights = "可以查看NFO文档；可以查看用户列表；可以请求续种�
 [level.InsaneUser]
 level_id = 5
 level = "InsaneUser"
-name = "(中烧)Insane User"
+name = "中烧"
 days = 20
 uploaded = "0"
 downloaded = "999GB"
@@ -213,7 +213,7 @@ rights = "可以查看普通日志。"
 [level.VeteranUser]
 level_id = 6
 level = "VeteranUser"
-name = "(高烧)Veteran User"
+name = "高烧"
 days = 25
 uploaded = "0"
 downloaded = "1500GB"
@@ -230,7 +230,7 @@ rights = "可以查看其它用户的评论、帖子历史。"
 [level.ExtremeUser]
 level_id = 7
 level = "ExtremeUser"
-name = "(烧糊涂)Extreme User"
+name = "烧糊涂"
 days = 30
 uploaded = "0"
 downloaded = "2TB"
@@ -247,7 +247,7 @@ rights = "首次升级赠送邀请1枚，可以更新过期的外部信息；可
 [level.UltimateUser]
 level_id = 8
 level = "UltimateUser"
-name = "(走火入魔)Ultimate User"
+name = "走火入魔"
 days = 40
 uploaded = "0"
 downloaded = "3TB"
@@ -264,7 +264,7 @@ rights = "首次升级赠送邀请2枚，保留帐号，在官方活动期间可
 [level.NexusMaster]
 level_id = 9
 level = "NexusMaster"
-name = "(骨灰)Nexus Master"
+name = "骨灰"
 days = 52
 uploaded = "0"
 downloaded = "4TB"

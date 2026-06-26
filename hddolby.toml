@@ -144,7 +144,7 @@ rights = "新用户的默认级别。"
 [level.PowerUser]
 level_id = 2
 level = "PowerUser"
-name = "Power User"
+name = "PowerUser"
 days = 2
 uploaded = "0"
 downloaded = "120GB"
@@ -161,7 +161,7 @@ rights = "得到0个邀请名额；可以直接发布种子；可以查看NFO文
 [level.EliteUser]
 level_id = 3
 level = "EliteUser"
-name = "Elite User"
+name = "EliteUser"
 days = 4
 uploaded = "0"
 downloaded = "256GB"
@@ -178,7 +178,7 @@ rights = "Elite User 及以上用户封存账号后不会被删除。"
 [level.CrazyUser]
 level_id = 4
 level = "CrazyUser"
-name = "Crazy User"
+name = "CrazyUser"
 days = 8
 uploaded = "0"
 downloaded = "512GB"
@@ -195,7 +195,7 @@ rights = "得到0个邀请名额；可以在做种/下载/发布的时候选择�
 [level.InsaneUser]
 level_id = 5
 level = "InsaneUser"
-name = "Insane User"
+name = "InsaneUser"
 days = 12
 uploaded = "0"
 downloaded = "768GB"
@@ -212,7 +212,7 @@ rights = "Insane User 权限和 Crazy User 一样"
 [level.VeteranUser]
 level_id = 6
 level = "VeteranUser"
-name = "Veteran User"
+name = "VeteranUser"
 days = 20
 uploaded = "0"
 downloaded = "1TB"
@@ -229,7 +229,7 @@ rights = "得到0个邀请名额；可以查看其它用户的评论、帖子历
 [level.ExtremeUser]
 level_id = 7
 level = "ExtremeUser"
-name = "Extreme User"
+name = "ExtremeUser"
 days = 28
 uploaded = "0"
 downloaded = "2TB"
@@ -246,7 +246,7 @@ rights = "Extreme User 及以上用户会永远保留账号。"
 [level.UltimateUser]
 level_id = 8
 level = "UltimateUser"
-name = "Ultimate User"
+name = "UltimateUser"
 days = 40
 uploaded = "0"
 downloaded = "4TB"
@@ -263,7 +263,7 @@ rights = "得到0个邀请名额。"
 [level.NexusMaster]
 level_id = 9
 level = "NexusMaster"
-name = "Nexus Master"
+name = "NexusMaster"
 days = 56
 uploaded = "0"
 downloaded = "8TB"

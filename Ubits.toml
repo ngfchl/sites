@@ -145,7 +145,7 @@ rights = "新用户的默认级别。可以发布种子(详情查看发布规则
 [level.PowerUser]
 level_id = 2
 level = "PowerUser"
-name = "Power User"
+name = "PowerUser"
 days = 5
 uploaded = "0"
 downloaded = "200GB"
@@ -162,7 +162,7 @@ rights = "可以删除自己上传的字幕。"
 [level.EliteUser]
 level_id = 3
 level = "EliteUser"
-name = "Elite User"
+name = "EliteUser"
 days = 10
 uploaded = "0"
 downloaded = "500GB"
@@ -179,7 +179,7 @@ rights = "Elite User 及以上用户封存账号后不会被删除。"
 [level.CrazyUser]
 level_id = 4
 level = "CrazyUser"
-name = "Crazy User"
+name = "CrazyUser"
 days = 15
 uploaded = "0"
 downloaded = "800GB"
@@ -196,7 +196,7 @@ rights = "得到1个邀请名额。"
 [level.InsaneUser]
 level_id = 5
 level = "InsaneUser"
-name = "Insane User"
+name = "InsaneUser"
 days = 30
 uploaded = "0"
 downloaded = "1TB"
@@ -213,7 +213,7 @@ rights = "得到1个邀请名额；可以查看普通日志。"
 [level.VeteranUser]
 level_id = 6
 level = "VeteranUser"
-name = "Veteran User"
+name = "VeteranUser"
 days = 60
 uploaded = "0"
 downloaded = "1536GB"
@@ -230,7 +230,7 @@ rights = "得到1个邀请名额；可以查看其它用户的评论、帖子历
 [level.ExtremeUser]
 level_id = 7
 level = "ExtremeUser"
-name = "Extreme User"
+name = "ExtremeUser"
 days = 90
 uploaded = "0"
 downloaded = "2TB"
@@ -247,7 +247,7 @@ rights = "得到2个邀请名额；可以更新过期的外部信息；可以查
 [level.UltimateUser]
 level_id = 8
 level = "UltimateUser"
-name = "Ultimate User"
+name = "UltimateUser"
 days = 120
 uploaded = "0"
 downloaded = "3TB"
@@ -264,7 +264,7 @@ rights = "得到3个邀请名额。"
 [level.NexusMaster]
 level_id = 9
 level = "NexusMaster"
-name = "Nexus Master"
+name = "NexusMaster"
 days = 150
 uploaded = "0"
 downloaded = "4TB"

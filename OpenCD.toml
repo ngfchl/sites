@@ -315,7 +315,7 @@ rights = "退休後的管​​理組成員。"
 [level.Seeder]
 level_id = 0
 level = "Seeder"
-name = "保種員(Se​​eder)"
+name = "保種員"
 days = 0
 uploaded = "0"
 downloaded = "0"

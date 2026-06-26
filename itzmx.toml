@@ -109,7 +109,7 @@ buy_page = "mybonus.php?action=exchange"
 [level.Peasant]
 level_id = -1
 level = "Peasant"
-name = "(俘虏)Peasant"
+name = "俘虏"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -126,7 +126,7 @@ rights = "被降级的用户，他们有3天时间来提升分享率，否则他
 [level.User]
 level_id = 1
 level = "User"
-name = "(士兵)User"
+name = "士兵"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -143,7 +143,7 @@ rights = "新用户的默认级别。"
 [level.PowerUser]
 level_id = 2
 level = "PowerUser"
-name = "(排长)Power User"
+name = "排长"
 days = 5
 uploaded = "0"
 downloaded = "100GB"
@@ -160,7 +160,7 @@ rights = "可以直接发布种子；可以查看NFO文档；可以查看用户�
 [level.EliteUser]
 level_id = 3
 level = "EliteUser"
-name = "(连长)Elite User"
+name = "连长"
 days = 5
 uploaded = "0"
 downloaded = "200GB"
@@ -177,7 +177,7 @@ rights = "Elite User 及以上用户封存账号后不会被删除。"
 [level.CrazyUser]
 level_id = 4
 level = "CrazyUser"
-name = "(营长)Crazy User"
+name = "营长"
 days = 10
 uploaded = "0"
 downloaded = "400GB"
@@ -194,7 +194,7 @@ rights = "可以在做种/下载/发布的时候选择匿名模式。"
 [level.InsaneUser]
 level_id = 5
 level = "InsaneUser"
-name = "(团长)Insane User"
+name = "团长"
 days = 10
 uploaded = "0"
 downloaded = "800GB"
@@ -211,7 +211,7 @@ rights = "得到1个邀请名额；可以查看普通日志。"
 [level.VeteranUser]
 level_id = 6
 level = "VeteranUser"
-name = "(旅长)Veteran User"
+name = "旅长"
 days = 10
 uploaded = "0"
 downloaded = "2000GB"
@@ -228,7 +228,7 @@ rights = "得到1个邀请名额；可以查看其它用户的评论、帖子历
 [level.ExtremeUser]
 level_id = 7
 level = "ExtremeUser"
-name = "(师长)Extreme User"
+name = "师长"
 days = 52
 uploaded = "0"
 downloaded = "8000GB"
@@ -245,7 +245,7 @@ rights = "得到1个邀请名额；可以更新过期的外部信息；可以查
 [level.UltimateUser]
 level_id = 8
 level = "UltimateUser"
-name = "(军长)Ultimate User"
+name = "军长"
 days = 104
 uploaded = "0"
 downloaded = "12TB"
@@ -262,7 +262,7 @@ rights = "得到1个邀请名额。"
 [level.NexusMaster]
 level_id = 9
 level = "NexusMaster"
-name = "(司令)Nexus Master"
+name = "司令"
 days = 156
 uploaded = "0"
 downloaded = "16TB"
