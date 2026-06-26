@@ -284,7 +284,7 @@ rights = "必须注册至少100周，做种积分大于1500000，并且下载至
 [level.VIP]
 level_id = 0
 level = "VIP"
-name = "憨厚可爱 贵宾"
+name = "憨厚可爱(贵宾)"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -296,12 +296,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = true
-rights = "用户使用魔力值兑换，或由管理员仔细斟酌后授权；-；和Nexus Master拥有相同权限并被认为是精英成员。免除自动降级。"
+rights = "用户使用魔力值兑换，或由管理员仔细斟酌后授权；和Nexus Master拥有相同权限并被认为是精英成员。免除自动降级。"
 
 [level.Retiree]
 level_id = 0
 level = "Retiree"
-name = "装憨卖傻 养老族"
+name = "装憨卖傻(养老族)"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -313,12 +313,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = true
-rights = "由管理员授予；-；退休后的管理组成员。"
+rights = "退休后的管理组成员。"
 
 [level.Uploader]
 level_id = 0
 level = "Uploader"
-name = "红憨满面 发布员"
+name = "红憨满面(发布员)"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -330,12 +330,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = true
-rights = "由管理员分配；-；专注的发布者。免除自动降级。"
+rights = "专注的发布者。免除自动降级。"
 
 [level.Moderator]
 level_id = 0
 level = "Moderator"
-name = "憨直率真 总版主"
+name = "憨直率真(总版主)"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -347,12 +347,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = true
-rights = "无需多问，我们会找到你的；-；-"
+rights = "无需多问，我们会找到你的"
 
 [level.Administrator]
 level_id = 0
 level = "Administrator"
-name = "憨憨与世 管理员"
+name = "憨憨与世(管理员)"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -364,12 +364,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = true
-rights = "-；-；-"
+rights = ""
 
 [level.Sysop]
 level_id = 0
 level = "Sysop"
-name = "浩瀚憨憨 维护开发员"
+name = "浩瀚憨憨(维护开发员)"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -381,7 +381,7 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = true
-rights = "-；-；-"
+rights = ""
 
 [level.StaffLeader]
 level_id = 0
@@ -398,4 +398,4 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = true
-rights = "-；-；-"
+rights = ""

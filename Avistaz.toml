@@ -140,10 +140,10 @@ keep_account = false
 graduation = false
 rights = "Description:xa0Registereduserswith5GBuploadandratioabove1.0.(Newbiesareautomaticallypromotedtomemberstatuswhentheyhavebeennewbiesfor7ormoredaysandhaveachievedaratioof1.0orhigherwithatleasta5GBupload.)Limits:Candownload50torrentsaday.Canupload."
 
-[level."V.I.P."]
+[level.VIP]
 level_id = 0
-level = "V.I.P."
-name = "V.I.P."
+level = "VIP"
+name = "VIP"
 days = 0
 uploaded = "0"
 downloaded = "0"

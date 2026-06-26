@@ -108,10 +108,10 @@ buy_page = "mybonus.php?action=exchange"
 "1个临时邀请名额" = "7"
 "贵宾待遇" = "9"
 
-[level.User]
-level_id = 1
-level = "User"
-name = "User"
+[level.Peasant]
+level_id = -1
+level = "Peasant"
+name = "婴儿"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -123,12 +123,29 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "如果下载量低于100G，不参与账户升级或降级。也就是将一直保持User级，该规则一直存在，只是最近才在代码中发现。"
+rights = "0-6级需要200天内至少登录、访问一次，脚本签到不算。显示7天内改善分享率封禁用户提醒（有1天左右的延迟）：下载超100GB且分享率低于0.4；下载超200GB且分享率低于0.5；下载超400GB且分享率低于0.6；下载超800GB且分享率低于0.7；下载超1600GB且分享率低于0.8。"
+
+[level.User]
+level_id = 1
+level = "User"
+name = "幼儿园"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "注册默认等级。0-6级需要200天内至少登录、访问一次，脚本签到不算。下载超100GB且分享率高于0.4；下载超200GB且分享率高于0.5；下载超400GB且分享率高于0.6；下载超800GB且分享率高于0.7；下载超1600GB且分享率高于0.8。"
 
 [level.PowerUser]
 level_id = 2
 level = "PowerUser"
-name = "PowerUser"
+name = "小学"
 days = 4
 uploaded = "0"
 downloaded = "512GB"
@@ -140,12 +157,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "(小学)PowerUser及以上等级。首次升级至此等级的用户将获得2个邀请名额。"
+rights = "0-6级需要200天内至少登录、访问一次，脚本签到不算。注册至少4周，且下载至少512GB，且分享率大于1.05。分享率低于0.95将自动降级。首次升级至此等级的用户将获得2个邀请名额。"
 
 [level.EliteUser]
 level_id = 3
 level = "EliteUser"
-name = "EliteUser"
+name = "初中"
 days = 8
 uploaded = "0"
 downloaded = "2048GB"
@@ -157,12 +174,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "首次升级至此等级的用户将获得2个邀请名额。"
+rights = "0-6级需要200天内至少登录、访问一次，脚本签到不算。注册至少8周，且下载至少2048GB，分享率大于1.55。分享率低于1.45将自动降级。首次升级至此等级的用户将获得2个邀请名额。"
 
 [level.CrazyUser]
 level_id = 4
 level = "CrazyUser"
-name = "CrazyUser"
+name = "高中"
 days = 15
 uploaded = "0"
 downloaded = "4096GB"
@@ -174,12 +191,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "(高中)CrazyUser封存后永远保留。首次升级至此等级的用户将获得2个邀请名额。"
+rights = "0-6级需要200天内至少登录、访问一次，脚本签到不算。注册至少15周，且下载至少4096GB，且分享率大于2.05。分享率低于1.95将自动降级。首次升级至此等级的用户将获得2个邀请名额。"
 
 [level.InsaneUser]
 level_id = 5
 level = "InsaneUser"
-name = "InsaneUser"
+name = "专科"
 days = 25
 uploaded = "0"
 downloaded = "8192GB"
@@ -191,12 +208,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "首次升级至此等级的用户将获得2个邀请名额。"
+rights = "0-6级需要200天内至少登录、访问一次，脚本签到不算。注册至少25周，且下载至少8192GB，且分享率大于2.55。分享率低于2.45将自动降级。首次升级至此等级的用户将获得2个邀请名额。"
 
 [level.VeteranUser]
 level_id = 6
 level = "VeteranUser"
-name = "VeteranUser"
+name = "本科"
 days = 52
 uploaded = "0"
 downloaded = "16384GB"
@@ -208,12 +225,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "首次升级至此等级的用户将获得2个邀请名额。"
+rights = "0-6级需要200天内至少登录、访问一次，脚本签到不算。注册至少52周，且下载至少16384GB，且分享率大于3.05。分享率低于2.95将自动降级。首次升级至此等级的用户将获得2个邀请名额。"
 
 [level.ExtremeUser]
 level_id = 7
 level = "ExtremeUser"
-name = "ExtremeUser"
+name = "研究生"
 days = 80
 uploaded = "0"
 downloaded = "25000GB"
@@ -225,12 +242,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = false
-rights = "永远保留(研究生)ExtremeUser账号。首次升级至此等级的用户将获得2个邀请名额。"
+rights = "注册至少80周，且下载至少25000GB，且分享率大于3.55。该级别及以上没有限期登录一次要求。分享率低于3.45将自动降级。首次升级至此等级的用户将获得2个邀请名额。"
 
 [level.UltimateUser]
 level_id = 8
 level = "UltimateUser"
-name = "UltimateUser"
+name = "博士生"
 days = 104
 uploaded = "0"
 downloaded = "45000GB"
@@ -242,12 +259,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = false
-rights = "首次升级至此等级的用户将获得5个邀请名额。"
+rights = "注册至少104周，且下载至少45000GB，且分享率大于4.05。该级别及以上没有限期登录一次要求。分享率低于3.95将自动降级。首次升级至此等级的用户将获得5个邀请名额。"
 
 [level.NexusMaster]
 level_id = 9
 level = "NexusMaster"
-name = "NexusMaster"
+name = "博士后"
 days = 130
 uploaded = "0"
 downloaded = "90000GB"
@@ -259,12 +276,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = true
-rights = "首次升级至此等级的用户将获得10个邀请名额。"
+rights = "注册至少130周，且下载至少90000GB，且分享率大于4.55。该级别及以上没有限期登录一次要求。分享率低于4.45将自动降级。首次升级至此等级的用户将获得10个邀请名额。"
 
 [level.VIP]
 level_id = 0
 level = "VIP"
-name = "VIP"
+name = "临时贵宾、永久贵宾"
 days = 0
 uploaded = "0"
 downloaded = "0"

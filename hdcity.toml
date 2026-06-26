@@ -416,8 +416,8 @@ rights = "灵魂。"
 
 [level."天使"]
 level_id = 0
-level = "\"天使\""
-name = "\"天使\""
+level = "天使"
+name = "天使"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -433,8 +433,8 @@ rights = ""
 
 [level."大天使"]
 level_id = 0
-level = "\"大天使\""
-name = "\"大天使\""
+level = "大天使"
+name = "大天使"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -450,8 +450,8 @@ rights = ""
 
 [level."权天使"]
 level_id = 0
-level = "\"权天使\""
-name = "\"权天使\""
+level = "权天使"
+name = "权天使"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -467,8 +467,8 @@ rights = ""
 
 [level."能天使"]
 level_id = 0
-level = "\"能天使\""
-name = "\"能天使\""
+level = "能天使"
+name = "能天使"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -484,8 +484,8 @@ rights = ""
 
 [level."力天使"]
 level_id = 0
-level = "\"力天使\""
-name = "\"力天使\""
+level = "力天使"
+name = "力天使"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -501,8 +501,8 @@ rights = ""
 
 [level."主天使"]
 level_id = 0
-level = "\"主天使\""
-name = "\"主天使\""
+level = "主天使"
+name = "主天使"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -518,8 +518,8 @@ rights = ""
 
 [level."座天使"]
 level_id = 0
-level = "\"座天使\""
-name = "\"座天使\""
+level = "座天使"
+name = "座天使"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -535,8 +535,8 @@ rights = ""
 
 [level."智天使"]
 level_id = 0
-level = "\"智天使\""
-name = "\"智天使\""
+level = "智天使"
+name = "智天使"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -552,8 +552,8 @@ rights = ""
 
 [level."炽天使"]
 level_id = 0
-level = "\"炽天使\""
-name = "\"炽天使\""
+level = "炽天使"
+name = "炽天使"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -569,8 +569,8 @@ rights = ""
 
 [level."壕"]
 level_id = 0
-level = "\"壕\""
-name = "\"壕\""
+level = "壕"
+name = "壕"
 days = 0
 uploaded = "0"
 downloaded = "0"
