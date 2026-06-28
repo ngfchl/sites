@@ -1,4 +1,4 @@
-url = ["https://www.ptskit.com/", "https://www.ptskit.org/", ]
+url = ["https://www.ptskit.com/", "https://www.ptskit.org/", "https://pt.ptskit.org/", ]
 name = "葫芦娃"
 nickname = "ptskit"
 logo = "favicon.ico"
