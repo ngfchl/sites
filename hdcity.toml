@@ -108,10 +108,10 @@ buy_page = "mybonus.php?action=exchange"
 "1个临时邀请名额" = "7"
 "贵宾待遇" = "9"
 
-[level.Peasant]
+[level."堕落者"]
 level_id = -1
-level = "Peasant"
-name = "堕落者"
+level = "堕落者"
+name = "Peasant"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -125,10 +125,10 @@ keep_account = false
 graduation = false
 rights = "被降级的、分享率低于 1 的市民，以及新上户口的市民，有 30 天时间来提升分享率，如不满足要求会被禁用。"
 
-[level.Newbie]
-level_id = 0
-level = "Newbie"
-name = "天使"
+[level."天使"]
+level_id = 1
+level = "天使"
+name = "Newbie"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -138,139 +138,139 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = true
-graduation = true
+keep_account = false 
+graduation = false
 rights = "新手上路。可以直接发布种子；可以使用 RSS。"
 
-[level.PowerAngel]
-level_id = 0
-level = "PowerAngel"
-name = "大天使"
-days = 0
-uploaded = "0"
+[level."大天使"]
+level_id = 2
+level = "大天使"
+name = "PowerAngel"
+days = 4
+uploaded = "50GB"
 downloaded = "0"
 bonus = 0.0
 score = 0
-ratio = 0.0
+ratio = 1.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = true
-graduation = true
-rights = "可以请求续种； 可以查看其它用户的种子历史(如果用户隐私等级未设置为\"强\")。"
+keep_account = false
+graduation = false
+rights = '可以请求续种； 可以查看其它用户的种子历史(如果用户隐私等级未设置为"强")。'
 
-[level.EliteAngel]
-level_id = 0
-level = "EliteAngel"
-name = "权天使"
-days = 0
-uploaded = "0"
+[level."权天使"]
+level_id = 3
+level = "权天使"
+name = "EliteAngel"
+days = 8
+uploaded = "150GB"
 downloaded = "0"
 bonus = 0.0
 score = 0
-ratio = 0.0
+ratio = 1.1
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = true
-graduation = true
+keep_account = false
+graduation = false
 rights = "权天使 及以上等级封存账号后不会被删除。"
 
-[level.CrazyAngel]
-level_id = 0
-level = "CrazyAngel"
-name = "能天使"
-days = 0
-uploaded = "0"
+[level."能天使"]
+level_id = 4
+level = "能天使"
+name = "CrazyAngel"
+days = 12
+uploaded = "500GB"
 downloaded = "0"
 bonus = 0.0
 score = 0
-ratio = 0.0
+ratio = 1.5
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = true
-graduation = true
+keep_account = false
+graduation = false
 rights = "可以在做种/下载/发布的时候选择匿名模式。"
 
-[level.InsaneAngel]
-level_id = 0
-level = "InsaneAngel"
-name = "力天使"
-days = 0
-uploaded = "0"
+[level."力天使"]
+level_id = 5
+level = "力天使"
+name = "InsaneAngel"
+days = 16
+uploaded = "1TB"
 downloaded = "0"
 bonus = 0.0
 score = 0
-ratio = 0.0
+ratio = 2.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = true
-graduation = true
+keep_account = false
+graduation = false
 rights = "可以查看普通日志。"
 
-[level.VeteranAngel]
-level_id = 0
-level = "VeteranAngel"
-name = "主天使"
-days = 0
-uploaded = "0"
+[level."主天使"]
+level_id = 6
+level = "主天使"
+name = "VeteranAngel"
+days = 40
+uploaded = "5TB"
 downloaded = "0"
 bonus = 0.0
 score = 0
-ratio = 0.0
+ratio = 2.5
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
 keep_account = true
-graduation = true
+graduation = false
 rights = "主天使 及以上市民会永远保留账号。"
 
-[level.ExtremeAngel]
-level_id = 0
-level = "ExtremeAngel"
-name = "座天使"
-days = 0
-uploaded = "0"
+[level."座天使"]
+level_id = 7
+level = "座天使"
+name = "ExtremeAngel"
+days = 60
+uploaded = "10TB"
 downloaded = "0"
 bonus = 0.0
 score = 0
-ratio = 0.0
+ratio = 2.6
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
 keep_account = true
-graduation = true
+graduation = false
 rights = ""
 
-[level.UltimateAngel]
-level_id = 0
-level = "UltimateAngel"
-name = "智天使"
-days = 0
-uploaded = "0"
+[level."智天使"]
+level_id = 8
+level = "智天使"
+name = "UltimateAngel"
+days = 72
+uploaded = "20TB"
 downloaded = "0"
 bonus = 0.0
 score = 0
-ratio = 0.0
+ratio = 2.8
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
 keep_account = true
-graduation = true
+graduation = false
 rights = "比较牛逼的等级。"
 
-[level.MasterAngel]
-level_id = 0
-level = "MasterAngel"
-name = "炽天使"
-days = 0
-uploaded = "0"
+[level."炽天使"]
+level_id = 9
+level = "炽天使"
+name = "MasterAngel"
+days = 100
+uploaded = "40TB"
 downloaded = "0"
 bonus = 0.0
 score = 0
-ratio = 0.0
+ratio = 4.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
@@ -278,10 +278,10 @@ keep_account = true
 graduation = true
 rights = "最牛逼的市民，或特殊任务分配。"
 
-[level.VIP]
+[level."壕"]
 level_id = 0
-level = "VIP"
-name = "壕"
+level = "壕"
+name = "VIP"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -294,11 +294,10 @@ seeding_delta = 0.0
 keep_account = true
 graduation = true
 rights = "管理员分配，捐助的市民，或自行以魅力值兑换获得。免除自动降级无视分享率。"
-
-[level.Retiree]
+[level."隐天使"]
 level_id = 0
-level = "Retiree"
-name = "隐天使"
+level = "隐天使"
+name = "Retiree"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -312,10 +311,10 @@ keep_account = true
 graduation = true
 rights = "退休后的管理组成员。"
 
-[level.Uploader]
+[level."射种天使"]
 level_id = 0
-level = "Uploader"
-name = "射种天使"
+level = "射种天使"
+name = "Uploader"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -329,10 +328,10 @@ keep_account = true
 graduation = true
 rights = "专注的发布者。工作组。可以查看匿名。"
 
-[level.ForumModerator]
+[level."论坛版主"]
 level_id = 0
-level = "ForumModerator"
-name = "论坛版主"
+level = "论坛版主"
+name = "ForumModerator"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -346,10 +345,10 @@ keep_account = true
 graduation = true
 rights = "论坛管理者。可以制定在任版块的版规、管理主题和帖子。"
 
-[level.Moderator]
+[level."总版主"]
 level_id = 0
-level = "Moderator"
-name = "总版主"
+level = "总版主"
+name = "Moderator"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -363,10 +362,10 @@ keep_account = true
 graduation = true
 rights = "可以查看管理组信箱、举报信箱；管理趣味盒内容、投票内容；可以编辑或删除任何发布的种子及字幕；可以管理候选；可以管理论坛帖子、用户评论；可以查看机密日志；可以管理日志中的代码、史册；可以查看用户的邀请记录；可以管理用户帐号的一般信息；可以将种子设为置顶或促销；可以查看用户IP或Email等机密信息。不能管理友情链接、最近消息；不能删除账号。"
 
-[level.Administrator]
+[level."管理员"]
 level_id = 0
-level = "Administrator"
-name = "管理员"
+level = "管理员"
+name = "Administrator"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -380,10 +379,10 @@ keep_account = true
 graduation = true
 rights = "各种日常管理，可以做任何修改。"
 
-[level.Sysop]
+[level."守护天使"]
 level_id = 0
-level = "Sysop"
-name = "守护天使"
+level = "守护天使"
+name = "Sysop"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -397,10 +396,10 @@ keep_account = true
 graduation = true
 rights = "网站开发/维护人员，可以做任何修改。"
 
-[level.Mayor]
+[level."市长"]
 level_id = 0
-level = "Mayor"
-name = "市长"
+level = "市长"
+name = "Mayor"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -410,176 +409,7 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = false
+keep_account = true
 graduation = true
 rights = "灵魂。"
 
-[level."天使"]
-level_id = 0
-level = "天使"
-name = "天使"
-days = 0
-uploaded = "0"
-downloaded = "0"
-bonus = 0.0
-score = 0
-ratio = 0.0
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = true
-rights = ""
-
-[level."大天使"]
-level_id = 0
-level = "大天使"
-name = "大天使"
-days = 0
-uploaded = "0"
-downloaded = "0"
-bonus = 0.0
-score = 0
-ratio = 0.0
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = true
-rights = ""
-
-[level."权天使"]
-level_id = 0
-level = "权天使"
-name = "权天使"
-days = 0
-uploaded = "0"
-downloaded = "0"
-bonus = 0.0
-score = 0
-ratio = 0.0
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = true
-rights = ""
-
-[level."能天使"]
-level_id = 0
-level = "能天使"
-name = "能天使"
-days = 0
-uploaded = "0"
-downloaded = "0"
-bonus = 0.0
-score = 0
-ratio = 0.0
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = true
-rights = ""
-
-[level."力天使"]
-level_id = 0
-level = "力天使"
-name = "力天使"
-days = 0
-uploaded = "0"
-downloaded = "0"
-bonus = 0.0
-score = 0
-ratio = 0.0
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = true
-rights = ""
-
-[level."主天使"]
-level_id = 0
-level = "主天使"
-name = "主天使"
-days = 0
-uploaded = "0"
-downloaded = "0"
-bonus = 0.0
-score = 0
-ratio = 0.0
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = true
-rights = ""
-
-[level."座天使"]
-level_id = 0
-level = "座天使"
-name = "座天使"
-days = 0
-uploaded = "0"
-downloaded = "0"
-bonus = 0.0
-score = 0
-ratio = 0.0
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = true
-rights = ""
-
-[level."智天使"]
-level_id = 0
-level = "智天使"
-name = "智天使"
-days = 0
-uploaded = "0"
-downloaded = "0"
-bonus = 0.0
-score = 0
-ratio = 0.0
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = true
-rights = ""
-
-[level."炽天使"]
-level_id = 0
-level = "炽天使"
-name = "炽天使"
-days = 0
-uploaded = "0"
-downloaded = "0"
-bonus = 0.0
-score = 0
-ratio = 0.0
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = true
-rights = ""
-
-[level."壕"]
-level_id = 0
-level = "壕"
-name = "壕"
-days = 0
-uploaded = "0"
-downloaded = "0"
-bonus = 0.0
-score = 0
-ratio = 0.0
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = true
-rights = ""
