@@ -2,13 +2,12 @@ url = ["https://www.pttime.org/", "https://www.pttime.top/", ]
 name = "时间"
 nickname = "pttime"
 logo = "favicon.ico"
-tracker = "www.pttime.top|www.pttime.org|www.pttime.online"
+tracker = "www.pttime.top|www.pttime.org"
 sp_full = 150
 limit_speed = 95
-tags = "5元,影视,综合"
+tags = "影视"
 iyuu = 60
 sign_in = true
-sign_type = "NEXUS_SIGN"
 get_info = true
 repeat_torrents = true
 brush_free = true
@@ -22,7 +21,7 @@ page_control_panel = "usercp.php"
 page_detail = "details.php?id={}"
 page_download = "download.php?id={}&passkey={}"
 page_user = "userdetails.php?id={}"
-page_search = ["torrents.php?search={}", ]
+page_search = "adults.php?incldead=1&search={}"
 page_message = "messages.php"
 page_hr = "myhr.php?hrtype=1&userid={}"
 page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"
@@ -31,16 +30,16 @@ page_seeding = "getusertorrentlist.php?type=seeding&userid={}"
 page_completed = "getusertorrentlistajax.php?userid={}&type=completed"
 page_mybonus = "mybonus.php"
 page_viewfilelist = "viewfilelist.php?id="
-sign_info_title = "//text()"
-sign_info_content = "//text()"
+sign_info_title = "//td[1]/b[1]/text()"
+sign_info_content = "//td[@class='embedded']/br[1]/following-sibling::span[position()>0 and position() < 5]//text()"
 hr = false
 hr_rate = 2
 hr_time = 10
 my_invitation_rule = "//span/a[contains(@href,'invite.php?id=')]/following-sibling::text()[1]"
 my_time_join_rule = "//td[contains(text(),'加入')]/following-sibling::td[1]//span/@title"
 my_latest_active_rule = "//td[contains(text(),'最近')]/following-sibling::td[1]//span/@title"
-my_uploaded_rule = "//font[@class='fcg' and contains(text(),'上传')]/following-sibling::text()"
-my_downloaded_rule = "//font[@class='fcr' and contains(text(),'下载')]/following-sibling::text()"
+my_uploaded_rule = "//font[contains(@class,'fwb') and normalize-space(.)='上传：']/following-sibling::text()[1]"
+my_downloaded_rule = "//font[contains(@class,'fwb') and contains(normalize-space(.),'下载')]/following-sibling::text()[1]"
 my_ratio_rule = "//font[@class='color_ratio']/following-sibling::text()"
 my_bonus_rule = "//a[@href='mybonus.php']/following-sibling::text()[1]"
 my_per_hour_bonus_rule = "//div[contains(text(),'每小时')]/text()[1]"
@@ -50,7 +49,7 @@ my_passkey_rule = "//td[contains(text(),'秘钥')]/following-sibling::td[1]/span
 my_uid_rule = "//a[contains(@class,'_Name') and contains(@href,'userdetails.php?id=')]/@href"
 my_hr_rule = "//a[@href='myhr.php']//text()"
 my_leech_rule = "//font[@title='当前下载']/following-sibling::text()[1]"
-my_publish_rule = "//div[contains(., '条记录')]/b[1]/text()"
+my_publish_rule = "//p/preceding-sibling::b/text()[1]"
 my_seed_rule = "//font[@title='当前做种']/following-sibling::text()[1]"
 my_seed_vol_rule = "//b[contains(text(),'资源总大小：')]/following-sibling::text()[1]"
 my_mailbox_rule = "//a[@href='messages.php']/font[contains(text(),'条')]/text()[1]"
@@ -70,7 +69,7 @@ torrent_progress_rule = ".//div[contains(@title,'ing')]/@title"
 torrent_hr_rule = ".//table/tr/td/img[@class='hitandrun']/@title"
 torrent_sale_rule = ".//font[contains(@class,'promotion')][1]/text()"
 torrent_sale_expire_rule = ".//font[contains(@class,'free')]/following-sibling::span[1]/@title"
-torrent_release_rule = ".//td[@class='rowfollow']/span/@title"
+torrent_release_rule = ".//td[@class='rowfollow nowrap']/span/@title"
 torrent_seeders_rule = ".//a[contains(@href,'#seeders')]//text()"
 torrent_leechers_rule = ".//a[contains(@href,'#leechers')]//text()"
 torrent_completers_rule = ".//a[contains(@href,'viewsnatches')]//text()"
@@ -97,38 +96,10 @@ imdb_search = "torrents.php?search_area=3&search={}"
 structure = "PTTime"
 type = "pt"
 nation = "china"
-my_email_rule = "//td[contains(text(),'邮箱')]/following-sibling::td[1]//text()"
-my_username_rule = "//table[@id='info_block']//span/a[contains(@class,'_Name') and contains(@href,'userdetails.php?id=')]/b/text()"
-buy_page = "mybonus.php?action=exchange"
-
-[buy_action]
-"100GB上传流量" = "3"
-"100GB下载流量" = "5"
-"1个邀请名额" = "6"
-"1个临时邀请名额" = "7"
-"贵宾待遇" = "9"
-
-[level.Peasant]
-level_id = -1
-level = "Peasant"
-name = "婴儿"
-days = 0
-uploaded = "0"
-downloaded = "0"
-bonus = 0.0
-score = 0
-ratio = 0.0
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = false
-rights = "0-6级需要200天内至少登录、访问一次，脚本签到不算。显示7天内改善分享率封禁用户提醒（有1天左右的延迟）：下载超100GB且分享率低于0.4；下载超200GB且分享率低于0.5；下载超400GB且分享率低于0.6；下载超800GB且分享率低于0.7；下载超1600GB且分享率低于0.8。"
 
 [level.User]
 level_id = 1
 level = "User"
-name = "幼儿园"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -140,12 +111,11 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "注册默认等级。0-6级需要200天内至少登录、访问一次，脚本签到不算。下载超100GB且分享率高于0.4；下载超200GB且分享率高于0.5；下载超400GB且分享率高于0.6；下载超800GB且分享率高于0.7；下载超1600GB且分享率高于0.8。"
+rights = "如果下载量低于100G，不参与账户升级或降级。也就是将一直保持User级，该规则一直存在，只是最近才在代码中发现。"
 
 [level.PowerUser]
 level_id = 2
 level = "PowerUser"
-name = "小学"
 days = 4
 uploaded = "0"
 downloaded = "512GB"
@@ -157,12 +127,11 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "0-6级需要200天内至少登录、访问一次，脚本签到不算。注册至少4周，且下载至少512GB，且分享率大于1.05。分享率低于0.95将自动降级。首次升级至此等级的用户将获得2个邀请名额。"
+rights = "(小学)PowerUser及以上等级。首次升级至此等级的用户将获得2个邀请名额。"
 
 [level.EliteUser]
 level_id = 3
 level = "EliteUser"
-name = "初中"
 days = 8
 uploaded = "0"
 downloaded = "2048GB"
@@ -174,12 +143,11 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "0-6级需要200天内至少登录、访问一次，脚本签到不算。注册至少8周，且下载至少2048GB，分享率大于1.55。分享率低于1.45将自动降级。首次升级至此等级的用户将获得2个邀请名额。"
+rights = "首次升级至此等级的用户将获得2个邀请名额。"
 
 [level.CrazyUser]
 level_id = 4
 level = "CrazyUser"
-name = "高中"
 days = 15
 uploaded = "0"
 downloaded = "4096GB"
@@ -191,12 +159,11 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "0-6级需要200天内至少登录、访问一次，脚本签到不算。注册至少15周，且下载至少4096GB，且分享率大于2.05。分享率低于1.95将自动降级。首次升级至此等级的用户将获得2个邀请名额。"
+rights = "(高中)CrazyUser封存后永远保留。首次升级至此等级的用户将获得2个邀请名额。"
 
 [level.InsaneUser]
 level_id = 5
 level = "InsaneUser"
-name = "专科"
 days = 25
 uploaded = "0"
 downloaded = "8192GB"
@@ -208,12 +175,11 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "0-6级需要200天内至少登录、访问一次，脚本签到不算。注册至少25周，且下载至少8192GB，且分享率大于2.55。分享率低于2.45将自动降级。首次升级至此等级的用户将获得2个邀请名额。"
+rights = "首次升级至此等级的用户将获得2个邀请名额。"
 
 [level.VeteranUser]
 level_id = 6
 level = "VeteranUser"
-name = "本科"
 days = 52
 uploaded = "0"
 downloaded = "16384GB"
@@ -225,12 +191,11 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "0-6级需要200天内至少登录、访问一次，脚本签到不算。注册至少52周，且下载至少16384GB，且分享率大于3.05。分享率低于2.95将自动降级。首次升级至此等级的用户将获得2个邀请名额。"
+rights = "首次升级至此等级的用户将获得2个邀请名额。"
 
 [level.ExtremeUser]
 level_id = 7
 level = "ExtremeUser"
-name = "研究生"
 days = 80
 uploaded = "0"
 downloaded = "25000GB"
@@ -242,12 +207,11 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = false
-rights = "注册至少80周，且下载至少25000GB，且分享率大于3.55。该级别及以上没有限期登录一次要求。分享率低于3.45将自动降级。首次升级至此等级的用户将获得2个邀请名额。"
+rights = "永远保留(研究生)ExtremeUser账号。首次升级至此等级的用户将获得2个邀请名额。"
 
 [level.UltimateUser]
 level_id = 8
 level = "UltimateUser"
-name = "博士生"
 days = 104
 uploaded = "0"
 downloaded = "45000GB"
@@ -259,12 +223,11 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = false
-rights = "注册至少104周，且下载至少45000GB，且分享率大于4.05。该级别及以上没有限期登录一次要求。分享率低于3.95将自动降级。首次升级至此等级的用户将获得5个邀请名额。"
+rights = "首次升级至此等级的用户将获得5个邀请名额。"
 
 [level.NexusMaster]
 level_id = 9
 level = "NexusMaster"
-name = "博士后"
 days = 130
 uploaded = "0"
 downloaded = "90000GB"
@@ -276,12 +239,11 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = true
 graduation = true
-rights = "注册至少130周，且下载至少90000GB，且分享率大于4.55。该级别及以上没有限期登录一次要求。分享率低于4.45将自动降级。首次升级至此等级的用户将获得10个邀请名额。"
+rights = "首次升级至此等级的用户将获得10个邀请名额。"
 
 [level.VIP]
 level_id = 0
 level = "VIP"
-name = "临时贵宾、永久贵宾"
 days = 0
 uploaded = "0"
 downloaded = "0"
