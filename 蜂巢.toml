@@ -1,7 +1,7 @@
-url = ["https://pting.club/", ]
+url = ["https://fengchao.chat/", ]
 name = "蜂巢"
 nickname = "蜂巢"
-logo = "https://cdn.pting.club/icon/icon-668e55076ec7ed93.png"
+logo = "https://fengchao.chat/bee/bee.png"
 tracker = ""
 sp_full = 107
 limit_speed = 100
