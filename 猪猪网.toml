@@ -7,111 +7,61 @@ sp_full = 130
 limit_speed = 100
 tags = "儿童,动画片,影视"
 iyuu = 69
+# 站点已提供官方实验室 API（/v1/api，独立域名 api.piggo.me，Bearer 存取令牌鉴权，勿用前台登录态或 HMAC）
+# 存取令牌：个人中心新建，32 位小写十六进制，明文等同账号密码，存 authkey 字段；搜索/信息/下载均走实验室 API
+# 签到：实验室 API 无签到端点，走前台万年历接口（POST /v1/web/calendar/attendance），
+#       需在浏览器登录后把前台 pig_token 更新到 local_storage 字段
 sign_in = true
-sign_type = "NEXUS_SIGN"
+sign_type = "PIGGO_SIGN"
 get_info = true
 repeat_torrents = true
-brush_free = true
+# 实验室 API 种子条目无促销/HR 字段，无法识别优惠，刷流免费识别关闭（促销请以前台为准）
+brush_free = false
 brush_rss = true
 hr_discern = false
 search_torrents = true
-page_index = "index.php"
-page_torrents = "torrents.php?incldead=1"
-page_sign_in = "attendance.php"
-page_control_panel = "usercp.php"
-page_detail = "details.php?id={}"
-page_download = "download.php?id={}&passkey={}"
-page_user = "userdetails.php?id={}"
-page_search = ["search.php?search={}", "special.php?search={}", ]
-page_message = "messages.php?box=200"
-page_hr = "myhr.php?hrtype=1&userid={}"
-page_leeching = "getusertorrentlistajax.php?userid={}&type=leeching"
-page_uploaded = "getusertorrentlistajax.php?userid={}&type=uploaded"
-page_seeding = "getusertorrentlistajax.php?userid={}&type=seeding"
-page_completed = "getusertorrentlistajax.php?userid={}&type=completed"
-page_mybonus = "mybonus.php"
-page_viewfilelist = "viewfilelist.php?id="
-sign_info_title = "//td[@id='outer']//td[@class='embedded']/h2/text()"
-sign_info_content = "//td[@id='outer']//td[@class='embedded']/table//td//text()"
-hr = true
-hr_rate = 2
-hr_time = 10
-my_invitation_rule = "//a[contains(@href,'invite.php?id=')]/following-sibling::text()[1]"
-my_time_join_rule = "//td[contains(text(),'加入')]/following-sibling::td[1]/text()"
-my_latest_active_rule = "//td[contains(text(),'最近动向')]/following-sibling::td[1]/text()"
-my_uploaded_rule = "//font[@class='color_uploaded']/following-sibling::text()[1]"
-my_downloaded_rule = "//font[@class='color_downloaded']/following-sibling::text()[1]"
-my_ratio_rule = "//font[@class='color_ratio'][1]/following-sibling::text()[1]"
-my_bonus_rule = "//a[@href='mybonus.php']/following-sibling::text()[1]"
-my_per_hour_bonus_rule = "//h1[contains(text(),'每小时获得的合计魔力值')]/following-sibling::div/table//tr[2]/td[last()]/text()"
-my_score_rule = "//td[contains(text(),'分')]/following-sibling::td/text()[1]"
-my_level_rule = "//span[@class='medium']/span[@class='nowrap'][1]/a[contains(@class,'_Name')]/@class"
-my_passkey_rule = "//td[contains(text(),'密钥')]/following-sibling::td[1]/text()"
-my_uid_rule = "//a[contains(@class,'_Name') and contains(@href,'userdetails.php?id=')]/@href"
-my_hr_rule = "//a[@href='myhr.php']//text()"
-my_leech_rule = "//img[@class='arrowdown'][1]/following-sibling::text()[1]"
-my_publish_rule = "//div[contains(., '条记录')]/b[1]/text()"
-my_seed_rule = "//img[@class='arrowup'][1]/following-sibling::text()[1]"
-my_seed_vol_rule = "//p/preceding-sibling::div/div/text()[1]"
-my_mailbox_rule = "//text()[contains(., '条新')]"
-my_message_title = "//img[@alt='Unread']/parent::td/following-sibling::td/a[1]//text()"
-my_notice_rule = "//div[contains(text(), '公告')]/text()"
-my_notice_title = "//td[@class='text']/div/a"
-my_notice_content = "//td[@class='text']/div/a/following-sibling::div"
-torrents_rule = "//table[@class='torrents']/tr"
-torrent_title_rule = ".//td/a[contains(@href,'detail')]/b/text()[last()]"
-torrent_subtitle_rule = ".//a[contains(@href,'detail')]/parent::td/text()[last()]"
-torrent_detail_url_rule = ".//td[@class='embedded']/a[contains(@href,'detail')]/@href"
-torrent_category_rule = ".//td[@class='rowfollow nowrap'][1]/a[1]/img/@class"
-torrent_poster_rule = ".//tr/td[1]/a/img/@src"
-torrent_magnet_url_rule = ".//a[contains(@href,'download.php?id=') ]/@href"
-torrent_size_rule = ".//td[5]//text()"
-torrent_progress_rule = ".//div[contains(@title,'ing')]/@title"
-torrent_hr_rule = ".//img[@class='hitandrun']/@title"
-torrent_sale_rule = ".//img[contains(@class,'pro_')]/@alt"
-torrent_sale_expire_rule = ".//img[contains(@class,'free')]/following-sibling::font/span/@title"
-torrent_release_rule = ".//td[4]/text()"
-torrent_seeders_rule = ".//b/a[contains(@href,'dllist=1#seeders')]/text()"
-torrent_leechers_rule = ".//a[contains(@href,'dllist=1#leechers')]/text()"
-torrent_completers_rule = ".//a[contains(@href,'viewsnatches.php?id=')]//text()"
-detail_title_rule = "//h1/text()[1]"
-detail_subtitle_rule = "//td[contains(text(),'副标题')]/following-sibling::td/text()[1]"
-detail_download_url_rule = "//td[contains(text(),'种子链接')]/following-sibling::td/a/@href[1]"
-detail_size_rule = "//td//b[contains(text(),'大小')]/following::text()[1]"
-detail_category_rule = "//td/b[contains(text(),'类型')]/following-sibling::text()[1]"
-detail_count_files_rule = "//td/b[contains(text(),'文件数')]/following-sibling::text()[1]"
-detail_hash_rule = "//td/b[contains(text(),'Hash')]/following-sibling::text()[1]"
-detail_free_rule = "//h1/b/font/@class"
-detail_free_expire_rule = "//h1/b/span/@title"
-detail_douban_rule = "//td/a[starts-with(@href,'https://movie.douban.com/subject/')][1]"
-detail_imdb_rule = "//a[@class='faqlink' and starts-with(@href,'https://www.imdb.com/title/')]/@href"
-detail_poster_rule = "//td/a/span[contains(text(),'简介')]/../../following-sibling::td//img[1]/@src"
-detail_tags_rule = "//td[contains(text(),'标签')]/following-sibling::td//text()"
-torrent_tags_rule = ".//a[contains(@href,'detail')]/../span[contains(@class,'tags')]/text()"
-detail_hr_rule = "//h1/img[@class='hitandrun']/@title"
+# 实验室 API 根路径（搜索/信息/下载），缺省由镜像域名推导 api.piggo.me/v1/api
+lab_api_base = "https://api.piggo.me/v1/api"
+# 前台 API 前缀 /v1/web（仅签到）：Bearer <local_storage 的 pig_token> + X-Spa-Hmac 签名
+page_index = "torrents"
+page_torrents = "v1/api/torrents"
+page_detail = "detail/{}"
+page_download = "v1/api/torrents/{}/download-link"
+page_user = "v1/api/me"
+page_search = ["torrents?q={}", ]
+page_message = "mails"
+page_leeching = ""
+page_uploaded = ""
+page_seeding = ""
+page_completed = ""
+imdb_search = "torrents?q={}"
+# 用户信息字段布局（/me 返回 data.user.{...stats}）：猪猪网映射硬编码该布局，以下规则仅作文档参考
+my_invitation_rule = "user/stats/invites"
+my_time_join_rule = "user/created_at"
+my_latest_active_rule = "user/last_access"
+my_uploaded_rule = "user/stats/uploaded"
+my_downloaded_rule = "user/stats/downloaded"
+my_ratio_rule = "user/stats/ratio"
+my_bonus_rule = "user/stats/bonus"
+my_per_hour_bonus_rule = "user/stats/seedbonus_per_hour"
+my_score_rule = "user/stats/seed_points"
+my_level_rule = "user/class/name"
+my_uid_rule = "user/id"
+my_leech_rule = "user/stats/leeching"
+my_seed_rule = "user/stats/seeding"
+my_email_rule = "user/email"
+my_username_rule = "user/username"
+hr = false
 alive = true
-page_pieces_hash_api = "api/pieces-hash"
-pieces_repeat = false
-proxy = false
-imdb_search = "torrents.php?search_area=4&search={}"
-structure = "NexusPHP"
+proxy = true
+structure = "PigGo"
 type = "pt"
 nation = "china"
-my_email_rule = "//td[contains(text(),'邮箱')]/following-sibling::td[1]//text()"
-my_username_rule = "//table[@id='info_block']//span/a[contains(@class,'_Name') and contains(@href,'userdetails.php?id=')]/b/text()"
-buy_page = "mybonus.php?action=exchange"
 
-[buy_action]
-"100GB上传流量" = "3"
-"100GB下载流量" = "5"
-"1个邀请名额" = "6"
-"1个临时邀请名额" = "7"
-"贵宾待遇" = "9"
-
-[level.User]
+[level."乳猪"]
 level_id = 1
 level = "User"
-name = "User"
+name = "乳猪"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -123,148 +73,12 @@ leeches = 0
 seeding_delta = 0.0
 keep_account = false
 graduation = false
-rights = "新用户的默认级别。只能在每周六中午12点至每周日晚上11点59分发布种子。"
+rights = "新用户的默认级别。"
 
-[level.PowerUser]
-level_id = 2
-level = "PowerUser"
-name = "PowerUser"
-days = 4
-uploaded = "0"
-downloaded = "100GB"
-bonus = 40000.0
-score = 0
-ratio = 2.0
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = false
-rights = "可以直接发布种子；可以查看NFO文档；可以查看用户列表；可以请求续种；可以查看排行榜；可以查看其它用户的种子历史(如果用户隐私等级未设置为'强')；可以删除自己上传的字幕。"
-
-[level.EliteUser]
+[level."猪仔"]
 level_id = 3
-level = "EliteUser"
-name = "EliteUser"
-days = 8
-uploaded = "0"
-downloaded = "300GB"
-bonus = 80000.0
-score = 0
-ratio = 2.6
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = false
-rights = "EliteUserxa0及以上用户封存账号后不会被删除。"
-
-[level.CrazyUser]
-level_id = 4
-level = "CrazyUser"
-name = "CrazyUser"
-days = 15
-uploaded = "0"
-downloaded = "500GB"
-bonus = 150000.0
-score = 0
-ratio = 3.0
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = false
-rights = "得到两个邀请名额；可以在做种/下载/发布的时候选择匿名模式。"
-
-[level.InsaneUser]
-level_id = 5
-level = "InsaneUser"
-name = "InsaneUser"
-days = 25
-uploaded = "0"
-downloaded = "1TB"
-bonus = 250000.0
-score = 0
-ratio = 3.6
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = false
-rights = "可以查看普通日志。"
-
-[level.VeteranUser]
-level_id = 6
-level = "VeteranUser"
-name = "VeteranUser"
-days = 40
-uploaded = "0"
-downloaded = "2TB"
-bonus = 400000.0
-score = 0
-ratio = 4.0
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = false
-rights = "得到三个邀请名额；可以查看其它用户的评论、帖子历史。"
-
-[level.ExtremeUser]
-level_id = 7
-level = "ExtremeUser"
-name = "ExtremeUser"
-days = 60
-uploaded = "0"
-downloaded = "3TB"
-bonus = 600000.0
-score = 0
-ratio = 4.6
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = false
-rights = "可以更新过期的外部信息；可以查看ExtremeUser论坛。"
-
-[level.UltimateUser]
-level_id = 8
-level = "UltimateUser"
-name = "UltimateUser"
-days = 80
-uploaded = "0"
-downloaded = "4TB"
-bonus = 800000.0
-score = 0
-ratio = 5.0
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = false
-graduation = false
-rights = "得到五个邀请名额。"
-
-[level.NexusMaster]
-level_id = 9
-level = "NexusMaster"
-name = "NexusMaster"
-days = 100
-uploaded = "0"
-downloaded = "6TB"
-bonus = 1000000.0
-score = 0
-ratio = 6.0
-torrents = 0
-leeches = 0
-seeding_delta = 0.0
-keep_account = true
-graduation = true
-rights = "得到十个邀请名额。NexusMasterxa0及以上用户会永远保留账号"
-
-[level.VIP]
-level_id = 0
-level = "VIP"
-name = "VIP"
+level = "PowerUser"
+name = "猪仔"
 days = 0
 uploaded = "0"
 downloaded = "0"
@@ -274,6 +88,40 @@ ratio = 0.0
 torrents = 0
 leeches = 0
 seeding_delta = 0.0
-keep_account = true
-graduation = true
-rights = "和NexusMaster拥有相同权限并被认为是精英成员。免除自动降级。"
+keep_account = false
+graduation = false
+rights = "进阶用户级别。"
+
+[level."野猪"]
+level_id = 5
+level = "CrazyUser"
+name = "野猪"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "高级用户级别。"
+
+[level."净坛使者"]
+level_id = 7
+level = "EliteUser"
+name = "净坛使者"
+days = 0
+uploaded = "0"
+downloaded = "0"
+bonus = 0.0
+score = 0
+ratio = 0.0
+torrents = 0
+leeches = 0
+seeding_delta = 0.0
+keep_account = false
+graduation = false
+rights = "资深用户级别。"
