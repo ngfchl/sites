@@ -42,7 +42,7 @@ my_latest_active_rule = "//td[contains(text(),'最近动向')]/following-sibling
 my_uploaded_rule = "//span[@class='color_uploaded']/following-sibling::text()[1]"
 my_downloaded_rule = "//span[@class='color_downloaded']/following-sibling::text()[1]"
 my_ratio_rule = "//span[contains(text(),'分享率')][1]/following-sibling::text()[1]"
-my_bonus_rule = "//a[@href='ucoin.php']/following-sibling::span[1]//text()"
+my_bonus_rule = "//span[contains(@class,'ucoin-collapsed')]//text()"
 my_per_hour_bonus_rule = "//td[@id='outer']//td[@class='text']/text()"
 my_score_rule = "//font[@class='color_bonus' and contains(text(),'积分')]/following-sibling::text()[1]"
 my_level_rule = "//span/span/a[contains(@href, 'userdetails.php?id=')]/@class"
